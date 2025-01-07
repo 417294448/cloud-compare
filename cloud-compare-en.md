@@ -15,8 +15,7 @@
 | Data Warehouse | Amazon Redshift | Azure Synapse Analytics | BigQuery | Autonomous Data Warehouse | MaxCompute | IBM Db2 Warehouse |
 | ETL Service | AWS Glue | Azure Data Factory | Cloud Data Fusion | Data Integration | DataWorks | IBM DataStage |
 | Data Exploration Service | - | Azure Data Explorer | - | - | - |
-| Hybrid Data Integration | - | Azure Data Factory | - | - | - |
-| Open Datasets | - | Azure Open Datasets | - | - | - |
+| Open Datasets | - | Azure Open Datasets | Google Cloud Public Datasets | - | - |
 | Data Lake Analytics | AWS Lake Formation | Azure Data Lake Analytics | Cloud Storage | Data Lake Analytics | Data Lake Analytics | IBM Cloud Object Storage |
 | Time Series Analytics | Amazon Timestream | Azure Time Series Insights | Cloud IoT Core | - | Time Series Database | IBM Cloud Databases |
 | Data Lake Storage | Amazon S3 | Azure Data Lake Storage | Cloud Storage | Object Storage | Data Lake Storage | IBM Cloud Object Storage |
@@ -52,7 +51,6 @@
 | Queue Service | Amazon SQS | Azure Queue Storage | Cloud Tasks | Queue | Message Queue | IBM MQ |
 | Enterprise Service Bus | Amazon MQ | Azure Service Bus | - | - | Enterprise Service Bus | IBM App Connect Enterprise |
 | Microservices Governance | AWS App Mesh | Azure Service Fabric | - | - | Microservices Engine | IBM Cloud Pak for Integration |
-| Microservices Engine | AWS App Mesh | Azure Service Fabric | - | - | Microservices Engine | IBM Cloud Pak for Integration |
 | Flow Control Service | AWS CodePipeline | Azure Pipelines | Cloud Build | - | Flow Control Service | IBM Cloud Continuous Delivery |
 | Event Management | Amazon EventBridge | Azure Event Grid | Cloud Pub/Sub | - | EventBridge | IBM Cloud Event Management |
 | API Gateway Analytics | - | Azure API Management | API Analytics | - | - | IBM API Connect Analytics |
@@ -68,7 +66,7 @@
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
-| Intelligent Assistant | Alexa for Business | - | - | - | Intelligent Speech Interaction | IBM Watson Assistant |
+| Intelligent Assistant | Amazon Q | - | - | Oracle Intelligent Advisor | Intelligent Speech Interaction | IBM Watson Assistant |
 | Collaboration Communication | Amazon Chime | Microsoft Teams | Google Meet | - | DingTalk | IBM Cloud Unified Communications |
 | Call Center | Amazon Connect | Azure Communication Services | - | - | Cloud Call Center | IBM Voice Gateway |
 | Low-Code Platform | Amazon Honeycode | Power Apps | AppSheet | - | Low-Code Development | IBM Cloud Pak for Business Automation |
@@ -117,7 +115,7 @@
 | High-Performance Relational Database | Amazon Aurora | Azure Database for MySQL/PostgreSQL | Cloud Spanner | Base Database, OCI Database with PostgreSQL | RDS | IBM Db2 on Cloud |
 | Document Database | Amazon DocumentDB | Azure Cosmos DB | Cloud Firestore | - | MongoDB Service | IBM Cloudant |
 | NoSQL Database | Amazon DynamoDB | Azure Cosmos DB | Cloud Firestore, Cloud Bigtable | NoSQL Database | TableStore | IBM Cloudant |
-| Memory Cache | Amazon ElastiCache | Azure Cache for Redis | Memorystore | - | ApsaraDB for Redis | IBM Cloud Databases for Redis |
+| Memory Cache | Amazon ElastiCache | Azure Cache for Redis | Memorystore | OCI Cache | ApsaraDB for Redis | IBM Cloud Databases for Redis |
 | Wide Column Database | Amazon Keyspaces | Azure Cosmos DB | Cloud Bigtable | - | Lindorm | - |
 | Memory Database | Amazon MemoryDB for Redis | Azure Cache for Redis | Memorystore | - | ApsaraDB for Redis | IBM Cloud Databases for Redis |
 | Graph Database | Amazon Neptune | Azure Cosmos DB | - | - | Graph Database | IBM Graph |
@@ -132,7 +130,6 @@
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
 | Development Collaboration Platform | Amazon CodeCatalyst | Azure DevOps | Cloud Code | Developer Service | - | IBM Cloud DevOps |
-| Code Intelligence Assistant | Amazon CodeGuru | - | - | - | - | IBM Watson Code Assistant |
 | Java Runtime | Amazon Corretto | - | - | - | - | - |
 | Developer Lab Environment | AWS Cloud9 | Azure Lab Services | Cloud Workstations | - | - | IBM Cloud Shell |
 | Cloud Shell | AWS CloudShell | Azure Cloud Shell | Cloud Shell | Cloud Shell | Cloud Shell | IBM Cloud Shell |
@@ -166,7 +163,6 @@
 | Location Service | Amazon Location Service | Azure Maps | Maps Platform | Location Service | Location Service | - |
 | Mobile and Web Application Development | AWS Amplify | Azure Static Web Apps | Firebase | APEX | Mobile Development Platform | IBM Mobile Foundation |
 | Mobile Application Testing | AWS Device Farm | Azure DevTest Labs | Firebase Test Lab | - | Mobile Testing | IBM Cloud Mobile Testing |
-| API Management Service | Amazon API Gateway | Azure API Management | Cloud Endpoints, API Gateway | API Gateway | API Gateway | IBM API Connect |
 
 ## 游戏开发 (Game Development)
 
@@ -198,7 +194,7 @@
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
 | AI Base Model Service | Amazon Bedrock | Azure OpenAI Service | Vertex AI | OCI Language | PAI | IBM Watson Studio |
-| Code Intelligence Assistant | Amazon CodeWhisperer | Azure OpenAI Service | Duet AI | - | CodeGuru | IBM Watson Code Assistant |
+| Code Intelligence Assistant | Amazon CodeWhisperer | Azure OpenAI Service | Duet AI | - | Tongyi Lingma | IBM Watson Code Assistant |
 | Natural Language Processing | Amazon Comprehend | Azure Cognitive Service - Text Analytics | Cloud Natural Language API | OCI Language | NLP | IBM Watson NLP |
 | Predictive Analysis | Amazon Forecast | Azure Cognitive Service - Forecasting | - | OCI Forecasting | PAI-AutoLearning | IBM Watson Machine Learning |
 | Dialog Robot | Amazon Lex | Azure Bot Service | Cloud Dialogflow | - | Intelligent Service Robot | IBM Watson Assistant |
