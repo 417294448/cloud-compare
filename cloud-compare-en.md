@@ -27,6 +27,7 @@
 | Log Service | Amazon CloudWatch Logs | Azure Monitor | Cloud Logging | - | Log Service | IBM Log Analysis |
 | Data Quality | AWS Glue DataBrew | Azure Data Factory | Cloud Dataprep | - | - | IBM Watson Knowledge Catalog |
 | Data Catalog | AWS Glue Data Catalog | Azure Purview | Data Catalog | - | - | IBM Watson Knowledge Catalog |
+| Spark-based analytics | - | Azure Databricks | - | - | - | - |
 
 ## 应用集成 (Application Integration)
 
