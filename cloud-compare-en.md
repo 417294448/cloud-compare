@@ -24,6 +24,7 @@
 - [机器人技术 (Robotics)](#机器人技术-robotics)
 - [卫星 (Satellite)](#卫星-satellite)
 - [混合与多云 (Hybrid + Multicloud)](#混合与多云-hybrid--multicloud)
+- [域名注册 (Domain Registration)](#域名注册-domain-registration)
 
 ## 分析服务 (Analytics)
 
@@ -420,3 +421,14 @@
 | Edge Kubernetes | - | Azure Kubernetes Service Edge Essentials | - | - | - | IBM Edge Computing |
 | Operator Service | - | Azure Operator Nexus | - | - | - | - |
 | Operator Insights | - | Azure Operator Insights | - | - | - | - |
+
+## 域名注册 (Domain Registration)
+
+| Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
+|---------|-----|-------|-----|-----|---------------|-----------|
+| Domain Registration Service | Amazon Route 53 Domains | Azure App Service Domains | Cloud Domains | - | Domains | IBM Cloud Domains |
+| Domain Management | Amazon Route 53 | Azure DNS | Cloud Domains | DNS | Domains | IBM Cloud DNS Services |
+| Domain Transfer | Amazon Route 53 | Azure App Service Domains | Cloud Domains | - | Domains | IBM Cloud Domains |
+| Domain Privacy Protection | Amazon Route 53 | Azure App Service Domains | Cloud Domains | - | Domain Privacy | IBM Cloud Domains |
+| Domain Auto-renewal | Amazon Route 53 | Azure App Service Domains | Cloud Domains | - | Domains | IBM Cloud Domains |
+| Domain Whois Service | Amazon Route 53 | Azure App Service Domains | Cloud Domains | - | Domain Whois | IBM Cloud Domains |
