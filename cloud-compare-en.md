@@ -1,4 +1,29 @@
-# 云服务完整对照表
+# 海外主流云厂商产品对照表
+
+## 目录 （Catalog）
+- [分析服务 (Analytics)](#分析服务-analytics)
+- [应用集成 (Application Integration)](#应用集成-application-integration)
+- [区块链 (Blockchain)](#区块链-blockchain)
+- [业务应用 (Business Applications)](#业务应用-business-applications)
+- [计算服务 (Compute)](#计算服务-compute)
+- [容器服务 (Containers)](#容器服务-containers)
+- [数据库 (Database)](#数据库-database)
+- [开发者工具 (Developer Tools)](#开发者工具-developer-tools)
+- [最终用户计算 (End User Computing)](#最终用户计算-end-user-computing)
+- [前端 Web 和移动 (Front-end Web & Mobile)](#前端-web-和-移动-front-end-web--mobile)
+- [游戏开发 (Game Development)](#游戏开发-game-development)
+- [物联网 (Internet of Things)](#物联网-internet-of-things)
+- [机器学习 (Machine Learning)](#机器学习-machine-learning)
+- [管理与治理 (Management & Governance)](#管理与治理-management--governance)
+- [媒体服务 (Media Services)](#媒体服务-media-services)
+- [迁移与传输 (Migration & Transfer)](#迁移与传输-migration--transfer)
+- [网络与内容分发 (Networking & Content Delivery)](#网络与内容分发-networking--content-delivery)
+- [安全、身份与合规 (Security, Identity & Compliance)](#安全身份与合规-security-identity--compliance)
+- [存储服务 (Storage)](#存储服务-storage)
+- [量子计算 (Quantum Technologies)](#量子计算-quantum-technologies)
+- [机器人技术 (Robotics)](#机器人技术-robotics)
+- [卫星 (Satellite)](#卫星-satellite)
+- [混合与多云 (Hybrid + Multicloud)](#混合与多云-hybrid--multicloud)
 
 ## 分析服务 (Analytics)
 
@@ -94,7 +119,7 @@
 | Application Hosting Platform | AWS Elastic Beanstalk | Azure App Service | App Engine | - | Web App Service | IBM Cloud Foundry |
 | Serverless Computing | AWS Lambda | Azure Functions | Cloud Functions | Functions | Function Compute | IBM Cloud Functions |
 | Local Region Service | AWS Local Zones | Azure Local Zones | - | - | Edge Node Service | IBM Cloud Satellite |
-| Hybrid Cloud Service | AWS Outposts | Azure Stack | Anthos | - | Hybrid Cloud | IBM Cloud Satellite |
+| Hybrid Cloud Service | AWS Outposts | Azure Stack | Anthos | - | Alibaba Cloud Apsara Stack | IBM Cloud Satellite |
 | High-Performance Computing Cluster | AWS ParallelCluster | Azure CycleCloud | Slurm on GCP | - | E-HPC | IBM Spectrum LSF |
 | Edge Computing | AWS Wavelength | Azure Edge Zones | Mobile Edge Cloud | - | Edge Computing | IBM Edge Application Manager |
 
@@ -135,7 +160,6 @@
 | Developer Lab Environment | AWS Cloud9 | Azure Lab Services | Cloud Workstations | - | - | IBM Cloud Shell |
 | Cloud Shell | AWS CloudShell | Azure Cloud Shell | Cloud Shell | Cloud Shell | Cloud Shell | IBM Cloud Shell |
 | Resource Management API | AWS Cloud Control API | - | - | - | - | IBM Cloud API |
-| Cloud Command Line | AWS CloudShell | Azure Cloud Shell | Cloud Shell | Cloud Shell | - | IBM Cloud CLI |
 | Artifact Repository | AWS CodeArtifact | Azure Artifacts | Artifact Registry | Container Registry | Container Registry | IBM Cloud Container Registry |
 | Continuous Integration | AWS CodeBuild | Azure Pipelines | Cloud Build | DevOps Build Service | CICD | IBM Cloud Continuous Delivery |
 | Continuous Deployment | AWS CodeDeploy | Azure Pipelines | Cloud Deploy | DevOps Deployment Service | CICD | IBM Cloud Continuous Delivery |
@@ -373,14 +397,14 @@
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
-| Quantum Computing Platform | Amazon Braket | Azure Quantum | - | Quantum Computing | Quantum Computing Platform | IBM Quantum |
+| Quantum Computing Platform | Amazon Braket | Azure Quantum | Google Quantum AI | Quantum Computing | Quantum Computing Platform | IBM Quantum |
 
 ## 机器人技术 (Robotics)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
 | Robot Management Service | AWS IoT RoboRunner | - | - | - | Robot Service | - |
-| Robot Development Platform | AWS RoboMaker | - | - | - | Robot Development Platform | - |
+| Robot Development Platform | AWS RoboMaker | - | Cloud Robotics Core | - | Robot Development Platform | - |
 
 ## 卫星 (Satellite)
 
@@ -392,7 +416,7 @@
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
-| Hybrid Management Service | - | Azure Arc | - | - | - | IBM Cloud Satellite |
+| Hybrid Management Service | AWS Outposts | Azure Arc | Anthos | - | Alibaba Cloud Apsara Stack | IBM Cloud Satellite |
 | Edge Kubernetes | - | Azure Kubernetes Service Edge Essentials | - | - | - | IBM Edge Computing |
 | Operator Service | - | Azure Operator Nexus | - | - | - | - |
 | Operator Insights | - | Azure Operator Insights | - | - | - | - |
