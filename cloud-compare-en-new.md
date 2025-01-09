@@ -1,32 +1,32 @@
-# Comparison Table of Mainstream Cloud Vendors' Products
+# 国际主流云厂商产品对照表
 
-## Table of Contents
-- [Analytics](#analytics)
-- [Application Integration](#application-integration)
-- [Blockchain](#blockchain)
-- [Business Applications](#business-applications)
-- [Compute](#compute)
-- [Containers](#containers)
-- [Database](#database)
-- [Developer Tools](#developer-tools)
-- [End User Computing](#end-user-computing)
-- [Front-end Web & Mobile](#front-end-web--mobile)
-- [Game Development](#game-development)
-- [Internet of Things](#internet-of-things)
-- [Machine Learning](#machine-learning)
-- [Management & Governance](#management--governance)
-- [Media Services](#media-services)
-- [Migration & Transfer](#migration--transfer)
-- [Networking & Content Delivery](#networking--content-delivery)
-- [Security, Identity & Compliance](#security-identity--compliance)
-- [Storage](#storage)
-- [Quantum Technologies](#quantum-technologies)
-- [Robotics](#robotics)
-- [Satellite](#satellite)
-- [Hybrid + Multicloud](#hybrid--multicloud)
-- [Domain Registration](#domain-registration)
+## 目录 （Catalog）
+- [分析服务 (Analytics)](#分析服务-analytics)
+- [应用集成 (Application Integration)](#应用集成-application-integration)
+- [区块链 (Blockchain)](#区块链-blockchain)
+- [业务应用 (Business Applications)](#业务应用-business-applications)
+- [计算服务 (Compute)](#计算服务-compute)
+- [容器服务 (Containers)](#容器服务-containers)
+- [数据库 (Database)](#数据库-database)
+- [开发者工具 (Developer Tools)](#开发者工具-developer-tools)
+- [最终用户计算 (End User Computing)](#最终用户计算-end-user-computing)
+- [前端 Web 和移动 (Front-end Web & Mobile)](#前端-web-和-移动-front-end-web--mobile)
+- [游戏开发 (Game Development)](#游戏开发-game-development)
+- [物联网 (Internet of Things)](#物联网-internet-of-things)
+- [机器学习 (Machine Learning)](#机器学习-machine-learning)
+- [管理与治理 (Management & Governance)](#管理与治理-management--governance)
+- [媒体服务 (Media Services)](#媒体服务-media-services)
+- [迁移与传输 (Migration & Transfer)](#迁移与传输-migration--transfer)
+- [网络与内容分发 (Networking & Content Delivery)](#网络与内容分发-networking--content-delivery)
+- [安全、身份与合规 (Security, Identity & Compliance)](#安全身份与合规-security-identity--compliance)
+- [存储服务 (Storage)](#存储服务-storage)
+- [量子计算 (Quantum Technologies)](#量子计算-quantum-technologies)
+- [机器人技术 (Robotics)](#机器人技术-robotics)
+- [卫星 (Satellite)](#卫星-satellite)
+- [混合与多云 (Hybrid + Multicloud)](#混合与多云-hybrid--multicloud)
+- [域名注册 (Domain Registration)](#域名注册-domain-registration)
 
-## Analytics
+## 分析服务 (Analytics)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -55,7 +55,7 @@
 | Data Catalog | AWS Glue Data Catalog | Azure Purview | Data Catalog | - | - | IBM Watson Knowledge Catalog |
 | Spark-based analytics | - | Azure Databricks | - | - | - | - |
 
-## Application Integration
+## 应用集成 (Application Integration)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -82,14 +82,14 @@
 | Event Management | Amazon EventBridge | Azure Event Grid | Cloud Pub/Sub | - | EventBridge | IBM Cloud Event Management |
 | API Gateway Analytics | - | Azure API Management | API Analytics | - | - | IBM API Connect Analytics |
 
-## Blockchain
+## 区块链 (Blockchain)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
 | Blockchain Platform | Amazon Managed Blockchain | Azure Blockchain Service (已停用) | - | Blockchain Platform | Blockchain as a Service | IBM Blockchain Platform |
 | Distributed Ledger | Amazon QLDB | - | - | - | Blockchain as a Service | IBM Blockchain Platform |
 
-## Business Applications
+## 业务应用 (Business Applications)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -105,7 +105,7 @@
 | Encryption Communication | AWS Wickr | - | - | - | - | IBM Cloud Security |
 | Enterprise Resource Planning | - | - | - | Fusion Cloud ERP | - | IBM Cloud for SAP |
 
-## Compute
+## 计算服务 (Compute)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -124,7 +124,7 @@
 | High-Performance Computing Cluster | AWS ParallelCluster | Azure CycleCloud | Slurm on GCP | - | E-HPC | IBM Spectrum LSF |
 | Edge Computing | AWS Wavelength | Azure Edge Zones | Mobile Edge Cloud | - | Edge Computing | IBM Edge Application Manager |
 
-## Containers
+## 容器服务 (Containers)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -135,7 +135,7 @@
 | Container Development Tool | AWS Copilot | - | - | Cloud Shell | Cloud Shell | IBM Cloud Shell |
 | Container Application Management | AWS Proton | - | - | Container Instance | EDAS | IBM Cloud App Management |
 
-## Database
+## 数据库 (Database)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -152,7 +152,7 @@
 | Autonomous Database | - | - | - | Autonomous Database | - | - |
 | Data Warehouse | Amazon Redshift | Azure Synapse Analytics | BigQuery | Autonomous Data Warehouse | MaxCompute | IBM Db2 Warehouse |
 
-## Developer Tools
+## 开发者工具 (Developer Tools)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -174,7 +174,7 @@
 | Code Analysis & Security | Amazon CodeGuru | Azure DevSecOps, Azure DevOps | Software Supply Chain Security, Cloud Code | - | Code Analysis | IBM Cloud Security, IBM Cloud DevSecOps |
 | API Testing | Amazon API Gateway | Azure API Management | Cloud Endpoints | API Gateway | API Gateway | IBM API Connect |
 
-## End User Computing
+## 最终用户计算 (End User Computing)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -182,7 +182,7 @@
 | Virtual Desktop | Amazon WorkSpaces | Azure Virtual Desktop | - | Desktop as a Service | Elastic Desktop Service | IBM Cloud Virtual Desktop |
 | Web Virtual Desktop | Amazon WorkSpaces Web | Azure Virtual Desktop | - | Browser Access | Workspace | IBM Cloud Virtual Desktop |
 
-## Front-end Web & Mobile
+## 前端 Web 和移动 (Front-end Web & Mobile)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -190,7 +190,7 @@
 | Mobile and Web Application Development | AWS Amplify | Azure Static Web Apps | Firebase | APEX | Mobile Development Platform | IBM Mobile Foundation |
 | Mobile Application Testing | AWS Device Farm | Azure DevTest Labs | Firebase Test Lab | - | Mobile Testing | IBM Cloud Mobile Testing |
 
-## Game Development
+## 游戏开发 (Game Development)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -198,7 +198,7 @@
 | Game Backend Service | Amazon GameSparks | Azure PlayFab | - | Game Backend Service | GameShield | - |
 | Game Development Toolkit | AWS GameKit | Azure PlayFab | - | - | Game Security | - |
 
-## Internet of Things
+## 物联网 (Internet of Things)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -215,7 +215,7 @@
 | Digital Twin | AWS IoT TwinMaker | Azure Digital Twins | Supply Chain Twin | OCI Digital Twin | IoT Studio | IBM Maximo |
 | Real-time Operating System | FreeRTOS | Azure RTOS | - | - | - | - |
 
-## Machine Learning
+## 机器学习 (Machine Learning)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -243,7 +243,7 @@
 | AI Model Deployment | Amazon SageMaker | Azure ML Deployments | Vertex AI | - | PAI-EAS | IBM Watson Machine Learning |
 | AI Model Monitoring | Amazon SageMaker | Azure ML Monitoring | Vertex AI | - | PAI-Studio | IBM Watson OpenScale |
 
-## Management & Governance
+## 管理与治理 (Management & Governance)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -275,7 +275,7 @@
 | Service Management | - | - | - | - | - | IBM Cloud Service Management |
 | Resource Controller | - | - | - | - | - | IBM Cloud Resource Controller |
 
-## Media Services
+## 媒体服务 (Media Services)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -285,7 +285,7 @@
 | Live Streaming | AWS Elemental MediaLive | Azure Media Services | Live Stream API | - | ApsaraVideo Live | IBM Cloud Video Streaming |
 | Media Storage | AWS Elemental MediaStore | Azure Media Services | Cloud Storage | Object Storage | ApsaraVideo VOD | IBM Cloud Object Storage |
 
-## Migration & Transfer
+## 迁移与传输 (Migration & Transfer)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -299,7 +299,7 @@
 | File Transfer | AWS Transfer Family | Azure Files | Cloud Storage SFTP | - | - | IBM Cloud File Transfer |
 | Data Transfer & Synchronization | AWS DataSync | Azure File Sync, Azure Data Box | Storage Transfer Service | Data Transfer Service, Data Transfer | - | IBM Cloud Data Sync, IBM Cloud Mass Data Migration |
 
-## Networking & Content Delivery
+## 网络与内容分发 (Networking & Content Delivery)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -334,7 +334,7 @@
 | Global Traffic Management & Acceleration | AWS Global Accelerator | Azure Front Door, Azure Traffic Manager | Premium Tier Networking, Cloud Load Balancing | Traffic Management | Global Accelerator, DCDN, Global Traffic Manager | IBM Cloud Internet Services |
 | Network Connectivity Center | AWS Transit Gateway | Azure Virtual WAN | Network Connectivity Center | - | Cloud Enterprise Network | IBM Cloud Direct Link |
 
-## Security, Identity & Compliance
+## 安全、身份与合规 (Security, Identity & Compliance)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -374,7 +374,7 @@
 | SSL Certificate Service | AWS Certificate Manager | Azure App Service Certificates | - | - | SSL Certificates Service | IBM Cloud Certificate Manager |
 | Cloud Security Scanner | Amazon Inspector | Azure Defender | Security Scanner | - | Cloud Security Scanner | IBM Cloud Security Advisor |
 
-## Storage
+## 存储服务 (Storage)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -394,26 +394,26 @@
 | Storage Lifecycle Management | S3 Lifecycle | Azure Storage Lifecycle | Object Lifecycle Management | Object Lifecycle Management | OSS Lifecycle | IBM Cloud Object Storage Lifecycle |
 | Storage Performance | Amazon EBS io2 | Azure Ultra Disk | Persistent Disk | Block Volume | ESSD | IBM Cloud Block Storage |
 
-## Quantum Technologies
+## 量子计算 (Quantum Technologies)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
 | Quantum Computing Platform | Amazon Braket | Azure Quantum | Google Quantum AI | Quantum Computing | Quantum Computing Platform | IBM Quantum |
 
-## Robotics
+## 机器人技术 (Robotics)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
 | Robot Management Service | AWS IoT RoboRunner | - | - | - | Robot Service | - |
 | Robot Development Platform | AWS RoboMaker | - | Cloud Robotics Core | - | Robot Development Platform | - |
 
-## Satellite
+## 卫星 (Satellite)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
 | Satellite Ground Station Service | AWS Ground Station | Azure Orbital | - | - | Satellite Connection | - |
 
-## Hybrid + Multicloud
+## 混合与多云 (Hybrid + Multicloud)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
@@ -422,7 +422,7 @@
 | Operator Service | - | Azure Operator Nexus | - | - | - | - |
 | Operator Insights | - | Azure Operator Insights | - | - | - | - |
 
-## Domain Registration
+## 域名注册 (Domain Registration)
 
 | Service Type | AWS | Azure | GCP | OCI | Alibaba Cloud | IBM Cloud |
 |---------|-----|-------|-----|-----|---------------|-----------|
