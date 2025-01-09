@@ -178,17 +178,17 @@
 | 分布式任务调度 | 分布式任务调度 SchedulerX | 分布式任务调度 | 分布式任务调度服务 | 分布式任务调度 | 分布式调度服务 | Amazon Managed Workflows |
 | 配置管理 | 应用配置管理 ACM | 配置中心 | 应用参数配置服务 | 配置服务 | 配置中心 | AWS AppConfig |
 
-## 数据分析与大数据
+## 数据分析 & 大数据
 
 | 服务类型 | 阿里云 | 腾讯云 | 华为云 | 百度云 | 天翼云 | AWS |
 |---------|--------|--------|--------|---------|---------|-----|
-| 大数据计算 | E-MapReduce | 弹性 MapReduce EMR | MapReduce服务 MRS | MaxCompute | 大数据平台 | Amazon EMR |
+| 大数据计算 | E-MapReduce | 弹性 MapReduce EMR | MapReduce服务 MRS | MapReduce | 大数据平台翼 MR | Amazon EMR |
 | 云数据仓库 | MaxCompute（原ODPS） | 云数据仓库 CDW | 数据湖探索 DLI | BDL数据湖 | 大数据平台 | Amazon EMR |
 | 实时计算 | 实时计算 Flink版 | 流计算 Oceanus | 实时流计算服务 CS | 流式计算 | 流计算服务 | Amazon Kinesis |
 | 数据湖 | 数据湖构建 Data Lake Formation | 数据湖计算 DLC | 数据湖治理中心 LakeFormation | 数据湖 | 数据湖 | AWS Lake Formation |
-| 可视化大屏 | DataV数据可视化 | 腾讯云图 | 数据可视化 DLV | 数据可视化 Sugar | 数据可视化 | Amazon QuickSight |
-| 数据可视化 | 智能商业分析 Quick BI | 腾讯云图 | DataArts Studio | 数据可视化 Sugar | 数据可视化 | Amazon QuickSight |
-| 智能推荐 | 智能推荐 AIRec | 推荐系统 | 推荐系统服务 | 智能推荐 | 智能推荐 | Amazon Personalize |
+| 可视化大屏 | DataV数据可视化 | 腾讯云图 | 数据可视化 DLV | 数据可视化 SugarGBI | 数据可视化 | Amazon QuickSight |
+| 数据可视化 | 智能商业分析 Quick BI | 腾讯云图 | DataArts Studio | 数据可视化 SugarGBI | 数据可视化 | Amazon QuickSight |
+| 智能推荐 | 智能推荐 AIRec | 腾讯云推荐系统 | 华为云推荐系统 | 百度云智能推荐 | - | Amazon Personalize |
 | 实时数仓 | 实时数仓 Hologres | 云数据仓库 | GaussDB(DWS) | - | 实时数仓 | Amazon Redshift |
 | 数据开发治理平台 | 大数据开发治理平台 DataWorks | 数据开发平台 WeData| DataArts Studio | 数据工厂 | 数据开发平台 DataStudio | AWS Glue |
 | 数据湖分析 | Data Lake Analytics (DLA) | 数据湖分析 | 数据湖探索 | 数据湖管理与分析平台 EasyDAP | 数据湖分析 | Amazon Athena |
@@ -200,11 +200,13 @@
 | 数字孪生可视化 | - | RayData Web/Plus | - | - | - | - |
 | 数字孪生简报 | - | 数字孪生简报 | - | - | - | - |
 | 智能数据建设与治理 | 智能数据建设与治理 Dataphin | - | - | - | - | - |
-| 智能数据分析平台 | - | - | - | 智能数据分析平台 GBI | - | - |
+| 智能数据分析平台 | - | 腾讯云BI | - | 智能数据分析平台 GBI | - | - |
 | 边缘数据中心管理 | - | - | 边缘数据中心管理 EDCM | - | - | - |
 | 应用与数据集成平台 | - | - | 应用与数据集成平台 ROMAConnect | - | - | - |
-
-
+| Clickhouse服务 | 云数据库 ClickHouse | 腾讯云数据仓库 TCHouse-C | 云数据库 ClickHouse | 云数据库 ClickHouse | - | Amazon Managed Service for ClickHouse |
+| Doris服务 | 云原生数据仓库 Doris | 腾讯云数据仓库 TCHouse-D | 云数据库 Doris | Palo for Apache Doris | - | - |
+| Databricks服务 | 数据湖仓一体化 Databricks | - | - | - | - |  |
+| 数据总线 | 数据总线Datahub | - | - | - | - | - |
 
 ## 人工智能
 
@@ -217,7 +219,7 @@
 | 大模型服务 | 通义大模型 | 混元大模型 | 盘古大模型 | 文心大模型 | - | Amazon Bedrock |
 | 智能对话机器人 | 智能对话机器人 | 智能客服 | 智能对话机器人 | 智能对话平台 UNIT | 智能客服 | Amazon Lex |
 | 机器学习可视化 | PAI-DSW | TI-ONE | ModelArts-Notebook | BML-Notebook | - | Amazon SageMaker Studio |
-| 向量检索服务 | 向量检索服务 Proxima | 向量数据库 | 向量检索服务 | 向量检索引擎 | - | Amazon Kendra |
+| 向量检索服务 | 向量检索服务 Milvus | 向量数据库 | 向量检索服务 | 向量检索引擎 | - | Amazon Kendra |
 | AI开发平台 | PAI-DSW | TI-ONE | ModelArts | BML | AI开发平台 | SageMaker Studio |
 | 模型训练 | PAI-Training | TI-Training | ModelArts-Training | BML-Training | 模型训练 | SageMaker Training |
 | 模型服务 | PAI-EAS | TI-EMS | ModelArts-Serving | BML-Serving | 模型服务 | SageMaker Endpoints |
@@ -425,7 +427,7 @@
 | 服务类型 | 阿里云 | 腾讯云 | 华为云 | 百度云 | 天翼云 | AWS |
 |---------|--------|--------|--------|---------|---------|-----|
 | 等保合规 | 等保合规 | 等保合规 | 等保合规服务 | 等保合规 | 等保合规 | AWS Artifact |
-| 隐私计算 | 隐私计算服务 | 隐私计算 | 隐私计算服务 | 隐私计算平台 | 隐私计算 | AWS Clean Rooms |
+| 隐私计算 | 隐私计算服务 | 隐私计算 | 隐私计算服务 | 点石隐私计算 | 隐私计算 | AWS Clean Rooms |
 | 合规审计 | 操作审计 ActionTrail | 云审计 CloudAudit | 云审计服务 CTS | 操作审计 | 操作审计 | AWS CloudTrail |
 | 风险识别 | 云安全中心 | 安全中心 | 企业主机安全 | 安全中心 | 安全中心 | Amazon Inspector |
 
