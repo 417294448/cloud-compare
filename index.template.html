@@ -19,14 +19,6 @@
     --accent-aws: #ff9900;
     --accent-azure: #3aa0ff;
     --accent-gcp: #34a853;
-    --badge-high-bg: rgba(52, 199, 132, 0.14);
-    --badge-high-fg: #34c784;
-    --badge-medium-bg: rgba(255, 176, 32, 0.14);
-    --badge-medium-fg: #ffb020;
-    --badge-low-bg: rgba(122, 139, 158, 0.16);
-    --badge-low-fg: #9aabbd;
-    --badge-none-bg: rgba(90, 100, 112, 0.14);
-    --badge-none-fg: #6b7684;
     --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     --font-sans: 'IBM Plex Sans', -apple-system, "Segoe UI", sans-serif;
   }
@@ -132,11 +124,7 @@
   }
 
   .data-row td { vertical-align: top; padding: 12px; border-bottom: 1px solid var(--grid-line); font-size: 13px; }
-  .col-concept .concept-name { font-weight: 600; margin-bottom: 6px; }
-  .notes-toggle {
-    font-family: var(--font-mono); font-size: 11px; color: var(--accent-azure);
-    background: none; border: none; padding: 0; cursor: pointer; text-decoration: underline dotted;
-  }
+  .col-concept .concept-name { font-weight: 600; }
 
   .product { padding-left: 10px; border-left: 3px solid var(--grid-line); margin-bottom: 10px; }
   .product:last-child { margin-bottom: 0; }
@@ -151,21 +139,6 @@
   .product-desc { margin-top: 2px; font-size: 12px; color: var(--text-muted); line-height: 1.4; }
   .cell-empty { color: var(--text-dim); }
 
-  .badge {
-    display: inline-flex; align-items: center; gap: 6px;
-    font-family: var(--font-mono); font-size: 11px; padding: 4px 10px; border-radius: 999px;
-  }
-  .badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
-  .badge--high { background: var(--badge-high-bg); color: var(--badge-high-fg); }
-  .badge--medium { background: var(--badge-medium-bg); color: var(--badge-medium-fg); }
-  .badge--low { background: var(--badge-low-bg); color: var(--badge-low-fg); }
-  .badge--none { background: var(--badge-none-bg); color: var(--badge-none-fg); }
-
-  .notes-row td { padding: 0 12px 14px; border-bottom: 1px solid var(--grid-line); }
-  .notes-box {
-    background: var(--bg-raised); border: 1px solid var(--grid-line); border-radius: 6px;
-    padding: 10px 14px; font-size: 12px; color: var(--text-muted); line-height: 1.5;
-  }
   .empty-row td { padding: 40px 12px; text-align: center; color: var(--text-dim); font-size: 13px; }
 
   .page-footer {
@@ -218,11 +191,10 @@
   <main class="table-wrap">
     <table class="data-table">
       <colgroup>
+        <col style="width: 28%">
         <col style="width: 24%">
-        <col style="width: 21%">
-        <col style="width: 21%">
-        <col style="width: 21%">
-        <col style="width: 13%">
+        <col style="width: 24%">
+        <col style="width: 24%">
       </colgroup>
       <thead>
         <tr>
@@ -230,7 +202,6 @@
           <th class="th-vendor th-vendor--aws">AWS</th>
           <th class="th-vendor th-vendor--azure">Azure</th>
           <th class="th-vendor th-vendor--gcp">GCP</th>
-          <th id="col-confidence">Match</th>
         </tr>
       </thead>
       <tbody id="data-body"></tbody>
@@ -248,7 +219,6 @@
   var PAYLOAD = /*__DATA__*/;
 
   var state = { lang: 'en', category: 'all', vendors: [], query: '' };
-  var expanded = {};
 
   var UI_STRINGS = {
     en: {
@@ -260,12 +230,8 @@
       searchPlaceholder: 'Search products, concepts, descriptions…',
       resultCount: function (n, total) { return 'Showing ' + n + ' of ' + total; },
       noResults: 'No matching products. Try clearing a filter.',
-      notesShow: 'Why this pairing?',
-      notesHide: 'Hide notes',
       colConcept: 'Concept',
-      colConfidence: 'Match',
       noEquivalent: '—',
-      confidence: { high: 'High match', medium: 'Medium match', low: 'Low match', none: 'Unmatched' },
       footer: 'Generated from product-mapping.json · '
     },
     cn: {
@@ -277,12 +243,8 @@
       searchPlaceholder: '搜索产品、概念、描述…',
       resultCount: function (n, total) { return '共命中 ' + n + ' / ' + total + ' 条'; },
       noResults: '没有匹配的产品，试试清空筛选条件。',
-      notesShow: '配对说明',
-      notesHide: '收起说明',
       colConcept: '概念',
-      colConfidence: '匹配度',
       noEquivalent: '—',
-      confidence: { high: '高置信度', medium: '中等置信度', low: '低置信度', none: '暂未匹配' },
       footer: '数据来自 product-mapping.json · 生成时间 '
     }
   };
@@ -312,29 +274,17 @@
   }
 
   function renderRow(row) {
-    var t = currentStrings();
     var name = state.lang === 'cn' ? row.nameCn : row.name;
-    var notes = state.lang === 'cn' ? row.notesCn : row.notes;
-    var isExpanded = !!expanded[row.id];
-    var hasNotes = !!(notes && notes.trim());
-    var html =
+    return (
       '<tr class="data-row" data-id="' + row.id + '">' +
         '<td class="col-concept">' +
           '<div class="concept-name">' + escapeHtml(name) + '</div>' +
-          (hasNotes ? '<button type="button" class="notes-toggle" data-toggle-id="' + row.id + '">' + (isExpanded ? t.notesHide : t.notesShow) + '</button>' : '') +
         '</td>' +
         '<td class="col-vendor">' + renderProductCell(row.products.aws, 'aws') + '</td>' +
         '<td class="col-vendor">' + renderProductCell(row.products.azure, 'azure') + '</td>' +
         '<td class="col-vendor">' + renderProductCell(row.products.gcp, 'gcp') + '</td>' +
-        '<td class="col-confidence"><span class="badge badge--' + row.confidence + '">' + t.confidence[row.confidence] + '</span></td>' +
-      '</tr>';
-    if (hasNotes && isExpanded) {
-      html +=
-        '<tr class="notes-row" data-notes-for="' + row.id + '">' +
-          '<td colspan="5"><div class="notes-box">' + escapeHtml(notes) + '</div></td>' +
-        '</tr>';
-    }
-    return html;
+      '</tr>'
+    );
   }
 
   function renderTable(groups, matchCount, totalCount) {
@@ -343,7 +293,7 @@
     document.getElementById('result-count').textContent = t.resultCount(matchCount, totalCount);
 
     if (!groups.length) {
-      tbody.innerHTML = '<tr class="empty-row"><td colspan="5">' + escapeHtml(t.noResults) + '</td></tr>';
+      tbody.innerHTML = '<tr class="empty-row"><td colspan="4">' + escapeHtml(t.noResults) + '</td></tr>';
       return;
     }
 
@@ -352,7 +302,7 @@
       var catLabel = state.lang === 'cn' ? group.category.nameCn : group.category.name;
       html +=
         '<tr class="category-row">' +
-          '<td colspan="5"><span class="category-tag">// ' + escapeHtml(catLabel) + '</span><span class="category-count">' + group.rows.length + '</span></td>' +
+          '<td colspan="4"><span class="category-tag">// ' + escapeHtml(catLabel) + '</span><span class="category-count">' + group.rows.length + '</span></td>' +
         '</tr>';
       group.rows.forEach(function (row) {
         html += renderRow(row);
@@ -387,7 +337,6 @@
     document.getElementById('vendor-label').textContent = t.vendorLabel;
     document.getElementById('search-input').setAttribute('placeholder', t.searchPlaceholder);
     document.getElementById('col-concept').textContent = t.colConcept;
-    document.getElementById('col-confidence').textContent = t.colConfidence;
     document.getElementById('footer-text').textContent = t.footer + PAYLOAD.generatedAt;
     populateCategorySelect();
   }
@@ -424,14 +373,6 @@
 
   document.getElementById('search-input').addEventListener('input', function (e) {
     state.query = e.target.value;
-    refresh();
-  });
-
-  document.getElementById('data-body').addEventListener('click', function (e) {
-    var btn = e.target.closest('.notes-toggle');
-    if (!btn) return;
-    var id = btn.getAttribute('data-toggle-id');
-    expanded[id] = !expanded[id];
     refresh();
   });
 
