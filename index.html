@@ -117,7 +117,11 @@
     position: sticky; top: 121px; z-index: 10;
     background: var(--bg); padding: 14px 12px 6px; border-bottom: 1px solid var(--grid-line);
   }
-  .category-tag { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); letter-spacing: 0.02em; }
+  .category-tag {
+    font-family: var(--font-mono); font-size: 11px; font-weight: 600;
+    color: var(--text-primary); letter-spacing: 0.08em; text-transform: uppercase;
+  }
+  .category-tag::before { content: '▸'; display: inline-block; margin-right: 8px; color: var(--accent-azure); }
   .category-count {
     margin-left: 8px; font-family: var(--font-mono); font-size: 11px; color: var(--text-dim);
     background: var(--bg-raised); border-radius: 999px; padding: 1px 8px;
@@ -374,7 +378,7 @@ if (typeof module !== 'undefined' && module.exports) {
       var catLabel = state.lang === 'cn' ? group.category.nameCn : group.category.name;
       html +=
         '<tr class="category-row">' +
-          '<td colspan="4"><span class="category-tag">// ' + escapeHtml(catLabel) + '</span><span class="category-count">' + group.rows.length + '</span></td>' +
+          '<td colspan="4"><span class="category-tag">' + escapeHtml(catLabel) + '</span><span class="category-count">' + group.rows.length + '</span></td>' +
         '</tr>';
       group.rows.forEach(function (row) {
         html += renderRow(row);
