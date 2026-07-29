@@ -9,6 +9,22 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
+    --bg: #f5f7fa;
+    --bg-raised: #ffffff;
+    --bg-header: #ffffff;
+    --grid-line: #e1e6ec;
+    --text-primary: #1a222c;
+    --text-muted: #5b6875;
+    --text-dim: #8a97a6;
+    --accent-aws: #b56a00;
+    --accent-azure: #1f6fd6;
+    --accent-gcp: #1e8e3e;
+    --glow-1: rgba(31, 111, 214, 0.05);
+    --glow-2: rgba(181, 106, 0, 0.05);
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --font-sans: 'IBM Plex Sans', -apple-system, "Segoe UI", sans-serif;
+  }
+  html[data-theme="dark"] {
     --bg: #0b0f14;
     --bg-raised: #121820;
     --bg-header: #0e131a;
@@ -19,19 +35,20 @@
     --accent-aws: #ff9900;
     --accent-azure: #3aa0ff;
     --accent-gcp: #34a853;
-    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    --font-sans: 'IBM Plex Sans', -apple-system, "Segoe UI", sans-serif;
+    --glow-1: rgba(58, 160, 255, 0.07);
+    --glow-2: rgba(255, 153, 0, 0.06);
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; height: 100%; }
   body {
     background: var(--bg);
     background-image:
-      radial-gradient(circle at 15% 0%, rgba(58, 160, 255, 0.07), transparent 40%),
-      radial-gradient(circle at 85% 8%, rgba(255, 153, 0, 0.06), transparent 35%);
+      radial-gradient(circle at 15% 0%, var(--glow-1), transparent 40%),
+      radial-gradient(circle at 85% 8%, var(--glow-2), transparent 35%);
     color: var(--text-primary);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+    transition: background-color 0.2s, color 0.2s;
   }
   a { color: inherit; }
 
@@ -50,15 +67,16 @@
   }
   .subtitle { margin: 2px 0 0; font-size: 13px; color: var(--text-muted); }
 
-  .lang-toggle { display: flex; border: 1px solid var(--grid-line); border-radius: 6px; overflow: hidden; }
-  .lang-btn {
+  .topbar-controls { display: flex; align-items: center; gap: 10px; }
+  .lang-toggle, .theme-toggle { display: flex; border: 1px solid var(--grid-line); border-radius: 6px; overflow: hidden; }
+  .lang-btn, .theme-btn {
     font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.04em;
     padding: 7px 14px; background: transparent; color: var(--text-muted);
     border: none; cursor: pointer; transition: background 0.15s, color 0.15s;
   }
-  .lang-btn + .lang-btn { border-left: 1px solid var(--grid-line); }
-  .lang-btn.is-active { background: var(--accent-azure); color: #051018; }
-  .lang-btn:not(.is-active):hover { background: var(--bg-raised); color: var(--text-primary); }
+  .lang-btn + .lang-btn, .theme-btn + .theme-btn { border-left: 1px solid var(--grid-line); }
+  .lang-btn.is-active, .theme-btn.is-active { background: var(--accent-azure); color: #fff; }
+  .lang-btn:not(.is-active):hover, .theme-btn:not(.is-active):hover { background: var(--bg-raised); color: var(--text-primary); }
 
   .filterbar {
     position: sticky; top: 61px; z-index: 25;
@@ -169,9 +187,15 @@
         <p id="page-subtitle" class="subtitle">Cross-cloud product mapping for AWS, Azure &amp; GCP</p>
       </div>
     </div>
-    <div class="lang-toggle" role="group" aria-label="Language">
-      <button type="button" class="lang-btn is-active" data-lang="en">EN</button>
-      <button type="button" class="lang-btn" data-lang="cn">中文</button>
+    <div class="topbar-controls">
+      <div class="theme-toggle" role="group" aria-label="Theme">
+        <button type="button" id="theme-light-btn" class="theme-btn is-active" data-theme-choice="light">Light</button>
+        <button type="button" id="theme-dark-btn" class="theme-btn" data-theme-choice="dark">Dark</button>
+      </div>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" class="lang-btn is-active" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="cn">中文</button>
+      </div>
     </div>
   </header>
 
@@ -239,7 +263,7 @@
   <script>
   var PAYLOAD = /*__DATA__*/;
 
-  var state = { lang: 'en', category: 'all', vendors: [], query: '' };
+  var state = { lang: 'en', theme: 'light', category: 'all', vendors: [], query: '' };
 
   var UI_STRINGS = {
     en: {
@@ -253,6 +277,8 @@
       noResults: 'No matching products. Try clearing a filter.',
       colConcept: 'Concept',
       noEquivalent: '—',
+      themeLight: 'Light',
+      themeDark: 'Dark',
       footer: 'Generated from product-mapping.json · '
     },
     cn: {
@@ -266,6 +292,8 @@
       noResults: '没有匹配的产品，试试清空筛选条件。',
       colConcept: '概念',
       noEquivalent: '—',
+      themeLight: '浅色',
+      themeDark: '深色',
       footer: '数据来自 product-mapping.json · 生成时间 '
     }
   };
@@ -358,9 +386,21 @@
     document.getElementById('vendor-label').textContent = t.vendorLabel;
     document.getElementById('search-input').setAttribute('placeholder', t.searchPlaceholder);
     document.getElementById('col-concept').textContent = t.colConcept;
+    document.getElementById('theme-light-btn').textContent = t.themeLight;
+    document.getElementById('theme-dark-btn').textContent = t.themeDark;
     document.getElementById('footer-text').textContent = t.footer + PAYLOAD.generatedAt;
     populateCategorySelect();
   }
+
+  document.querySelectorAll('.theme-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      state.theme = btn.getAttribute('data-theme-choice');
+      document.documentElement.setAttribute('data-theme', state.theme);
+      document.querySelectorAll('.theme-btn').forEach(function (b) {
+        b.classList.toggle('is-active', b === btn);
+      });
+    });
+  });
 
   document.querySelectorAll('.lang-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
@@ -397,6 +437,7 @@
     refresh();
   });
 
+  document.documentElement.setAttribute('data-theme', state.theme);
   applyStaticText();
   refresh();
   </script>
