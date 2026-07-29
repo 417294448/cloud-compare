@@ -1,0 +1,1695 @@
+{
+  "source": "https://www.alibabacloud.com/en/product",
+  "module": "Alibaba Cloud product catalog",
+  "fetchedAt": "2026-07-29",
+  "totalProducts": 164,
+  "products": [
+    {
+      "name": "ACK One",
+      "categories": [
+        "Container & Middleware",
+        "Container"
+      ],
+      "description": "Provides a control plane to allow users to manage Kubernetes clusters that run based on different infrastructure resources",
+      "link": "https://www.alibabacloud.com/product/ack-one",
+      "id": "ack-one"
+    },
+    {
+      "name": "ActionTrail",
+      "categories": [
+        "Security",
+        "Cloud Security",
+        "Developer Services",
+        "Corporate IT Governance"
+      ],
+      "description": "Maintain security and compliance",
+      "link": "https://www.alibabacloud.com/product/actiontrail",
+      "id": "actiontrail"
+    },
+    {
+      "name": "AIRec",
+      "categories": [
+        "Analytics",
+        "Intelligent Search and Recommendation"
+      ],
+      "description": "A high-quality personalized recommendation service for your applications",
+      "link": "https://www.alibabacloud.com/product/airec",
+      "id": "airec"
+    },
+    {
+      "name": "Alibaba Cloud CDN",
+      "categories": [
+        "Networking & CDN",
+        "CDN and Edge"
+      ],
+      "description": "Speed up file distribution to end-users",
+      "link": "https://www.alibabacloud.com/product/content-delivery-network",
+      "id": "content-delivery-network"
+    },
+    {
+      "name": "Alibaba Cloud DNS",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Domains & Website"
+      ],
+      "description": "Manage your DNS settings",
+      "link": "https://www.alibabacloud.com/product/dns",
+      "id": "dns"
+    },
+    {
+      "name": "Alibaba Cloud PrivateZone",
+      "categories": [
+        "Networking & CDN",
+        "Cloud Network"
+      ],
+      "description": "A private domain name management service",
+      "link": "https://www.alibabacloud.com/product/private-zone",
+      "id": "private-zone"
+    },
+    {
+      "name": "Alibaba Cloud Service Mesh",
+      "categories": [
+        "Elastic Computing",
+        "Container Service",
+        "Container & Middleware",
+        "Container"
+      ],
+      "description": "Unified traffic management for microservices across multiple clusters",
+      "link": "https://www.alibabacloud.com/product/servicemesh",
+      "id": "servicemesh"
+    },
+    {
+      "name": "Alibaba Cloud ZStack",
+      "categories": [
+        "Hybrid Cloud",
+        "Private Cloud"
+      ],
+      "description": "A next-generation open-source hybrid cloud solution",
+      "link": "https://www.alibabacloud.com/product/zstack",
+      "id": "zstack"
+    },
+    {
+      "name": "Alibaba eKYC",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Application Services"
+      ],
+      "description": "Quickly deploy a custom eKYC solution to meet delivery requirements",
+      "link": "https://www.alibabacloud.com/product/ekyc",
+      "id": "ekyc"
+    },
+    {
+      "name": "Alibaba Mail",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Corporate Office Collaboration"
+      ],
+      "description": "A public cloud-based email service",
+      "link": "https://www.alibabacloud.com/product/alibaba-mail",
+      "id": "alibaba-mail"
+    },
+    {
+      "name": "AlibabaMQ for Apache RocketMQ",
+      "categories": [
+        "Container & Middleware",
+        "Message Queue"
+      ],
+      "description": "A distributed message queue service",
+      "link": "https://www.alibabacloud.com/product/mq",
+      "id": "mq"
+    },
+    {
+      "name": "AliwareMQ for IoT",
+      "categories": [
+        "Container & Middleware",
+        "Message Queue"
+      ],
+      "description": "Message service for IoT and mobile devices",
+      "link": "https://www.alibabacloud.com/product/mqtt",
+      "id": "mqtt"
+    },
+    {
+      "name": "AnalyticDB for MySQL",
+      "categories": [
+        "Database",
+        "Data Warehouse"
+      ],
+      "description": "An optimized real-time data warehouse",
+      "link": "https://www.alibabacloud.com/product/analyticdb-for-mysql",
+      "id": "analyticdb-for-mysql"
+    },
+    {
+      "name": "AnalyticDB for PostgreSQL",
+      "categories": [
+        "Database",
+        "Data Warehouse"
+      ],
+      "description": "An online warehousing service",
+      "link": "https://www.alibabacloud.com/product/hybriddb-postgresql",
+      "id": "hybriddb-postgresql"
+    },
+    {
+      "name": "Anti-Bot Service",
+      "categories": [
+        "Security",
+        "Business Security"
+      ],
+      "description": "Bot defense reduces automated attacks",
+      "link": "https://www.alibabacloud.com/products/antibot",
+      "id": "antibot"
+    },
+    {
+      "name": "Anti-DDoS",
+      "categories": [
+        "Security",
+        "Cloud Security",
+        "Hybrid Cloud",
+        "Hybrid Cloud Security"
+      ],
+      "description": "Protect against high volume DDoS attacks",
+      "link": "https://www.alibabacloud.com/product/ddos",
+      "id": "ddos"
+    },
+    {
+      "name": "API Gateway",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Application Services"
+      ],
+      "description": "Open your data and service to users",
+      "link": "https://www.alibabacloud.com/product/api-gateway",
+      "id": "api-gateway"
+    },
+    {
+      "name": "Application Configuration Management",
+      "categories": [
+        "Container & Middleware",
+        "Micro Services"
+      ],
+      "description": "Centralized app configurations managing",
+      "link": "https://www.alibabacloud.com/product/acm",
+      "id": "acm"
+    },
+    {
+      "name": "Application High availability",
+      "categories": [
+        "Container & Middleware",
+        "Applications"
+      ],
+      "description": "Guarantees application high availability",
+      "link": "https://www.alibabacloud.com/product/ahas",
+      "id": "ahas"
+    },
+    {
+      "name": "Application High Availability Service",
+      "categories": [
+        "Developer Services"
+      ],
+      "description": "Guarantees application high availability",
+      "link": "https://www.alibabacloud.com/product/ahas",
+      "id": "ahas"
+    },
+    {
+      "name": "Application Real-Time Monitoring Service",
+      "categories": [
+        "Container & Middleware",
+        "Applications",
+        "Developer Services"
+      ],
+      "description": "Build business monitoring capabilities",
+      "link": "https://www.alibabacloud.com/product/arms",
+      "id": "arms"
+    },
+    {
+      "name": "Apsara File Storage NAS",
+      "categories": [
+        "Storage",
+        "Essential Storage Service"
+      ],
+      "description": "File storage for ECS, HPC, Container",
+      "link": "https://www.alibabacloud.com/product/nas",
+      "id": "nas"
+    },
+    {
+      "name": "Apsara Stack",
+      "categories": [
+        "Hybrid Cloud",
+        "Private Cloud"
+      ],
+      "description": "Build Alibaba Cloud services on-premises",
+      "link": "https://www.alibabacloud.com/product/apsarastack",
+      "id": "apsarastack"
+    },
+    {
+      "name": "ApsaraDB for ClickHouse",
+      "categories": [
+        "Database",
+        "Data Warehouse"
+      ],
+      "description": "Cloud-native online data warehouse service compatible with open source ClickHouse",
+      "link": "https://www.alibabacloud.com/product/clickhouse",
+      "id": "clickhouse"
+    },
+    {
+      "name": "ApsaraDB for HBase",
+      "categories": [
+        "Database",
+        "NoSQL Database"
+      ],
+      "description": "A deeply-optimized NoSQL database, 100% compatible with Apache HBase",
+      "link": "https://www.alibabacloud.com/product/hbase",
+      "id": "hbase"
+    },
+    {
+      "name": "ApsaraDB for MongoDB",
+      "categories": [
+        "Database",
+        "NoSQL Database"
+      ],
+      "description": "A document-oriented database service",
+      "link": "https://www.alibabacloud.com/product/apsaradb-for-mongodb",
+      "id": "apsaradb-for-mongodb"
+    },
+    {
+      "name": "ApsaraDB for MyBase",
+      "categories": [
+        "Database",
+        "Dedicated Cluster"
+      ],
+      "description": "Solution for autonomous and controllable database service cluster on Alibaba Cloud",
+      "link": "https://www.alibabacloud.com/product/cddc",
+      "id": "cddc"
+    },
+    {
+      "name": "ApsaraDB for OceanBase",
+      "categories": [
+        "Database",
+        "Relational Database"
+      ],
+      "description": "Financial-grade database: high stability, high scalability, and high performance",
+      "link": "https://www.alibabacloud.com/product/oceanbase",
+      "id": "oceanbase"
+    },
+    {
+      "name": "ApsaraDB for Redis",
+      "categories": [
+        "Database",
+        "NoSQL Database"
+      ],
+      "description": "In-memory database caching",
+      "link": "https://www.alibabacloud.com/product/apsaradb-for-redis",
+      "id": "apsaradb-for-redis"
+    },
+    {
+      "name": "ApsaraDB RDS for MariaDB",
+      "categories": [
+        "Database",
+        "Relational Database"
+      ],
+      "description": "Capable and fully managed database",
+      "link": "https://www.alibabacloud.com/product/apsaradb-for-rds-mariadb",
+      "id": "apsaradb-for-rds-mariadb"
+    },
+    {
+      "name": "ApsaraDB RDS for MySQL",
+      "categories": [
+        "Database",
+        "Relational Database"
+      ],
+      "description": "Featured stable and capable with MySQL",
+      "link": "https://www.alibabacloud.com/product/apsaradb-for-rds-mysql",
+      "id": "apsaradb-for-rds-mysql"
+    },
+    {
+      "name": "ApsaraDB RDS for PostgreSQL",
+      "categories": [
+        "Database",
+        "Relational Database"
+      ],
+      "description": "Get low latency with high concurrency",
+      "link": "https://www.alibabacloud.com/product/apsaradb-for-rds-postgresql",
+      "id": "apsaradb-for-rds-postgresql"
+    },
+    {
+      "name": "ApsaraDB RDS for SQL Server",
+      "categories": [
+        "Database",
+        "Relational Database"
+      ],
+      "description": "Flexible version control and lower costs",
+      "link": "https://www.alibabacloud.com/product/apsaradb-for-rds-sql-server",
+      "id": "apsaradb-for-rds-sql-server"
+    },
+    {
+      "name": "ApsaraVideo for Media Processing",
+      "categories": [
+        "Media Services",
+        "Media Technology"
+      ],
+      "description": "A transcoding multimedia cloud service",
+      "link": "https://www.alibabacloud.com/product/mts",
+      "id": "mts"
+    },
+    {
+      "name": "ApsaraVideo Live",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Live streaming platform for audio & video",
+      "link": "https://www.alibabacloud.com/product/apsaravideo-for-live",
+      "id": "apsaravideo-for-live"
+    },
+    {
+      "name": "ApsaraVideo VOD",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "An all-in-one VOD solution",
+      "link": "https://www.alibabacloud.com/product/apsaravideo-for-vod",
+      "id": "apsaravideo-for-vod"
+    },
+    {
+      "name": "Auto Scaling",
+      "categories": [
+        "Elastic Computing",
+        "Elastic Orchestration"
+      ],
+      "description": "Auto Scaling automatically adjusts computing resources based on your business cycle",
+      "link": "https://www.alibabacloud.com/product/auto-scaling",
+      "id": "auto-scaling"
+    },
+    {
+      "name": "Bastionhost",
+      "categories": [
+        "Security",
+        "Cloud Security"
+      ],
+      "description": "A system O&M and operation audit platform",
+      "link": "https://www.alibabacloud.com/product/bastionhost",
+      "id": "bastionhost"
+    },
+    {
+      "name": "Batch Compute",
+      "categories": [
+        "Elastic Computing",
+        "HPC"
+      ],
+      "description": "Large-scale batch processing",
+      "link": "https://www.alibabacloud.com/product/batch-compute",
+      "id": "batch-compute"
+    },
+    {
+      "name": "Blockchain as a Service",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Blockchain"
+      ],
+      "description": "Secure and stable blockchain platform",
+      "link": "https://www.alibabacloud.com/product/baas",
+      "id": "baas"
+    },
+    {
+      "name": "Certificate Management Service(Original SSL Certificate)",
+      "categories": [
+        "Security",
+        "Cloud Security"
+      ],
+      "description": "Apply, buy, and manage SSL certificates",
+      "link": "https://www.alibabacloud.com/product/certificates",
+      "id": "certificates"
+    },
+    {
+      "name": "ChatAPP",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Cloud Communication"
+      ],
+      "description": "A messaging API to reach global users via WhatsApps",
+      "link": "https://www.alibabacloud.com/product/chatapp",
+      "id": "chatapp"
+    },
+    {
+      "name": "Cloud Architect Design Tools (CADT)",
+      "categories": [
+        "Developer Services",
+        "Corporate IT Governance"
+      ],
+      "description": "Build cloud architecture on a web graphical interface without writing code",
+      "link": "https://www.alibabacloud.com/product/cadt",
+      "id": "cadt"
+    },
+    {
+      "name": "Cloud Config",
+      "categories": [
+        "Security",
+        "Cloud Security",
+        "Developer Services",
+        "Corporate IT Governance"
+      ],
+      "description": "Configuration trace and compliance audit",
+      "link": "https://www.alibabacloud.com/products/cloud-config",
+      "id": "cloud-config"
+    },
+    {
+      "name": "Cloud Enterprise Network",
+      "categories": [
+        "Networking & CDN",
+        "Cross Region Network"
+      ],
+      "description": "Create enterprise-class global network",
+      "link": "https://www.alibabacloud.com/product/cen",
+      "id": "cen"
+    },
+    {
+      "name": "Cloud Firewall",
+      "categories": [
+        "Security",
+        "Cloud Security",
+        "Hybrid Cloud",
+        "Hybrid Cloud Security"
+      ],
+      "description": "The first defense of network security",
+      "link": "https://www.alibabacloud.com/product/cloud-firewall",
+      "id": "cloud-firewall"
+    },
+    {
+      "name": "Cloud Governance Center",
+      "categories": [
+        "Developer Services",
+        "Corporate IT Governance"
+      ],
+      "description": "Set up and manage an Alibaba Cloud multi-account environment in one-stop mode",
+      "link": "https://www.alibabacloud.com/product/cloud_governance_center",
+      "id": "cloud_governance_center"
+    },
+    {
+      "name": "Cloud Migration Hub",
+      "categories": [
+        "Developer Services",
+        "Backup, Migration and Disaster Recovery"
+      ],
+      "description": "One-stop automatic, intelligent tool to perform migration to Alibaba Cloud",
+      "link": "https://www.alibabacloud.com/product/cloud-migration-hub",
+      "id": "cloud-migration-hub"
+    },
+    {
+      "name": "Cloud Shell",
+      "categories": [
+        "Developer Services",
+        "API & SDK"
+      ],
+      "description": "Use CLI to manage cloud resources",
+      "link": "https://www.alibabacloud.com/product/cloud-shell",
+      "id": "cloud-shell"
+    },
+    {
+      "name": "Cloud Storage Gateway",
+      "categories": [
+        "Storage",
+        "Hybrid Cloud Storage"
+      ],
+      "description": "Seamless connection to the cloud storage",
+      "link": "https://www.alibabacloud.com/product/cloud-storage-gateway",
+      "id": "cloud-storage-gateway"
+    },
+    {
+      "name": "CloudAP",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Application Services"
+      ],
+      "description": "Integrate Wi-Fi and IoT networks quickly and use CloudAC for management",
+      "link": "https://www.alibabacloud.com/product/cloudap",
+      "id": "cloudap"
+    },
+    {
+      "name": "CloudESL",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Application Services"
+      ],
+      "description": "A smart ESL system for efficient and data-driven operations of retail stores",
+      "link": "https://www.alibabacloud.com/product/cloudesl",
+      "id": "cloudesl"
+    },
+    {
+      "name": "CloudMonitor",
+      "categories": [
+        "Developer Services"
+      ],
+      "description": "Real-time cloud monitoring service",
+      "link": "https://www.alibabacloud.com/product/cloud-monitor",
+      "id": "cloud-monitor"
+    },
+    {
+      "name": "CloudQuotation",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Application Services"
+      ],
+      "description": "Delivers stable, premium access to quotation data at ultra-low latency.",
+      "link": "https://www.alibabacloud.com/product/cloudqoutation",
+      "id": "cloudqoutation"
+    },
+    {
+      "name": "Compute Nest",
+      "categories": [
+        "Elastic Computing",
+        "Cloud Server"
+      ],
+      "description": "An application management service for service providers and customers",
+      "link": "https://www.alibabacloud.com/product/compute-nest",
+      "id": "compute-nest"
+    },
+    {
+      "name": "Container Registry",
+      "categories": [
+        "Elastic Computing",
+        "Container Service",
+        "Container & Middleware",
+        "Container",
+        "Developer Services",
+        "Warehouse Service"
+      ],
+      "description": "A secure image hosting platform",
+      "link": "https://www.alibabacloud.com/product/container-registry",
+      "id": "container-registry"
+    },
+    {
+      "name": "Container Service for Kubernetes",
+      "categories": [
+        "Elastic Computing",
+        "Container Service",
+        "Hybrid Cloud",
+        "Hybrid Cloud Application",
+        "Container & Middleware",
+        "Container"
+      ],
+      "description": "A certified Kubernetes platform",
+      "link": "https://www.alibabacloud.com/product/kubernetes",
+      "id": "kubernetes"
+    },
+    {
+      "name": "Content Moderation",
+      "categories": [
+        "Security",
+        "Business Security"
+      ],
+      "description": "Image and video content moderation",
+      "link": "https://www.alibabacloud.com/product/content-moderation",
+      "id": "content-moderation"
+    },
+    {
+      "name": "Data Encryption Service",
+      "categories": [
+        "Security",
+        "Data Security"
+      ],
+      "description": "Provides cloud hosted hardware security modules (HSMs) for cloud users",
+      "link": "https://www.alibabacloud.com/product/cloudhsm",
+      "id": "cloudhsm"
+    },
+    {
+      "name": "Data Integration",
+      "categories": [
+        "Analytics",
+        "Data Search and Analytics"
+      ],
+      "description": "Real-time & Offline Data Synchronization",
+      "link": "https://www.alibabacloud.com/product/data-integration",
+      "id": "data-integration"
+    },
+    {
+      "name": "Data Lake Formation",
+      "categories": [
+        "Analytics",
+        "Data Computing"
+      ],
+      "description": "A key component of the cloud-native data lake framework",
+      "link": "https://www.alibabacloud.com/product/datalake-formation",
+      "id": "datalake-formation"
+    },
+    {
+      "name": "Data Management",
+      "categories": [
+        "Database",
+        "Utility & Tools",
+        "Hybrid Cloud",
+        "Hybrid Cloud Data Connectivity"
+      ],
+      "description": "An integrated data management solution",
+      "link": "https://www.alibabacloud.com/products/data-management-service",
+      "id": "data-management-service"
+    },
+    {
+      "name": "Data Transfer Plan",
+      "categories": [
+        "Networking & CDN",
+        "Cloud Network"
+      ],
+      "description": "Package for your Internet traffic usage",
+      "link": "https://www.alibabacloud.com/product/data-transfer-plan",
+      "id": "data-transfer-plan"
+    },
+    {
+      "name": "Data Transmission Service",
+      "categories": [
+        "Database",
+        "Utility & Tools",
+        "Hybrid Cloud",
+        "Hybrid Cloud Data Connectivity"
+      ],
+      "description": "Data migration and data synchronization",
+      "link": "https://www.alibabacloud.com/product/data-transmission-service",
+      "id": "data-transmission-service"
+    },
+    {
+      "name": "Data Transport",
+      "categories": [
+        "Storage",
+        "Data Transport",
+        "Developer Services",
+        "Backup, Migration and Disaster Recovery"
+      ],
+      "description": "Migrate massive data to Alibaba Cloud",
+      "link": "https://www.alibabacloud.com/product/data-transport",
+      "id": "data-transport"
+    },
+    {
+      "name": "Database Autonomy Service",
+      "categories": [
+        "Database",
+        "Utility & Tools",
+        "Hybrid Cloud",
+        "Hybrid Cloud Data Connectivity"
+      ],
+      "description": "A self-perception, repair, optimization, and security database service",
+      "link": "https://www.alibabacloud.com/product/das",
+      "id": "das"
+    },
+    {
+      "name": "Database Backup",
+      "categories": [
+        "Database",
+        "Utility & Tools",
+        "Hybrid Cloud",
+        "Hybrid Cloud Data Connectivity",
+        "Developer Services",
+        "Backup, Migration and Disaster Recovery"
+      ],
+      "description": "A reliable and secure data backup service",
+      "link": "https://www.alibabacloud.com/product/database-backup",
+      "id": "database-backup"
+    },
+    {
+      "name": "DataHub",
+      "categories": [
+        "Analytics",
+        "Data Search and Analytics"
+      ],
+      "description": "Provide you with the functions of Publish and Subscribe for streaming data",
+      "link": "https://www.alibabacloud.com/product/datahub",
+      "id": "datahub"
+    },
+    {
+      "name": "Dataphin",
+      "categories": [
+        "Analytics",
+        "Data Development"
+      ],
+      "description": "Full path data creation and management",
+      "link": "https://www.alibabacloud.com/product/dataphin",
+      "id": "dataphin"
+    },
+    {
+      "name": "DataV",
+      "categories": [
+        "Analytics",
+        "Big Data Application and Visualization"
+      ],
+      "description": "Insightful big data visualization",
+      "link": "https://www.alibabacloud.com/product/datav",
+      "id": "datav"
+    },
+    {
+      "name": "DataWorks",
+      "categories": [
+        "Analytics",
+        "Data Development"
+      ],
+      "description": "A full data warehouse at only half cost",
+      "link": "https://www.alibabacloud.com/product/ide",
+      "id": "ide"
+    },
+    {
+      "name": "DBStack",
+      "categories": [
+        "Database",
+        "Relational Database"
+      ],
+      "description": "ApsaraDB platform deployed on any infrastructure, all under your ownership",
+      "link": "https://www.alibabacloud.com/product/dbstack",
+      "id": "dbstack"
+    },
+    {
+      "name": "Dedicated DingTalk",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Corporate Office Collaboration"
+      ],
+      "description": "Customize, Integrate, and Secure Your Mobile Workspace",
+      "link": "https://www.alibabacloud.com/solutions/dingtalk/dedicated-dingtalk",
+      "id": "dedicated-dingtalk"
+    },
+    {
+      "name": "Dedicated Host",
+      "categories": [
+        "Elastic Computing",
+        "Cloud Server"
+      ],
+      "description": "Your dedicated host on the cloud",
+      "link": "https://www.alibabacloud.com/product/dedicated-host",
+      "id": "dedicated-host"
+    },
+    {
+      "name": "Direct Mail",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Application Services"
+      ],
+      "description": "A simple and efficient email service",
+      "link": "https://www.alibabacloud.com/product/directmail",
+      "id": "directmail"
+    },
+    {
+      "name": "Domains",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Domains & Website"
+      ],
+      "description": "Join the 20 million on Alibaba Cloud",
+      "link": "https://www.alibabacloud.com/domain",
+      "id": "domain"
+    },
+    {
+      "name": "Drive and Photo Service",
+      "categories": [
+        "Storage",
+        "Storage Data Service"
+      ],
+      "description": "Build Your Enterprise Storage Space Easily",
+      "link": "https://www.alibabacloud.com/product/drive_and_photo_service",
+      "id": "drive_and_photo_service"
+    },
+    {
+      "name": "Dynamic Content Delivery Network",
+      "categories": [
+        "Networking & CDN",
+        "CDN and Edge"
+      ],
+      "description": "Provide dynamic acceleration abilities",
+      "link": "https://www.alibabacloud.com/product/dcdn",
+      "id": "dcdn"
+    },
+    {
+      "name": "E-MapReduce",
+      "categories": [
+        "Analytics",
+        "Data Computing"
+      ],
+      "description": "Big Data processing service",
+      "link": "https://www.alibabacloud.com/product/emapreduce",
+      "id": "emapreduce"
+    },
+    {
+      "name": "ECS Bare Metal Instance",
+      "categories": [
+        "Elastic Computing",
+        "Cloud Server"
+      ],
+      "description": "Elastic bare metal computing service",
+      "link": "https://www.alibabacloud.com/product/ebm",
+      "id": "ebm"
+    },
+    {
+      "name": "Edge Node Service (ENS)",
+      "categories": [
+        "Networking & CDN",
+        "CDN and Edge"
+      ],
+      "description": "Provide a one-stop experience for you to purchase elastic computing power resources that are near to end users and distributed in all regions",
+      "link": "https://www.alibabacloud.com/product/edge-node-service",
+      "id": "edge-node-service"
+    },
+    {
+      "name": "Elastic Block Storage",
+      "categories": [
+        "Storage",
+        "Essential Storage Service"
+      ],
+      "description": "A high-performance, high-reliability, and low-latency block storage service",
+      "link": "https://www.alibabacloud.com/product/disk",
+      "id": "disk"
+    },
+    {
+      "name": "Elastic Compute Service",
+      "categories": [
+        "Elastic Computing",
+        "Cloud Server"
+      ],
+      "description": "High-performing virtual servers",
+      "link": "https://www.alibabacloud.com/product/ecs",
+      "id": "ecs"
+    },
+    {
+      "name": "Elastic Container Instance",
+      "categories": [
+        "Elastic Computing",
+        "Container Service",
+        "Container & Middleware",
+        "Container"
+      ],
+      "description": "A serverless container instance service",
+      "link": "https://www.alibabacloud.com/product/elastic-container-instance",
+      "id": "elastic-container-instance"
+    },
+    {
+      "name": "Elastic Desktop Service",
+      "categories": [
+        "Elastic Computing",
+        "Cloud Server"
+      ],
+      "description": "A secure, efficient, and easy-to-use cloud-based desktop service",
+      "link": "https://www.alibabacloud.com/product/cloud-desktop",
+      "id": "cloud-desktop"
+    },
+    {
+      "name": "Elastic GPU Service",
+      "categories": [
+        "Elastic Computing",
+        "Cloud Server"
+      ],
+      "description": "Powerful parallel computing capabilities",
+      "link": "https://www.alibabacloud.com/product/gpu",
+      "id": "gpu"
+    },
+    {
+      "name": "Elastic High Performance Computing",
+      "categories": [
+        "Elastic Computing",
+        "HPC"
+      ],
+      "description": "High-performing public computing service",
+      "link": "https://www.alibabacloud.com/product/ehpc",
+      "id": "ehpc"
+    },
+    {
+      "name": "Elastic IP Address",
+      "categories": [
+        "Networking & CDN",
+        "Cloud Network"
+      ],
+      "description": "An independent public IP resource",
+      "link": "https://www.alibabacloud.com/product/eip",
+      "id": "eip"
+    },
+    {
+      "name": "Elasticsearch",
+      "categories": [
+        "Analytics",
+        "Data Computing"
+      ],
+      "description": "Search and analytics with Elasticsearch",
+      "link": "https://www.alibabacloud.com/product/elasticsearch",
+      "id": "elasticsearch"
+    },
+    {
+      "name": "EMAS HTTPDNS",
+      "categories": [
+        "Developer Services"
+      ],
+      "description": "An anti-hijacking, high-precision, and low-latency domain name resolution service for apps",
+      "link": "https://www.alibabacloud.com/product/emas/httpdns",
+      "id": "httpdns"
+    },
+    {
+      "name": "EMAS Mobile Testing",
+      "categories": [
+        "Developer Services"
+      ],
+      "description": "Cloud platform that provides device testing services for enterprises and mobile developers 24/7",
+      "link": "https://www.alibabacloud.com/product/mobile-testing",
+      "id": "mobile-testing"
+    },
+    {
+      "name": "Energy Expert",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Application Services"
+      ],
+      "description": "Help enterprises measure and analyze their carbon emissions and product carbon footprints",
+      "link": "https://www.alibabacloud.com/product/energy-expert",
+      "id": "energy-expert"
+    },
+    {
+      "name": "Enterprise Distributed Application Service",
+      "categories": [
+        "Hybrid Cloud",
+        "Hybrid Cloud Application",
+        "Container & Middleware",
+        "Micro Services"
+      ],
+      "description": "App deployment and microservice solution",
+      "link": "https://www.alibabacloud.com/product/edas",
+      "id": "edas"
+    },
+    {
+      "name": "EventBridge",
+      "categories": [
+        "Container & Middleware",
+        "Message Queue"
+      ],
+      "description": "A serverless event bus service",
+      "link": "https://www.alibabacloud.com/product/eventbridge",
+      "id": "eventbridge"
+    },
+    {
+      "name": "Express Connect",
+      "categories": [
+        "Networking & CDN",
+        "Hybrid Cloud Network",
+        "Hybrid Cloud"
+      ],
+      "description": "Dedicated physical connections",
+      "link": "https://www.alibabacloud.com/product/express-connect",
+      "id": "express-connect"
+    },
+    {
+      "name": "Fraud Detection",
+      "categories": [
+        "Security",
+        "Business Security"
+      ],
+      "description": "Real-time analysis and accurate identification of risk management solution",
+      "link": "https://www.alibabacloud.com/product/fraud-detection",
+      "id": "fraud-detection"
+    },
+    {
+      "name": "Function Compute",
+      "categories": [
+        "Elastic Computing",
+        "Serverless",
+        "Container & Middleware"
+      ],
+      "description": "Run your code in serverless environment",
+      "link": "https://www.alibabacloud.com/product/function-compute",
+      "id": "function-compute"
+    },
+    {
+      "name": "GameShield",
+      "categories": [
+        "Security",
+        "Business Security"
+      ],
+      "description": "A customizable network security solution",
+      "link": "https://www.alibabacloud.com/products/gameshield",
+      "id": "gameshield"
+    },
+    {
+      "name": "Global Accelerator",
+      "categories": [
+        "Networking & CDN",
+        "Cross Region Network"
+      ],
+      "description": "Accelerate Internet applications globally to improve user experience",
+      "link": "https://www.alibabacloud.com/product/ga",
+      "id": "ga"
+    },
+    {
+      "name": "Global Traffic Manager",
+      "categories": [
+        "Networking & CDN",
+        "Cloud Network"
+      ],
+      "description": "Global acceleration, scheduling, and disaster recovery across IP addresses",
+      "link": "https://www.alibabacloud.com/product/global-traffic-manager",
+      "id": "global-traffic-manager"
+    },
+    {
+      "name": "GoChina ICP Filing Assistant",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Domains & Website"
+      ],
+      "description": "Help enterprises navigate the requirements to obtain an ICP filing",
+      "link": "https://www.alibabacloud.com/product/icp-filing",
+      "id": "icp-filing"
+    },
+    {
+      "name": "Hologres",
+      "categories": [
+        "Analytics",
+        "Data Computing"
+      ],
+      "description": "Real-time analytics compatible with PostgreSQL",
+      "link": "https://www.alibabacloud.com/product/hologres",
+      "id": "hologres"
+    },
+    {
+      "name": "Hybrid Backup Recovery",
+      "categories": [
+        "Storage",
+        "Storage Data Service",
+        "Hybrid Cloud",
+        "Hybrid Cloud Data Connectivity",
+        "Developer Services",
+        "Backup, Migration and Disaster Recovery"
+      ],
+      "description": "A BaaS solution that protects your data",
+      "link": "https://www.alibabacloud.com/product/hybrid-backup-recovery",
+      "id": "hybrid-backup-recovery"
+    },
+    {
+      "name": "Hybrid Cloud Distributed Storage",
+      "categories": [
+        "Storage",
+        "Hybrid Cloud Storage",
+        "Hybrid Cloud",
+        "Hybrid Cloud Data Connectivity"
+      ],
+      "description": "Provides scalable and reliable distributed block and object storage services.",
+      "link": "https://www.alibabacloud.com/product/hybrid-cloud-distributed-storage",
+      "id": "hybrid-cloud-distributed-storage"
+    },
+    {
+      "name": "Hybrid Cloud Storage",
+      "categories": [
+        "Storage",
+        "Hybrid Cloud Storage",
+        "Hybrid Cloud",
+        "Hybrid Cloud Data Connectivity"
+      ],
+      "description": "Enterprise-level cloud storage array",
+      "link": "https://www.alibabacloud.com/product/storage-array",
+      "id": "storage-array"
+    },
+    {
+      "name": "IDaaS",
+      "categories": [
+        "Security",
+        "Identity Management"
+      ],
+      "description": "Provides account, authentication, authorization, application, and audit features",
+      "link": "https://www.alibabacloud.com/product/identity-as-a-service-idaas",
+      "id": "identity-as-a-service-idaas"
+    },
+    {
+      "name": "Image Search",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "description": "High-precision visual search solution",
+      "link": "https://www.alibabacloud.com/product/imagesearch",
+      "id": "imagesearch"
+    },
+    {
+      "name": "Intelligent Service Robot",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Intelligent Services"
+      ],
+      "description": "Chatbot platform for smart interactions",
+      "link": "https://www.alibabacloud.com/product/bot",
+      "id": "bot"
+    },
+    {
+      "name": "Intelligent Speech Interaction",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "description": "Speech recognition & synthesis platform",
+      "link": "https://www.alibabacloud.com/product/intelligent-speech-interaction",
+      "id": "intelligent-speech-interaction"
+    },
+    {
+      "name": "IoT Platform",
+      "categories": [
+        "Internet of Things"
+      ],
+      "description": "A one-stop IoT management platform",
+      "link": "https://www.alibabacloud.com/product/iot",
+      "id": "iot"
+    },
+    {
+      "name": "Key Management Service",
+      "categories": [
+        "Security",
+        "Data Security"
+      ],
+      "description": "Create and manage encryption keys",
+      "link": "https://www.alibabacloud.com/product/kms",
+      "id": "kms"
+    },
+    {
+      "name": "Lindorm",
+      "categories": [
+        "Database",
+        "NoSQL Database"
+      ],
+      "description": "A cloud-native multi-model database",
+      "link": "https://www.alibabacloud.com/product/lindorm",
+      "id": "lindorm"
+    },
+    {
+      "name": "Link IoT Edge",
+      "categories": [
+        "Internet of Things"
+      ],
+      "description": "A service platform that extends computing from the cloud to the edge",
+      "link": "https://www.alibabacloud.com/product/linkiotedge",
+      "id": "linkiotedge"
+    },
+    {
+      "name": "Log Service",
+      "categories": [
+        "Storage",
+        "Storage Data Service",
+        "Analytics",
+        "Data Computing",
+        "Developer Services"
+      ],
+      "description": "An all-in-one service for log-type data",
+      "link": "https://www.alibabacloud.com/product/log-service",
+      "id": "log-service"
+    },
+    {
+      "name": "Machine Learning Platform For AI",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "description": "An end-to-end machine learning platform",
+      "link": "https://www.alibabacloud.com/product/machine-learning",
+      "id": "machine-learning"
+    },
+    {
+      "name": "Machine Translation",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "description": "Bespoken and qualified machine translation",
+      "link": "https://www.alibabacloud.com/product/machine-translation",
+      "id": "machine-translation"
+    },
+    {
+      "name": "Managed Security Service",
+      "categories": [
+        "Security",
+        "Security Service"
+      ],
+      "description": "Managed security service on the cloud",
+      "link": "https://www.alibabacloud.com/product/mss",
+      "id": "mss"
+    },
+    {
+      "name": "MaxCompute",
+      "categories": [
+        "Analytics",
+        "Data Computing"
+      ],
+      "description": "Large-scale data warehousing",
+      "link": "https://www.alibabacloud.com/product/maxcompute",
+      "id": "maxcompute"
+    },
+    {
+      "name": "Message Queue for Apache Kafka",
+      "categories": [
+        "Container & Middleware",
+        "Message Queue"
+      ],
+      "description": "Fully-managed and out-of-the-box Message Queue service powered by Apache Kafka",
+      "link": "https://www.alibabacloud.com/product/kafka",
+      "id": "kafka"
+    },
+    {
+      "name": "Message Queue for RabbitMQ",
+      "categories": [
+        "Container & Middleware",
+        "Message Queue"
+      ],
+      "description": "An out-of-the-box fully managed RabbitMQ service",
+      "link": "https://www.alibabacloud.com/product/rabbitmq",
+      "id": "rabbitmq"
+    },
+    {
+      "name": "Message Service",
+      "categories": [
+        "Container & Middleware",
+        "Message Queue"
+      ],
+      "description": "Send messages between applications",
+      "link": "https://www.alibabacloud.com/product/message-service",
+      "id": "message-service"
+    },
+    {
+      "name": "Microservices Engine",
+      "categories": [
+        "Container & Middleware",
+        "Micro Services"
+      ],
+      "description": "One-stop Platform Compatible with Mainstream Open Source Microservice Ecosystems",
+      "link": "https://www.alibabacloud.com/product/microservices-engine",
+      "id": "microservices-engine"
+    },
+    {
+      "name": "mPaaS",
+      "categories": [
+        "Developer Services"
+      ],
+      "description": "Help enterprises build high-quality, stable mobile apps",
+      "link": "https://www.alibabacloud.com/product/mpaas",
+      "id": "mpaas"
+    },
+    {
+      "name": "NAT Gateway",
+      "categories": [
+        "Networking & CDN",
+        "Cloud Network"
+      ],
+      "description": "Public Internet gateway",
+      "link": "https://www.alibabacloud.com/product/nat",
+      "id": "nat"
+    },
+    {
+      "name": "Network Intelligence Service (NIS)",
+      "categories": [
+        "Networking & CDN",
+        "Cloud Network"
+      ],
+      "description": "Self-service network O&M service that features network status visualization and intelligent diagnostics capabilities",
+      "link": "https://www.alibabacloud.com/product/network-intelligent-service",
+      "id": "network-intelligent-service"
+    },
+    {
+      "name": "Object Storage Service",
+      "categories": [
+        "Storage",
+        "Essential Storage Service"
+      ],
+      "description": "Store, backup and archive your data",
+      "link": "https://www.alibabacloud.com/product/oss",
+      "id": "oss"
+    },
+    {
+      "name": "Offline Visual Intelligence Software Packages",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "description": "Offline SDKs for visual production, such as image segmentation, video segmentation, and character recognition.",
+      "link": "https://www.alibabacloud.com/product/ivpd",
+      "id": "ivpd"
+    },
+    {
+      "name": "OpenAPI Explorer",
+      "categories": [
+        "Developer Services",
+        "API & SDK"
+      ],
+      "description": "Do more with your API calls and requests",
+      "link": "https://www.alibabacloud.com/product/openapiexplorer",
+      "id": "openapiexplorer"
+    },
+    {
+      "name": "OpenSearch",
+      "categories": [
+        "Analytics",
+        "Intelligent Search and Recommendation"
+      ],
+      "description": "One-stop platform for intelligent search service development",
+      "link": "https://www.alibabacloud.com/product/opensearch",
+      "id": "opensearch"
+    },
+    {
+      "name": "Operation Orchestration Service",
+      "categories": [
+        "Elastic Computing",
+        "Elastic Orchestration"
+      ],
+      "description": "Automated operations and maintenance service to manage and execute O&M tasks",
+      "link": "https://www.alibabacloud.com/product/oos",
+      "id": "oos"
+    },
+    {
+      "name": "Penetration Test",
+      "categories": [
+        "Security",
+        "Security Service",
+        "Hybrid Cloud",
+        "Hybrid Cloud Security"
+      ],
+      "description": "Simulates attacks to test your system security in full scale and in depth",
+      "link": "https://www.alibabacloud.com/product/penetration-test",
+      "id": "penetration-test"
+    },
+    {
+      "name": "PolarDB",
+      "categories": [
+        "Database",
+        "Relational Database"
+      ],
+      "description": "A next-generation relational database",
+      "link": "https://www.alibabacloud.com/product/polardb",
+      "id": "polardb"
+    },
+    {
+      "name": "PolarDB-X",
+      "categories": [
+        "Database",
+        "Relational Database"
+      ],
+      "description": "Be scalable for big relational databases",
+      "link": "https://www.alibabacloud.com/product/polardb-x",
+      "id": "polardb-x"
+    },
+    {
+      "name": "PrivateLink",
+      "categories": [
+        "Networking & CDN",
+        "Cloud Network"
+      ],
+      "description": "Secure, convenient, and private connections to services on Alibaba Cloud",
+      "link": "https://www.alibabacloud.com/product/private-link",
+      "id": "private-link"
+    },
+    {
+      "name": "Quick BI",
+      "categories": [
+        "Analytics",
+        "Big Data Application and Visualization"
+      ],
+      "description": "Analytics & visualization for big data",
+      "link": "https://www.alibabacloud.com/product/quickbi",
+      "id": "quickbi"
+    },
+    {
+      "name": "Real-Time Streaming",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Live streaming service that provides ultra-low latency and high concurrency",
+      "link": "https://www.alibabacloud.com/product/apsaravideo-for-live/rts",
+      "id": "rts"
+    },
+    {
+      "name": "Realtime Compute for Apache Flink",
+      "categories": [
+        "Analytics",
+        "Data Computing"
+      ],
+      "description": "A platform for real-time data processing",
+      "link": "https://www.alibabacloud.com/product/realtime-compute",
+      "id": "realtime-compute"
+    },
+    {
+      "name": "Resource Access Management",
+      "categories": [
+        "Security",
+        "Identity Management",
+        "Developer Services",
+        "Corporate IT Governance"
+      ],
+      "description": "Authorize and manage resource access",
+      "link": "https://www.alibabacloud.com/product/ram",
+      "id": "ram"
+    },
+    {
+      "name": "Resource Management",
+      "categories": [
+        "Developer Services",
+        "Corporate IT Governance"
+      ],
+      "description": "Organize and manage all your resources by using directories, folders, accounts, and groups in a hierarchical manner",
+      "link": "https://www.alibabacloud.com/product/resource_management",
+      "id": "resource_management"
+    },
+    {
+      "name": "Resource Orchestration Service",
+      "categories": [
+        "Elastic Computing",
+        "Elastic Orchestration"
+      ],
+      "description": "Simplify the Operations and Management (O&M) of your computing resources",
+      "link": "https://www.alibabacloud.com/product/ros",
+      "id": "ros"
+    },
+    {
+      "name": "Robotic Process Automation",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Corporate Office Collaboration"
+      ],
+      "description": "Automated business processes to improve enterprise efficiency",
+      "link": "https://www.alibabacloud.com/product/rpa",
+      "id": "rpa"
+    },
+    {
+      "name": "Secure Content Delivery",
+      "categories": [
+        "Security",
+        "Cloud Security"
+      ],
+      "description": "Speed up your website and application by Alibaba Cloud secure DCDN",
+      "link": "https://www.alibabacloud.com/solutions/content-delivery/secure-dcdn",
+      "id": "secure-dcdn"
+    },
+    {
+      "name": "Security Center",
+      "categories": [
+        "Security",
+        "Cloud Security",
+        "Hybrid Cloud",
+        "Hybrid Cloud Security"
+      ],
+      "description": "Round the clock security and protection",
+      "link": "https://www.alibabacloud.com/product/security-center",
+      "id": "security-center"
+    },
+    {
+      "name": "Sensitive Data Discovery & Protection",
+      "categories": [
+        "Security",
+        "Data Security"
+      ],
+      "description": "A security service that protects sensitive data",
+      "link": "https://www.alibabacloud.com/product/sddp",
+      "id": "sddp"
+    },
+    {
+      "name": "Server Load Balancer",
+      "categories": [
+        "Networking & CDN",
+        "Cloud Network"
+      ],
+      "description": "Distribute traffic across resources",
+      "link": "https://www.alibabacloud.com/product/server-load-balancer",
+      "id": "server-load-balancer"
+    },
+    {
+      "name": "Serverless Workflow",
+      "categories": [
+        "Elastic Computing",
+        "Serverless",
+        "Container & Middleware"
+      ],
+      "description": "A serverless cloud service that orchestrates distributed tasks",
+      "link": "https://www.alibabacloud.com/product/serverless-workflow",
+      "id": "serverless-workflow"
+    },
+    {
+      "name": "Severless Application Engine",
+      "categories": [
+        "Elastic Computing",
+        "Serverless"
+      ],
+      "description": "A serverless PaaS for cost-effective and efficient application hosting",
+      "link": "https://www.alibabacloud.com/product/severless-application-engine",
+      "id": "severless-application-engine"
+    },
+    {
+      "name": "Short Message Service",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Cloud Communication"
+      ],
+      "description": "A messaging service for business",
+      "link": "https://www.alibabacloud.com/product/short-message-service",
+      "id": "short-message-service"
+    },
+    {
+      "name": "Simple Application Server",
+      "categories": [
+        "Elastic Computing",
+        "Cloud Server"
+      ],
+      "description": "All-in-one services for fast deployment",
+      "link": "https://www.alibabacloud.com/product/swas",
+      "id": "swas"
+    },
+    {
+      "name": "Smart Access Gateway",
+      "categories": [
+        "Networking & CDN",
+        "Hybrid Cloud Network",
+        "Hybrid Cloud"
+      ],
+      "description": "Connect enterprise networks to cloud",
+      "link": "https://www.alibabacloud.com/product/smart-access-gateway",
+      "id": "smart-access-gateway"
+    },
+    {
+      "name": "SOFAStack™",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Application Services"
+      ],
+      "description": "Financial-grade one-stop high-availability application R&D and O&M platform based on a cloud-native distributed architecture",
+      "link": "https://www.alibabacloud.com/product/sofastack",
+      "id": "sofastack"
+    },
+    {
+      "name": "Storage Capacity Unit",
+      "categories": [
+        "Storage",
+        "Essential Storage Service"
+      ],
+      "description": "Plan and optimize your storage budget with flexible storage services",
+      "link": "https://www.alibabacloud.com/product/scu",
+      "id": "scu"
+    },
+    {
+      "name": "Super Computing Cluster",
+      "categories": [
+        "Elastic Computing",
+        "HPC"
+      ],
+      "description": "Parallel computing on a RDMA network",
+      "link": "https://www.alibabacloud.com/product/scc",
+      "id": "scc"
+    },
+    {
+      "name": "Tablestore",
+      "categories": [
+        "Database",
+        "NoSQL Database",
+        "Storage",
+        "Essential Storage Service"
+      ],
+      "description": "Store data in a NoSQL database",
+      "link": "https://www.alibabacloud.com/product/table-store",
+      "id": "table-store"
+    },
+    {
+      "name": "Tair",
+      "categories": [
+        "Database",
+        "NoSQL Database"
+      ],
+      "description": "Redis-compatible, high-performance in-memory cache with Persistent Memory (PMEM)",
+      "link": "https://www.alibabacloud.com/product/tair",
+      "id": "tair"
+    },
+    {
+      "name": "Time Series Database",
+      "categories": [
+        "Database",
+        "NoSQL Database"
+      ],
+      "description": "An IoT database with millions of IOPS",
+      "link": "https://www.alibabacloud.com/product/hitsdb",
+      "id": "hitsdb"
+    },
+    {
+      "name": "Time Series Database for InfluxDB®️",
+      "categories": [
+        "Database",
+        "NoSQL Database"
+      ],
+      "description": "A low-cost, highly available and scalable online time series database",
+      "link": "https://www.alibabacloud.com/product/hitsdb_influxdb",
+      "id": "hitsdb_influxdb"
+    },
+    {
+      "name": "Tracing Analysis",
+      "categories": [
+        "Container & Middleware",
+        "Applications",
+        "Developer Services"
+      ],
+      "description": "Easily debug and analyze applications",
+      "link": "https://www.alibabacloud.com/product/tracing-analysis",
+      "id": "tracing-analysis"
+    },
+    {
+      "name": "Virtual Private Cloud",
+      "categories": [
+        "Networking & CDN",
+        "Cloud Network"
+      ],
+      "description": "Launch a private cloud network",
+      "link": "https://www.alibabacloud.com/product/vpc",
+      "id": "vpc"
+    },
+    {
+      "name": "VPN Gateway",
+      "categories": [
+        "Networking & CDN",
+        "Hybrid Cloud Network",
+        "Hybrid Cloud"
+      ],
+      "description": "Connect securely to VPC",
+      "link": "https://www.alibabacloud.com/product/vpn-gateway",
+      "id": "vpn-gateway"
+    },
+    {
+      "name": "Web Application Firewall",
+      "categories": [
+        "Security",
+        "Cloud Security",
+        "Hybrid Cloud",
+        "Hybrid Cloud Security"
+      ],
+      "description": "Secure your web applications",
+      "link": "https://www.alibabacloud.com/product/web-application-firewall",
+      "id": "web-application-firewall"
+    },
+    {
+      "name": "WHOIS",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Domains & Website"
+      ],
+      "description": "Search WHOIS database to look up domain",
+      "link": "https://www.alibabacloud.com/whois",
+      "id": "whois"
+    },
+    {
+      "name": "YiDA",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Corporate Office Collaboration"
+      ],
+      "description": "Low-code SaaS for Developing Enterprise Applications",
+      "link": "https://www.alibabacloud.com/product/yida",
+      "id": "yida"
+    },
+    {
+      "name": "ZOLOZ Real ID",
+      "categories": [
+        "Enterprise Applications & Cloud Communication",
+        "Application Services"
+      ],
+      "description": "A digital and remote online solution for eKYC",
+      "link": "https://www.alibabacloud.com/product/real-id",
+      "id": "real-id"
+    }
+  ]
+}

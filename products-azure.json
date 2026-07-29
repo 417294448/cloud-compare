@@ -1,0 +1,1924 @@
+{
+  "source": "https://azure.microsoft.com/en-us/products",
+  "module": "Browse all Azure products (by category)",
+  "fetchedAt": "2026-07-28",
+  "totalProducts": 204,
+  "products": [
+    {
+      "name": "AI Anomaly Detector",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Easily add anomaly detection capabilities to your apps.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-anomaly-detector/",
+      "id": "ai-anomaly-detector"
+    },
+    {
+      "name": "API Management",
+      "categories": [
+        "Integration",
+        "Internet of Things",
+        "Mobile",
+        "Web"
+      ],
+      "description": "Publish APIs to developers, partners, and employees securely and at scale.",
+      "link": "https://azure.microsoft.com/en-us/products/api-management/",
+      "id": "api-management"
+    },
+    {
+      "name": "App Configuration",
+      "categories": [
+        "Containers",
+        "Developer tools",
+        "Mobile",
+        "Web"
+      ],
+      "description": "Fast, scalable parameter storage for app configuration.",
+      "link": "https://azure.microsoft.com/en-us/products/app-configuration/",
+      "id": "app-configuration"
+    },
+    {
+      "name": "App Service",
+      "categories": [
+        "Compute",
+        "Mobile",
+        "Web"
+      ],
+      "description": "Quickly create powerful cloud apps for web and mobile.",
+      "link": "https://azure.microsoft.com/en-us/products/app-service/",
+      "id": "app-service"
+    },
+    {
+      "name": "Archive Storage",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Industry leading price point for storing rarely accessed data.",
+      "link": "https://azure.microsoft.com/en-us/products/storage",
+      "id": "storage"
+    },
+    {
+      "name": "Artifact Signing",
+      "categories": [
+        "Developer tools"
+      ],
+      "description": "Secure your applications with a fully managed end-to-end signing service for code, documents, applications, and more.",
+      "link": "https://azure.microsoft.com/en-us/products/artifact-signing",
+      "id": "artifact-signing"
+    },
+    {
+      "name": "Automation",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Simplify cloud management with process automation.",
+      "link": "https://azure.microsoft.com/en-us/products/automation/",
+      "id": "automation"
+    },
+    {
+      "name": "Azure Advisor",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Your personalized Azure best practices recommendation engine.",
+      "link": "https://azure.microsoft.com/en-us/products/advisor/",
+      "id": "advisor"
+    },
+    {
+      "name": "Azure AI Bot Service",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Create bots and connect them across channels.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-bot-service/",
+      "id": "ai-bot-service"
+    },
+    {
+      "name": "Azure AI Custom Vision",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Easily customize your own state-of-the-art computer vision models for your unique use case.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-custom-vision/",
+      "id": "ai-custom-vision"
+    },
+    {
+      "name": "Azure AI Immersive Reader",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Empower users of all ages and abilities to read and comprehend text.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-immersive-reader/",
+      "id": "ai-immersive-reader"
+    },
+    {
+      "name": "Azure AI Metrics Advisor",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "An AI service that monitors metrics and diagnoses issues.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-metrics-advisor/",
+      "id": "ai-metrics-advisor"
+    },
+    {
+      "name": "Azure AI Personalizer",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Deliver personalized, relevant experiences for each of your users.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-personalizer/",
+      "id": "ai-personalizer"
+    },
+    {
+      "name": "Azure AI Search",
+      "categories": [
+        "AI + machine learning",
+        "Mobile",
+        "Web"
+      ],
+      "description": "Connect agents to one unified context layer for data sources, memory and retrieval-augmented generation (RAG) pipelines.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
+      "id": "ai-search"
+    },
+    {
+      "name": "Azure AI Video Indexer",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Easily extract meaningful insights from audio and video files using media AI.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-video-indexer/",
+      "id": "ai-video-indexer"
+    },
+    {
+      "name": "Azure Analysis Services",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Enterprise-grade analytics engine as a service.",
+      "link": "https://azure.microsoft.com/en-us/products/analysis-services/",
+      "id": "analysis-services"
+    },
+    {
+      "name": "Azure App Configuration",
+      "categories": [
+        "Security"
+      ],
+      "description": "Fast, scalable parameter storage for app configuration.",
+      "link": "https://azure.microsoft.com/en-us/products/app-configuration/",
+      "id": "app-configuration"
+    },
+    {
+      "name": "Azure App Testing",
+      "categories": [
+        "Developer tools",
+        "DevOps"
+      ],
+      "description": "Optimize app performance with high-scale load testing.",
+      "link": "https://azure.microsoft.com/en-us/products/app-testing/",
+      "id": "app-testing"
+    },
+    {
+      "name": "Azure Application Gateway",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "description": "Build secure, scalable, highly available web front ends in Azure.",
+      "link": "https://azure.microsoft.com/en-us/products/application-gateway",
+      "id": "application-gateway"
+    },
+    {
+      "name": "Azure Arc",
+      "categories": [
+        "Hybrid + multicloud"
+      ],
+      "description": "Secure, develop, and operate infrastructure, apps, and Azure services anywhere.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-arc/",
+      "id": "azure-arc"
+    },
+    {
+      "name": "Azure Artifacts",
+      "categories": [
+        "DevOps"
+      ],
+      "description": "Create, host, and share packages with your team.",
+      "link": "https://azure.microsoft.com/en-us/products/devops/artifacts/",
+      "id": "artifacts"
+    },
+    {
+      "name": "Azure Automanage",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Effortless automation of cloud and on-premises infrastructure.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-automanage/",
+      "id": "azure-automanage"
+    },
+    {
+      "name": "Azure Backup",
+      "categories": [
+        "Management and governance",
+        "Storage"
+      ],
+      "description": "Simplify data protection with built-in backup management at scale.",
+      "link": "https://azure.microsoft.com/en-us/products/backup/",
+      "id": "backup"
+    },
+    {
+      "name": "Azure Bastion",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "description": "Fully managed service that helps secure remote access to your virtual machines.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-bastion/",
+      "id": "azure-bastion"
+    },
+    {
+      "name": "Azure Blob Storage",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Massively scalable and secure object storage.",
+      "link": "https://azure.microsoft.com/en-us/products/storage/blobs/",
+      "id": "blobs"
+    },
+    {
+      "name": "Azure Blueprints",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Enabling quick, repeatable creation of governed environments.",
+      "link": "https://azure.microsoft.com/en-us/products/blueprints/",
+      "id": "blueprints"
+    },
+    {
+      "name": "Azure Boards",
+      "categories": [
+        "DevOps"
+      ],
+      "description": "Plan, track, and discuss work across your teams.",
+      "link": "https://azure.microsoft.com/en-us/products/devops/boards/",
+      "id": "boards"
+    },
+    {
+      "name": "Azure Chaos Studio",
+      "categories": [
+        "Analytics",
+        "Management and governance"
+      ],
+      "description": "Improve application resilience by simulating outages and other disruptions through fault injection.",
+      "link": "https://azure.microsoft.com/en-us/products/chaos-studio/",
+      "id": "chaos-studio"
+    },
+    {
+      "name": "Azure Cloud HSM",
+      "categories": [
+        "Security"
+      ],
+      "description": "Fully managed, customer-owned, single-tenant hardware security module that provides secure key storage and cryptographic operations within your private virtual network.",
+      "link": "https://azure.microsoft.com/en-us/products/cloud-hsm",
+      "id": "cloud-hsm"
+    },
+    {
+      "name": "Azure Communication Services",
+      "categories": [
+        "Mobile",
+        "Web"
+      ],
+      "description": "Build multichannel communication experiences.",
+      "link": "https://azure.microsoft.com/en-us/products/communication-services/",
+      "id": "communication-services"
+    },
+    {
+      "name": "Azure Compute Fleet",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Easily provision and manage Azure compute capacity at scale.",
+      "link": "https://azure.microsoft.com/en-us/products/compute-fleet",
+      "id": "compute-fleet"
+    },
+    {
+      "name": "Azure confidential ledger",
+      "categories": [
+        "Databases",
+        "Security",
+        "Storage"
+      ],
+      "description": "Protect data with a tamperproof, unstructured data store hosted in trusted execution environments (TEEs) and backed by cryptographically verifiable evidence.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-confidential-ledger/",
+      "id": "azure-confidential-ledger"
+    },
+    {
+      "name": "Azure Container Apps",
+      "categories": [
+        "Compute",
+        "Containers",
+        "Web"
+      ],
+      "description": "Build and deploy modern apps and microservices using serverless containers.",
+      "link": "https://azure.microsoft.com/en-us/products/container-apps/",
+      "id": "container-apps"
+    },
+    {
+      "name": "Azure Container Instances",
+      "categories": [
+        "Compute",
+        "Containers"
+      ],
+      "description": "Launch containers with hypervisor isolation.",
+      "link": "https://azure.microsoft.com/en-us/products/container-instances/",
+      "id": "container-instances"
+    },
+    {
+      "name": "Azure Container Registry",
+      "categories": [
+        "Containers"
+      ],
+      "description": "Build, store, secure, and replicate container images and artifacts.",
+      "link": "https://azure.microsoft.com/en-us/products/container-registry/",
+      "id": "container-registry"
+    },
+    {
+      "name": "Azure Container Storage",
+      "categories": [
+        "Containers",
+        "Storage"
+      ],
+      "description": "Manage persistent volumes for stateful container applications.",
+      "link": "https://azure.microsoft.com/en-us/products/container-storage/",
+      "id": "container-storage"
+    },
+    {
+      "name": "Azure Content Delivery Network",
+      "categories": [
+        "Networking",
+        "Web"
+      ],
+      "description": "Fast, reliable content delivery network with global reach.",
+      "link": "https://azure.microsoft.com/en-us/products/cdn/",
+      "id": "cdn"
+    },
+    {
+      "name": "Azure Content Understanding in Foundry Tools",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Accelerate multimodal AI agent development.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/tools/content-understanding",
+      "id": "content-understanding"
+    },
+    {
+      "name": "Azure Copilot",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Harness the collective intelligence of Azure agents with an AI companion.",
+      "link": "https://azure.microsoft.com/en-us/products/copilot",
+      "id": "copilot"
+    },
+    {
+      "name": "Azure Cosmos DB",
+      "categories": [
+        "Databases",
+        "Internet of Things"
+      ],
+      "description": "Build or modernize scalable, high-performance apps.",
+      "link": "https://azure.microsoft.com/en-us/products/cosmos-db/",
+      "id": "cosmos-db"
+    },
+    {
+      "name": "Azure Data Box",
+      "categories": [
+        "Migration",
+        "Storage"
+      ],
+      "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
+      "link": "https://azure.microsoft.com/en-us/products/databox/",
+      "id": "databox"
+    },
+    {
+      "name": "Azure Data Explorer",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Fast and highly scalable data exploration service.",
+      "link": "https://azure.microsoft.com/en-us/products/data-explorer/",
+      "id": "data-explorer"
+    },
+    {
+      "name": "Azure Data Factory",
+      "categories": [
+        "Analytics",
+        "Databases"
+      ],
+      "description": "Hybrid data integration at enterprise scale, made easy.",
+      "link": "https://azure.microsoft.com/en-us/products/data-factory/",
+      "id": "data-factory"
+    },
+    {
+      "name": "Azure Data Lake Storage",
+      "categories": [
+        "Analytics",
+        "Storage"
+      ],
+      "description": "Scalable, secure data lake for high-performance analytics.",
+      "link": "https://azure.microsoft.com/en-us/products/storage/data-lake-storage/",
+      "id": "data-lake-storage"
+    },
+    {
+      "name": "Azure Data Share",
+      "categories": [
+        "Analytics",
+        "Storage"
+      ],
+      "description": "A simple and safe service for sharing big data with external organizations.",
+      "link": "https://azure.microsoft.com/en-us/products/data-share/",
+      "id": "data-share"
+    },
+    {
+      "name": "Azure Database for MySQL",
+      "categories": [
+        "Databases"
+      ],
+      "description": "Modernize with a fully managed, scalable MySQL database.",
+      "link": "https://azure.microsoft.com/en-us/products/mysql/",
+      "id": "mysql"
+    },
+    {
+      "name": "Azure Database for PostgreSQL",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "description": "Innovate with a fully managed, intelligent, and scalable PostgreSQL database.",
+      "link": "https://azure.microsoft.com/en-us/products/postgresql/",
+      "id": "postgresql"
+    },
+    {
+      "name": "Azure Database Migration Service",
+      "categories": [
+        "Databases",
+        "Migration"
+      ],
+      "description": "Simplify your data migration to Azure.",
+      "link": "https://azure.microsoft.com/en-us/products/database-migration/",
+      "id": "database-migration"
+    },
+    {
+      "name": "Azure Databricks",
+      "categories": [
+        "AI + machine learning",
+        "Analytics"
+      ],
+      "description": "Design AI with Apache Spark™-based analytics.",
+      "link": "https://azure.microsoft.com/en-us/products/databricks/",
+      "id": "databricks"
+    },
+    {
+      "name": "Azure DDoS Protection",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "description": "Protect your Azure resources from distributed denial-of-service (DDoS) attacks.",
+      "link": "https://azure.microsoft.com/en-us/products/ddos-protection/",
+      "id": "ddos-protection"
+    },
+    {
+      "name": "Azure Dedicated Host",
+      "categories": [
+        "Compute"
+      ],
+      "description": "A dedicated physical server to host your Azure VMs for Windows and Linux.",
+      "link": "https://azure.microsoft.com/en-us/products/virtual-machines/dedicated-host/",
+      "id": "dedicated-host"
+    },
+    {
+      "name": "Azure Deployment Environments",
+      "categories": [
+        "Developer tools",
+        "DevOps"
+      ],
+      "description": "Quickly spin up app infrastructure environments with project-based templates.",
+      "link": "https://azure.microsoft.com/en-us/products/deployment-environments/",
+      "id": "deployment-environments"
+    },
+    {
+      "name": "Azure DevOps",
+      "categories": [
+        "Developer tools",
+        "DevOps",
+        "Hybrid + multicloud"
+      ],
+      "description": "Services for teams to share code, track work, and ship software.",
+      "link": "https://azure.microsoft.com/en-us/products/devops/",
+      "id": "devops"
+    },
+    {
+      "name": "Azure DevTest Labs",
+      "categories": [
+        "Developer tools",
+        "DevOps"
+      ],
+      "description": "Quickly create environments using reusable templates and artifacts.",
+      "link": "https://azure.microsoft.com/en-us/products/devtest-lab/",
+      "id": "devtest-lab"
+    },
+    {
+      "name": "Azure Digital Twins",
+      "categories": [
+        "Internet of Things",
+        "Mixed reality"
+      ],
+      "description": "Use IoT spatial intelligence to create models of physical environments.",
+      "link": "https://azure.microsoft.com/en-us/products/digital-twins/",
+      "id": "digital-twins"
+    },
+    {
+      "name": "Azure Disk Storage",
+      "categories": [
+        "Storage"
+      ],
+      "description": "High-performance, highly durable block storage.",
+      "link": "https://azure.microsoft.com/en-us/products/storage/disks/",
+      "id": "disks"
+    },
+    {
+      "name": "Azure DNS",
+      "categories": [
+        "Networking"
+      ],
+      "description": "Host your Domain Name System (DNS) domain in Azure.",
+      "link": "https://azure.microsoft.com/en-us/products/dns/",
+      "id": "dns"
+    },
+    {
+      "name": "Azure Document Intelligence in Foundry Tools",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Accelerate information extraction from documents.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/tools/document-intelligence",
+      "id": "document-intelligence"
+    },
+    {
+      "name": "Azure DocumentDB",
+      "categories": [
+        "Databases"
+      ],
+      "description": "Build AI-driven apps and standardize on an open-source, MongoDB-compatible engine.",
+      "link": "https://azure.microsoft.com/en-us/products/documentdb",
+      "id": "documentdb"
+    },
+    {
+      "name": "Azure Elastic SAN",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Elastic SAN is a cloud-native Storage Area Network (SAN) service built on Azure. Gain access to an end-to-end experience like your on-premises SAN.",
+      "link": "https://azure.microsoft.com/en-us/products/storage/elastic-san/",
+      "id": "elastic-san"
+    },
+    {
+      "name": "Azure ExpressRoute",
+      "categories": [
+        "Hybrid + multicloud",
+        "Networking"
+      ],
+      "description": "Experience a fast, reliable, and private connection to Azure.",
+      "link": "https://azure.microsoft.com/en-us/products/expressroute/",
+      "id": "expressroute"
+    },
+    {
+      "name": "Azure Files",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Simple, secure and serverless enterprise-grade cloud file shares.",
+      "link": "https://azure.microsoft.com/en-us/products/storage/files/",
+      "id": "files"
+    },
+    {
+      "name": "Azure Firewall",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "description": "Protect your Azure Virtual Network resources with cloud-native network security.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-firewall/",
+      "id": "azure-firewall"
+    },
+    {
+      "name": "Azure Firewall Manager",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "description": "Central network security policy and route management for globally distributed, software-defined perimeters.",
+      "link": "https://azure.microsoft.com/en-us/products/firewall-manager/",
+      "id": "firewall-manager"
+    },
+    {
+      "name": "Azure Fluid Relay",
+      "categories": [
+        "Web"
+      ],
+      "description": "Easily add real-time collaborative experiences to your apps with Fluid Framework.",
+      "link": "https://azure.microsoft.com/en-us/products/fluid-relay/",
+      "id": "fluid-relay"
+    },
+    {
+      "name": "Azure Front Door",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "description": "Modern cloud CDN that delivers optimized experiences to your users anywhere.",
+      "link": "https://azure.microsoft.com/en-us/products/frontdoor/",
+      "id": "frontdoor"
+    },
+    {
+      "name": "Azure Functions",
+      "categories": [
+        "Compute",
+        "Containers",
+        "Internet of Things"
+      ],
+      "description": "Execute event-driven serverless code functions with an end-to-end development experience.",
+      "link": "https://azure.microsoft.com/en-us/products/functions/",
+      "id": "functions"
+    },
+    {
+      "name": "Azure Health Data Services",
+      "categories": [
+        "Integration"
+      ],
+      "description": "Unify and manage health data and protected health information (PHI) in the cloud.",
+      "link": "https://azure.microsoft.com/en-us/products/health-data-services/",
+      "id": "health-data-services"
+    },
+    {
+      "name": "Azure HorizonDB",
+      "categories": [
+        "Databases"
+      ],
+      "description": "Build and scale mission-critical applications on a new PostgreSQL cloud database service engineered for performance.",
+      "link": "https://azure.microsoft.com/en-us/products/horizondb",
+      "id": "horizondb"
+    },
+    {
+      "name": "Azure Information Protection",
+      "categories": [
+        "Security"
+      ],
+      "description": "Better protect your sensitive information—anytime, anywhere.",
+      "link": "https://www.microsoft.com/en-us/security/business/information-protection/microsoft-purview-information-protection",
+      "id": "microsoft-purview-information-protection"
+    },
+    {
+      "name": "Azure IoT Central",
+      "categories": [
+        "Internet of Things"
+      ],
+      "description": "Go from proof of concept to proof of value.",
+      "link": "https://azure.microsoft.com/en-us/products/iot-central/",
+      "id": "iot-central"
+    },
+    {
+      "name": "Azure IoT Edge",
+      "categories": [
+        "Hybrid + multicloud",
+        "Internet of Things"
+      ],
+      "description": "Extend cloud intelligence and analytics to edge devices.",
+      "link": "https://azure.microsoft.com/en-us/products/iot-edge/",
+      "id": "iot-edge"
+    },
+    {
+      "name": "Azure IoT Hub",
+      "categories": [
+        "Internet of Things"
+      ],
+      "description": "Connect, monitor, and manage billions of IoT assets.",
+      "link": "https://azure.microsoft.com/en-us/products/iot-hub/",
+      "id": "iot-hub"
+    },
+    {
+      "name": "Azure IoT Operations",
+      "categories": [
+        "Internet of Things"
+      ],
+      "description": "Unlock insights for intelligent local actions and global visibility. Enabled by Azure Arc.",
+      "link": "https://azure.microsoft.com/en-us/products/iot-operations",
+      "id": "iot-operations"
+    },
+    {
+      "name": "Azure Key Vault",
+      "categories": [
+        "Security"
+      ],
+      "description": "Safeguard and maintain control of keys and other secrets.",
+      "link": "https://azure.microsoft.com/en-us/products/key-vault/",
+      "id": "key-vault"
+    },
+    {
+      "name": "Azure Kubernetes Fleet Manager",
+      "categories": [
+        "Containers"
+      ],
+      "description": "Seamlessly manage Kubernetes clusters at scale.",
+      "link": "https://azure.microsoft.com/en-us/products/kubernetes-fleet-manager/",
+      "id": "kubernetes-fleet-manager"
+    },
+    {
+      "name": "Azure Kubernetes Service (AKS)",
+      "categories": [
+        "Compute",
+        "Containers"
+      ],
+      "description": "Deploy and scale containers on managed Kubernetes.",
+      "link": "https://azure.microsoft.com/en-us/products/kubernetes-service/",
+      "id": "kubernetes-service"
+    },
+    {
+      "name": "Azure Lab Services",
+      "categories": [
+        "Virtual desktop infrastructure"
+      ],
+      "description": "Set up virtual labs for classes, training, hackathons, and other related scenarios.",
+      "link": "https://azure.microsoft.com/en-us/products/lab-services/",
+      "id": "lab-services"
+    },
+    {
+      "name": "Azure Language in Foundry Tools",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Build apps that understand, analyze, and generate human language with AI.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/tools/language",
+      "id": "language"
+    },
+    {
+      "name": "Azure Lighthouse",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Empowering service providers to manage customers at scale and with precision.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-lighthouse/",
+      "id": "azure-lighthouse"
+    },
+    {
+      "name": "Azure Linux",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Explore a Microsoft-maintained Linux distribution optimized for Azure Virtual Machines and AKS workloads.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-linux/",
+      "id": "azure-linux"
+    },
+    {
+      "name": "Azure Load Balancer",
+      "categories": [
+        "Networking"
+      ],
+      "description": "Deliver high availability and network performance to your apps.",
+      "link": "https://azure.microsoft.com/en-us/products/load-balancer/",
+      "id": "load-balancer"
+    },
+    {
+      "name": "Azure Local",
+      "categories": [
+        "Hybrid + multicloud"
+      ],
+      "description": "Run your production workloads anywhere on a cloud connected distributed infrastructure.",
+      "link": "https://azure.microsoft.com/en-us/products/local/",
+      "id": "local"
+    },
+    {
+      "name": "Azure Machine Learning",
+      "categories": [
+        "AI + machine learning",
+        "Internet of Things"
+      ],
+      "description": "Use an enterprise-grade service for the end-to-end machine learning lifecycle.",
+      "link": "https://azure.microsoft.com/en-us/products/machine-learning/",
+      "id": "machine-learning"
+    },
+    {
+      "name": "Azure Managed Applications",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Simplify management of cloud offerings.",
+      "link": "https://azure.microsoft.com/en-us/products/managed-applications/",
+      "id": "managed-applications"
+    },
+    {
+      "name": "Azure Managed Grafana",
+      "categories": [
+        "DevOps",
+        "Management and governance"
+      ],
+      "description": "Deploy Grafana dashboards as a fully managed Azure service.",
+      "link": "https://azure.microsoft.com/en-us/products/managed-grafana/",
+      "id": "managed-grafana"
+    },
+    {
+      "name": "Azure Managed Instance for Apache Cassandra",
+      "categories": [
+        "Databases"
+      ],
+      "description": "Modernize Cassandra data clusters with a managed instance in the cloud.",
+      "link": "https://azure.microsoft.com/en-us/products/managed-instance-apache-cassandra/",
+      "id": "managed-instance-apache-cassandra"
+    },
+    {
+      "name": "Azure Managed Lustre",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Azure Managed Lustre is a fully managed, cloud based parallel file system that enables customers to run their high performance computing (HPC) workloads in the cloud.",
+      "link": "https://azure.microsoft.com/en-us/products/managed-lustre/",
+      "id": "managed-lustre"
+    },
+    {
+      "name": "Azure Managed Redis",
+      "categories": [
+        "Databases"
+      ],
+      "description": "Take advantage of a fully managed, in-memory database with the latest Redis innovations.",
+      "link": "https://azure.microsoft.com/en-us/products/managed-redis",
+      "id": "managed-redis"
+    },
+    {
+      "name": "Azure Maps",
+      "categories": [
+        "Internet of Things",
+        "Mobile",
+        "Web"
+      ],
+      "description": "Add location data and mapping visuals to business applications and solutions.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-maps/",
+      "id": "azure-maps"
+    },
+    {
+      "name": "Azure Migrate",
+      "categories": [
+        "Management and governance",
+        "Migration"
+      ],
+      "description": "Simplify migration and modernization with a unified platform.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-migrate/",
+      "id": "azure-migrate"
+    },
+    {
+      "name": "Azure Monitor",
+      "categories": [
+        "DevOps",
+        "Management and governance"
+      ],
+      "description": "Full observability into your applications, infrastructure, and network.",
+      "link": "https://azure.microsoft.com/en-us/products/monitor/",
+      "id": "monitor"
+    },
+    {
+      "name": "Azure NAT Gateway",
+      "categories": [
+        "Networking"
+      ],
+      "description": "Provide highly reliable, secure, and scalable outbound connectivity to the internet.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-nat-gateway",
+      "id": "azure-nat-gateway"
+    },
+    {
+      "name": "Azure NetApp Files",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Enterprise-grade Azure file shares, powered by NetApp.",
+      "link": "https://azure.microsoft.com/en-us/products/netapp/",
+      "id": "netapp"
+    },
+    {
+      "name": "Azure Network Function Manager",
+      "categories": [
+        "Networking"
+      ],
+      "description": "Extend Azure management for deploying 5G and SD-WAN network functions on edge devices.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-network-function-manager/",
+      "id": "azure-network-function-manager"
+    },
+    {
+      "name": "Azure Network Watcher",
+      "categories": [
+        "Management and governance",
+        "Networking"
+      ],
+      "description": "Network performance monitoring and diagnostics solution.",
+      "link": "https://azure.microsoft.com/en-us/products/network-watcher/",
+      "id": "network-watcher"
+    },
+    {
+      "name": "Azure Open Datasets",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Cloud platform to host and share curated open datasets to accelerate development of machine learning models.",
+      "link": "https://azure.microsoft.com/en-us/products/open-datasets/",
+      "id": "open-datasets"
+    },
+    {
+      "name": "Azure OpenAI in Foundry Models",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Apply advanced coding and language models to a variety of use cases.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-services/openai-service/",
+      "id": "openai-service"
+    },
+    {
+      "name": "Azure Operator Nexus",
+      "categories": [
+        "Hybrid + multicloud"
+      ],
+      "description": "Discover a hybrid platform built for mission-critical mobile network applications and can support deployment of both containerized and virtualized network functions.",
+      "link": "https://azure.microsoft.com/en-us/products/operator-nexus/",
+      "id": "operator-nexus"
+    },
+    {
+      "name": "Azure Operator Service Manager",
+      "categories": [
+        "Hybrid + multicloud"
+      ],
+      "description": "Simplify the deployment, upgrade, and management of complex operator services.",
+      "link": "https://azure.microsoft.com/en-us/products/operator-service-manager/",
+      "id": "operator-service-manager"
+    },
+    {
+      "name": "Azure Pipelines",
+      "categories": [
+        "Developer tools",
+        "DevOps"
+      ],
+      "description": "Continuously build, test, and deploy to any platform and cloud.",
+      "link": "https://azure.microsoft.com/en-us/products/devops/pipelines/",
+      "id": "pipelines"
+    },
+    {
+      "name": "Azure Policy",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Implement corporate governance and standards at scale.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-policy/",
+      "id": "azure-policy"
+    },
+    {
+      "name": "Azure Private Link",
+      "categories": [
+        "Networking"
+      ],
+      "description": "Private access to services hosted on the Azure platform, keeping your data on the Microsoft network.",
+      "link": "https://azure.microsoft.com/en-us/products/private-link/",
+      "id": "private-link"
+    },
+    {
+      "name": "Azure Quantum",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Jump in and explore a diverse selection of today's quantum hardware, software, and solutions.",
+      "link": "https://azure.microsoft.com/en-us/products/quantum/",
+      "id": "quantum"
+    },
+    {
+      "name": "Azure Red Hat OpenShift",
+      "categories": [
+        "Containers"
+      ],
+      "description": "Deploy and scale containers on managed Red Hat OpenShift.",
+      "link": "https://azure.microsoft.com/en-us/products/openshift/",
+      "id": "openshift"
+    },
+    {
+      "name": "Azure Repos",
+      "categories": [
+        "DevOps"
+      ],
+      "description": "Get unlimited, cloud-hosted private Git repos for your project.",
+      "link": "https://azure.microsoft.com/en-us/products/devops/repos/",
+      "id": "repos"
+    },
+    {
+      "name": "Azure Resource Manager",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Simplify how you manage your app resources.",
+      "link": "https://azure.microsoft.com/en-us/get-started/azure-portal/resource-manager/",
+      "id": "resource-manager"
+    },
+    {
+      "name": "Azure Resource Manager templates",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Deliver infrastructure as code for all your Azure resources using Resource Manager.",
+      "link": "https://azure.microsoft.com/en-us/products/arm-templates/",
+      "id": "arm-templates"
+    },
+    {
+      "name": "Azure Resource Mover",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Simplify how you move multiple resources between Azure regions.",
+      "link": "https://azure.microsoft.com/en-us/products/resource-mover/",
+      "id": "resource-mover"
+    },
+    {
+      "name": "Azure Route Server",
+      "categories": [
+        "Networking"
+      ],
+      "description": "Enable network appliances to exchange routes dynamically with virtual networks in Azure.",
+      "link": "https://azure.microsoft.com/en-us/products/route-server/",
+      "id": "route-server"
+    },
+    {
+      "name": "Azure SignalR Service",
+      "categories": [
+        "Web"
+      ],
+      "description": "Add real-time web functionalities easily.",
+      "link": "https://azure.microsoft.com/en-us/products/signalr-service/",
+      "id": "signalr-service"
+    },
+    {
+      "name": "Azure Site Recovery",
+      "categories": [
+        "Management and governance",
+        "Migration"
+      ],
+      "description": "Keep your business running with built-in disaster recovery service.",
+      "link": "https://azure.microsoft.com/en-us/products/site-recovery/",
+      "id": "site-recovery"
+    },
+    {
+      "name": "Azure Speech in Foundry Tools",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Energize your apps and agents with prebuilt, customizable, multilingual speech AI models.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/tools/speech/",
+      "id": "speech"
+    },
+    {
+      "name": "Azure Sphere",
+      "categories": [
+        "Internet of Things"
+      ],
+      "description": "Create, connect, and maintain secured intelligent IoT devices from the edge to the cloud.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-sphere/",
+      "id": "azure-sphere"
+    },
+    {
+      "name": "Azure Spot Virtual Machines",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Provision unused compute capacity at deep discounts to run interruptible workloads.",
+      "link": "https://azure.microsoft.com/en-us/products/virtual-machines/spot/",
+      "id": "spot"
+    },
+    {
+      "name": "Azure Spring Apps",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Build and deploy Spring Boot applications with a fully managed service from Microsoft and VMware.",
+      "link": "https://azure.microsoft.com/en-us/products/spring-apps/",
+      "id": "spring-apps"
+    },
+    {
+      "name": "Azure SQL",
+      "categories": [
+        "Databases"
+      ],
+      "description": "Migrate, modernize, and innovate on the modern SQL family of cloud databases.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-sql/",
+      "id": "azure-sql"
+    },
+    {
+      "name": "Azure SQL Database",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "description": "Build apps that scale with a managed and intelligent SQL database in the cloud.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-sql/database/",
+      "id": "database"
+    },
+    {
+      "name": "Azure SQL Managed Instance",
+      "categories": [
+        "Databases"
+      ],
+      "description": "Modernize SQL Server applications with a managed, always-up-to-date SQL instance in the cloud.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-sql/managed-instance/",
+      "id": "managed-instance"
+    },
+    {
+      "name": "Azure SRE Agent",
+      "categories": [
+        "AI + machine learning",
+        "DevOps",
+        "Management and governance"
+      ],
+      "description": "Automate repetitive tasks and improve incident response using an autonomous incident mitigation and resource optimization agent with intelligent precision.",
+      "link": "https://azure.microsoft.com/en-us/products/sre-agent",
+      "id": "sre-agent"
+    },
+    {
+      "name": "Azure Stack Edge",
+      "categories": [
+        "Hybrid + multicloud"
+      ],
+      "description": "An Azure managed device that brings the compute, storage, and intelligence of Azure to the edge.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-stack/edge/",
+      "id": "edge"
+    },
+    {
+      "name": "Azure Stack Hub",
+      "categories": [
+        "Hybrid + multicloud"
+      ],
+      "description": "Azure Stack Hub is sold as an integrated hardware system, with software pre-installed on validated hardware.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-stack/hub/",
+      "id": "hub"
+    },
+    {
+      "name": "Azure Storage Actions",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Simplify storage data management at massive scale.",
+      "link": "https://azure.microsoft.com/en-us/products/storage-actions",
+      "id": "storage-actions"
+    },
+    {
+      "name": "Azure Storage Discovery",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Unlock storage insights with Azure Storage Discovery. Gain visibility with Azure storage monitoring and hone your data strategy with storage solutions insights.",
+      "link": "https://azure.microsoft.com/en-us/products/storage-discovery",
+      "id": "storage-discovery"
+    },
+    {
+      "name": "Azure Storage Mover",
+      "categories": [
+        "Migration"
+      ],
+      "description": "Explore Azure Storage Mover to migrate data to Azure from on-premises or another cloud. Simplify migration with safe, scalable transfers built for modernization.",
+      "link": "https://azure.microsoft.com/en-us/products/storage-mover",
+      "id": "storage-mover"
+    },
+    {
+      "name": "Azure Stream Analytics",
+      "categories": [
+        "Analytics",
+        "Internet of Things"
+      ],
+      "description": "Real-time analytics on fast-moving streaming data.",
+      "link": "https://azure.microsoft.com/en-us/products/stream-analytics/",
+      "id": "stream-analytics"
+    },
+    {
+      "name": "Azure Synapse Analytics",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Limitless analytics with unmatched time to insight.",
+      "link": "https://azure.microsoft.com/en-us/products/synapse-analytics/",
+      "id": "synapse-analytics"
+    },
+    {
+      "name": "Azure Test Plans",
+      "categories": [
+        "DevOps"
+      ],
+      "description": "Test and ship confidently with an exploratory test toolkit.",
+      "link": "https://azure.microsoft.com/en-us/products/devops/test-plans/",
+      "id": "test-plans"
+    },
+    {
+      "name": "Azure Traffic Manager",
+      "categories": [
+        "Management and governance",
+        "Networking"
+      ],
+      "description": "Route incoming traffic for high performance and availability.",
+      "link": "https://azure.microsoft.com/en-us/products/traffic-manager/",
+      "id": "traffic-manager"
+    },
+    {
+      "name": "Azure Translator in Foundry Tools",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Break language barriers with instant, AI-powered translation.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/tools/translator",
+      "id": "translator"
+    },
+    {
+      "name": "Azure Virtual Desktop",
+      "categories": [
+        "Compute",
+        "Virtual desktop infrastructure"
+      ],
+      "description": "Enable a secure, remote desktop experience from anywhere.",
+      "link": "https://azure.microsoft.com/en-us/products/virtual-desktop/",
+      "id": "virtual-desktop"
+    },
+    {
+      "name": "Azure Virtual Network",
+      "categories": [
+        "Networking"
+      ],
+      "description": "Create your own private network infrastructure in the cloud.",
+      "link": "https://azure.microsoft.com/en-us/products/virtual-network/",
+      "id": "virtual-network"
+    },
+    {
+      "name": "Azure Virtual Network Manager",
+      "categories": [
+        "Networking"
+      ],
+      "description": "Centrally manage virtual networks in Azure from a single pane of glass.",
+      "link": "https://azure.microsoft.com/en-us/products/virtual-network-manager",
+      "id": "virtual-network-manager"
+    },
+    {
+      "name": "Azure Virtual WAN",
+      "categories": [
+        "Networking"
+      ],
+      "description": "Optimize and automate branch to branch connectivity through Azure.",
+      "link": "https://azure.microsoft.com/en-us/products/virtual-wan/",
+      "id": "virtual-wan"
+    },
+    {
+      "name": "Azure Vision in Foundry Tools",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Discover vision AI from image and video analysis.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/tools/vision",
+      "id": "vision"
+    },
+    {
+      "name": "Azure VM Image Builder",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Simplify your image building process with easy to use tool.",
+      "link": "https://azure.microsoft.com/en-us/products/image-builder/",
+      "id": "image-builder"
+    },
+    {
+      "name": "Azure VMware Solution",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Run your VMware workloads natively on Azure.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-vmware/",
+      "id": "azure-vmware"
+    },
+    {
+      "name": "Azure VPN Gateway",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "description": "Establish secure, cross-premises connectivity.",
+      "link": "https://azure.microsoft.com/en-us/products/vpn-gateway/",
+      "id": "vpn-gateway"
+    },
+    {
+      "name": "Azure Web Application Firewall",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "description": "A cloud-native web application firewall (WAF) service that provides powerful protection for web apps.",
+      "link": "https://azure.microsoft.com/en-us/products/web-application-firewall/",
+      "id": "web-application-firewall"
+    },
+    {
+      "name": "Azure Web PubSub",
+      "categories": [
+        "Integration",
+        "Web"
+      ],
+      "description": "Easily build real-time messaging web applications using WebSockets and the publish-subscribe pattern.",
+      "link": "https://azure.microsoft.com/en-us/products/web-pubsub/",
+      "id": "web-pubsub"
+    },
+    {
+      "name": "Batch",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Cloud-scale job scheduling and compute management.",
+      "link": "https://azure.microsoft.com/en-us/products/batch/",
+      "id": "batch"
+    },
+    {
+      "name": "Cloud Services",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Create highly-available, infinitely-scalable cloud applications and APIs.",
+      "link": "https://azure.microsoft.com/en-us/products/cloud-services/",
+      "id": "cloud-services"
+    },
+    {
+      "name": "Cloud Shell",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Streamline Azure administration with a browser-based shell.",
+      "link": "https://azure.microsoft.com/en-us/get-started/azure-portal/cloud-shell/",
+      "id": "cloud-shell"
+    },
+    {
+      "name": "Content Delivery Network",
+      "categories": [
+        "Media"
+      ],
+      "description": "Fast, reliable content delivery network with global reach.",
+      "link": "https://azure.microsoft.com/en-us/products/cdn/",
+      "id": "cdn"
+    },
+    {
+      "name": "Content Safety in Foundry Control Plane",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Automated image, text, and video moderation.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-content-safety/",
+      "id": "ai-content-safety"
+    },
+    {
+      "name": "Data Catalog",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Get more value from your enterprise data assets.",
+      "link": "https://azure.microsoft.com/en-us/products/data-catalog/",
+      "id": "data-catalog"
+    },
+    {
+      "name": "Data Lake Analytics",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Distributed analytics service that makes big data easy.",
+      "link": "https://azure.microsoft.com/en-us/products/data-lake-analytics/",
+      "id": "data-lake-analytics"
+    },
+    {
+      "name": "Data Science Virtual Machines",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Rich pre-configured environment for AI development.",
+      "link": "https://azure.microsoft.com/en-us/products/virtual-machines/data-science-virtual-machines/",
+      "id": "data-science-virtual-machines"
+    },
+    {
+      "name": "Defender External Attack Surface Management",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Safeguard the digital experience by discovering all internet-exposed resources with Microsoft Defender External Attack Surface Management (EASM).",
+      "link": "https://azure.microsoft.com/en-us/products/defender-external-attack-surface-management/",
+      "id": "defender-external-attack-surface-management"
+    },
+    {
+      "name": "DevOps tool integrations",
+      "categories": [
+        "DevOps"
+      ],
+      "description": "Use your favorite DevOps tools with Azure.",
+      "link": "https://azure.microsoft.com/en-us/products/devops/",
+      "id": "devops"
+    },
+    {
+      "name": "Event Grid",
+      "categories": [
+        "Integration",
+        "Internet of Things"
+      ],
+      "description": "Reliable event delivery at massive scale.",
+      "link": "https://azure.microsoft.com/en-us/products/event-grid/",
+      "id": "event-grid"
+    },
+    {
+      "name": "Event Hubs",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Receive telemetry from millions of devices.",
+      "link": "https://azure.microsoft.com/en-us/products/event-hubs/",
+      "id": "event-hubs"
+    },
+    {
+      "name": "Foundry Agent Service",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Create AI agents that automate complex business processes—completing specific tasks while keeping humans in control.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-agent-service/",
+      "id": "ai-agent-service"
+    },
+    {
+      "name": "Foundry Control Plane",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Observe, control, secure, and govern AI agents across your organization",
+      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/control-plane",
+      "id": "control-plane"
+    },
+    {
+      "name": "Foundry IQ",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Unlock ubiquitous knowledge for agents. Deliver superior results with AI agents grounded on organizational data.",
+      "link": "https://azure.microsoft.com/en-us/products/foundry/iq",
+      "id": "iq"
+    },
+    {
+      "name": "Foundry Models",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Empowering you to find the best model for every use case.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-model-catalog",
+      "id": "ai-model-catalog"
+    },
+    {
+      "name": "Foundry Tools",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Build cutting-edge, market-ready AI applications with customizable tools, APIs, and models.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/tools/",
+      "id": "tools"
+    },
+    {
+      "name": "GitHub Advanced Security",
+      "categories": [
+        "DevOps"
+      ],
+      "description": "Empower your developers to work better together, fix security issues faster, and reduce overall security risk.",
+      "link": "https://azure.microsoft.com/en-us/products/github/Advanced-Security",
+      "id": "Advanced-Security"
+    },
+    {
+      "name": "GitHub Advanced Security for Azure DevOps",
+      "categories": [
+        "DevOps"
+      ],
+      "description": "Develop securely from inception to ship.",
+      "link": "https://azure.microsoft.com/en-us/products/devops/github-advanced-security",
+      "id": "github-advanced-security"
+    },
+    {
+      "name": "GitHub Copilot",
+      "categories": [
+        "DevOps"
+      ],
+      "description": "Increase software development velocity and inspire continuous innovation with GitHub Copilot, the world’s most widely adopted AI developer tool.",
+      "link": "https://azure.microsoft.com/en-us/products/github/Copilot",
+      "id": "Copilot"
+    },
+    {
+      "name": "Github Enterprise",
+      "categories": [
+        "DevOps"
+      ],
+      "description": "Unlock innovation at scale with GitHub Enterprise and Microsoft Azure.",
+      "link": "https://azure.microsoft.com/en-us/products/github",
+      "id": "github"
+    },
+    {
+      "name": "HDInsight",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Provision cloud Hadoop, Spark, R Server, HBase, and Storm clusters.",
+      "link": "https://azure.microsoft.com/en-us/products/hdinsight/",
+      "id": "hdinsight"
+    },
+    {
+      "name": "Health Bot",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "A managed service purpose-built for development of virtual healthcare assistants.",
+      "link": "https://azure.microsoft.com/en-us/products/bot-services/health-bot/",
+      "id": "health-bot"
+    },
+    {
+      "name": "Linux Virtual Machines",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Provision virtual machines for Ubuntu, Red Hat, and more.",
+      "link": "https://azure.microsoft.com/en-us/products/virtual-machines/linux/",
+      "id": "linux"
+    },
+    {
+      "name": "Logic Apps",
+      "categories": [
+        "Integration",
+        "Internet of Things"
+      ],
+      "description": "Automate the access and use of data across clouds.",
+      "link": "https://azure.microsoft.com/en-us/products/logic-apps/",
+      "id": "logic-apps"
+    },
+    {
+      "name": "Microsoft Azure Attestation",
+      "categories": [
+        "Security"
+      ],
+      "description": "A unified solution for remotely verifying the trustworthiness of a platform and integrity of the binaries running inside it.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-attestation/",
+      "id": "azure-attestation"
+    },
+    {
+      "name": "Microsoft Cost Management",
+      "categories": [
+        "Management and governance",
+        "Migration"
+      ],
+      "description": "Monitor, allocate, and optimize cloud costs with transparency, accuracy, and efficiency.",
+      "link": "https://azure.microsoft.com/en-us/products/cost-management/",
+      "id": "cost-management"
+    },
+    {
+      "name": "Microsoft Defender External Attack Surface Management",
+      "categories": [
+        "Security"
+      ],
+      "description": "Safeguard the digital experience by discovering all internet-exposed resources with Microsoft Defender External Attack Surface Management (EASM).",
+      "link": "https://azure.microsoft.com/en-us/products/defender-external-attack-surface-management/",
+      "id": "defender-external-attack-surface-management"
+    },
+    {
+      "name": "Microsoft Defender for Cloud",
+      "categories": [
+        "Hybrid + multicloud",
+        "Security"
+      ],
+      "description": "Extend threat protection to any infrastructure.",
+      "link": "https://azure.microsoft.com/en-us/products/defender-for-cloud/",
+      "id": "defender-for-cloud"
+    },
+    {
+      "name": "Microsoft Dev Box",
+      "categories": [
+        "Developer tools",
+        "DevOps",
+        "Virtual desktop infrastructure"
+      ],
+      "description": "Streamline development with secure, ready-to-code workstations in the cloud.",
+      "link": "https://azure.microsoft.com/en-us/products/dev-box/",
+      "id": "dev-box"
+    },
+    {
+      "name": "Microsoft Energy Data Services",
+      "categories": [
+        "Integration"
+      ],
+      "description": "Accelerate your journey to energy data modernization and digital transformation.",
+      "link": "https://azure.microsoft.com/en-us/products/data-manager-for-energy",
+      "id": "data-manager-for-energy"
+    },
+    {
+      "name": "Microsoft Entra Domain Services",
+      "categories": [
+        "Identity",
+        "Security"
+      ],
+      "description": "Manage your domain controllers in the cloud.",
+      "link": "https://azure.microsoft.com/en-us/products/microsoft-entra-ds",
+      "id": "microsoft-entra-ds"
+    },
+    {
+      "name": "Microsoft Entra External ID",
+      "categories": [
+        "Identity"
+      ],
+      "description": "Personalize and help secure access to any application for customers and partners.",
+      "link": "https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-external-id",
+      "id": "microsoft-entra-external-id"
+    },
+    {
+      "name": "Microsoft Entra ID (formerly Azure AD)",
+      "categories": [
+        "Identity"
+      ],
+      "description": "Synchronize on-premises directories and enable single sign-on.",
+      "link": "https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id",
+      "id": "microsoft-entra-id"
+    },
+    {
+      "name": "Microsoft Entra Verified ID",
+      "categories": [
+        "Identity"
+      ],
+      "description": "Build unique user-owned identity scenarios designed for trustworthy, secure, and efficient interactions between people and organizations.",
+      "link": "https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-verified-id",
+      "id": "microsoft-entra-verified-id"
+    },
+    {
+      "name": "Microsoft Fabric",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Reshape how everyone accesses, manages, and acts on data and insights by connecting every data source and analytics service together—on a single, AI-powered platform.",
+      "link": "https://www.microsoft.com/en-us/microsoft-fabric",
+      "id": "microsoft-fabric"
+    },
+    {
+      "name": "Microsoft Foundry",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "The AI app and agent factory.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-foundry",
+      "id": "ai-foundry"
+    },
+    {
+      "name": "Microsoft Graph Data Connect",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "A secure, high-throughput connector designed to copy select Microsoft 365 productivity datasets into your Azure tenant.",
+      "link": "https://azure.microsoft.com/en-us/products/graph-data-connect/",
+      "id": "graph-data-connect"
+    },
+    {
+      "name": "Microsoft Planetary Computer Pro",
+      "categories": [
+        "AI + machine learning",
+        "Analytics"
+      ],
+      "description": "Unify geospatial data with enterprise AI and analytics to enhance business decisions.",
+      "link": "https://azure.microsoft.com/en-us/products/planetary-computer-pro",
+      "id": "planetary-computer-pro"
+    },
+    {
+      "name": "Microsoft Playwright Testing",
+      "categories": [
+        "Developer tools",
+        "DevOps",
+        "Web"
+      ],
+      "description": "Scalable end-to-end modern web app testing service.",
+      "link": "https://azure.microsoft.com/en-us/products/playwright-testing/",
+      "id": "playwright-testing"
+    },
+    {
+      "name": "Microsoft Purview",
+      "categories": [
+        "Analytics",
+        "Management and governance"
+      ],
+      "description": "Govern, protect, and manage your data estate.",
+      "link": "https://www.microsoft.com/en-us/security/business/risk-management/microsoft-purview-data-governance",
+      "id": "microsoft-purview-data-governance"
+    },
+    {
+      "name": "Microsoft Security Copilot",
+      "categories": [
+        "AI + machine learning",
+        "Security"
+      ],
+      "description": "Protect at the speed and scale of AI with a generative AI-powered assistant.",
+      "link": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+      "id": "microsoft-security-copilot"
+    },
+    {
+      "name": "Microsoft Sentinel",
+      "categories": [
+        "Hybrid + multicloud",
+        "Security"
+      ],
+      "description": "Cloud-native SIEM and intelligent security analytics.",
+      "link": "https://azure.microsoft.com/en-us/products/microsoft-sentinel/",
+      "id": "microsoft-sentinel"
+    },
+    {
+      "name": "Notification Hubs",
+      "categories": [
+        "Internet of Things",
+        "Mobile",
+        "Web"
+      ],
+      "description": "Send push notifications to any platform from any back end.",
+      "link": "https://azure.microsoft.com/en-us/products/notification-hubs/",
+      "id": "notification-hubs"
+    },
+    {
+      "name": "Nutanix Cloud Clusters",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Optimize costs and simplify scale, flexibility, app migration, and disaster recovery for your Nutanix workloads.",
+      "link": "https://azure.microsoft.com/en-us/products/nutanix",
+      "id": "nutanix"
+    },
+    {
+      "name": "Observability in Foundry Control Plane",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Observe and optimize AI apps and agents with end-to-end monitoring, tracing, and evaluation.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/observability",
+      "id": "observability"
+    },
+    {
+      "name": "Phi open models",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "A family of powerful, small language models (SLMs) with groundbreaking performance at low cost and low latency.",
+      "link": "https://azure.microsoft.com/en-us/products/phi-3",
+      "id": "phi-3"
+    },
+    {
+      "name": "Power BI",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Transform your data into interactive, shareable insights with AI‑powered dashboards and reports.",
+      "link": "https://www.microsoft.com/en-us/power-platform/products/power-bi/",
+      "id": "power-bi"
+    },
+    {
+      "name": "Power BI Embedded",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "White label Power BI to quickly and easily provide exceptional customer facing dashboards and analytics in your own applications.",
+      "link": "https://azure.microsoft.com/en-us/products/power-bi-embedded/",
+      "id": "power-bi-embedded"
+    },
+    {
+      "name": "Queue Storage",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Effectively scale apps according to traffic.",
+      "link": "https://azure.microsoft.com/en-us/products/storage/queues/",
+      "id": "queues"
+    },
+    {
+      "name": "SDKs",
+      "categories": [
+        "Developer tools"
+      ],
+      "description": "Get the SDKs and command-line tools you need.",
+      "link": "https://azure.microsoft.com/en-us/downloads/",
+      "id": "downloads"
+    },
+    {
+      "name": "Service Bus",
+      "categories": [
+        "Integration"
+      ],
+      "description": "Connect across private and public cloud environments.",
+      "link": "https://azure.microsoft.com/en-us/products/service-bus/",
+      "id": "service-bus"
+    },
+    {
+      "name": "SQL Server on Azure Virtual Machines",
+      "categories": [
+        "Compute",
+        "Databases"
+      ],
+      "description": "Migrate SQL Server workloads to the cloud at lower total cost of ownership (TCO).",
+      "link": "https://azure.microsoft.com/en-us/products/virtual-machines/sql-server/",
+      "id": "sql-server"
+    },
+    {
+      "name": "Static Web Apps",
+      "categories": [
+        "Compute",
+        "Web"
+      ],
+      "description": "Streamlined full-stack development from source code to global high availability.",
+      "link": "https://azure.microsoft.com/en-us/products/app-service/static/",
+      "id": "static"
+    },
+    {
+      "name": "Storage Accounts",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Durable, highly available, and massively scalable cloud storage.",
+      "link": "https://azure.microsoft.com/en-us/products/category/storage/",
+      "id": "storage"
+    },
+    {
+      "name": "Storage Explorer",
+      "categories": [
+        "Storage"
+      ],
+      "description": "View and interact with Azure Storage resources.",
+      "link": "https://azure.microsoft.com/en-us/products/storage/storage-explorer/",
+      "id": "storage-explorer"
+    },
+    {
+      "name": "Table Storage",
+      "categories": [
+        "Databases"
+      ],
+      "description": "Get a NoSQL key-value store using semi-structured datasets.",
+      "link": "https://azure.microsoft.com/en-us/products/storage/tables/",
+      "id": "tables"
+    },
+    {
+      "name": "Update management center",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Centrally manage updates and compliance at scale.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-update-management-center/",
+      "id": "azure-update-management-center"
+    },
+    {
+      "name": "Virtual Machine Scale Sets",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Manage and scale up to thousands of Linux and Windows VMs.",
+      "link": "https://azure.microsoft.com/en-us/products/virtual-machine-scale-sets/",
+      "id": "virtual-machine-scale-sets"
+    },
+    {
+      "name": "Virtual Machines",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Provision Windows and Linux VMs in seconds.",
+      "link": "https://azure.microsoft.com/en-us/products/virtual-machines",
+      "id": "virtual-machines"
+    },
+    {
+      "name": "Visual Studio",
+      "categories": [
+        "Developer tools"
+      ],
+      "description": "Powerful and flexible environment to develop apps in the cloud.",
+      "link": "https://azure.microsoft.com/en-us/products/visual-studio/",
+      "id": "visual-studio"
+    },
+    {
+      "name": "Visual Studio Code",
+      "categories": [
+        "Developer tools"
+      ],
+      "description": "A powerful, lightweight code editor for cloud development.",
+      "link": "https://azure.microsoft.com/en-us/products/visual-studio-code/",
+      "id": "visual-studio-code"
+    },
+    {
+      "name": "Windows for IoT",
+      "categories": [
+        "Internet of Things"
+      ],
+      "description": "Build intelligent edge solutions with world-class developer tools, long-term support, and enterprise-grade security.",
+      "link": "https://azure.microsoft.com/en-us/products/windows-iot/",
+      "id": "windows-iot"
+    },
+    {
+      "name": "Windows Server",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Trusted cloud platform for your Windows Server workloads",
+      "link": "https://azure.microsoft.com/en-us/products/windows-server/",
+      "id": "windows-server"
+    }
+  ]
+}

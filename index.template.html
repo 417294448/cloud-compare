@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Cloud Product Atlas — AWS · Azure · GCP</title>
+<title>Cloud Product Atlas — AWS · Azure · GCP · Alibaba Cloud</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -19,6 +19,7 @@
     --accent-aws: #b56a00;
     --accent-azure: #1f6fd6;
     --accent-gcp: #1e8e3e;
+    --accent-alibaba: #c33d1c;
     --glow-1: rgba(31, 111, 214, 0.05);
     --glow-2: rgba(181, 106, 0, 0.05);
     --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -35,6 +36,7 @@
     --accent-aws: #ff9900;
     --accent-azure: #3aa0ff;
     --accent-gcp: #34a853;
+    --accent-alibaba: #ff6a00;
     --glow-1: rgba(58, 160, 255, 0.07);
     --glow-2: rgba(255, 153, 0, 0.06);
   }
@@ -124,6 +126,7 @@
   .vendor-chip--aws.is-active { background: rgba(255,153,0,0.16); border-color: var(--accent-aws); color: var(--accent-aws); }
   .vendor-chip--azure.is-active { background: rgba(58,160,255,0.16); border-color: var(--accent-azure); color: var(--accent-azure); }
   .vendor-chip--gcp.is-active { background: rgba(52,168,83,0.16); border-color: var(--accent-gcp); color: var(--accent-gcp); }
+  .vendor-chip--alibaba.is-active { background: rgba(255,106,0,0.16); border-color: var(--accent-alibaba); color: var(--accent-alibaba); }
 
   .filter-group--search { flex: 1 1 240px; min-width: 200px; }
   #search-input {
@@ -150,8 +153,10 @@
   .th-vendor--aws { color: var(--accent-aws); }
   .th-vendor--azure { color: var(--accent-azure); }
   .th-vendor--gcp { color: var(--accent-gcp); }
+  .th-vendor--alibaba { color: var(--accent-alibaba); }
   .vendor-label { display: inline-flex; align-items: center; gap: 6px; }
   .vendor-icon { width: 14px; height: 14px; flex: none; fill: currentColor; display: block; }
+  .th-vendor--alibaba .vendor-icon { width: 22px; height: auto; }
 
   .category-row td {
     position: sticky; top: 121px; z-index: 10;
@@ -175,10 +180,12 @@
   .product--aws { border-left-color: var(--accent-aws); }
   .product--azure { border-left-color: var(--accent-azure); }
   .product--gcp { border-left-color: var(--accent-gcp); }
+  .product--alibaba { border-left-color: var(--accent-alibaba); }
   .product-name { display: inline-block; font-weight: 600; text-decoration: none; }
   .product--aws .product-name { color: var(--accent-aws); }
   .product--azure .product-name { color: var(--accent-azure); }
   .product--gcp .product-name { color: var(--accent-gcp); }
+  .product--alibaba .product-name { color: var(--accent-alibaba); }
   .product-name:hover { text-decoration: underline; }
   .product-desc { margin-top: 2px; font-size: 12px; color: var(--text-muted); line-height: 1.4; }
   .cell-empty { color: var(--text-dim); }
@@ -189,9 +196,9 @@
     padding: 18px 28px 32px; font-family: var(--font-mono); font-size: 11px; color: var(--text-dim);
   }
 
-  @media (max-width: 860px) {
+  @media (max-width: 1100px) {
     .table-wrap { overflow-x: auto; }
-    .data-table { min-width: 900px; }
+    .data-table { min-width: 1100px; }
     .filterbar { top: 0; position: relative; }
     .category-row td { position: static; }
     .topbar { position: relative; }
@@ -204,7 +211,7 @@
       <span class="brand-mark">☁</span>
       <div>
         <h1 id="page-title">Cloud Product Atlas</h1>
-        <p id="page-subtitle" class="subtitle">Cross-cloud product mapping for AWS, Azure &amp; GCP</p>
+        <p id="page-subtitle" class="subtitle">Cross-cloud product mapping for AWS, Azure, GCP &amp; Alibaba Cloud</p>
       </div>
     </div>
     <div class="topbar-controls">
@@ -243,6 +250,7 @@
         <button type="button" class="vendor-chip vendor-chip--aws" data-vendor="aws">AWS</button>
         <button type="button" class="vendor-chip vendor-chip--azure" data-vendor="azure">Azure</button>
         <button type="button" class="vendor-chip vendor-chip--gcp" data-vendor="gcp">GCP</button>
+        <button type="button" class="vendor-chip vendor-chip--alibaba" data-vendor="alibaba">Alibaba</button>
       </div>
     </div>
     <div class="filter-group filter-group--search">
@@ -254,10 +262,11 @@
   <main class="table-wrap">
     <table class="data-table">
       <colgroup>
-        <col style="width: 28%">
-        <col style="width: 24%">
-        <col style="width: 24%">
-        <col style="width: 24%">
+        <col style="width: 22%">
+        <col style="width: 19.5%">
+        <col style="width: 19.5%">
+        <col style="width: 19.5%">
+        <col style="width: 19.5%">
       </colgroup>
       <thead>
         <tr>
@@ -278,6 +287,12 @@
             <span class="vendor-label">
               <svg class="vendor-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.19 2.38a9.344 9.344 0 0 0-9.234 6.893c.053-.02-.055.013 0 0-3.875 2.551-3.922 8.11-.247 10.941l.006-.007-.007.03a6.717 6.717 0 0 0 4.077 1.356h5.173l.03.03h5.192c6.687.053 9.376-8.605 3.835-12.35a9.365 9.365 0 0 0-2.821-4.552l-.043.043.006-.05A9.344 9.344 0 0 0 12.19 2.38zm-.358 4.146c1.244-.04 2.518.368 3.486 1.15a5.186 5.186 0 0 1 1.862 4.078v.518c3.53-.07 3.53 5.262 0 5.193h-5.193l-.008.009v-.04H6.785a2.59 2.59 0 0 1-1.067-.23h.001a2.597 2.597 0 1 1 3.437-3.437l3.013-3.012A6.747 6.747 0 0 0 8.11 8.24c.018-.01.04-.026.054-.023a5.186 5.186 0 0 1 3.67-1.69z"/></svg>
               GCP
+            </span>
+          </th>
+          <th class="th-vendor th-vendor--alibaba">
+            <span class="vendor-label">
+              <svg class="vendor-icon" viewBox="0 0 59.79 37.28" aria-hidden="true"><rect height="4.49" width="19.92" x="19.94" y="16.3"/><path d="M49.84,0H36.66l3.18,4.5,9.61,3a4.15,4.15,0,0,1,2.9,4V25.84h0a4.17,4.17,0,0,1-2.9,4l-9.61,2.94-3.18,4.5H49.84a9.94,9.94,0,0,0,9.95-10V10A10,10,0,0,0,49.84,0Z"/><path d="M10,0H23.14L20,4.5l-9.61,3a4.16,4.16,0,0,0-2.91,4V25.84h0a4.18,4.18,0,0,0,2.91,4L20,32.78l3.18,4.5H10a10,10,0,0,1-10-10V10A10,10,0,0,1,10,0Z"/></svg>
+              Alibaba
             </span>
           </th>
         </tr>
@@ -301,7 +316,7 @@
   var UI_STRINGS = {
     en: {
       title: 'Cloud Product Atlas',
-      subtitle: 'Cross-cloud product mapping for AWS, Azure & GCP',
+      subtitle: 'Cross-cloud product mapping for AWS, Azure, GCP & Alibaba Cloud',
       categoryAll: 'All categories',
       categoryLabel: 'Category',
       vendorLabel: 'Has product on',
@@ -315,7 +330,7 @@
     },
     cn: {
       title: '云产品图谱',
-      subtitle: 'AWS / Azure / GCP 跨云产品映射查询',
+      subtitle: 'AWS / Azure / GCP / 阿里云 跨云产品映射查询',
       categoryAll: '全部分类',
       categoryLabel: '分类',
       vendorLabel: '需包含厂商',
@@ -363,6 +378,7 @@
         '<td class="col-vendor">' + renderProductCell(row.products.aws, 'aws') + '</td>' +
         '<td class="col-vendor">' + renderProductCell(row.products.azure, 'azure') + '</td>' +
         '<td class="col-vendor">' + renderProductCell(row.products.gcp, 'gcp') + '</td>' +
+        '<td class="col-vendor">' + renderProductCell(row.products.alibaba, 'alibaba') + '</td>' +
       '</tr>'
     );
   }
@@ -373,7 +389,7 @@
     document.getElementById('result-count').textContent = t.resultCount(matchCount, totalCount);
 
     if (!groups.length) {
-      tbody.innerHTML = '<tr class="empty-row"><td colspan="4">' + escapeHtml(t.noResults) + '</td></tr>';
+      tbody.innerHTML = '<tr class="empty-row"><td colspan="5">' + escapeHtml(t.noResults) + '</td></tr>';
       return;
     }
 
@@ -382,7 +398,7 @@
       var catLabel = state.lang === 'cn' ? group.category.nameCn : group.category.name;
       html +=
         '<tr class="category-row">' +
-          '<td colspan="4"><span class="category-tag">' + escapeHtml(catLabel) + '</span><span class="category-count">' + group.rows.length + '</span></td>' +
+          '<td colspan="5"><span class="category-tag">' + escapeHtml(catLabel) + '</span><span class="category-count">' + group.rows.length + '</span></td>' +
         '</tr>';
       group.rows.forEach(function (row) {
         html += renderRow(row);

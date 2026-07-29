@@ -1,0 +1,2799 @@
+{
+  "source": "https://docs.aws.amazon.com/",
+  "module": "Product guides & references",
+  "fetchedAt": "2026-07-28",
+  "totalProducts": 308,
+  "products": [
+    {
+      "name": "Agent Toolkit for AWS",
+      "categories": [
+        "Developer Tools",
+        "Machine Learning"
+      ],
+      "description": "Tools, knowledge, and guardrails AI coding agents need to build, deploy, and manage applications on AWS",
+      "link": "https://docs.aws.amazon.com/agent-toolkit/",
+      "id": "AgentToolkitforAWS"
+    },
+    {
+      "name": "Amazon A2I",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Easily implement human review of ML predictions",
+      "link": "https://docs.aws.amazon.com/augmented-ai/",
+      "id": "a2ishort"
+    },
+    {
+      "name": "Amazon API Gateway",
+      "categories": [
+        "Networking & Content Delivery",
+        "Serverless"
+      ],
+      "description": "Build, deploy, and manage APIs",
+      "link": "https://docs.aws.amazon.com/apigateway/",
+      "id": "apigateway"
+    },
+    {
+      "name": "Amazon AppFlow",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "No-code integration for SaaS apps and AWS services",
+      "link": "https://docs.aws.amazon.com/appflow/",
+      "id": "apfl"
+    },
+    {
+      "name": "Amazon Application Recovery Controller (ARC)",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Move traffic for application disaster recovery",
+      "link": "https://docs.aws.amazon.com/amazonarc/",
+      "id": "route53-application-recovery-controller"
+    },
+    {
+      "name": "Amazon Athena",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Query data in Amazon S3 using SQL",
+      "link": "https://docs.aws.amazon.com/athena/",
+      "id": "athena"
+    },
+    {
+      "name": "Amazon Aurora",
+      "categories": [
+        "Database"
+      ],
+      "description": "High performance managed relational database engine",
+      "link": "https://docs.aws.amazon.com/rds/",
+      "id": "aurora"
+    },
+    {
+      "name": "Amazon Aurora DSQL",
+      "categories": [
+        "Database"
+      ],
+      "description": "Fastest serverless distributed SQL database for always available applications",
+      "link": "https://docs.aws.amazon.com/aurora-dsql/",
+      "id": "dsql"
+    },
+    {
+      "name": "Amazon Bedrock",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Access best-in-class foundation models to build generative AI applications",
+      "link": "https://docs.aws.amazon.com/bedrock/",
+      "id": "bedrock"
+    },
+    {
+      "name": "Amazon Bedrock AgentCore",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Deploy and operate agents at scale using any framework and model",
+      "link": "https://docs.aws.amazon.com/bedrock-agentcore/",
+      "id": "bedrock-agentcore"
+    },
+    {
+      "name": "Amazon Braket",
+      "categories": [
+        "Quantum Computing"
+      ],
+      "description": "Accelerate quantum computing research",
+      "link": "https://docs.aws.amazon.com/braket/",
+      "id": "braket"
+    },
+    {
+      "name": "Amazon Chime",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Frustration-free meetings, video calls, and chat",
+      "link": "https://docs.aws.amazon.com/chime/",
+      "id": "chime"
+    },
+    {
+      "name": "Amazon Chime SDK",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Real-time messaging, audio, video, and screen sharing",
+      "link": "https://docs.aws.amazon.com/chime-sdk/",
+      "id": "chime-sdk"
+    },
+    {
+      "name": "Amazon Cloud Directory",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Store hundreds of millions of application-specific objects",
+      "link": "https://docs.aws.amazon.com/clouddirectory/",
+      "id": "clouddirectory-pod-0"
+    },
+    {
+      "name": "Amazon CloudFront",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Global content delivery network",
+      "link": "https://docs.aws.amazon.com/cloudfront/",
+      "id": "cloudfront"
+    },
+    {
+      "name": "Amazon CloudSearch",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Managed search service",
+      "link": "https://docs.aws.amazon.com/cloudsearch/",
+      "id": "cloudsearch"
+    },
+    {
+      "name": "Amazon CloudWatch",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Monitor resources and applications",
+      "link": "https://docs.aws.amazon.com/cloudwatch/",
+      "id": "cloudwatch"
+    },
+    {
+      "name": "Amazon CodeCatalyst",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Unified software development service to develop and deliver on AWS",
+      "link": "https://docs.aws.amazon.com/codecatalyst",
+      "id": "codecatalyst"
+    },
+    {
+      "name": "Amazon CodeGuru",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Find your most expensive lines of code",
+      "link": "https://docs.aws.amazon.com/codeguru/",
+      "id": "GURUALLshort"
+    },
+    {
+      "name": "Amazon Cognito",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Identity management for your apps",
+      "link": "https://docs.aws.amazon.com/cognito/",
+      "id": "cognito"
+    },
+    {
+      "name": "Amazon Comprehend",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Discover insights and relationships in text",
+      "link": "https://docs.aws.amazon.com/comprehend/",
+      "id": "Comprehend"
+    },
+    {
+      "name": "Amazon Comprehend Medical",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Detect and return useful information in unstructured clinical text",
+      "link": "https://docs.aws.amazon.com/comprehend-medical/",
+      "id": "comprehendmedical"
+    },
+    {
+      "name": "Amazon Connect Customer",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Omnichannel cloud contact center",
+      "link": "https://docs.aws.amazon.com/connect/",
+      "id": "lily"
+    },
+    {
+      "name": "Amazon Connect Decisions",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Adaptive intelligence solution for supply chain planning and decision making",
+      "link": "https://docs.aws.amazon.com/connect-decisions/",
+      "id": "ConnectDecisions"
+    },
+    {
+      "name": "Amazon Connect Health",
+      "categories": [
+        "Business Applications",
+        "Developer Tools",
+        "Machine Learning"
+      ],
+      "description": "Agentic AI for healthcare that's built around the people that deliver it",
+      "link": "https://docs.aws.amazon.com/connecthealth/",
+      "id": "health-agent"
+    },
+    {
+      "name": "Amazon Corretto",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "A no-cost, multiplatform, production-ready distribution of OpenJDK",
+      "link": "https://docs.aws.amazon.com/corretto/",
+      "id": "corretto"
+    },
+    {
+      "name": "Amazon Data Firehose",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Fully managed real-time streaming data delivery service",
+      "link": "https://docs.aws.amazon.com/firehose/",
+      "id": "kinesisfirehose"
+    },
+    {
+      "name": "Amazon Data Lifecycle Manager",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Automate management of Amazon EBS snapshots and Amazon EBS-backed AMIs",
+      "link": "https://docs.aws.amazon.com/dlm/",
+      "id": "dlm"
+    },
+    {
+      "name": "Amazon DataZone",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Unlock data across organizational boundaries with built-in governance",
+      "link": "https://docs.aws.amazon.com/datazone/",
+      "id": "datazone"
+    },
+    {
+      "name": "Amazon DCV",
+      "categories": [
+        "End User Computing"
+      ],
+      "description": "Connect securely to graphic-intensive 3D apps on remote servers",
+      "link": "https://docs.aws.amazon.com/dcv/",
+      "id": "nice-dcv"
+    },
+    {
+      "name": "Amazon Detective",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Investigate potential security issues",
+      "link": "https://docs.aws.amazon.com/detective/",
+      "id": "DET"
+    },
+    {
+      "name": "Amazon DevOps Guru",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Improve application availability with ML-powered cloud operations",
+      "link": "https://docs.aws.amazon.com/devops-guru/",
+      "id": "devops-guru"
+    },
+    {
+      "name": "Amazon DocumentDB (with MongoDB compatibility)",
+      "categories": [
+        "Database"
+      ],
+      "description": "Fully managed document database",
+      "link": "https://docs.aws.amazon.com/documentdb/",
+      "id": "amazondocdb"
+    },
+    {
+      "name": "Amazon DynamoDB",
+      "categories": [
+        "Database",
+        "Serverless"
+      ],
+      "description": "Managed NoSQL database",
+      "link": "https://docs.aws.amazon.com/dynamodb/",
+      "id": "dynamodb"
+    },
+    {
+      "name": "Amazon EC2 Auto Scaling",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Scale multiple resources to meet demand",
+      "link": "https://docs.aws.amazon.com/autoscaling/",
+      "id": "autoscaling"
+    },
+    {
+      "name": "Amazon Elastic Block Store",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Amazon EC2 block storage volumes",
+      "link": "https://docs.aws.amazon.com/ebs/",
+      "id": "ebs"
+    },
+    {
+      "name": "Amazon Elastic Compute Cloud",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Create and run virtual servers in the cloud with Amazon EC2",
+      "link": "https://docs.aws.amazon.com/ec2/",
+      "id": "ec2"
+    },
+    {
+      "name": "Amazon Elastic Container Registry",
+      "categories": [
+        "Containers"
+      ],
+      "description": "Easily store, manage, and deploy container images",
+      "link": "https://docs.aws.amazon.com/ecr/",
+      "id": "ec2containerregistry"
+    },
+    {
+      "name": "Amazon Elastic Container Service",
+      "categories": [
+        "Containers"
+      ],
+      "description": "Highly secure, reliable, and scalable way to run containers",
+      "link": "https://docs.aws.amazon.com/ecs/",
+      "id": "ec2containerservice"
+    },
+    {
+      "name": "Amazon Elastic File System",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Fully managed file system for Amazon EC2",
+      "link": "https://docs.aws.amazon.com/efs/",
+      "id": "elasticfilesystem"
+    },
+    {
+      "name": "Amazon Elastic Kubernetes Service",
+      "categories": [
+        "Containers"
+      ],
+      "description": "Run Kubernetes on AWS without operating your own Kubernetes clusters",
+      "link": "https://docs.aws.amazon.com/eks/",
+      "id": "EKS"
+    },
+    {
+      "name": "Amazon Elastic VMware Service",
+      "categories": [
+        "Migration & Transfer"
+      ],
+      "description": "Migrate and operate a VCF environment on Amazon EC2 within your VPC",
+      "link": "https://docs.aws.amazon.com/evs/",
+      "id": "promenade"
+    },
+    {
+      "name": "Amazon ElastiCache",
+      "categories": [
+        "Database"
+      ],
+      "description": "In-memory caching service",
+      "link": "https://docs.aws.amazon.com/elasticache/",
+      "id": "elasticache"
+    },
+    {
+      "name": "Amazon EMR",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Hosted Hadoop framework",
+      "link": "https://docs.aws.amazon.com/emr/",
+      "id": "emr"
+    },
+    {
+      "name": "Amazon EventBridge",
+      "categories": [
+        "Application Integration",
+        "Serverless"
+      ],
+      "description": "Serverless event bus for SaaS apps and AWS services",
+      "link": "https://docs.aws.amazon.com/eventbridge/",
+      "id": "eventbridge"
+    },
+    {
+      "name": "Amazon FinSpace",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Store, catalog, prepare, and analyze financial industry data",
+      "link": "https://docs.aws.amazon.com/finspace/",
+      "id": "finspace"
+    },
+    {
+      "name": "Amazon Forecast",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Increase forecast accuracy using machine learning",
+      "link": "https://docs.aws.amazon.com/forecast/",
+      "id": "FOR"
+    },
+    {
+      "name": "Amazon Fraud Detector",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Detect more online fraud faster",
+      "link": "https://docs.aws.amazon.com/frauddetector/",
+      "id": "AFD"
+    },
+    {
+      "name": "Amazon FSx",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Launch, run, and scale feature-rich and high-performing file systems",
+      "link": "https://docs.aws.amazon.com/fsx/",
+      "id": "FSx"
+    },
+    {
+      "name": "Amazon GameLift Servers",
+      "categories": [
+        "Game Development"
+      ],
+      "description": "Simple, fast, cost-effective dedicated game server hosting",
+      "link": "https://docs.aws.amazon.com/gameliftservers/",
+      "id": "gamelift"
+    },
+    {
+      "name": "Amazon GameLift Streams",
+      "categories": [
+        "Game Development"
+      ],
+      "description": "High frame rate, low-latency game streaming to devices at global scale",
+      "link": "https://docs.aws.amazon.com/gameliftstreams/",
+      "id": "gameliftstreams"
+    },
+    {
+      "name": "Amazon Glacier",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Low-cost archive storage in the AWS Cloud",
+      "link": "https://docs.aws.amazon.com/s3/",
+      "id": "glacier"
+    },
+    {
+      "name": "Amazon GuardDuty",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Managed threat detection service",
+      "link": "https://docs.aws.amazon.com/guardduty/",
+      "id": "guardduty"
+    },
+    {
+      "name": "Amazon Inspector",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Automated and continual vulnerability management at scale",
+      "link": "https://docs.aws.amazon.com/inspector/",
+      "id": "inspector2"
+    },
+    {
+      "name": "Amazon Interactive Video Service",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Build engaging live stream experiences using IVS",
+      "link": "https://docs.aws.amazon.com/ivs/",
+      "id": "IVS"
+    },
+    {
+      "name": "Amazon Kendra",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Reinvent enterprise search with ML",
+      "link": "https://docs.aws.amazon.com/kendra/",
+      "id": "KEN"
+    },
+    {
+      "name": "Amazon Keyspaces (for Apache Cassandra)",
+      "categories": [
+        "Database"
+      ],
+      "description": "Managed Cassandra-compatible database",
+      "link": "https://docs.aws.amazon.com/keyspaces/",
+      "id": "KEY"
+    },
+    {
+      "name": "Amazon Kinesis",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Analyze real-time video and data streams",
+      "link": "https://docs.aws.amazon.com/kinesis/",
+      "id": "AK"
+    },
+    {
+      "name": "Amazon Lex",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Build voice and text chatbots",
+      "link": "https://docs.aws.amazon.com/lex/",
+      "id": "runtime.lex"
+    },
+    {
+      "name": "Amazon Lightsail",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Launch and manage virtual private servers",
+      "link": "https://docs.aws.amazon.com/lightsail/",
+      "id": "lightsail"
+    },
+    {
+      "name": "Amazon Linux",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Portfolio of modern Linux-based high performance operating systems",
+      "link": "https://docs.aws.amazon.com/linux/",
+      "id": null
+    },
+    {
+      "name": "Amazon Location Service",
+      "categories": [
+        "Front-End Web & Mobile"
+      ],
+      "description": "Securely and easily add location data to applications",
+      "link": "https://docs.aws.amazon.com/location/",
+      "id": "ALshort"
+    },
+    {
+      "name": "Amazon Lumberyard",
+      "categories": [
+        "Game Development"
+      ],
+      "description": "A free cross-platform 3D game engine (binaries no longer offered)",
+      "link": "https://docs.aws.amazon.com/lumberyard/",
+      "id": "ALY"
+    },
+    {
+      "name": "Amazon Machine Learning",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Learn about Amazon machine learning services",
+      "link": "https://docs.aws.amazon.com/machine-learning/",
+      "id": "machinelearning"
+    },
+    {
+      "name": "Amazon Macie",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Discover and protect your sensitive data at scale",
+      "link": "https://docs.aws.amazon.com/macie/",
+      "id": "macie"
+    },
+    {
+      "name": "Amazon Managed Blockchain",
+      "categories": [
+        "Blockchain"
+      ],
+      "description": "Create and manage scalable blockchain networks",
+      "link": "https://docs.aws.amazon.com/managed-blockchain/",
+      "id": "AMB"
+    },
+    {
+      "name": "Amazon Managed Grafana",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Visualize and analyze your operational data at scale",
+      "link": "https://docs.aws.amazon.com/grafana/",
+      "id": "GRA"
+    },
+    {
+      "name": "Amazon Managed Service for Apache Flink",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Process and analyze streaming data using Apache Flink",
+      "link": "https://docs.aws.amazon.com/managed-flink/",
+      "id": "kinesisanalytics"
+    },
+    {
+      "name": "Amazon Managed Service for Prometheus",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Highly available, secure, and managed monitoring for your containers",
+      "link": "https://docs.aws.amazon.com/prometheus/",
+      "id": "PRO"
+    },
+    {
+      "name": "Amazon Managed Streaming for Apache Kafka",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Fully managed Apache Kafka service",
+      "link": "https://docs.aws.amazon.com/msk/",
+      "id": "msk"
+    },
+    {
+      "name": "Amazon MemoryDB",
+      "categories": [
+        "Database"
+      ],
+      "description": "Redis-compatible, durable, in-memory database service",
+      "link": "https://docs.aws.amazon.com/memorydb/",
+      "id": "memorydb"
+    },
+    {
+      "name": "Amazon Monitron",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Reduce unplanned equipment downtime with predictive maintenance and ML",
+      "link": "https://docs.aws.amazon.com/Monitron/",
+      "id": "MON"
+    },
+    {
+      "name": "Amazon MQ",
+      "categories": [
+        "Application Integration"
+      ],
+      "description": "Managed message broker service",
+      "link": "https://docs.aws.amazon.com/amazon-mq/",
+      "id": "amazonmq"
+    },
+    {
+      "name": "Amazon MWAA",
+      "categories": [
+        "Application Integration"
+      ],
+      "description": "Managed orchestration service for Apache Airflow",
+      "link": "https://docs.aws.amazon.com/mwaa/",
+      "id": "airflow"
+    },
+    {
+      "name": "Amazon Neptune",
+      "categories": [
+        "Database"
+      ],
+      "description": "Fully managed graph database service",
+      "link": "https://docs.aws.amazon.com/neptune/",
+      "id": "neptune"
+    },
+    {
+      "name": "Amazon Nova",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "A family of foundation models for Amazon Bedrock",
+      "link": "https://docs.aws.amazon.com/nova/",
+      "id": "Nova"
+    },
+    {
+      "name": "Amazon Nova Act",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Build and manage fleets of reliable AI agents to automate UI workflows",
+      "link": "https://docs.aws.amazon.com/nova-act/",
+      "id": "nova-act"
+    },
+    {
+      "name": "Amazon OpenSearch Service",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Deploy, operate, and scale OpenSearch clusters in the AWS Cloud",
+      "link": "https://docs.aws.amazon.com/opensearch-service/",
+      "id": "elasticsearchservice"
+    },
+    {
+      "name": "Amazon Personalize",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Build real-time recommendations into your applications",
+      "link": "https://docs.aws.amazon.com/personalize/",
+      "id": "personalize"
+    },
+    {
+      "name": "Amazon Pinpoint",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Multichannel marketing communications",
+      "link": "https://docs.aws.amazon.com/pinpoint/",
+      "id": "pinpoint"
+    },
+    {
+      "name": "Amazon Polly",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Turn text into life-like speech",
+      "link": "https://docs.aws.amazon.com/polly/",
+      "id": "polly"
+    },
+    {
+      "name": "Amazon Q",
+      "categories": [
+        "AWS Management Console"
+      ],
+      "description": "Generative AI-powered assistants",
+      "link": "https://docs.aws.amazon.com/amazonq/",
+      "id": null
+    },
+    {
+      "name": "Amazon Q Developer in chat applications",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "ChatOps for AWS",
+      "link": "https://docs.aws.amazon.com/chatbot/",
+      "id": "chatbot"
+    },
+    {
+      "name": "Amazon Quick",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Fast business analytics service",
+      "link": "https://docs.aws.amazon.com/quick/",
+      "id": "quicksight"
+    },
+    {
+      "name": "Amazon Redshift",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Fast, simple, cost-effective data warehouse service",
+      "link": "https://docs.aws.amazon.com/redshift/",
+      "id": "redshift"
+    },
+    {
+      "name": "Amazon Rekognition",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Analyze image and video",
+      "link": "https://docs.aws.amazon.com/rekognition/",
+      "id": "rekognition"
+    },
+    {
+      "name": "Amazon Relational Database Service",
+      "categories": [
+        "Database"
+      ],
+      "description": "Set up, operate, and scale a relational database in the cloud",
+      "link": "https://docs.aws.amazon.com/rds/",
+      "id": "rds"
+    },
+    {
+      "name": "Amazon Route 53",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Highly available and scalable Domain Name System (DNS) web service",
+      "link": "https://docs.aws.amazon.com/route53/",
+      "id": "R53"
+    },
+    {
+      "name": "Amazon SageMaker",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "The center for all data, analytics, and AI",
+      "link": "https://docs.aws.amazon.com/next-generation-sagemaker/latest/userguide",
+      "id": "SageMakerPlain"
+    },
+    {
+      "name": "Amazon SageMaker AI",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Build, train, and deploy machine learning models at scale",
+      "link": "https://docs.aws.amazon.com/sagemaker/",
+      "id": "sagemaker"
+    },
+    {
+      "name": "Amazon Security Lake",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Automatically centralize your security data with a few clicks",
+      "link": "https://docs.aws.amazon.com/security-lake/",
+      "id": "securitylake"
+    },
+    {
+      "name": "Amazon Silk",
+      "categories": [
+        "Front-End Web & Mobile"
+      ],
+      "description": "Create a faster, more responsive mobile browsing experience",
+      "link": "https://docs.aws.amazon.com/silk/",
+      "id": "SLK"
+    },
+    {
+      "name": "Amazon Simple Email Service",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "High-scale inbound and outbound email",
+      "link": "https://docs.aws.amazon.com/ses/",
+      "id": "ses"
+    },
+    {
+      "name": "Amazon Simple Notification Service",
+      "categories": [
+        "Application Integration",
+        "Serverless"
+      ],
+      "description": "Pub/sub, SMS, email, and mobile push notifications",
+      "link": "https://docs.aws.amazon.com/sns/",
+      "id": "sns"
+    },
+    {
+      "name": "Amazon Simple Queue Service",
+      "categories": [
+        "Application Integration",
+        "Serverless"
+      ],
+      "description": "Managed message queues",
+      "link": "https://docs.aws.amazon.com/sqs/",
+      "id": "sqs"
+    },
+    {
+      "name": "Amazon Simple Storage Service",
+      "categories": [
+        "Serverless",
+        "Storage"
+      ],
+      "description": "Object storage built to retrieve any amount of data from anywhere",
+      "link": "https://docs.aws.amazon.com/s3/",
+      "id": "S3"
+    },
+    {
+      "name": "Amazon Simple Workflow Service",
+      "categories": [
+        "Application Integration"
+      ],
+      "description": "Build applications that coordinate work across distributed components",
+      "link": "https://docs.aws.amazon.com/swf/",
+      "id": "swf"
+    },
+    {
+      "name": "Amazon Textract",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Extract text and data from documents",
+      "link": "https://docs.aws.amazon.com/textract/",
+      "id": "textract"
+    },
+    {
+      "name": "Amazon Timestream",
+      "categories": [
+        "Database"
+      ],
+      "description": "Fully managed time series database",
+      "link": "https://docs.aws.amazon.com/timestream/",
+      "id": "TIME"
+    },
+    {
+      "name": "Amazon Transcribe",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Automatic speech recognition",
+      "link": "https://docs.aws.amazon.com/transcribe/",
+      "id": "Transcribe"
+    },
+    {
+      "name": "Amazon Translate",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Natural and fluent language translation",
+      "link": "https://docs.aws.amazon.com/translate/",
+      "id": "Translate"
+    },
+    {
+      "name": "Amazon Verified Permissions",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Permissions management and authorization for custom applications",
+      "link": "https://docs.aws.amazon.com/verifiedpermissions/",
+      "id": "verifiedpermissions"
+    },
+    {
+      "name": "Amazon Virtual Private Cloud",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Isolated cloud resources",
+      "link": "https://docs.aws.amazon.com/vpc/",
+      "id": "VPC"
+    },
+    {
+      "name": "Amazon VPC Lattice",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Simplify service-to-service connectivity, security, and monitoring",
+      "link": "https://docs.aws.amazon.com/vpc-lattice/",
+      "id": "vpc-lattice"
+    },
+    {
+      "name": "Amazon WorkMail",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Secure email and calendaring",
+      "link": "https://docs.aws.amazon.com/workmail/",
+      "id": "workmail"
+    },
+    {
+      "name": "Amazon WorkSpaces",
+      "categories": [
+        "End User Computing"
+      ],
+      "description": "Virtual desktops in the cloud",
+      "link": "https://docs.aws.amazon.com/workspaces/",
+      "id": "workspaces"
+    },
+    {
+      "name": "Amazon WorkSpaces Applications",
+      "categories": [
+        "End User Computing"
+      ],
+      "description": "Stream desktop applications securely to a browser",
+      "link": "https://docs.aws.amazon.com/appstream2/",
+      "id": "appstream2"
+    },
+    {
+      "name": "Amazon WorkSpaces Core",
+      "categories": [
+        "End User Computing"
+      ],
+      "description": "Virtual desktop infrastructure that works with third-party solutions",
+      "link": "https://docs.aws.amazon.com/workspaces-core/",
+      "id": null
+    },
+    {
+      "name": "Amazon WorkSpaces Secure Browser",
+      "categories": [
+        "End User Computing"
+      ],
+      "description": "Provide secure access to internal websites and SaaS applications",
+      "link": "https://docs.aws.amazon.com/workspaces-web/",
+      "id": null
+    },
+    {
+      "name": "Amazon WorkSpaces Thin Client",
+      "categories": [
+        "End User Computing"
+      ],
+      "description": "Affordable, easy-to-manage device to securely access virtual desktops",
+      "link": "https://docs.aws.amazon.com/workspaces-thin-client/",
+      "id": null
+    },
+    {
+      "name": "Apache MXNet on AWS",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Scalable, open-source deep learning framework",
+      "link": "https://docs.aws.amazon.com/mxnet/",
+      "id": null
+    },
+    {
+      "name": "AWS Account Management",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Manage your AWS accounts as a group",
+      "link": "https://docs.aws.amazon.com/organizations/",
+      "id": "account"
+    },
+    {
+      "name": "AWS Amplify",
+      "categories": [
+        "Front-End Web & Mobile"
+      ],
+      "description": "Build, deploy, host, and manage scalable web and mobile apps",
+      "link": "https://docs.aws.amazon.com/amplify/",
+      "id": "amplify"
+    },
+    {
+      "name": "AWS Amplify (AWS Mobile SDK for Android)",
+      "categories": [
+        "Front-End Web & Mobile"
+      ],
+      "description": "Build native Android applications powered by AWS",
+      "link": "https://docs.aws.amazon.com/sdk-for-android/",
+      "id": null
+    },
+    {
+      "name": "AWS AmplifyiOS (AWS Mobile SDK for iOS)",
+      "categories": [
+        "Front-End Web & Mobile"
+      ],
+      "description": "Build native iOS applications powered by AWS",
+      "link": "https://docs.aws.amazon.com/sdk-for-ios/",
+      "id": null
+    },
+    {
+      "name": "AWS App Mesh",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Monitor and control microservices",
+      "link": "https://docs.aws.amazon.com/app-mesh/",
+      "id": "lattice"
+    },
+    {
+      "name": "AWS App Runner",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Production web applications at scale made easy for developers",
+      "link": "https://docs.aws.amazon.com/apprunner/",
+      "id": "apprunner"
+    },
+    {
+      "name": "AWS App Studio",
+      "categories": [
+        "Business Applications",
+        "Developer Tools",
+        "Machine Learning"
+      ],
+      "description": "Build internal applications to automate processes and simplify organization activities",
+      "link": "https://docs.aws.amazon.com/appstudio/",
+      "id": "appstudio"
+    },
+    {
+      "name": "AWS App2Container",
+      "categories": [
+        "Containers"
+      ],
+      "description": "Containerize and migrate existing applications",
+      "link": "https://docs.aws.amazon.com/app2container/",
+      "id": "a2c"
+    },
+    {
+      "name": "AWS AppConfig",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Quickly deploy application configurations to applications of any size",
+      "link": "https://docs.aws.amazon.com/appconfig/",
+      "id": "appconfig"
+    },
+    {
+      "name": "AWS AppFabric",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Aggregate and analyze data across SaaS applications",
+      "link": "https://docs.aws.amazon.com/appfabric/",
+      "id": "aws-fabric"
+    },
+    {
+      "name": "AWS Application Discovery Service",
+      "categories": [
+        "Migration & Transfer"
+      ],
+      "description": "Discover on-premises applications to streamline migration",
+      "link": "https://docs.aws.amazon.com/application-discovery/",
+      "id": "applicationdiscoveryservice"
+    },
+    {
+      "name": "AWS AppSync",
+      "categories": [
+        "Front-End Web & Mobile",
+        "Serverless"
+      ],
+      "description": "Accelerate app development with fully-managed, scalable GraphQL APIs",
+      "link": "https://docs.aws.amazon.com/appsync/",
+      "id": "appsync"
+    },
+    {
+      "name": "AWS Artifact",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "On-demand access to AWS compliance reports",
+      "link": "https://docs.aws.amazon.com/artifact/",
+      "id": "artifact"
+    },
+    {
+      "name": "AWS Audit Manager",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Audit your AWS usage to simplify how you assess risk and compliance",
+      "link": "https://docs.aws.amazon.com/audit-manager/",
+      "id": "auditmanager"
+    },
+    {
+      "name": "AWS B2B Data Interchange",
+      "categories": [
+        "Application Integration"
+      ],
+      "description": "Enables automated exchange of EDI-based transactions",
+      "link": "https://docs.aws.amazon.com/b2bi/",
+      "id": "b2bi"
+    },
+    {
+      "name": "AWS Backup",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Centralized backup across AWS services",
+      "link": "https://docs.aws.amazon.com/aws-backup/",
+      "id": "Cryo"
+    },
+    {
+      "name": "AWS Batch",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Run batch jobs at any scale",
+      "link": "https://docs.aws.amazon.com/batch/",
+      "id": "batch"
+    },
+    {
+      "name": "AWS Billing and Cost Management",
+      "categories": [
+        "Cloud Financial Management"
+      ],
+      "description": "Find features that help you pay your bills and optimize your costs",
+      "link": "https://docs.aws.amazon.com/account-billing/",
+      "id": "awsbillingconsole"
+    },
+    {
+      "name": "AWS Blockchain Templates",
+      "categories": [
+        "Blockchain"
+      ],
+      "description": "Quickly create and deploy open-source blockchain frameworks on AWS",
+      "link": "https://docs.aws.amazon.com/blockchain-templates/",
+      "id": null
+    },
+    {
+      "name": "AWS Certificate Manager",
+      "categories": [
+        "Cryptography & PKI",
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Provision, manage, and deploy SSL/TLS certificates",
+      "link": "https://docs.aws.amazon.com/acm/",
+      "id": "certificatemanager"
+    },
+    {
+      "name": "AWS Clean Rooms",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Collaborate and analyze collective datasets without sharing raw data",
+      "link": "https://docs.aws.amazon.com/clean-rooms/",
+      "id": "cleanrooms"
+    },
+    {
+      "name": "AWS Cloud Control API",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Manage AWS and third-party cloud infrastructure with consistent APIs",
+      "link": "https://docs.aws.amazon.com/cloudcontrolapi/",
+      "id": "cloudcontrolapi"
+    },
+    {
+      "name": "AWS Cloud Development Kit (AWS CDK)",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Define cloud infrastructure using familiar programming languages",
+      "link": "https://docs.aws.amazon.com/cdk/",
+      "id": "aws-cdk"
+    },
+    {
+      "name": "AWS Cloud Digital Interface SDK",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Migrate timing-critical uncompressed video workflows to the cloud",
+      "link": "https://docs.aws.amazon.com/CDI-SDK/",
+      "id": null
+    },
+    {
+      "name": "AWS Cloud Map",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Service discovery for cloud resources",
+      "link": "https://docs.aws.amazon.com/cloud-map/",
+      "id": "servicediscovery"
+    },
+    {
+      "name": "AWS Cloud9",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Write, run, and debug code on a cloud IDE",
+      "link": "https://docs.aws.amazon.com/cloud9/",
+      "id": "cloud9"
+    },
+    {
+      "name": "AWS CloudFormation",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Create and manage resources with templates",
+      "link": "https://docs.aws.amazon.com/cloudformation/",
+      "id": "cloudformation"
+    },
+    {
+      "name": "AWS CloudHSM",
+      "categories": [
+        "Cryptography & PKI"
+      ],
+      "description": "Hardware-based key storage for regulatory compliance",
+      "link": "https://docs.aws.amazon.com/cloudhsm/",
+      "id": "cloudhsmv2"
+    },
+    {
+      "name": "AWS CloudShell",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Command line access to AWS resources and tools directly from a browser",
+      "link": "https://docs.aws.amazon.com/cloudshell/",
+      "id": "cloudshell"
+    },
+    {
+      "name": "AWS CloudTrail",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Track and monitor activities by users, roles, or AWS services",
+      "link": "https://docs.aws.amazon.com/cloudtrail/",
+      "id": "cloudtrail"
+    },
+    {
+      "name": "AWS CodeArtifact",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Artifact management for software development",
+      "link": "https://docs.aws.amazon.com/codeartifact/",
+      "id": "codeartifact"
+    },
+    {
+      "name": "AWS CodeBuild",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Build and test code",
+      "link": "https://docs.aws.amazon.com/codebuild/",
+      "id": "codebuild"
+    },
+    {
+      "name": "AWS CodeDeploy",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Automate code deployments",
+      "link": "https://docs.aws.amazon.com/codedeploy/",
+      "id": "codedeploy"
+    },
+    {
+      "name": "AWS CodePipeline",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Release software using continuous delivery",
+      "link": "https://docs.aws.amazon.com/codepipeline/",
+      "id": "codepipeline"
+    },
+    {
+      "name": "AWS Command Line Interface",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Command line interface tool to manage AWS services",
+      "link": "https://docs.aws.amazon.com/cli/",
+      "id": "CLI"
+    },
+    {
+      "name": "AWS Compute Optimizer",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Identify optimal AWS compute resources",
+      "link": "https://docs.aws.amazon.com/compute-optimizer/",
+      "id": "CO"
+    },
+    {
+      "name": "AWS Config",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Track and evaluate configuration changes",
+      "link": "https://docs.aws.amazon.com/config/",
+      "id": "awsconfig"
+    },
+    {
+      "name": "AWS Console Mobile Application",
+      "categories": [
+        "AWS Management Console",
+        "Management & Governance"
+      ],
+      "description": "View and manage resources to support incident response while on the go",
+      "link": "https://docs.aws.amazon.com/consolemobileapp/",
+      "id": "CMA"
+    },
+    {
+      "name": "AWS Control Tower",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Set up and govern a secure, compliant multi-account environment",
+      "link": "https://docs.aws.amazon.com/controltower/",
+      "id": "controltower"
+    },
+    {
+      "name": "AWS Crypto Tools",
+      "categories": [
+        "Cryptography & PKI"
+      ],
+      "description": "Helping you do cryptography right, even without special expertise",
+      "link": "https://docs.aws.amazon.com/aws-crypto-tools/",
+      "id": null
+    },
+    {
+      "name": "AWS Data Exchange",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Find, subscribe to, and use third-party data in the cloud",
+      "link": "https://docs.aws.amazon.com/data-exchange/",
+      "id": "dataexchange"
+    },
+    {
+      "name": "AWS Data Pipeline",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Orchestration service for periodic, data-driven workflows",
+      "link": "https://docs.aws.amazon.com/data-pipeline/",
+      "id": "datapipeline"
+    },
+    {
+      "name": "AWS Data Transfer Terminal",
+      "categories": [
+        "Migration & Transfer"
+      ],
+      "description": "Secure, physical locations for quick transfer of data to AWS",
+      "link": "https://docs.aws.amazon.com/datatransferterminal/",
+      "id": "DataTransferTerminal"
+    },
+    {
+      "name": "AWS Database Migration Service",
+      "categories": [
+        "Migration & Transfer"
+      ],
+      "description": "Migrate databases with minimal downtime",
+      "link": "https://docs.aws.amazon.com/dms/",
+      "id": "databasemigrationservice"
+    },
+    {
+      "name": "AWS DataSync",
+      "categories": [
+        "Migration & Transfer"
+      ],
+      "description": "Simple, fast, online data transfer",
+      "link": "https://docs.aws.amazon.com/datasync/",
+      "id": "datasync"
+    },
+    {
+      "name": "AWS Deadline Cloud",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Simplified render management and scalable infrastructure for rendering projects",
+      "link": "https://docs.aws.amazon.com/deadline-cloud/",
+      "id": "deadline"
+    },
+    {
+      "name": "AWS Deep Learning AMIs",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Deep learning on Amazon EC2",
+      "link": "https://docs.aws.amazon.com/dlami/",
+      "id": "dla"
+    },
+    {
+      "name": "AWS Deep Learning Containers",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Docker images for deep learning",
+      "link": "https://docs.aws.amazon.com/deep-learning-containers/",
+      "id": null
+    },
+    {
+      "name": "AWS Device Farm",
+      "categories": [
+        "Front-End Web & Mobile"
+      ],
+      "description": "Test Android, iOS, and web apps on real devices in the AWS Cloud",
+      "link": "https://docs.aws.amazon.com/devicefarm/",
+      "id": "devicefarm"
+    },
+    {
+      "name": "AWS DevOps Agent",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "AI agent that resolves and proactively prevents AWS incidents",
+      "link": "https://docs.aws.amazon.com/devopsagent/",
+      "id": "DevOpsAgent"
+    },
+    {
+      "name": "AWS Diagnostic Tools",
+      "categories": [
+        "General Reference"
+      ],
+      "description": "Diagnostic tools for partners in the Partner-Led Support program",
+      "link": "https://docs.aws.amazon.com/diagnostic-tools/",
+      "id": null
+    },
+    {
+      "name": "AWS Direct Connect",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Dedicated network connection to AWS",
+      "link": "https://docs.aws.amazon.com/directconnect/",
+      "id": "directconnect"
+    },
+    {
+      "name": "AWS Directory Service",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Set up and run Microsoft Active Directory with AWS services",
+      "link": "https://docs.aws.amazon.com/directory-service/",
+      "id": "directoryservice"
+    },
+    {
+      "name": "AWS Elastic Beanstalk",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Run and manage web apps",
+      "link": "https://docs.aws.amazon.com/elastic-beanstalk/",
+      "id": "elasticbeanstalk"
+    },
+    {
+      "name": "AWS Elastic Disaster Recovery",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Scalable, cost-effective application recovery to AWS",
+      "link": "https://docs.aws.amazon.com/drs/",
+      "id": "drs"
+    },
+    {
+      "name": "AWS Elemental Inference",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Apply machine learning models to video",
+      "link": "https://docs.aws.amazon.com/medialive/",
+      "id": "ElementalInference"
+    },
+    {
+      "name": "AWS Elemental MediaConnect",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Reliable and secure live video transport",
+      "link": "https://docs.aws.amazon.com/mediaconnect/",
+      "id": "mediaconnect"
+    },
+    {
+      "name": "AWS Elemental MediaConvert",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Convert file-based video content",
+      "link": "https://docs.aws.amazon.com/mediaconvert/",
+      "id": "mediaconvert"
+    },
+    {
+      "name": "AWS Elemental MediaLive",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Convert live video content",
+      "link": "https://docs.aws.amazon.com/medialive/",
+      "id": "medialive"
+    },
+    {
+      "name": "AWS Elemental MediaPackage",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Video origination and packaging",
+      "link": "https://docs.aws.amazon.com/mediapackage/",
+      "id": "mediapackage"
+    },
+    {
+      "name": "AWS Elemental MediaTailor",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Video personalization and monetization",
+      "link": "https://docs.aws.amazon.com/mediatailor/",
+      "id": "MediaTailor"
+    },
+    {
+      "name": "AWS Elemental On-Premises",
+      "categories": [
+        "Media Services"
+      ],
+      "description": "Encode and package video assets with on-premises software",
+      "link": "https://docs.aws.amazon.com/elemental-on-premises/",
+      "id": null
+    },
+    {
+      "name": "AWS End User Messaging Push",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Application-to-person push notification service",
+      "link": "https://docs.aws.amazon.com/end-user-messaging/",
+      "id": null
+    },
+    {
+      "name": "AWS End User Messaging SMS",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Application-to-person SMS messaging service",
+      "link": "https://docs.aws.amazon.com/sms-voice/",
+      "id": "pinpoint-sms-voice-v2"
+    },
+    {
+      "name": "AWS End User Messaging Social",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Application-to-person WhatsApp messaging service",
+      "link": "https://docs.aws.amazon.com/end-user-messaging/",
+      "id": "social-messaging"
+    },
+    {
+      "name": "AWS Entity Resolution",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Link records stored across multiple applications, channels, and data stores",
+      "link": "https://docs.aws.amazon.com/entityresolution/",
+      "id": "entityresolution"
+    },
+    {
+      "name": "AWS Fargate",
+      "categories": [
+        "Serverless"
+      ],
+      "description": "Serverless compute for containers",
+      "link": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html",
+      "id": "fargate"
+    },
+    {
+      "name": "AWS Fault Injection Service",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Improve resiliency and performance with controlled experiments",
+      "link": "https://docs.aws.amazon.com/fis/",
+      "id": "valkyrie"
+    },
+    {
+      "name": "AWS Firewall Manager",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Deploy network security across your VPCs with just a few clicks",
+      "link": "https://docs.aws.amazon.com/firewall-manager/",
+      "id": "fms"
+    },
+    {
+      "name": "AWS Flat-Rate Plans",
+      "categories": [
+        "Cloud Financial Management"
+      ],
+      "description": "Provides simplified billing for integrated AWS service packages",
+      "link": "https://docs.aws.amazon.com/PricingPlanManager/latest/UserGuide/overview.html",
+      "id": "Flat-RatePlans"
+    },
+    {
+      "name": "AWS Global Accelerator",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Improve global application availability and performance",
+      "link": "https://docs.aws.amazon.com/global-accelerator/",
+      "id": "GAX"
+    },
+    {
+      "name": "AWS Glossary",
+      "categories": [
+        "General Reference"
+      ],
+      "description": "Find definitions for AWS terms",
+      "link": "https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html",
+      "id": null
+    },
+    {
+      "name": "AWS Glue",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Simple, scalable, and serverless data integration",
+      "link": "https://docs.aws.amazon.com/glue/",
+      "id": "glue"
+    },
+    {
+      "name": "AWS GovCloud (US)",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Move sensitive workloads into the cloud",
+      "link": "https://docs.aws.amazon.com/govcloud-us/",
+      "id": null
+    },
+    {
+      "name": "AWS Ground Station",
+      "categories": [
+        "Satellite"
+      ],
+      "description": "Fully managed ground station as a service",
+      "link": "https://docs.aws.amazon.com/ground-station/",
+      "id": "GRS"
+    },
+    {
+      "name": "AWS Health",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Find information about events that can affect your AWS resources",
+      "link": "https://docs.aws.amazon.com/health/",
+      "id": "awshealth"
+    },
+    {
+      "name": "AWS HealthImaging",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Manage medical imaging data",
+      "link": "https://docs.aws.amazon.com/healthimaging/",
+      "id": "medical-imaging"
+    },
+    {
+      "name": "AWS HealthLake",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Securely store, transform, query, and analyze health data in minutes",
+      "link": "https://docs.aws.amazon.com/healthlake/",
+      "id": "healthlake"
+    },
+    {
+      "name": "AWS HealthOmics",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Transform omics data into insights",
+      "link": "https://docs.aws.amazon.com/omics/",
+      "id": "omics"
+    },
+    {
+      "name": "AWS IAM Identity Center",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Manage single sign-on access to AWS accounts and apps",
+      "link": "https://docs.aws.amazon.com/singlesignon/",
+      "id": "sso"
+    },
+    {
+      "name": "AWS Identity and Access Management",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Securely manage access to services and resources with IAM",
+      "link": "https://docs.aws.amazon.com/iam/",
+      "id": "iam"
+    },
+    {
+      "name": "AWS Incident Detection and Response",
+      "categories": [
+        "Customer Enablement Services"
+      ],
+      "description": "Proactive monitoring and incident management for production workloads",
+      "link": "https://docs.aws.amazon.com/aws-support/",
+      "id": null
+    },
+    {
+      "name": "AWS Infrastructure Composer",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Design and build your modern infrastructure through a visual builder",
+      "link": "https://docs.aws.amazon.com/infrastructure-composer/",
+      "id": null
+    },
+    {
+      "name": "AWS Interconnect",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Configure private connections to other cloud service providers",
+      "link": "https://docs.aws.amazon.com/interconnect/",
+      "id": "Interconnect"
+    },
+    {
+      "name": "AWS IoT Core",
+      "categories": [
+        "Internet of Things (IoT)"
+      ],
+      "description": "Connect devices to the cloud",
+      "link": "https://docs.aws.amazon.com/iot/",
+      "id": null
+    },
+    {
+      "name": "AWS IoT Device Defender",
+      "categories": [
+        "Internet of Things (IoT)"
+      ],
+      "description": "Security management for IoT devices",
+      "link": "https://docs.aws.amazon.com/iot-device-defender/",
+      "id": "iotdevicedefender"
+    },
+    {
+      "name": "AWS IoT Device Management",
+      "categories": [
+        "Internet of Things (IoT)"
+      ],
+      "description": "Onboard, organize, and remotely manage IoT devices",
+      "link": "https://docs.aws.amazon.com/iot-device-management/",
+      "id": "iotdevicemanagement"
+    },
+    {
+      "name": "AWS IoT ExpressLink",
+      "categories": [
+        "Internet of Things (IoT)"
+      ],
+      "description": "Quickly and easily develop secure IoT devices",
+      "link": "https://docs.aws.amazon.com/iot-expresslink/",
+      "id": null
+    },
+    {
+      "name": "AWS IoT FleetWise",
+      "categories": [
+        "Internet of Things (IoT)"
+      ],
+      "description": "Unlock the value of vehicle data",
+      "link": "https://docs.aws.amazon.com/iot-fleetwise/",
+      "id": "iotfleetwise"
+    },
+    {
+      "name": "AWS IoT Greengrass",
+      "categories": [
+        "Internet of Things (IoT)"
+      ],
+      "description": "Local compute, messaging, and sync for devices",
+      "link": "https://docs.aws.amazon.com/greengrass/",
+      "id": "greengrass"
+    },
+    {
+      "name": "AWS IoT SiteWise",
+      "categories": [
+        "Internet of Things (IoT)"
+      ],
+      "description": "IoT data collector and interpreter",
+      "link": "https://docs.aws.amazon.com/iot-sitewise/",
+      "id": "iotsitewise"
+    },
+    {
+      "name": "AWS IoT TwinMaker",
+      "categories": [
+        "Internet of Things (IoT)"
+      ],
+      "description": "Optimize operations by creating digital twins of real-world systems",
+      "link": "https://docs.aws.amazon.com/iot-twinmaker/",
+      "id": "iottwinmaker"
+    },
+    {
+      "name": "AWS IoT Wireless",
+      "categories": [
+        "Internet of Things (IoT)"
+      ],
+      "description": "Secure bi-directional communication for LoRaWAN and Sidewalk end devices",
+      "link": "https://docs.aws.amazon.com/iot-wireless/",
+      "id": "iotwireless"
+    },
+    {
+      "name": "AWS IQ",
+      "categories": [
+        "Customer Enablement Services"
+      ],
+      "description": "Find AWS Certified third-party experts for on-demand project work",
+      "link": "https://docs.aws.amazon.com/aws-iq/",
+      "id": null
+    },
+    {
+      "name": "AWS Key Management Service",
+      "categories": [
+        "Cryptography & PKI"
+      ],
+      "description": "Managed creation and control of encryption keys",
+      "link": "https://docs.aws.amazon.com/kms/",
+      "id": "kms"
+    },
+    {
+      "name": "AWS Lake Formation",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Build a secure data lake in days",
+      "link": "https://docs.aws.amazon.com/lake-formation/",
+      "id": "lakeformation"
+    },
+    {
+      "name": "AWS Lambda",
+      "categories": [
+        "Compute",
+        "Serverless"
+      ],
+      "description": "Run code without thinking about servers",
+      "link": "https://docs.aws.amazon.com/lambda/",
+      "id": "lambda"
+    },
+    {
+      "name": "AWS Launch Wizard",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Easily size, configure, and deploy third-party applications on AWS",
+      "link": "https://docs.aws.amazon.com/launchwizard/",
+      "id": "launchwizard"
+    },
+    {
+      "name": "AWS License Manager",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Track and manage software licenses across multiple AWS Regions",
+      "link": "https://docs.aws.amazon.com/license-manager/",
+      "id": "license-manager"
+    },
+    {
+      "name": "AWS Lifecycle changes",
+      "categories": [
+        "General Reference"
+      ],
+      "description": "Stay informed about AWS service availability changes",
+      "link": "https://docs.aws.amazon.com/general/latest/gr/service-lifecycle.html",
+      "id": null
+    },
+    {
+      "name": "AWS Local Zones",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Run latency sensitive applications closer to end users",
+      "link": "https://docs.aws.amazon.com/local-zones/",
+      "id": "LocalZones"
+    },
+    {
+      "name": "AWS Mainframe Modernization",
+      "categories": [
+        "Migration & Transfer"
+      ],
+      "description": "Migrate, modernize, operate, and run mainframe workloads",
+      "link": "https://docs.aws.amazon.com/m2/",
+      "id": "m2"
+    },
+    {
+      "name": "AWS Managed Services",
+      "categories": [
+        "Customer Enablement Services"
+      ],
+      "description": "Infrastructure operations management for AWS",
+      "link": "https://docs.aws.amazon.com/managedservices/",
+      "id": "AMS"
+    },
+    {
+      "name": "AWS Management Console",
+      "categories": [
+        "AWS Management Console",
+        "Management & Governance"
+      ],
+      "description": "Web-based user interface comprising multiple AWS service consoles",
+      "link": "https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html",
+      "id": "awsmanagementconsole"
+    },
+    {
+      "name": "AWS Marketplace",
+      "categories": [
+        "Marketplace"
+      ],
+      "description": "Buy or sell software that runs on AWS",
+      "link": "https://docs.aws.amazon.com/marketplace/",
+      "id": null
+    },
+    {
+      "name": "AWS Microservice Extractor for .NET",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Reduce time and effort to convert large applications to microservices",
+      "link": "https://docs.aws.amazon.com/microservice-extractor/",
+      "id": null
+    },
+    {
+      "name": "AWS Migration Hub",
+      "categories": [
+        "Migration & Transfer"
+      ],
+      "description": "Track migrations from a single place",
+      "link": "https://docs.aws.amazon.com/migrationhub/",
+      "id": "migrationhub"
+    },
+    {
+      "name": "AWS Mobile SDK for Unity",
+      "categories": [
+        "Front-End Web & Mobile"
+      ],
+      "description": "Find .NET classes that enable games written with Unity to utilize AWS",
+      "link": "https://docs.aws.amazon.com/sdk-for-unity/",
+      "id": null
+    },
+    {
+      "name": "AWS Network Firewall",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Deploy network security across your Amazon VPCs with just a few clicks",
+      "link": "https://docs.aws.amazon.com/network-firewall/",
+      "id": "NWFW"
+    },
+    {
+      "name": "AWS Organizations",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Central governance and management across AWS accounts",
+      "link": "https://docs.aws.amazon.com/organizations/",
+      "id": "organizations"
+    },
+    {
+      "name": "AWS Outposts",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Run AWS infrastructure on-premises",
+      "link": "https://docs.aws.amazon.com/outposts/",
+      "id": "aws-outposts"
+    },
+    {
+      "name": "AWS Panorama",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Improve your operations with computer vision at the edge",
+      "link": "https://docs.aws.amazon.com/panorama/",
+      "id": "PAN"
+    },
+    {
+      "name": "AWS Parallel Computing Service",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Easily run HPC workloads at virtually any scale",
+      "link": "https://docs.aws.amazon.com/pcs/",
+      "id": "pcs"
+    },
+    {
+      "name": "AWS ParallelCluster",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Deploy and manage high performance computing clusters in the AWS Cloud",
+      "link": "https://docs.aws.amazon.com/parallelcluster/",
+      "id": "aws-parallelcluster"
+    },
+    {
+      "name": "AWS Partner Central",
+      "categories": [
+        "Partner Central"
+      ],
+      "description": "Manage your AWS Partner Network (APN) membership and access AWS Partner resources",
+      "link": "https://docs.aws.amazon.com/partner-central/",
+      "id": "aws-partner-central"
+    },
+    {
+      "name": "AWS Payment Cryptography",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Fully managed payment cryptography service",
+      "link": "https://docs.aws.amazon.com/payment-cryptography/",
+      "id": "payment-cryptography"
+    },
+    {
+      "name": "AWS Pricing Calculator",
+      "categories": [
+        "Cloud Financial Management"
+      ],
+      "description": "Create cost estimates that match your AWS use case",
+      "link": "https://docs.aws.amazon.com/pricing-calculator/",
+      "id": "APC"
+    },
+    {
+      "name": "AWS Private Certificate Authority",
+      "categories": [
+        "Cryptography & PKI",
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Create private certificates to identify resources and protect data",
+      "link": "https://docs.aws.amazon.com/privateca/",
+      "id": "ACMPrivateCA"
+    },
+    {
+      "name": "AWS Professional Services",
+      "categories": [
+        "Customer Enablement Services"
+      ],
+      "description": "Get help executing your enterprise cloud computing initiatives",
+      "link": "https://aws.amazon.com/professional-services/",
+      "id": null
+    },
+    {
+      "name": "AWS Proton",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Automate management for container and serverless deployments",
+      "link": "https://docs.aws.amazon.com/proton/",
+      "id": "ARW"
+    },
+    {
+      "name": "AWS re:Post Private",
+      "categories": [
+        "Customer Enablement Services"
+      ],
+      "description": "Build an organization-specific knowledge resource for your cloud community",
+      "link": "https://docs.aws.amazon.com/repostprivate/",
+      "id": "repostspace"
+    },
+    {
+      "name": "AWS Resilience Hub",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Prepare and protect your applications from disruptions",
+      "link": "https://docs.aws.amazon.com/resilience-hub/",
+      "id": "resiliencehub"
+    },
+    {
+      "name": "AWS Resource Access Manager",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Simple, secure service to share AWS resources",
+      "link": "https://docs.aws.amazon.com/ARG/",
+      "id": "ram"
+    },
+    {
+      "name": "AWS Resource Explorer",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Search for and discover relevant resources across AWS",
+      "link": "https://docs.aws.amazon.com/ARG/",
+      "id": "resource-explorer-2"
+    },
+    {
+      "name": "AWS Resource Groups",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "See your resources across the AWS Regions in your AWS account",
+      "link": "https://docs.aws.amazon.com/ARG/",
+      "id": "ARG"
+    },
+    {
+      "name": "AWS RTB Fabric",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Co-locate your real-time bidding applications on AWS",
+      "link": "https://docs.aws.amazon.com/rtb-fabric/",
+      "id": "rtbfabric"
+    },
+    {
+      "name": "AWS Schema Conversion Tool",
+      "categories": [
+        "Migration & Transfer"
+      ],
+      "description": "Convert source schema and most code to target-compatible format",
+      "link": "https://docs.aws.amazon.com/SchemaConversionTool/",
+      "id": "AWSSCT"
+    },
+    {
+      "name": "AWS SDK for .NET",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with .NET-specific APIs and libraries",
+      "link": "https://docs.aws.amazon.com/sdk-for-net/",
+      "id": "NET"
+    },
+    {
+      "name": "AWS SDK for C++",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with C++-specific APIs",
+      "link": "https://docs.aws.amazon.com/sdk-for-cpp/",
+      "id": "CPP"
+    },
+    {
+      "name": "AWS SDK for Go",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with Go-specific APIs and libraries",
+      "link": "https://docs.aws.amazon.com/sdk-for-go/",
+      "id": "Go"
+    },
+    {
+      "name": "AWS SDK for Java",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with Java-specific APIs and libraries",
+      "link": "https://docs.aws.amazon.com/sdk-for-java/",
+      "id": "Java"
+    },
+    {
+      "name": "AWS SDK for JavaScript",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with JavaScript-specific APIs and libraries",
+      "link": "https://docs.aws.amazon.com/sdk-for-javascript/",
+      "id": "JSB"
+    },
+    {
+      "name": "AWS SDK for Kotlin",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with Kotlin-specific APIs",
+      "link": "https://docs.aws.amazon.com/sdk-for-kotlin/",
+      "id": "SDKforKotlin"
+    },
+    {
+      "name": "AWS SDK for PHP",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with PHP-specific APIs and libraries",
+      "link": "https://docs.aws.amazon.com/sdk-for-php/",
+      "id": "PHP"
+    },
+    {
+      "name": "AWS SDK for Python (Boto3)",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with Python-specific APIs and libraries",
+      "link": "https://docs.aws.amazon.com/pythonsdk/",
+      "id": "Python3"
+    },
+    {
+      "name": "AWS SDK for Ruby",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with Ruby-specific APIs and libraries",
+      "link": "https://docs.aws.amazon.com/sdk-for-ruby/",
+      "id": "Ruby"
+    },
+    {
+      "name": "AWS Secrets Manager",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Rotate, manage, and retrieve secrets",
+      "link": "https://docs.aws.amazon.com/secretsmanager/",
+      "id": "secretsmanager"
+    },
+    {
+      "name": "AWS Security Agent",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "AI-powered agent that proactively secures your applications",
+      "link": "https://docs.aws.amazon.com/securityagent/",
+      "id": "hobbes"
+    },
+    {
+      "name": "AWS Security Credentials",
+      "categories": [
+        "General Reference"
+      ],
+      "description": "Learn how to specify AWS security credentials",
+      "link": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html",
+      "id": null
+    },
+    {
+      "name": "AWS Security Hub",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Unified security and compliance center",
+      "link": "https://docs.aws.amazon.com/securityhub/",
+      "id": "SecurityHubGeneral"
+    },
+    {
+      "name": "AWS Security Incident Response",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Helps you respond to and receive CIRT assistance for security events",
+      "link": "https://docs.aws.amazon.com/security-ir/",
+      "id": "Indra"
+    },
+    {
+      "name": "AWS Serverless Application Model",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Build serverless applications on AWS",
+      "link": "https://docs.aws.amazon.com/serverless-application-model/",
+      "id": "SAM"
+    },
+    {
+      "name": "AWS Serverless Application Repository",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Discover, deploy, and publish serverless applications",
+      "link": "https://docs.aws.amazon.com/serverlessrepo/",
+      "id": "serverlessrepo"
+    },
+    {
+      "name": "AWS Service Catalog",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Create and use standardized products",
+      "link": "https://docs.aws.amazon.com/servicecatalog/",
+      "id": "servicecatalog"
+    },
+    {
+      "name": "AWS Service Endpoints",
+      "categories": [
+        "General Reference"
+      ],
+      "description": "Connect programmatically to an AWS service using endpoints",
+      "link": "https://docs.aws.amazon.com/general/latest/gr/aws-service-information.html",
+      "id": null
+    },
+    {
+      "name": "AWS Service Management Connector",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Provision, manage, and operate AWS resources within ITSM tools",
+      "link": "https://docs.aws.amazon.com/smc/",
+      "id": null
+    },
+    {
+      "name": "AWS Shield",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "DDoS protection",
+      "link": "https://docs.aws.amazon.com/shield/",
+      "id": "Shield"
+    },
+    {
+      "name": "AWS Sign-In",
+      "categories": [
+        "AWS Management Console"
+      ],
+      "description": "Find help signing in and out of your account",
+      "link": "https://docs.aws.amazon.com/signin/latest/userguide/what-is-sign-in.html",
+      "id": null
+    },
+    {
+      "name": "AWS Signer",
+      "categories": [
+        "Cryptography & PKI"
+      ],
+      "description": "Validate AWS Lambda and IoT device code against a digital signature",
+      "link": "https://docs.aws.amazon.com/signer/",
+      "id": "signer"
+    },
+    {
+      "name": "AWS Snowball Edge",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Move petabytes of data to and from AWS, or process data at the edge",
+      "link": "https://docs.aws.amazon.com/snowball/",
+      "id": "snowballedge"
+    },
+    {
+      "name": "AWS Step Functions",
+      "categories": [
+        "Application Integration",
+        "Serverless"
+      ],
+      "description": "Coordination for distributed applications",
+      "link": "https://docs.aws.amazon.com/step-functions/",
+      "id": "states"
+    },
+    {
+      "name": "AWS Storage Gateway",
+      "categories": [
+        "Storage"
+      ],
+      "description": "Hybrid storage integration",
+      "link": "https://docs.aws.amazon.com/storagegateway/",
+      "id": "storagegateway"
+    },
+    {
+      "name": "AWS Supply Chain",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Reduce risks and lower costs with ML-powered supply chain application",
+      "link": "https://docs.aws.amazon.com/connect-decisions/",
+      "id": "ip-scdv"
+    },
+    {
+      "name": "AWS Support",
+      "categories": [
+        "General Reference"
+      ],
+      "description": "Learn about the components and features that AWS Support provides",
+      "link": "https://docs.aws.amazon.com/aws-support/",
+      "id": "support"
+    },
+    {
+      "name": "AWS Sustainability",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Provides a suite of features to help you understand your environmental impact from using AWS services",
+      "link": "https://docs.aws.amazon.com/sustainability/",
+      "id": "aws-sustainability"
+    },
+    {
+      "name": "AWS Systems Manager",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Gain operational insights and take action",
+      "link": "https://docs.aws.amazon.com/systems-manager/",
+      "id": "ec2simplesystemsmanager"
+    },
+    {
+      "name": "AWS Systems Manager Incident Manager",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Mitigate and recover from incidents affecting your applications hosted on AWS",
+      "link": "https://docs.aws.amazon.com/systems-manager/",
+      "id": "commander"
+    },
+    {
+      "name": "AWS Telco Network Builder",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Automate the deployment and management of your telco networks on AWS",
+      "link": "https://docs.aws.amazon.com/tnb/",
+      "id": "TelcoNetworkBuilder"
+    },
+    {
+      "name": "AWS Toolkit for JetBrains",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Open-source plugin for the integrated development environments (IDEs) for JetBrains",
+      "link": "https://docs.aws.amazon.com/toolkit-for-jetbrains/",
+      "id": "JBIDEToolkit"
+    },
+    {
+      "name": "AWS Toolkit for Microsoft Azure DevOps",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Extension for hosted and on-premises Microsoft Azure DevOps",
+      "link": "https://docs.aws.amazon.com/vsts/",
+      "id": "TTS"
+    },
+    {
+      "name": "AWS Toolkit for Visual Studio Code",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Open-source extension for the Visual Studio Code editor",
+      "link": "https://docs.aws.amazon.com/toolkit-for-vscode/",
+      "id": "VSCIDEToolkitshort"
+    },
+    {
+      "name": "AWS Tools for PowerShell",
+      "categories": [
+        "Developer Tools",
+        "Management & Governance"
+      ],
+      "description": "PowerShell modules built on the functionality exposed by the SDK for .NET",
+      "link": "https://docs.aws.amazon.com/powershell/",
+      "id": "TWPALL"
+    },
+    {
+      "name": "AWS Training and Certification",
+      "categories": [
+        "Customer Enablement Services"
+      ],
+      "description": "Explore AWS learning opportunities",
+      "link": "https://aws.amazon.com/training/",
+      "id": null
+    },
+    {
+      "name": "AWS Transfer Family",
+      "categories": [
+        "Migration & Transfer"
+      ],
+      "description": "Fully managed SFTP, FTPS, and FTP service",
+      "link": "https://docs.aws.amazon.com/transfer/",
+      "id": "transfer"
+    },
+    {
+      "name": "AWS Transform",
+      "categories": [
+        "Migration & Transfer"
+      ],
+      "description": "Use agentic AI to accelerate the transformation of infrastructure, applications, and code",
+      "link": "https://docs.aws.amazon.com/transform/",
+      "id": "transform"
+    },
+    {
+      "name": "AWS Transform MGN",
+      "categories": [
+        "Migration & Transfer"
+      ],
+      "description": "Automate application migration and modernization",
+      "link": "https://docs.aws.amazon.com/mgn/",
+      "id": "mgn"
+    },
+    {
+      "name": "AWS Trusted Advisor",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Optimize performance and security",
+      "link": "https://docs.aws.amazon.com/aws-support/",
+      "id": "trustedadvisor"
+    },
+    {
+      "name": "AWS User Notifications",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Unifies the notification experience across AWS services",
+      "link": "https://docs.aws.amazon.com/notifications/",
+      "id": "notifications"
+    },
+    {
+      "name": "AWS Verified Access",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Provide secure access to corporate applications without a VPN",
+      "link": "https://docs.aws.amazon.com/verified-access/",
+      "id": "verified-access"
+    },
+    {
+      "name": "AWS Virtual Private Network",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Securely access your network resources",
+      "link": "https://docs.aws.amazon.com/vpn/",
+      "id": "vpnvpc"
+    },
+    {
+      "name": "AWS WAF",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Filter malicious web traffic",
+      "link": "https://docs.aws.amazon.com/waf/",
+      "id": "waf"
+    },
+    {
+      "name": "AWS Wavelength",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Deliver ultra-low latency applications for 5G devices",
+      "link": "https://docs.aws.amazon.com/wavelength/",
+      "id": "WAVE"
+    },
+    {
+      "name": "AWS Well-Architected Tool",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Review and improve your workloads",
+      "link": "https://docs.aws.amazon.com/wellarchitected/",
+      "id": "WAT"
+    },
+    {
+      "name": "AWS Wickr",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Protect enterprise communications with end-to-end encryption",
+      "link": "https://docs.aws.amazon.com/wickr/",
+      "id": "wickr"
+    },
+    {
+      "name": "AWS X-Ray",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Analyze and debug your applications",
+      "link": "https://docs.aws.amazon.com/xray/",
+      "id": "xray"
+    },
+    {
+      "name": "Claude Platform on AWS",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Access the native Anthropic platform with AWS billing and security",
+      "link": "https://docs.aws.amazon.com/claude-platform/",
+      "id": "ClaudePlatformonAWS"
+    },
+    {
+      "name": "EC2 Image Builder",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Automate lifecycle management of \"golden\" server images",
+      "link": "https://docs.aws.amazon.com/imagebuilder/",
+      "id": "IB"
+    },
+    {
+      "name": "Elastic Load Balancing",
+      "categories": [
+        "Networking & Content Delivery"
+      ],
+      "description": "Distribute incoming traffic across multiple targets",
+      "link": "https://docs.aws.amazon.com/elasticloadbalancing/",
+      "id": "elb"
+    },
+    {
+      "name": "FreeRTOS",
+      "categories": [
+        "Internet of Things (IoT)"
+      ],
+      "description": "Real-time operating system for microcontrollers",
+      "link": "https://docs.aws.amazon.com/freertos/",
+      "id": "freertosota"
+    },
+    {
+      "name": "Kiro",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "AI coding with spec-driven development",
+      "link": "https://kiro.dev/docs/",
+      "id": null
+    },
+    {
+      "name": "Oracle Database@AWS",
+      "categories": [
+        "Database"
+      ],
+      "description": "Access Oracle Exadata infrastructure managed by OCI inside AWS data centers",
+      "link": "https://docs.aws.amazon.com/odb/",
+      "id": "odb"
+    },
+    {
+      "name": "Porting Assistant for .NET",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Port Microsoft .NET Framework applications to .NET Core",
+      "link": "https://docs.aws.amazon.com/portingassistant/",
+      "id": "EC"
+    },
+    {
+      "name": "Red Hat OpenShift Service on AWS",
+      "categories": [
+        "Containers"
+      ],
+      "description": "Managed OpenShift in the cloud",
+      "link": "https://docs.aws.amazon.com/rosa/",
+      "id": "rosa"
+    },
+    {
+      "name": "Research and Engineering Studio on AWS",
+      "categories": [
+        "Compute HPC"
+      ],
+      "description": "Create and manage portals for research collaboration",
+      "link": "https://docs.aws.amazon.com/res/",
+      "id": null
+    },
+    {
+      "name": "Savings Plans",
+      "categories": [
+        "Cloud Financial Management"
+      ],
+      "description": "Save on compute usage with flexible pricing",
+      "link": "https://docs.aws.amazon.com/savingsplans/",
+      "id": "savings-plans"
+    },
+    {
+      "name": "SDK for Rust",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with Rust-specific APIs and libraries",
+      "link": "https://docs.aws.amazon.com/sdk-for-rust/",
+      "id": null
+    },
+    {
+      "name": "SDK for SAP ABAP",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with a client library of modules",
+      "link": "https://docs.aws.amazon.com/sdk-for-sapabap/",
+      "id": "abap-sdk"
+    },
+    {
+      "name": "SDK for Swift",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Develop applications with Swift-specific APIs and libraries",
+      "link": "https://docs.aws.amazon.com/sdk-for-swift/",
+      "id": null
+    },
+    {
+      "name": "SDKs and Tools Reference Guide",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Find information applicable to multiple SDKs and tools",
+      "link": "https://docs.aws.amazon.com/sdkref/latest/guide/overview.html",
+      "id": null
+    },
+    {
+      "name": "Security Documentation",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Security documentation by category",
+      "link": "https://docs.aws.amazon.com/security/",
+      "id": null
+    },
+    {
+      "name": "Serverless",
+      "categories": [
+        "Serverless"
+      ],
+      "description": "Introduction to core serverless concepts and services in the AWS Cloud",
+      "link": "https://docs.aws.amazon.com/serverless/",
+      "id": null
+    },
+    {
+      "name": "Service Quotas",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "View and manage your AWS workload quotas easily and at scale",
+      "link": "https://docs.aws.amazon.com/servicequotas/",
+      "id": "servicequotas"
+    },
+    {
+      "name": "Service Quotas reference",
+      "categories": [
+        "General Reference"
+      ],
+      "description": "View the AWS workload quotas for AWS services",
+      "link": "https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html",
+      "id": null
+    },
+    {
+      "name": "Tag Editor",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Add, edit, or delete tags on multiple AWS resources",
+      "link": "https://docs.aws.amazon.com/ARG/",
+      "id": null
+    },
+    {
+      "name": "Tagging AWS Resources",
+      "categories": [
+        "General Reference"
+      ],
+      "description": "Assign metadata to your AWS resources in the form of tags",
+      "link": "https://docs.aws.amazon.com/tag-editor/latest/userguide/tagging.html",
+      "id": null
+    },
+    {
+      "name": "Toolkit for .NET Refactoring",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Reduce time and effort to refactor legacy .NET apps for AWS Cloud",
+      "link": "https://docs.aws.amazon.com/tk-dotnet-refactoring/",
+      "id": null
+    },
+    {
+      "name": "Toolkit for Visual Studio",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Plugin for the Visual Studio integrated development environment (IDE)",
+      "link": "https://docs.aws.amazon.com/aws-toolkit-visual-studio/",
+      "id": "TVS"
+    }
+  ]
+}
