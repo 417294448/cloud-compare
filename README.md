@@ -1,10 +1,42 @@
 # Cloud Service Product Comparison
 
 ## Table of Contents
+- [Interactive Query Page (index.html)](#interactive-query-page-indexhtml)
 - [International Services](#international-services)
 - [Chinese Services](#chinese-services)
 
+## Interactive Query Page (index.html)
 
+**[index.html](index.html)** is a self-contained, zero-dependency static page that lets you browse and search the cross-cloud product mapping in your browser — no server, no build step at view time; just double-click to open.
+
+**Features**
+
+- **4-vendor comparison** — every row shows the matched products across AWS, Azure, GCP, and Alibaba Cloud side by side.
+- **Category browsing** — 35 unified categories spanning compute, database, storage, networking, ML, security, and more.
+- **Vendor filter** — toggle vendor chips to keep only rows that have products on the selected clouds.
+- **Full-text search** — search across product names, concept names, descriptions (both English and Chinese).
+- **Bilingual** — switch between English and 中文 with one click.
+- **Light / dark theme** — independent theme toggle.
+
+**How it's built (don't edit by hand)**
+
+`index.html` is a generated artifact. The data pipeline is:
+
+```
+products-{aws,azure,gcp,alibabacloud}.json   ← scraped from official sites
+                    ↓
+        product-mapping.json                  ← curated cross-cloud grouping
+                    ↓
+              index.html                      ← generated static page
+```
+
+Regenerate after any data update:
+
+```bash
+node build-index.js
+```
+
+The template lives in `index.template.html`; data-flattening logic is in `lib/transform.js`; filter/sort logic is in `lib/query.js`. See `.claude/skills/cloud-product-catalog/SKILL.md` for the full maintenance workflow.
 
 ## International Services
 This section provides a comparison of major international cloud service providers, covering service types such as computing, storage, and networking. [View Detailed Information](cloud-compare-en.md)
