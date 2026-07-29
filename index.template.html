@@ -67,16 +67,36 @@
   }
   .subtitle { margin: 2px 0 0; font-size: 13px; color: var(--text-muted); }
 
-  .topbar-controls { display: flex; align-items: center; gap: 10px; }
-  .lang-toggle, .theme-toggle { display: flex; border: 1px solid var(--grid-line); border-radius: 6px; overflow: hidden; }
-  .lang-btn, .theme-btn {
+  .topbar-controls { display: flex; align-items: center; gap: 14px; }
+
+  .lang-toggle { display: flex; border: 1px solid var(--grid-line); border-radius: 6px; overflow: hidden; }
+  .lang-btn {
     font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.04em;
     padding: 7px 14px; background: transparent; color: var(--text-muted);
     border: none; cursor: pointer; transition: background 0.15s, color 0.15s;
   }
-  .lang-btn + .lang-btn, .theme-btn + .theme-btn { border-left: 1px solid var(--grid-line); }
-  .lang-btn.is-active, .theme-btn.is-active { background: var(--accent-azure); color: #fff; }
-  .lang-btn:not(.is-active):hover, .theme-btn:not(.is-active):hover { background: var(--bg-raised); color: var(--text-primary); }
+  .lang-btn + .lang-btn { border-left: 1px solid var(--grid-line); }
+  .lang-btn.is-active { background: var(--accent-azure); color: #fff; }
+  .lang-btn:not(.is-active):hover { background: var(--bg-raised); color: var(--text-primary); }
+
+  .theme-switch {
+    position: relative; display: inline-flex; align-items: center;
+    width: 56px; height: 28px; padding: 0 6px; flex: none;
+    border-radius: 999px; border: 1px solid var(--grid-line);
+    background: var(--bg-raised); cursor: pointer;
+  }
+  .theme-switch-icon { width: 14px; height: 14px; position: relative; z-index: 1; transition: color 0.2s; }
+  .theme-switch-icon--sun { margin-right: auto; color: #b56a00; }
+  .theme-switch-icon--moon { margin-left: auto; color: var(--text-dim); }
+  .theme-switch-thumb {
+    position: absolute; top: 3px; left: 3px; width: 20px; height: 20px;
+    border-radius: 50%; background: var(--bg-header);
+    border: 1px solid var(--grid-line);
+    transition: transform 0.2s ease;
+  }
+  html[data-theme="dark"] .theme-switch-thumb { transform: translateX(26px); }
+  html[data-theme="dark"] .theme-switch-icon--sun { color: var(--text-dim); }
+  html[data-theme="dark"] .theme-switch-icon--moon { color: #f4c95d; }
 
   .filterbar {
     position: sticky; top: 61px; z-index: 25;
@@ -188,10 +208,23 @@
       </div>
     </div>
     <div class="topbar-controls">
-      <div class="theme-toggle" role="group" aria-label="Theme">
-        <button type="button" id="theme-light-btn" class="theme-btn is-active" data-theme-choice="light">Light</button>
-        <button type="button" id="theme-dark-btn" class="theme-btn" data-theme-choice="dark">Dark</button>
-      </div>
+      <button type="button" id="theme-switch" class="theme-switch" aria-label="Toggle color theme" aria-pressed="false">
+        <svg class="theme-switch-icon theme-switch-icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2" fill="currentColor" stroke="none"/>
+          <line x1="12" y1="1.5" x2="12" y2="4"/>
+          <line x1="12" y1="20" x2="12" y2="22.5"/>
+          <line x1="1.5" y1="12" x2="4" y2="12"/>
+          <line x1="20" y1="12" x2="22.5" y2="12"/>
+          <line x1="4.4" y1="4.4" x2="6.2" y2="6.2"/>
+          <line x1="17.8" y1="17.8" x2="19.6" y2="19.6"/>
+          <line x1="4.4" y1="19.6" x2="6.2" y2="17.8"/>
+          <line x1="17.8" y1="6.2" x2="19.6" y2="4.4"/>
+        </svg>
+        <span class="theme-switch-thumb"></span>
+        <svg class="theme-switch-icon theme-switch-icon--moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M20.742 13.045a8.088 8.088 0 0 1-2.735.474c-4.464 0-8.08-3.616-8.08-8.08 0-1.036.194-2.027.547-2.937A9.005 9.005 0 0 0 3 12c0 4.97 4.03 9 9 9a9.006 9.006 0 0 0 8.742-6.955Z"/>
+        </svg>
+      </button>
       <div class="lang-toggle" role="group" aria-label="Language">
         <button type="button" class="lang-btn is-active" data-lang="en">EN</button>
         <button type="button" class="lang-btn" data-lang="cn">中文</button>
@@ -277,8 +310,7 @@
       noResults: 'No matching products. Try clearing a filter.',
       colConcept: 'Concept',
       noEquivalent: '—',
-      themeLight: 'Light',
-      themeDark: 'Dark',
+      themeToggleLabel: 'Toggle color theme',
       footer: 'Generated from product-mapping.json · '
     },
     cn: {
@@ -292,8 +324,7 @@
       noResults: '没有匹配的产品，试试清空筛选条件。',
       colConcept: '概念',
       noEquivalent: '—',
-      themeLight: '浅色',
-      themeDark: '深色',
+      themeToggleLabel: '切换深浅主题',
       footer: '数据来自 product-mapping.json · 生成时间 '
     }
   };
@@ -386,20 +417,15 @@
     document.getElementById('vendor-label').textContent = t.vendorLabel;
     document.getElementById('search-input').setAttribute('placeholder', t.searchPlaceholder);
     document.getElementById('col-concept').textContent = t.colConcept;
-    document.getElementById('theme-light-btn').textContent = t.themeLight;
-    document.getElementById('theme-dark-btn').textContent = t.themeDark;
+    document.getElementById('theme-switch').setAttribute('aria-label', t.themeToggleLabel);
     document.getElementById('footer-text').textContent = t.footer + PAYLOAD.generatedAt;
     populateCategorySelect();
   }
 
-  document.querySelectorAll('.theme-btn').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      state.theme = btn.getAttribute('data-theme-choice');
-      document.documentElement.setAttribute('data-theme', state.theme);
-      document.querySelectorAll('.theme-btn').forEach(function (b) {
-        b.classList.toggle('is-active', b === btn);
-      });
-    });
+  document.getElementById('theme-switch').addEventListener('click', function () {
+    state.theme = state.theme === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', state.theme);
+    document.getElementById('theme-switch').setAttribute('aria-pressed', String(state.theme === 'dark'));
   });
 
   document.querySelectorAll('.lang-btn').forEach(function (btn) {
