@@ -44,13 +44,16 @@
   html, body { margin: 0; padding: 0; height: 100%; }
   body {
     background: var(--bg);
-    background-image:
-      radial-gradient(circle at 15% 0%, var(--glow-1), transparent 40%),
-      radial-gradient(circle at 85% 8%, var(--glow-2), transparent 35%);
     color: var(--text-primary);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     transition: background-color 0.2s, color 0.2s;
+  }
+  body::before {
+    content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+    background-image:
+      radial-gradient(circle at 15% 0%, var(--glow-1), transparent 40%),
+      radial-gradient(circle at 85% 8%, var(--glow-2), transparent 35%);
   }
   a { color: inherit; }
 
@@ -146,9 +149,11 @@
 
   .data-table { width: 100%; border-collapse: collapse; table-layout: fixed; margin-top: 18px; }
   thead th {
+    position: sticky; top: 121px; z-index: 20;
     text-align: left; font-family: var(--font-mono); font-size: 11px;
     text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim);
     padding: 10px 12px; border-bottom: 1px solid var(--grid-line);
+    background: linear-gradient(to bottom, var(--bg-header) 75%, transparent);
   }
   .th-vendor--aws { color: var(--accent-aws); }
   .th-vendor--azure { color: var(--accent-azure); }
@@ -159,8 +164,9 @@
   .th-vendor--alibaba .vendor-icon { width: 22px; height: auto; }
 
   .category-row td {
-    position: sticky; top: 121px; z-index: 10;
-    background: var(--bg); padding: 14px 12px 6px; border-bottom: 1px solid var(--grid-line);
+    position: sticky; top: 157px; z-index: 10;
+    background: linear-gradient(to bottom, var(--bg-header) 82%, transparent);
+    padding: 14px 12px 6px; border-bottom: 1px solid var(--grid-line);
   }
   .category-tag {
     font-family: var(--font-mono); font-size: 11px; font-weight: 600;
@@ -195,12 +201,14 @@
   .page-footer {
     padding: 18px 28px 32px; font-family: var(--font-mono); font-size: 11px; color: var(--text-dim);
   }
+  .page-footer a { color: var(--text-muted); text-decoration: none; }
+  .page-footer a:hover { color: var(--accent-azure); text-decoration: underline; }
 
   @media (max-width: 1100px) {
     .table-wrap { overflow-x: auto; }
     .data-table { min-width: 1100px; }
     .filterbar { top: 0; position: relative; }
-    .category-row td { position: static; }
+    thead th, .category-row td { position: static; }
     .topbar { position: relative; }
   }
 </style>
@@ -326,7 +334,8 @@
       colConcept: 'Concept',
       noEquivalent: '—',
       themeToggleLabel: 'Toggle color theme',
-      footer: 'Generated from product-mapping.json · '
+      footerSources: 'Product data sources: ',
+      footerFetched: 'fetched '
     },
     cn: {
       title: '云产品图谱',
@@ -340,7 +349,8 @@
       colConcept: '概念',
       noEquivalent: '—',
       themeToggleLabel: '切换深浅主题',
-      footer: '数据来自 product-mapping.json · 生成时间 '
+      footerSources: '产品数据来源：',
+      footerFetched: '抓取于 '
     }
   };
 
@@ -424,6 +434,23 @@
     select.innerHTML = options.join('');
   }
 
+  var VENDOR_LABELS = { aws: 'AWS', azure: 'Azure', gcp: 'GCP', alibaba: 'Alibaba Cloud' };
+
+  function renderFooter() {
+    var t = currentStrings();
+    var parts = ['aws', 'azure', 'gcp', 'alibaba'].map(function (vendor) {
+      var src = PAYLOAD.sources[vendor];
+      return (
+        '<a href="' + escapeHtml(src.url) + '" target="_blank" rel="noopener">' +
+          escapeHtml(VENDOR_LABELS[vendor]) +
+        '</a>'
+      );
+    });
+    document.getElementById('footer-text').innerHTML =
+      t.footerSources + parts.join(' · ') +
+      ' · ' + t.footerFetched + PAYLOAD.generatedAt;
+  }
+
   function applyStaticText() {
     var t = currentStrings();
     document.documentElement.lang = state.lang === 'cn' ? 'zh-CN' : 'en';
@@ -434,7 +461,7 @@
     document.getElementById('search-input').setAttribute('placeholder', t.searchPlaceholder);
     document.getElementById('col-concept').textContent = t.colConcept;
     document.getElementById('theme-switch').setAttribute('aria-label', t.themeToggleLabel);
-    document.getElementById('footer-text').textContent = t.footer + PAYLOAD.generatedAt;
+    renderFooter();
     populateCategorySelect();
   }
 
