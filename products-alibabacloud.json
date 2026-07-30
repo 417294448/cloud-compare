@@ -1,8 +1,8 @@
 {
   "source": "https://www.alibabacloud.com/en/product",
   "module": "Alibaba Cloud product catalog",
-  "fetchedAt": "2026-07-29",
-  "totalProducts": 164,
+  "fetchedAt": "2026-07-30",
+  "totalProducts": 165,
   "products": [
     {
       "name": "ACK One",
@@ -1259,6 +1259,15 @@
       "description": "One-stop Platform Compatible with Mainstream Open Source Microservice Ecosystems",
       "link": "https://www.alibabacloud.com/product/microservices-engine",
       "id": "microservices-engine"
+    },
+    {
+      "name": "Model Studio",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "description": "Supercharge Your AI Journey Effortlessly With Industry-Leading GenAI Models",
+      "link": "https://www.alibabacloud.com/product/modelstudio",
+      "id": "modelstudio"
     },
     {
       "name": "mPaaS",
