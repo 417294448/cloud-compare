@@ -1121,6 +1121,7 @@ DESCRIPTION_CN = {
         "Message Queue for RabbitMQ": "开箱即用的全托管 RabbitMQ 服务",
         "Message Service": "在应用之间发送消息",
         "Microservices Engine": "兼容主流开源微服务生态的一站式平台（MSE）",
+        "Model Studio": "一站式大模型开发与应用构建平台",
         "NAT Gateway": "公网互联网网关",
         "Network Intelligence Service (NIS)": "自助网络运维服务，可视化网络状态",
         "Object Storage Service": "存储、备份、归档数据（OSS）",
@@ -2656,22 +2657,25 @@ GROUPS = [
         "products": {
             "aws": ["Amazon Bedrock"],
             "azure": ["Azure OpenAI in Foundry Models"],
-            "gcp": [],
+            "gcp": ["Gemini Enterprise Agent Platform"],
+            "alibaba": ["Model Studio"],
         },
         "notes": "Matches the AI Base Model Service row in "
         "cloud-compare-en-new.md (document lists Azure OpenAI Service, "
         "renamed/restructured into Azure OpenAI in Foundry Models under "
-        "Microsoft's AI Foundry branding). GCP's Vertex AI — the "
-        "obvious counterpart — doesn't appear in products-gcp.json under "
-        "that name, a known gap in this data source (similar to the "
-        "GCP Pub/Sub gap documented in references/gcp.md); left empty "
-        "rather than guessing at an alternate name.",
+        "Microsoft's AI Foundry branding). GCP's side is filled by "
+        "Gemini Enterprise Agent Platform — the current branding of the "
+        "platform formerly known as Vertex AI, which provides access to "
+        "the Gemini foundation models. Alibaba Cloud Model Studio is the "
+        "GenAI foundation-model platform (Qwen etc.), the direct "
+        "counterpart to Bedrock / Azure OpenAI.",
         "notes-cn": "对应 cloud-compare-en-new.md 的 AI Base Model "
         "Service 行（文档给的 Azure OpenAI Service 已经在微软 AI Foundry"
-        "品牌下重组为 Azure OpenAI in Foundry Models）。GCP 这边最直接的"
-        "对应产品 Vertex AI 没有以这个名字出现在 products-gcp.json 里，"
-        "这份数据源的已知缺口（和 references/gcp.md 里记录的 GCP Pub/Sub"
-        "缺口是同一类问题），保持留空，不去猜一个替代名字。",
+        "品牌下重组为 Azure OpenAI in Foundry Models）。GCP 一侧由 "
+        "Gemini Enterprise Agent Platform 补上——即原 Vertex AI 平台的"
+        "现品牌，提供 Gemini 系列基础模型。阿里云 Model Studio 是生成式 "
+        "AI 基础模型平台（通义千问等），与 Bedrock / Azure OpenAI "
+        "直接对应。",
     },
     {
         "id": "ml-nlp",
@@ -2812,22 +2816,23 @@ GROUPS = [
         "products": {
             "aws": ["Amazon SageMaker AI"],
             "azure": ["Azure Machine Learning"],
-            "gcp": [],
+            "gcp": ["Gemini Enterprise Agent Platform"],
             "alibaba": ["Machine Learning Platform For AI"],
         },
         "notes": "Matches the Machine Learning Platform row (and the "
         "related ML Model Registry/Pipeline/Feature Store/Deployment/"
         "Monitoring rows, which all point to the same three platform "
         "products in cloud-compare-en-new.md) — consolidated into one "
-        "group rather than five near-duplicates. GCP's Vertex AI doesn't "
-        "appear in products-gcp.json under that name, same known gap as "
-        "ml-foundation-model-service.",
+        "group rather than five near-duplicates. GCP's side is filled by "
+        "Gemini Enterprise Agent Platform, the current branding of the "
+        "platform formerly known as Vertex AI — an end-to-end platform "
+        "for building, deploying and governing ML/AI models and agents.",
         "notes-cn": "对应 Machine Learning Platform 行（以及文档里指向"
         "同样三个平台产品的 ML Model Registry/Pipeline/Feature Store/"
         "Deployment/Monitoring 几行，这里合并成一个分组而不是拆五个高度"
-        "重复的分组）。GCP 的 Vertex AI 没有以这个名字出现在 "
-        "products-gcp.json 里，和 ml-foundation-model-service 是同一个"
-        "已知缺口。",
+        "重复的分组）。GCP 一侧由 Gemini Enterprise Agent Platform "
+        "补上，即原 Vertex AI 平台的现品牌——覆盖 ML/AI 模型与 Agent "
+        "构建、部署、治理全生命周期的端到端平台。",
     },
     {
         "id": "ml-speech-recognition",

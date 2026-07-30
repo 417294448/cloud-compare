@@ -110,7 +110,7 @@ python .claude/skills/cloud-product-catalog/scripts/fetch_alibabacloud_products.
 ```
 
 会请求 `https://www.alibabacloud.com/en/product`（阿里云国际站产品列表页），
-解析出全部产品，输出 `products-alibabacloud.json`（164 个产品，13 个分类）。
+解析出全部产品，输出 `products-alibabacloud.json`（165 个产品，13 个分类）。
 
 **实现要点**（改动脚本前务必先理解，否则容易被反爬拦下）：
 
@@ -142,6 +142,17 @@ python .claude/skills/cloud-product-catalog/scripts/fetch_alibabacloud_products.
    用不上。脚本按域名（`https://edu.alibabacloud.com/`）整体过滤——比按
    名称关键词稳定，阿里云新出认证课程时不会被漏掉。过滤后 "Alibaba Cloud
    Academy" 一级分类整体为空，最终剩 13 个真实产品分类。
+
+6. **data-data 之外的产品**：那份配置 JSON 只是"重点推荐产品"的策划清单，
+   并不全——像 Model Studio 只出现在页脚的 `<a href=".../product/modelstudio">`
+   导航链接里，配置数据中没有。脚本在解析完 data-data 后，会再扫一遍全页
+   `<a href=".../product/xxx">` 链接，把配置之外的产品补进来（排除教育站点、
+   分类入口页、锚文本=分类名的导航链接）。补充的产品简介从各自产品页的
+   `<meta name="description">` 抓取；分类因产品页不暴露归属，默认
+   `["Uncategorized"]`，已知明确归属的用脚本顶部的 `CATEGORY_OVERRIDES`
+   手动指定（如 Model Studio → Artificial Intelligence）。注意 DashVector
+   这类产品虽有独立产品页，但根本没出现在列表页 HTML 里，仍抓不到——
+   要覆盖这类长尾产品需另换数据源（sitemap / 帮助文档产品列表），尚未实现。
 
 只用 Python 标准库（`urllib`、`re`、`html`、`json`），不依赖第三方包。
 
@@ -231,8 +242,8 @@ Learning" vs Azure "AI + machine learning" vs GCP "AI and ML" vs 阿里云
 上的分类里的产品会以单厂商条目的形式出现在 `unmapped.<category>.<vendor>.
 trulyUnmapped` 里，不会因为还没写分组就从文件里消失。这批兜底条目不强制
 要求中文翻译（`GROUPS` 里精心配对的产品翻译要求不变）。跑过验证：四份
-`products-*.json` 里合计 889 个产品（AWS 308 + Azure 204 + GCP 213 +
-阿里云 164），全部能在 `product-mapping.json` 里查到，0 缺失。
+`products-*.json` 里合计 890 个产品（AWS 308 + Azure 204 + GCP 213 +
+阿里云 165），全部能在 `product-mapping.json` 里查到，0 缺失。
 
 仓库根目录下的 `cloud-compare-en-new.md` 是一份人工维护、覆盖更全（还有
 OCI/阿里云/IBM Cloud）的多云产品对照表，新增分组前先去那份文档里查一下

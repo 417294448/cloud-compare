@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-07-29",
+  "generatedAt": "2026-07-30",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -2905,11 +2905,25 @@
             "description-cn": "将先进的编程与语言模型应用到各种使用场景"
           }
         ],
-        "gcp": [],
-        "alibaba": []
+        "gcp": [
+          {
+            "name": "Gemini Enterprise Agent Platform",
+            "link": "https://docs.cloud.google.com/gemini-enterprise-agent-platform",
+            "description": "Gemini Enterprise Agent Platform is a central console designed for platform and security administrators to build, scale, monitor, optimize, and govern the entire lifecycle of AI agents.",
+            "description-cn": "面向平台与安全管理员的中央控制台，用于构建、扩展、监控和治理 AI Agent 全生命周期。"
+          }
+        ],
+        "alibaba": [
+          {
+            "name": "Model Studio",
+            "link": "https://www.alibabacloud.com/product/modelstudio",
+            "description": "Supercharge Your AI Journey Effortlessly With Industry-Leading GenAI Models",
+            "description-cn": "一站式大模型开发与应用构建平台"
+          }
+        ]
       },
-      "notes": "Matches the AI Base Model Service row in cloud-compare-en-new.md (document lists Azure OpenAI Service, renamed/restructured into Azure OpenAI in Foundry Models under Microsoft's AI Foundry branding). GCP's Vertex AI — the obvious counterpart — doesn't appear in products-gcp.json under that name, a known gap in this data source (similar to the GCP Pub/Sub gap documented in references/gcp.md); left empty rather than guessing at an alternate name.",
-      "notes-cn": "对应 cloud-compare-en-new.md 的 AI Base Model Service 行（文档给的 Azure OpenAI Service 已经在微软 AI Foundry品牌下重组为 Azure OpenAI in Foundry Models）。GCP 这边最直接的对应产品 Vertex AI 没有以这个名字出现在 products-gcp.json 里，这份数据源的已知缺口（和 references/gcp.md 里记录的 GCP Pub/Sub缺口是同一类问题），保持留空，不去猜一个替代名字。"
+      "notes": "Matches the AI Base Model Service row in cloud-compare-en-new.md (document lists Azure OpenAI Service, renamed/restructured into Azure OpenAI in Foundry Models under Microsoft's AI Foundry branding). GCP's side is filled by Gemini Enterprise Agent Platform — the current branding of the platform formerly known as Vertex AI, which provides access to the Gemini foundation models. Alibaba Cloud Model Studio is the GenAI foundation-model platform (Qwen etc.), the direct counterpart to Bedrock / Azure OpenAI.",
+      "notes-cn": "对应 cloud-compare-en-new.md 的 AI Base Model Service 行（文档给的 Azure OpenAI Service 已经在微软 AI Foundry品牌下重组为 Azure OpenAI in Foundry Models）。GCP 一侧由 Gemini Enterprise Agent Platform 补上——即原 Vertex AI 平台的现品牌，提供 Gemini 系列基础模型。阿里云 Model Studio 是生成式 AI 基础模型平台（通义千问等），与 Bedrock / Azure OpenAI 直接对应。"
     },
     {
       "id": "ml-nlp",
@@ -3212,7 +3226,14 @@
             "description-cn": "使用企业级服务支持端到端的机器学习生命周期"
           }
         ],
-        "gcp": [],
+        "gcp": [
+          {
+            "name": "Gemini Enterprise Agent Platform",
+            "link": "https://docs.cloud.google.com/gemini-enterprise-agent-platform",
+            "description": "Gemini Enterprise Agent Platform is a central console designed for platform and security administrators to build, scale, monitor, optimize, and govern the entire lifecycle of AI agents.",
+            "description-cn": "面向平台与安全管理员的中央控制台，用于构建、扩展、监控和治理 AI Agent 全生命周期。"
+          }
+        ],
         "alibaba": [
           {
             "name": "Machine Learning Platform For AI",
@@ -3222,8 +3243,8 @@
           }
         ]
       },
-      "notes": "Matches the Machine Learning Platform row (and the related ML Model Registry/Pipeline/Feature Store/Deployment/Monitoring rows, which all point to the same three platform products in cloud-compare-en-new.md) — consolidated into one group rather than five near-duplicates. GCP's Vertex AI doesn't appear in products-gcp.json under that name, same known gap as ml-foundation-model-service.",
-      "notes-cn": "对应 Machine Learning Platform 行（以及文档里指向同样三个平台产品的 ML Model Registry/Pipeline/Feature Store/Deployment/Monitoring 几行，这里合并成一个分组而不是拆五个高度重复的分组）。GCP 的 Vertex AI 没有以这个名字出现在 products-gcp.json 里，和 ml-foundation-model-service 是同一个已知缺口。"
+      "notes": "Matches the Machine Learning Platform row (and the related ML Model Registry/Pipeline/Feature Store/Deployment/Monitoring rows, which all point to the same three platform products in cloud-compare-en-new.md) — consolidated into one group rather than five near-duplicates. GCP's side is filled by Gemini Enterprise Agent Platform, the current branding of the platform formerly known as Vertex AI — an end-to-end platform for building, deploying and governing ML/AI models and agents.",
+      "notes-cn": "对应 Machine Learning Platform 行（以及文档里指向同样三个平台产品的 ML Model Registry/Pipeline/Feature Store/Deployment/Monitoring 几行，这里合并成一个分组而不是拆五个高度重复的分组）。GCP 一侧由 Gemini Enterprise Agent Platform 补上，即原 Vertex AI 平台的现品牌——覆盖 ML/AI 模型与 Agent 构建、部署、治理全生命周期的端到端平台。"
     },
     {
       "id": "ml-speech-recognition",
@@ -13529,29 +13550,6 @@
                   "link": "https://docs.cloud.google.com/gemini/enterprise/docs",
                   "description": "A suite of cloud based AI agents, powered by Google-quality search and Gemini's advanced capabilities that transform knowledge work.",
                   "description-cn": "基于 Google 级搜索与 Gemini 能力的云端 AI Agent 套件，重塑知识工作。"
-                }
-              ],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-gcp-gemini-enterprise-agent-platform",
-            "category": "Machine Learning",
-            "category-cn": "机器学习",
-            "name": "Gemini Enterprise Agent Platform",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [],
-              "gcp": [
-                {
-                  "name": "Gemini Enterprise Agent Platform",
-                  "link": "https://docs.cloud.google.com/gemini-enterprise-agent-platform",
-                  "description": "Gemini Enterprise Agent Platform is a central console designed for platform and security administrators to build, scale, monitor, optimize, and govern the entire lifecycle of AI agents.",
-                  "description-cn": "面向平台与安全管理员的中央控制台，用于构建、扩展、监控和治理 AI Agent 全生命周期。"
                 }
               ],
               "alibaba": []

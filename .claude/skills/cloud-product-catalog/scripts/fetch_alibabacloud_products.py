@@ -96,15 +96,34 @@ REQUEST_HEADERS = {
     "Upgrade-Insecure-Requests": "1",
 }
 
+# 全页 <a href="...product/xxx">锚文本</a> 的扫描（补充 data-data 之外的产品入口）。
+# 限定必须含 /product/ 路径段，避免把首页 /en/product 这类导航链接也捞进来；
+# 锚文本限制在 2–60 字符、且不含 HTML 标签，保证拿到的是可读的产品名而不是图标。
+PRODUCT_LINK_RE = re.compile(
+    r'<a\s+[^>]*href="((?:https?://www\.alibabacloud\.com)?/?(?:en/)?product/[a-z0-9\-]+)"'
+    r"[^>]*>([^<]{2,60})</a>",
+    re.IGNORECASE,
+)
 
-def fetch_page_html() -> str:
-    """下载产品列表页 HTML。
+# 补充产品的分类手动覆盖表。
+# 页脚链接补进来的产品不在 data-data 配置里，阿里云产品页本身又不标注分类
+# （没有 breadcrumb / JSON-LD），所以无法自动获取归属。这里对已知明确归属的
+# 产品手动指定，key 是产品名，value 是 categories 数组（与 data-data 里
+# [一级分类, 二级分类] 的格式保持一致）。未覆盖到的产品默认 "Uncategorized"，
+# 交给下游 mapping 阶段人工对应，不靠脆弱的关键词猜测。
+CATEGORY_OVERRIDES = {
+    "Model Studio": ["Artificial Intelligence"],
+}
+
+
+def fetch_url(url: str) -> str:
+    """下载指定 URL 的 HTML，处理 gzip / Brotli 压缩。
 
     urllib 的默认 redirect handler 会自动跟随 302，不需要手动处理
     ?_p_lc=1 这一步。但如果目标站点改了风控策略需要手动加 cookie
     时，可以在这里加一个 opener 装上 HTTPCookieProcessor。
     """
-    req = urllib.request.Request(PAGE_URL, headers=REQUEST_HEADERS)
+    req = urllib.request.Request(url, headers=REQUEST_HEADERS)
     with urllib.request.urlopen(req, timeout=30) as resp:
         # resp.read() 可能是 gzip 压缩的，urllib 不会自动解压，需要看
         # Content-Encoding 头手动处理
@@ -123,6 +142,32 @@ def fetch_page_html() -> str:
                     "请 pip install brotli 或在请求头里去掉 Accept-Encoding 中的 br"
                 )
         return raw.decode("utf-8")
+
+
+def fetch_page_html() -> str:
+    """下载产品列表页 HTML。"""
+    return fetch_url(PAGE_URL)
+
+
+def fetch_product_description(url: str) -> str:
+    """从产品页的 <meta name="description"> 抓一句简介。
+
+    补充进来的产品（如 Model Studio）在 data-data 配置里没有 desc 字段，
+    这里从它们各自的产品页 meta description 补一句，保持和其他产品字段一致。
+    抓不到（网络错误、无 meta）时返回空串，不让单个产品的失败拖垮整个抓取。
+    """
+    try:
+        html = fetch_url(url)
+    except Exception:
+        return ""
+    m = re.search(
+        r'<meta\s+name="description"\s+content="([^"]+)"', html, re.IGNORECASE
+    ) or re.search(
+        r'<meta\s+content="([^"]+)"\s+name="description"', html, re.IGNORECASE
+    )
+    if not m:
+        return ""
+    return " ".join(m.group(1).split())
 
 
 def extract_data_payload(page_html: str) -> dict:
@@ -173,11 +218,19 @@ def derive_id(url: str) -> str:
 
 
 def parse_products(payload: dict):
-    """从配置 JSON 里提取产品列表，按产品名合并多分类条目。"""
+    """从配置 JSON 里提取产品列表，按产品名合并多分类条目。
+
+    返回 (产品列表, 跳过的教育条目数, 分类入口链接集合)。第三个返回值是
+    FirstLevelHeadLink（一级分类入口页，如 product/databases、product/security），
+    它们也指向 /product/ 路径但不是具体产品，后续扫描全页 <a> 链接时要据此排除。
+    """
     merged = {}
     skipped_edu = 0
+    category_entry_links = set()
     for group in payload.get("content", []):
         first_level = group.get("FirstLevelHead", "")
+        if group.get("FirstLevelHeadLink"):
+            category_entry_links.add(normalize_url(group["FirstLevelHeadLink"]))
         for card in group.get("productCard", []):
             second_level = card.get("cardTitle", "")
             for item in card.get("cardList", []):
@@ -227,14 +280,92 @@ def parse_products(payload: dict):
                     entry["link"] = link
                     entry["id"] = derive_id(link)
 
-    return sorted(merged.values(), key=lambda x: x["name"].lower()), skipped_edu
+    return (
+        sorted(merged.values(), key=lambda x: x["name"].lower()),
+        skipped_edu,
+        category_entry_links,
+    )
+
+
+def parse_extra_products(page_html: str, payload: dict, merged_products):
+    """扫描全页 <a href=".../product/xxx"> 链接，把 data-data 配置之外的产品补进来。
+
+    data-data 那份 JSON 只是"重点推荐产品"的策划配置，并不全——像 Model Studio
+    这类产品只出现在页脚的导航链接里（<a href=".../product/modelstudio">），
+    配置数据里没有。这里把整页 HTML 里所有指向 /product/ 路径的 <a> 链接捞出来，
+    和已抓到的产品按 URL 去重后补上。
+
+    补充进来的条目默认归到 "Uncategorized"（产品页不暴露分类，无法自动获取），
+    已知明确归属的通过 CATEGORY_OVERRIDES 手动指定（如 Model Studio →
+    Artificial Intelligence），简介从产品页 meta description 抓取。
+
+    排除三类非产品链接：
+    - 教育站点（edu.alibabacloud.com），和主流程口径一致；
+    - 分类入口页（FirstLevelHeadLink，如 product/databases、product/security），
+      它们也指向 /product/ 路径但是分类汇总页，不是具体产品；
+    - 锚文本和分类名相同的链接（如文本为 "Database"/"Security" 的入口），
+      进一步过滤掉导航性质、并非产品名的锚点。
+    """
+    known_urls = {p["link"] for p in merged_products if p.get("link")}
+    known_names = {p["name"] for p in merged_products}
+
+    # 分类入口页 + 分类名清单，用于排除导航类链接
+    _, _, category_entry_links = parse_products(payload)
+    category_names = set()
+    for group in payload.get("content", []):
+        if group.get("FirstLevelHead"):
+            category_names.add(group["FirstLevelHead"].strip().lower())
+        for card in group.get("productCard", []):
+            if card.get("cardTitle"):
+                category_names.add(card["cardTitle"].strip().lower())
+
+    extra = []
+    seen_extra_urls = set()
+    for url, text in PRODUCT_LINK_RE.findall(page_html):
+        link = normalize_url(url)
+        # 去掉 /en/ 前缀，和 data-data 里的 url 归一到同一格式再比较
+        link = link.replace("alibabacloud.com/en/product/", "alibabacloud.com/product/")
+        name = text.strip()
+        if not name:
+            continue
+        if link in known_urls or link in seen_extra_urls:
+            continue
+        if link.startswith("https://edu.alibabacloud.com/"):
+            continue
+        if link in category_entry_links:
+            continue
+        if name.lower() in category_names:
+            continue
+
+        seen_extra_urls.add(link)
+        extra.append(
+            {
+                "name": name,
+                # 已知明确归属的用手动覆盖表，否则默认 Uncategorized
+                "categories": CATEGORY_OVERRIDES.get(name, ["Uncategorized"]),
+                # 页脚链接没有简介，从产品页 meta description 补一句
+                "description": fetch_product_description(link),
+                "link": link,
+                "id": derive_id(link),
+            }
+        )
+
+    # 按名称合并进总表（页脚链接可能与已抓产品同名但 URL 略不同，避免重复）
+    for item in extra:
+        if item["name"] in known_names:
+            continue
+        merged_products.append(item)
+
+    merged_products.sort(key=lambda x: x["name"].lower())
+    return merged_products, len(extra)
 
 
 def scrape():
     page_html = fetch_page_html()
     payload = extract_data_payload(page_html)
-    products, skipped_edu = parse_products(payload)
-    return products, skipped_edu
+    products, skipped_edu, _ = parse_products(payload)
+    products, added_extra = parse_extra_products(page_html, payload, products)
+    return products, skipped_edu, added_extra
 
 
 def parse_args():
@@ -250,7 +381,7 @@ def parse_args():
 def main():
     args = parse_args()
 
-    products, skipped_edu = scrape()
+    products, skipped_edu, added_extra = scrape()
 
     output = {
         "source": PAGE_URL,
@@ -264,7 +395,9 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(
-        f"共抓取 {len(products)} 个产品（已过滤 {skipped_edu} 条教育培训条目），"
+        f"共抓取 {len(products)} 个产品"
+        f"（已过滤 {skipped_edu} 条教育培训条目，"
+        f"从页脚链接补充 {added_extra} 个 data-data 之外的产品），"
         f"已写入 {args.output}"
     )
 
