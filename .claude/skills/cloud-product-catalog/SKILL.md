@@ -9,6 +9,13 @@ description: 抓取各大云厂商（AWS、Azure、GCP、阿里云等）官方�
 统一成同一套 JSON schema，最终支撑跨云产品的映射与对比（`cloud-compare-cn.md` /
 `cloud-compare-en.md` 等文档背后的数据来源）。
 
+## 运行环境
+
+| 依赖 | 版本要求 |
+|---|---|
+| Python | 3.8+（建议 3.10+） |
+| Node.js | 18.0+ |
+
 这个 skill 会持续扩展，当前状态：
 
 | 云厂商 | 状态 | 脚本 | 输出 |
@@ -289,12 +296,24 @@ OCI/阿里云/IBM Cloud）的多云产品对照表，新增分组前先去那份
 4. **重新生成 + 校验**：
    ```bash
    python .claude/skills/cloud-product-catalog/scripts/build_mapping.py
-   node build-index.js
+   ```
+   跑完先判断 `product-mapping.json` 是否真的变了，再决定要不要重建页面：
+   ```bash
+   git diff --quiet product-mapping.json && echo "映射无变化，跳过页面重建" || echo "映射已变化，需要重建页面"
+   ```
+   - **映射无变化**（`git diff --quiet` 退出码 0，即抓到的产品没有引起任何
+     分组/unmapped 变动）：`index.html` 的数据来自 `product-mapping.json`，
+     映射没变页面内容就不会变，**跳过后续 `node build-index.js`**，直接跑
+     校验即可，避免产生一个除了 `generatedAt` 日期外毫无意义的页面改动。
+   - **映射已变化**（退出码 1）：才继续重建页面。
+   ```bash
+   node build-index.js        # 仅映射变化时才需要
    node --test lib/*.test.js
    python .claude/skills/cloud-product-catalog/scripts/check_completeness.py
    ```
-   四步全绿才算完成。check_completeness 会兜底确认源数据、mapping、
-   页面三层一致。
+   校验全绿才算完成。check_completeness 会兜底确认源数据、mapping、页面三层
+   一致——即使跳过了 build-index，它也能确认现有 index.html 与 mapping 仍然
+   同步，所以跳过是安全的。
 
 **反面教材**：不要因为某个厂商新增了 5 个产品就重新设计 GROUPS 结构、
 重排分类、或批量改写 notes——这些"大扫除"式修改会让 incremental 的
