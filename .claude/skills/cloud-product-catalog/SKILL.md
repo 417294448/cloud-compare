@@ -384,6 +384,10 @@ node build-index.js
 3. 纯逻辑部分（数据拍平、筛选/排序/分组）分别在 `lib/transform.js` 和
    `lib/query.js`，配有 `node --test lib/*.test.js` 的单元测试；改动这两个
    文件后先跑一下测试再重新生成页面。
+4. 页面顶栏右上角有一个回网站首页（https://www.cloudproduct.top/）的链接
+   （`.home-link`，文案走 `UI_STRINGS` 的 `homeText`/`homeLabel` 双语）。
+   顶栏新增控件时保持与语言切换一致的 28px 高度和 mono 字体边框风格；新增
+   界面文案一律进 `UI_STRINGS` 双语，并在 `applyStaticText()` 里应用。
 
 ## 扩展指南：接入第 N 个新厂商到映射和页面
 

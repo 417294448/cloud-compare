@@ -84,6 +84,16 @@
   .lang-btn.is-active { background: var(--accent-azure); color: #fff; }
   .lang-btn:not(.is-active):hover { background: var(--bg-raised); color: var(--text-primary); }
 
+  .home-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.04em;
+    height: 28px; padding: 0 14px; border-radius: 6px;
+    border: 1px solid var(--grid-line); color: var(--text-muted);
+    text-decoration: none; transition: background 0.15s, color 0.15s;
+  }
+  .home-link:hover { background: var(--bg-raised); color: var(--text-primary); }
+  .home-link svg { width: 13px; height: 13px; }
+
   .theme-switch {
     position: relative; display: inline-flex; align-items: center;
     width: 56px; height: 28px; padding: 0 6px; flex: none;
@@ -244,6 +254,13 @@
         <button type="button" class="lang-btn is-active" data-lang="en">EN</button>
         <button type="button" class="lang-btn" data-lang="cn">中文</button>
       </div>
+      <a id="home-link" class="home-link" href="https://www.cloudproduct.top/" aria-label="Back to homepage">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 10.5 12 3l9 7.5"/>
+          <path d="M5 9.5V21h14V9.5"/>
+        </svg>
+        <span id="home-link-text">Home</span>
+      </a>
     </div>
   </header>
 
@@ -406,6 +423,8 @@ if (typeof module !== 'undefined' && module.exports) {
       colConcept: 'Concept',
       noEquivalent: '—',
       themeToggleLabel: 'Toggle color theme',
+      homeLabel: 'Back to homepage',
+      homeText: 'Home',
       footerSources: 'Product data sources: ',
       footerFetched: 'fetched '
     },
@@ -421,6 +440,8 @@ if (typeof module !== 'undefined' && module.exports) {
       colConcept: '概念',
       noEquivalent: '—',
       themeToggleLabel: '切换深浅主题',
+      homeLabel: '回到网站首页',
+      homeText: '首页',
       footerSources: '产品数据来源：',
       footerFetched: '抓取于 '
     }
@@ -533,6 +554,8 @@ if (typeof module !== 'undefined' && module.exports) {
     document.getElementById('search-input').setAttribute('placeholder', t.searchPlaceholder);
     document.getElementById('col-concept').textContent = t.colConcept;
     document.getElementById('theme-switch').setAttribute('aria-label', t.themeToggleLabel);
+    document.getElementById('home-link').setAttribute('aria-label', t.homeLabel);
+    document.getElementById('home-link-text').textContent = t.homeText;
     renderFooter();
     populateCategorySelect();
   }
