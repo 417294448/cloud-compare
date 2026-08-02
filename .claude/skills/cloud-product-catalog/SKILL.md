@@ -473,7 +473,7 @@ python .claude/skills/cloud-product-catalog/scripts/check_completeness.py
 python .claude/skills/cloud-product-catalog/scripts/check_completeness.py
 ```
 
-一次性校验三层数据是否一致：三份 `products-*.json`（源）→
+一次性校验三层数据是否一致：四份 `products-*.json`（源）→
 `product-mapping.json`（映射）→ `index.html`（页面）。每次跑完抓取脚本、
 `build_mapping.py` 或 `build-index.js` 之后都应该跑一次，作为交付前的最后
 一道关。

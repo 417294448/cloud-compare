@@ -4,10 +4,15 @@ description: 抓取/更新 AWS、Azure、GCP、阿里云产品目录，生成结
 
 # Cloud Product Catalog（云产品目录与跨云映射）
 
+> **本 rule 是执行速查表，详细说明、扩展指南与最新约定以 skill 文档
+> `.claude/skills/cloud-product-catalog/SKILL.md` 为准。** 当 skill 与 rule
+> 出现冲突时，优先以 skill 为事实来源；若发现本 rule 的命令或注意事项已
+> 滞后，应同步更新本 rule 并引用最新的 skill 文档。
+
 维护本仓库的结构化云产品数据：从各云厂商官方站点抓取产品目录，统一成同一套 JSON
 schema，支撑跨云产品映射与对比页面。所有脚本都是纯命令行程序，在**仓库根目录**执行。
 
-## 运行环境
+## 数据流运行环境
 
 | 依赖 | 版本要求 |
 |---|---|
@@ -74,3 +79,19 @@ check_completeness 会确认现有页面仍同步），**有变化才重建页�
 - 各厂商抓取踩坑：`.claude/skills/cloud-product-catalog/references/azure.md`、`gcp.md`
 - 映射分组原则与校准：`.claude/skills/cloud-product-catalog/references/mapping.md`
 - 人工维护的多云对照表（新增分组先查它）：`cloud-compare-en-new.md`
+
+## 本 rule 的维护约定
+
+1. **事实来源**：本 rule 是执行速查表，详细实现说明、扩展指南、踩坑记录、
+   新增厂商接入步骤等都以 `.claude/skills/cloud-product-catalog/SKILL.md`
+   及 `references/` 下的 skill 文档为唯一事实来源。
+2. **同步触发条件**：当 skill 文档发生以下变更时，应同步检查并更新本 rule：
+   - 新增/删除/重命名云厂商或脚本；
+   - 核心命令、输出文件路径、校验方式变化；
+   - 关键注意事项（如增量原则、页面重建条件、反爬要求）发生变化；
+   - 运行环境依赖版本变化。
+3. **同步方式**：以 skill 文档为准，仅把本 rule 中**执行时最常用的命令和
+   最关键的约束**精简保留；遇到细节疑问优先回到 skill 文档确认，不要把
+   长篇实现细节复制到 rule 中，避免两边各自腐烂。
+4. **冲突处理**：skill 与 rule 不一致时，一律以 skill 为准；本 rule 滞后时
+   按上述同步触发条件更新。
