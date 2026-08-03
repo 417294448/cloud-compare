@@ -70,6 +70,8 @@ import json
 import re
 import urllib.request
 
+from diff_logger import write_json_with_diff
+
 PAGE_URL = "https://www.alibabacloud.com/en/product"
 BASE_URL = "https://www.alibabacloud.com/"
 MODULE_TITLE = "Alibaba Cloud product catalog"
@@ -391,8 +393,7 @@ def main():
         "products": products,
     }
 
-    with open(args.output, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+    write_json_with_diff(args.output, output, operation="阿里云产品目录抓取")
 
     print(
         f"共抓取 {len(products)} 个产品"

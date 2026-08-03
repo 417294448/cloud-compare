@@ -185,6 +185,58 @@ python .claude/skills/cloud-product-catalog/scripts/fetch_alibabacloud_products.
 }
 ```
 
+## 变更日志（diffs）
+
+每次运行抓取脚本或 `build_mapping.py` 时，脚本在重写产物 JSON 的同时，会
+把本次变更记录到 `diffs/refresh-diff-YYYY-MM-DD.txt`（按日期聚合，同一天多次
+运行追加到同一个文件）。记录内容包括：
+
+- 目标文件路径和时间戳
+- 产品级变更摘要：新增/下线的产品名、产品总数变化（仅产品目录 JSON）
+- 统一 diff（unified diff）展示具体行级变化
+
+例如运行 AWS 抓取脚本后，日志里会出现类似内容：
+
+```text
+============================================================
+操作: AWS 产品目录抓取
+文件: products-aws.json
+时间: 2026-08-03T14:32:10
+
+变更摘要:
+  新增产品（2 个）: Amazon Foo, Amazon Bar
+  下线/移除产品（1 个）: Amazon OldService
+  产品总数: 308 -> 309
+  抓取日期: 2026-08-02 -> 2026-08-03
+
+--- products-aws.json
++++ products-aws.json
+@@ -1234,7 +1234,7 @@
+ ...
+```
+
+运行 `build_mapping.py` 时，摘要会变成映射相关的自然语言描述，例如：
+
+```text
+============================================================
+操作: 跨云产品映射重建
+文件: product-mapping.json
+时间: 2026-08-03T14:35:00
+
+变更摘要:
+  映射分组数: 214 -> 215
+  新增分类: Artificial Intelligence
+  真正未映射产品数: 351 -> 349
+  生成时间: 2026-08-02 -> 2026-08-03
+
+--- product-mapping.json
++++ product-mapping.json
+@@ ...
+```
+
+`diffs/` 目录由脚本自动创建，无需手动维护。日常更新时可通过该文件
+快速确认本次抓取或映射调整到底改了哪些内容。
+
 ## 扩展指南：新增一个云厂商
 
 1. 新脚本放在 `scripts/fetch_<vendor>_products.py`（如

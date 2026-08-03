@@ -18,6 +18,8 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
+from diff_logger import write_json_with_diff
+
 SOURCE_URL = "https://docs.aws.amazon.com/"
 DEFAULT_OUTPUT_FILE = "products-aws.json"
 MODULE_TITLE = "Product guides & references"
@@ -138,8 +140,7 @@ def main():
         "products": products,
     }
 
-    with open(args.output, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+    write_json_with_diff(args.output, output, operation="AWS 产品目录抓取")
 
     print(f"共抓取 {len(products)} 个产品，已写入 {args.output}")
 

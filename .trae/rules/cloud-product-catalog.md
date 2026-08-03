@@ -26,6 +26,10 @@ products-<vendor>.json  →  product-mapping.json  →  index.html
 （四个源数据，抓取得到）   （映射，脚本+人工分组）   （查询页面，构建产物）
 ```
 
+每次运行抓取脚本或 `build_mapping.py` 时，脚本会自动把本次 JSON 变更记录到
+`diffs/refresh-diff-YYYY-MM-DD.txt`（按日期聚合、追加），包含新增/下线产品
+摘要和统一 diff，方便 review 具体改了什么。
+
 ## 核心命令
 
 ```bash
