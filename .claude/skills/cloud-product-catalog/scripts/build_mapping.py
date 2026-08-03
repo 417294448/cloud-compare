@@ -63,6 +63,8 @@ import datetime
 import json
 import re
 
+from diff_logger import write_json_with_diff
+
 DEFAULT_OUTPUT_FILE = "product-mapping.json"
 
 SOURCE_FILES = {
@@ -5969,8 +5971,7 @@ def main():
         "unmapped": result["unmapped"],
     }
 
-    with open(args.output, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+    write_json_with_diff(args.output, output, operation="跨云产品映射重建")
 
     truly_unmapped_count = sum(
         len(v["trulyUnmapped"]) for cat in result["unmapped"].values() for v in cat.values()
