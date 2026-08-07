@@ -1,7 +1,7 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-07-28",
+  "fetchedAt": "2026-08-07",
   "totalProducts": 308,
   "products": [
     {
@@ -808,7 +808,7 @@
         "Analytics"
       ],
       "description": "The center for all data, analytics, and AI",
-      "link": "https://docs.aws.amazon.com/next-generation-sagemaker/latest/userguide",
+      "link": "https://docs.aws.amazon.com/next-generation-sagemaker/",
       "id": "SageMakerPlain"
     },
     {
@@ -1866,7 +1866,8 @@
     {
       "name": "AWS Key Management Service",
       "categories": [
-        "Cryptography & PKI"
+        "Cryptography & PKI",
+        "Security, Identity, & Compliance"
       ],
       "description": "Managed creation and control of encryption keys",
       "link": "https://docs.aws.amazon.com/kms/",
@@ -2285,7 +2286,7 @@
       "categories": [
         "Security, Identity, & Compliance"
       ],
-      "description": "Helps you respond to and receive CIRT assistance for security events",
+      "description": "Helps you respond to and receive 24/7 assistance for security events",
       "link": "https://docs.aws.amazon.com/security-ir/",
       "id": "Indra"
     },
