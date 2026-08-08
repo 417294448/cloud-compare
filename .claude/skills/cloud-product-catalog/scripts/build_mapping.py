@@ -1373,7 +1373,7 @@ GROUPS = [
         "confidence": "medium",
         "products": {
             "aws": ["Amazon Linux", "EC2 Image Builder"],
-            "azure": ["Azure Linux", "Azure VM Image Builder", "Windows Server"],
+            "azure": ["Azure VM Image Builder", "Windows Server"],
             "gcp": ["Container-Optimized OS", "Deep Learning VM Images"],
         },
         "notes": "No direct counterpart row in cloud-compare-en-new.md; "

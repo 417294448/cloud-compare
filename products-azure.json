@@ -1,7 +1,7 @@
 {
   "source": "https://azure.microsoft.com/en-us/products",
   "module": "Browse all Azure products (by category)",
-  "fetchedAt": "2026-07-28",
+  "fetchedAt": "2026-08-07",
   "totalProducts": 204,
   "products": [
     {
@@ -139,6 +139,15 @@
       "description": "Connect agents to one unified context layer for data sources, memory and retrieval-augmented generation (RAG) pipelines.",
       "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
       "id": "ai-search"
+    },
+    {
+      "name": "Azure AI Services",
+      "categories": [
+        "Mobile"
+      ],
+      "description": "Add cognitive capabilities to apps with APIs and AI services.",
+      "link": "https://azure.microsoft.com/en-us/products/ai-services/",
+      "id": "ai-services"
     },
     {
       "name": "Azure AI Video Indexer",
@@ -394,7 +403,7 @@
         "Migration",
         "Storage"
       ],
-      "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
+      "description": "Appliances and solutions for data transfer to Azure and edge compute.",
       "link": "https://azure.microsoft.com/en-us/products/databox/",
       "id": "databox"
     },
@@ -580,6 +589,15 @@
       "description": "Elastic SAN is a cloud-native Storage Area Network (SAN) service built on Azure. Gain access to an end-to-end experience like your on-premises SAN.",
       "link": "https://azure.microsoft.com/en-us/products/storage/elastic-san/",
       "id": "elastic-san"
+    },
+    {
+      "name": "Azure Enclave",
+      "categories": [
+        "Networking"
+      ],
+      "description": "Secure cloud environments for sensitive workloads with demanding compliance requirements.",
+      "link": "https://azure.microsoft.com/en-us/products/enclave",
+      "id": "enclave"
     },
     {
       "name": "Azure ExpressRoute",
@@ -768,15 +786,6 @@
       "description": "Empowering service providers to manage customers at scale and with precision.",
       "link": "https://azure.microsoft.com/en-us/products/azure-lighthouse/",
       "id": "azure-lighthouse"
-    },
-    {
-      "name": "Azure Linux",
-      "categories": [
-        "Compute"
-      ],
-      "description": "Explore a Microsoft-maintained Linux distribution optimized for Azure Virtual Machines and AKS workloads.",
-      "link": "https://azure.microsoft.com/en-us/products/azure-linux/",
-      "id": "azure-linux"
     },
     {
       "name": "Azure Load Balancer",
@@ -1180,7 +1189,9 @@
     {
       "name": "Azure Storage Mover",
       "categories": [
-        "Migration"
+        "Hybrid + multicloud",
+        "Migration",
+        "Storage"
       ],
       "description": "Explore Azure Storage Mover to migrate data to Azure from on-premises or another cloud. Simplify migration with safe, scalable transfers built for modernization.",
       "link": "https://azure.microsoft.com/en-us/products/storage-mover",
@@ -1444,15 +1455,6 @@
       "description": "Create AI agents that automate complex business processes—completing specific tasks while keeping humans in control.",
       "link": "https://azure.microsoft.com/en-us/products/ai-agent-service/",
       "id": "ai-agent-service"
-    },
-    {
-      "name": "Foundry Control Plane",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "description": "Observe, control, secure, and govern AI agents across your organization",
-      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/control-plane",
-      "id": "control-plane"
     },
     {
       "name": "Foundry IQ",

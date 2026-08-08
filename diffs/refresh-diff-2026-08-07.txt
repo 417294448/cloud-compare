@@ -1,0 +1,413 @@
+============================================================
+操作: AWS 产品目录抓取
+文件: products-aws.json
+时间: 2026-08-07T15:01:29
+
+变更摘要:
+  抓取日期: 2026-07-28 -> 2026-08-07
+--- products-aws.json
++++ products-aws.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://docs.aws.amazon.com/",
+   "module": "Product guides & references",
+-  "fetchedAt": "2026-07-28",
++  "fetchedAt": "2026-08-07",
+   "totalProducts": 308,
+   "products": [
+     {
+@@ -808,7 +808,7 @@
+         "Analytics"
+       ],
+       "description": "The center for all data, analytics, and AI",
+-      "link": "https://docs.aws.amazon.com/next-generation-sagemaker/latest/userguide",
++      "link": "https://docs.aws.amazon.com/next-generation-sagemaker/",
+       "id": "SageMakerPlain"
+     },
+     {
+@@ -1866,7 +1866,8 @@
+     {
+       "name": "AWS Key Management Service",
+       "categories": [
+-        "Cryptography & PKI"
++        "Cryptography & PKI",
++        "Security, Identity, & Compliance"
+       ],
+       "description": "Managed creation and control of encryption keys",
+       "link": "https://docs.aws.amazon.com/kms/",
+@@ -2285,7 +2286,7 @@
+       "categories": [
+         "Security, Identity, & Compliance"
+       ],
+-      "description": "Helps you respond to and receive CIRT assistance for security events",
++      "description": "Helps you respond to and receive 24/7 assistance for security events",
+       "link": "https://docs.aws.amazon.com/security-ir/",
+       "id": "Indra"
+     },
+@@ -2796,4 +2797,4 @@
+       "id": "TVS"
+     }
+   ]
+-}+}
+
+============================================================
+操作: Azure 产品目录抓取
+文件: products-azure.json
+时间: 2026-08-07T15:01:52
+
+变更摘要:
+  新增产品（2 个）: Azure AI Services, Azure Enclave
+  下线/移除产品（2 个）: Azure Linux, Foundry Control Plane
+  抓取日期: 2026-07-28 -> 2026-08-07
+--- products-azure.json
++++ products-azure.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://azure.microsoft.com/en-us/products",
+   "module": "Browse all Azure products (by category)",
+-  "fetchedAt": "2026-07-28",
++  "fetchedAt": "2026-08-07",
+   "totalProducts": 204,
+   "products": [
+     {
+@@ -141,6 +141,15 @@
+       "id": "ai-search"
+     },
+     {
++      "name": "Azure AI Services",
++      "categories": [
++        "Mobile"
++      ],
++      "description": "Add cognitive capabilities to apps with APIs and AI services.",
++      "link": "https://azure.microsoft.com/en-us/products/ai-services/",
++      "id": "ai-services"
++    },
++    {
+       "name": "Azure AI Video Indexer",
+       "categories": [
+         "AI + machine learning"
+@@ -394,7 +403,7 @@
+         "Migration",
+         "Storage"
+       ],
+-      "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
++      "description": "Appliances and solutions for data transfer to Azure and edge compute.",
+       "link": "https://azure.microsoft.com/en-us/products/databox/",
+       "id": "databox"
+     },
+@@ -582,6 +591,15 @@
+       "id": "elastic-san"
+     },
+     {
++      "name": "Azure Enclave",
++      "categories": [
++        "Networking"
++      ],
++      "description": "Secure cloud environments for sensitive workloads with demanding compliance requirements.",
++      "link": "https://azure.microsoft.com/en-us/products/enclave",
++      "id": "enclave"
++    },
++    {
+       "name": "Azure ExpressRoute",
+       "categories": [
+         "Hybrid + multicloud",
+@@ -770,15 +788,6 @@
+       "id": "azure-lighthouse"
+     },
+     {
+-      "name": "Azure Linux",
+-      "categories": [
+-        "Compute"
+-      ],
+-      "description": "Explore a Microsoft-maintained Linux distribution optimized for Azure Virtual Machines and AKS workloads.",
+-      "link": "https://azure.microsoft.com/en-us/products/azure-linux/",
+-      "id": "azure-linux"
+-    },
+-    {
+       "name": "Azure Load Balancer",
+       "categories": [
+         "Networking"
+@@ -1180,7 +1189,9 @@
+     {
+       "name": "Azure Storage Mover",
+       "categories": [
+-        "Migration"
++        "Hybrid + multicloud",
++        "Migration",
++        "Storage"
+       ],
+       "description": "Explore Azure Storage Mover to migrate data to Azure from on-premises or another cloud. Simplify migration with safe, scalable transfers built for modernization.",
+       "link": "https://azure.microsoft.com/en-us/products/storage-mover",
+@@ -1444,15 +1455,6 @@
+       "description": "Create AI agents that automate complex business processes—completing specific tasks while keeping humans in control.",
+       "link": "https://azure.microsoft.com/en-us/products/ai-agent-service/",
+       "id": "ai-agent-service"
+-    },
+-    {
+-      "name": "Foundry Control Plane",
+-      "categories": [
+-        "AI + machine learning"
+-      ],
+-      "description": "Observe, control, secure, and govern AI agents across your organization",
+-      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/control-plane",
+-      "id": "control-plane"
+     },
+     {
+       "name": "Foundry IQ",
+@@ -1921,4 +1923,4 @@
+       "id": "windows-server"
+     }
+   ]
+-}+}
+
+============================================================
+操作: 阿里云产品目录抓取
+文件: products-alibabacloud.json
+时间: 2026-08-07T15:04:11
+
+变更摘要:
+  抓取日期: 2026-07-30 -> 2026-08-07
+--- products-alibabacloud.json
++++ products-alibabacloud.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://www.alibabacloud.com/en/product",
+   "module": "Alibaba Cloud product catalog",
+-  "fetchedAt": "2026-07-30",
++  "fetchedAt": "2026-08-07",
+   "totalProducts": 165,
+   "products": [
+     {
+@@ -1701,4 +1701,4 @@
+       "id": "real-id"
+     }
+   ]
+-}+}
+
+============================================================
+操作: 跨云产品映射重建
+文件: product-mapping.json
+时间: 2026-08-07T15:07:34
+
+变更摘要:
+  真正未映射产品数: 351 -> 354
+  生成时间: 2026-08-03 -> 2026-08-07
+--- product-mapping.json
++++ product-mapping.json
+@@ -1,6 +1,6 @@
+ {
+   "taxonomy": "aws",
+-  "generatedAt": "2026-08-03",
++  "generatedAt": "2026-08-07",
+   "pilotCategories": [
+     "AWS Management Console",
+     "Analytics",
+@@ -528,12 +528,6 @@
+         ],
+         "azure": [
+           {
+-            "name": "Azure Linux",
+-            "link": "https://azure.microsoft.com/en-us/products/azure-linux/",
+-            "description": "Explore a Microsoft-maintained Linux distribution optimized for Azure Virtual Machines and AKS workloads.",
+-            "description-cn": "探索一款由微软维护、针对 Azure 虚拟机和 AKS 工作负载优化的 Linux 发行版"
+-          },
+-          {
+             "name": "Azure VM Image Builder",
+             "link": "https://azure.microsoft.com/en-us/products/image-builder/",
+             "description": "Simplify your image building process with easy to use tool.",
+@@ -4075,7 +4069,7 @@
+           {
+             "name": "AWS Security Incident Response",
+             "link": "https://docs.aws.amazon.com/security-ir/",
+-            "description": "Helps you respond to and receive CIRT assistance for security events",
++            "description": "Helps you respond to and receive 24/7 assistance for security events",
+             "description-cn": "帮助你应对安全事件并获得 CIRT 协助"
+           }
+         ],
+@@ -4942,7 +4936,7 @@
+         "aws": [
+           {
+             "name": "Amazon SageMaker",
+-            "link": "https://docs.aws.amazon.com/next-generation-sagemaker/latest/userguide",
++            "link": "https://docs.aws.amazon.com/next-generation-sagemaker/",
+             "description": "The center for all data, analytics, and AI",
+             "description-cn": "涵盖全部数据、分析与 AI 能力的统一中心"
+           }
+@@ -6070,7 +6064,7 @@
+           {
+             "name": "Azure Data Box",
+             "link": "https://azure.microsoft.com/en-us/products/databox/",
+-            "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
++            "description": "Appliances and solutions for data transfer to Azure and edge compute.",
+             "description-cn": "借助 Azure Data Box 加速离线数据迁移，无需网络带宽即可快速迁移海量数据集"
+           }
+         ],
+@@ -6144,7 +6138,7 @@
+           {
+             "name": "Azure Data Box",
+             "link": "https://azure.microsoft.com/en-us/products/databox/",
+-            "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
++            "description": "Appliances and solutions for data transfer to Azure and edge compute.",
+             "description-cn": "借助 Azure Data Box 加速离线数据迁移，无需网络带宽即可快速迁移海量数据集"
+           }
+         ],
+@@ -6960,7 +6954,7 @@
+           {
+             "name": "Azure Data Box",
+             "link": "https://azure.microsoft.com/en-us/products/databox/",
+-            "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
++            "description": "Appliances and solutions for data transfer to Azure and edge compute.",
+             "description-cn": "借助 Azure Data Box 加速离线数据迁移，无需网络带宽即可快速迁移海量数据集"
+           }
+         ],
+@@ -11515,6 +11509,29 @@
+             "notes-cn": "尚未找到确认的跨云对应产品。"
+           },
+           {
++            "id": "unmapped-azure-azure-ai-services",
++            "category": "Front-End Web & Mobile",
++            "category-cn": "前端 Web 与移动",
++            "name": "Azure AI Services",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [],
++              "azure": [
++                {
++                  "name": "Azure AI Services",
++                  "link": "https://azure.microsoft.com/en-us/products/ai-services/",
++                  "description": "Add cognitive capabilities to apps with APIs and AI services.",
++                  "description-cn": null
++                }
++              ],
++              "gcp": [],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
+             "id": "unmapped-azure-azure-fluid-relay",
+             "category": "Front-End Web & Mobile",
+             "category-cn": "前端 Web 与移动",
+@@ -11731,6 +11748,29 @@
+                   "link": "https://azure.microsoft.com/en-us/products/operator-service-manager/",
+                   "description": "Simplify the deployment, upgrade, and management of complex operator services.",
+                   "description-cn": "简化复杂运营商服务的部署、升级和管理。"
++                }
++              ],
++              "gcp": [],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
++            "id": "unmapped-azure-azure-storage-mover",
++            "category": "Hybrid & Multicloud",
++            "category-cn": "混合与多云",
++            "name": "Azure Storage Mover",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [],
++              "azure": [
++                {
++                  "name": "Azure Storage Mover",
++                  "link": "https://azure.microsoft.com/en-us/products/storage-mover",
++                  "description": "Explore Azure Storage Mover to migrate data to Azure from on-premises or another cloud. Simplify migration with safe, scalable transfers built for modernization.",
++                  "description-cn": "将本地或其他云的数据安全、可扩展地迁移到 Azure。"
+                 }
+               ],
+               "gcp": [],
+@@ -12951,29 +12991,6 @@
+             "notes-cn": "尚未找到确认的跨云对应产品。"
+           },
+           {
+-            "id": "unmapped-azure-foundry-control-plane",
+-            "category": "Machine Learning",
+-            "category-cn": "机器学习",
+-            "name": "Foundry Control Plane",
+-            "name-cn": "",
+-            "confidence": "none",
+-            "products": {
+-              "aws": [],
+-              "azure": [
+-                {
+-                  "name": "Foundry Control Plane",
+-                  "link": "https://azure.microsoft.com/en-us/products/ai-foundry/control-plane",
+-                  "description": "Observe, control, secure, and govern AI agents across your organization",
+-                  "description-cn": "在整个组织内观测、控制、保护和治理 AI 智能体。"
+-                }
+-              ],
+-              "gcp": [],
+-              "alibaba": []
+-            },
+-            "notes": "No confirmed cross-cloud counterpart found yet.",
+-            "notes-cn": "尚未找到确认的跨云对应产品。"
+-          },
+-          {
+             "id": "unmapped-azure-foundry-iq",
+             "category": "Machine Learning",
+             "category-cn": "机器学习",
+@@ -15086,6 +15103,29 @@
+                   "link": "https://azure.microsoft.com/en-us/products/application-gateway",
+                   "description": "Build secure, scalable, highly available web front ends in Azure.",
+                   "description-cn": "在 Azure 中构建安全、可扩展、高可用的 Web 前端。"
++                }
++              ],
++              "gcp": [],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
++            "id": "unmapped-azure-azure-enclave",
++            "category": "Networking & Content Delivery",
++            "category-cn": "网络与内容分发",
++            "name": "Azure Enclave",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [],
++              "azure": [
++                {
++                  "name": "Azure Enclave",
++                  "link": "https://azure.microsoft.com/en-us/products/enclave",
++                  "description": "Secure cloud environments for sensitive workloads with demanding compliance requirements.",
++                  "description-cn": null
+                 }
+               ],
+               "gcp": [],
+@@ -16903,6 +16943,29 @@
+             "notes-cn": "尚未找到确认的跨云对应产品。"
+           },
+           {
++            "id": "unmapped-azure-azure-storage-mover",
++            "category": "Storage",
++            "category-cn": "存储",
++            "name": "Azure Storage Mover",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [],
++              "azure": [
++                {
++                  "name": "Azure Storage Mover",
++                  "link": "https://azure.microsoft.com/en-us/products/storage-mover",
++                  "description": "Explore Azure Storage Mover to migrate data to Azure from on-premises or another cloud. Simplify migration with safe, scalable transfers built for modernization.",
++                  "description-cn": "将本地或其他云的数据安全、可扩展地迁移到 Azure。"
++                }
++              ],
++              "gcp": [],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
+             "id": "unmapped-azure-azure-confidential-ledger",
+             "category": "Storage",
+             "category-cn": "存储",
+
