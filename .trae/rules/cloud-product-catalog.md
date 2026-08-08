@@ -62,8 +62,10 @@ check_completeness 会确认现有页面仍同步），**有变化才重建页�
 ## 关键注意事项
 
 - **增量，不全量覆盖**：厂商新增/改名/下线产品时，只在 `build_mapping.py` 现有
-  `GROUPS` 基础上局部追加/修改，不要推翻重配。新引用的产品要在 `DESCRIPTION_CN`
-  对应厂商下补中文描述，否则脚本报错。
+  `GROUPS` 基础上局部追加/修改，不要推翻重配。新增产品无论进入 `GROUPS` 还是落入
+  `unmapped.<category>.<vendor>.trulyUnmapped`，都应在 `DESCRIPTION_CN` 对应厂商下
+  补中文描述；进入 GROUPS 时脚本会强制校验，落入 trulyUnmapped 虽不强制，但缺中文
+  会导致中文页面 fallback 到英文。
 - **index.html 是构建产物，不要手改**：改动一律通过 `index.template.html` + 重跑
   `build-index.js`。纯逻辑在 `lib/transform.js`、`lib/query.js`，改后先跑
   `node --test lib/*.test.js`。

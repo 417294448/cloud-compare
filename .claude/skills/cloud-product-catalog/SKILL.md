@@ -333,9 +333,11 @@ OCI/阿里云/IBM Cloud）的多云产品对照表，新增分组前先去那份
 
 3. **在 `build_mapping.py` 里做增量修改**，**不要全量重写**：
    - **新增的产品**：判断能否加入某个现有 GROUP，能则在 GROUPS 的对应
-     `products.<vendor>` 列表里追加名字，不能则不动（脚本会自动把它
-     收进 `unmapped.<category>.<vendor>.trulyUnmapped`）。新引用的产品
-     记得去 `DESCRIPTION_CN.<vendor>` 补中文描述。
+    `products.<vendor>` 列表里追加名字，不能则不动（脚本会自动把它
+    收进 `unmapped.<category>.<vendor>.trulyUnmapped`）。**无论进 GROUP
+    还是落入 trulyUnmapped，新增产品都应在 `DESCRIPTION_CN.<vendor>`
+    里补中文描述**；trulyUnmapped 虽不强制校验中文，但缺中文时页面在中文
+    模式下会 fallback 到英文名称和描述，体验差。
    - **消失/改名的产品**：在 GROUPS 里把对应的引用删掉或改成新名——
      `resolve()` 会因为找不到而报错，这是**故意的校验**，强迫你处理
      而不是留一个死引用。

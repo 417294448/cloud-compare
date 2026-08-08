@@ -639,6 +639,7 @@ DESCRIPTION_CN = {
         "Microsoft Defender for Cloud": "将威胁防护扩展到任意基础设施",
         "Azure Managed Grafana": "将 Grafana 仪表板部署为全托管的 Azure 服务",
         "Azure OpenAI in Foundry Models": "将先进的编程与语言模型应用到各种使用场景",
+        "Azure AI Services": "通过 API 和 AI 服务为应用添加认知能力。",
         "Azure Language in Foundry Tools": "使用 AI 构建能理解、分析和生成人类语言的应用",
         "Azure AI Bot Service": "创建机器人并跨渠道连接",
         "Azure Vision in Foundry Tools": "通过图像和视频分析探索视觉 AI",
@@ -675,6 +676,7 @@ DESCRIPTION_CN = {
         "Azure Virtual Network": "在云中创建你自己的私有网络基础设施",
         "Azure VPN Gateway": "建立安全的跨本地连接",
         "Azure ExpressRoute": "体验快速、可靠的 Azure 专用连接",
+        "Azure Enclave": "为具有严苛合规要求的敏感工作负载提供安全的云环境。",
         "Azure Front Door": "面向全球用户提供优化体验的现代云 CDN",
         "Azure Private Link": "私密访问托管在 Azure 平台上的服务，让数据始终留在微软网络内",
         "Azure Load Balancer": "为你的应用提供高可用性和网络性能",
@@ -1373,7 +1375,7 @@ GROUPS = [
         "confidence": "medium",
         "products": {
             "aws": ["Amazon Linux", "EC2 Image Builder"],
-            "azure": ["Azure Linux", "Azure VM Image Builder", "Windows Server"],
+            "azure": ["Azure VM Image Builder", "Windows Server"],
             "gcp": ["Container-Optimized OS", "Deep Learning VM Images"],
         },
         "notes": "No direct counterpart row in cloud-compare-en-new.md; "
