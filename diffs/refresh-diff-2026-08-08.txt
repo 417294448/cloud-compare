@@ -1,0 +1,36 @@
+============================================================
+操作: 跨云产品映射重建
+文件: product-mapping.json
+时间: 2026-08-08T11:58:06
+
+变更摘要:
+  生成时间: 2026-08-07 -> 2026-08-08
+--- product-mapping.json
++++ product-mapping.json
+@@ -1,6 +1,6 @@
+ {
+   "taxonomy": "aws",
+-  "generatedAt": "2026-08-07",
++  "generatedAt": "2026-08-08",
+   "pilotCategories": [
+     "AWS Management Console",
+     "Analytics",
+@@ -11522,7 +11522,7 @@
+                   "name": "Azure AI Services",
+                   "link": "https://azure.microsoft.com/en-us/products/ai-services/",
+                   "description": "Add cognitive capabilities to apps with APIs and AI services.",
+-                  "description-cn": null
++                  "description-cn": "通过 API 和 AI 服务为应用添加认知能力。"
+                 }
+               ],
+               "gcp": [],
+@@ -15125,7 +15125,7 @@
+                   "name": "Azure Enclave",
+                   "link": "https://azure.microsoft.com/en-us/products/enclave",
+                   "description": "Secure cloud environments for sensitive workloads with demanding compliance requirements.",
+-                  "description-cn": null
++                  "description-cn": "为具有严苛合规要求的敏感工作负载提供安全的云环境。"
+                 }
+               ],
+               "gcp": [],
+

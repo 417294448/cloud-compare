@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-08-07",
+  "generatedAt": "2026-08-08",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -11522,7 +11522,7 @@
                   "name": "Azure AI Services",
                   "link": "https://azure.microsoft.com/en-us/products/ai-services/",
                   "description": "Add cognitive capabilities to apps with APIs and AI services.",
-                  "description-cn": null
+                  "description-cn": "通过 API 和 AI 服务为应用添加认知能力。"
                 }
               ],
               "gcp": [],
@@ -15125,7 +15125,7 @@
                   "name": "Azure Enclave",
                   "link": "https://azure.microsoft.com/en-us/products/enclave",
                   "description": "Secure cloud environments for sensitive workloads with demanding compliance requirements.",
-                  "description-cn": null
+                  "description-cn": "为具有严苛合规要求的敏感工作负载提供安全的云环境。"
                 }
               ],
               "gcp": [],
