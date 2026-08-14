@@ -505,7 +505,6 @@ DESCRIPTION_CN = {
         "Amazon WorkSpaces Secure Browser": "安全访问内部网站与 SaaS 应用",
         "Amazon WorkSpaces Thin Client": "经济实惠、易于管理的虚拟桌面接入设备",
         "AWS Incident Detection and Response": "为生产工作负载提供主动监控与事件管理",
-        "AWS IQ": "寻找 AWS 认证的第三方专家，承接按需项目工作",
         "AWS Managed Services": "面向 AWS 的基础设施运维管理",
         "AWS Professional Services": "为企业云计算落地提供专家协助",
         "AWS re:Post Private": "为组织内部云社区构建专属知识库",
@@ -5448,7 +5447,6 @@ GROUPS = [
         "products": {
             "aws": [
                 "AWS Incident Detection and Response",
-                "AWS IQ",
                 "AWS Managed Services",
                 "AWS Professional Services",
                 "AWS re:Post Private",

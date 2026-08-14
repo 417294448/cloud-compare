@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-08-08",
+  "generatedAt": "2026-08-14",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -7711,12 +7711,6 @@
             "link": "https://docs.aws.amazon.com/aws-support/",
             "description": "Proactive monitoring and incident management for production workloads",
             "description-cn": "为生产工作负载提供主动监控与事件管理"
-          },
-          {
-            "name": "AWS IQ",
-            "link": "https://docs.aws.amazon.com/aws-iq/",
-            "description": "Find AWS Certified third-party experts for on-demand project work",
-            "description-cn": "寻找 AWS 认证的第三方专家，承接按需项目工作"
           },
           {
             "name": "AWS Managed Services",
