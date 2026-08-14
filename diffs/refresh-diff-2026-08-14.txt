@@ -1,0 +1,108 @@
+============================================================
+操作: AWS 产品目录抓取
+文件: products-aws.json
+时间: 2026-08-14T15:01:29
+
+变更摘要:
+  下线/移除产品（1 个）: AWS IQ
+  产品总数: 308 -> 307
+  抓取日期: 2026-08-07 -> 2026-08-14
+--- products-aws.json
++++ products-aws.json
+@@ -1,8 +1,8 @@
+ {
+   "source": "https://docs.aws.amazon.com/",
+   "module": "Product guides & references",
+-  "fetchedAt": "2026-08-07",
+-  "totalProducts": 308,
++  "fetchedAt": "2026-08-14",
++  "totalProducts": 307,
+   "products": [
+     {
+       "name": "Agent Toolkit for AWS",
+@@ -1853,15 +1853,6 @@
+       "description": "Secure bi-directional communication for LoRaWAN and Sidewalk end devices",
+       "link": "https://docs.aws.amazon.com/iot-wireless/",
+       "id": "iotwireless"
+-    },
+-    {
+-      "name": "AWS IQ",
+-      "categories": [
+-        "Customer Enablement Services"
+-      ],
+-      "description": "Find AWS Certified third-party experts for on-demand project work",
+-      "link": "https://docs.aws.amazon.com/aws-iq/",
+-      "id": null
+     },
+     {
+       "name": "AWS Key Management Service",
+
+============================================================
+操作: 阿里云产品目录抓取
+文件: products-alibabacloud.json
+时间: 2026-08-14T15:06:06
+
+变更摘要:
+  抓取日期: 2026-08-07 -> 2026-08-14
+--- products-alibabacloud.json
++++ products-alibabacloud.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://www.alibabacloud.com/en/product",
+   "module": "Alibaba Cloud product catalog",
+-  "fetchedAt": "2026-08-07",
++  "fetchedAt": "2026-08-14",
+   "totalProducts": 165,
+   "products": [
+     {
+
+============================================================
+操作: Azure 产品目录抓取
+文件: products-azure.json
+时间: 2026-08-14T15:06:21
+
+变更摘要:
+  抓取日期: 2026-08-07 -> 2026-08-14
+--- products-azure.json
++++ products-azure.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://azure.microsoft.com/en-us/products",
+   "module": "Browse all Azure products (by category)",
+-  "fetchedAt": "2026-08-07",
++  "fetchedAt": "2026-08-14",
+   "totalProducts": 204,
+   "products": [
+     {
+
+============================================================
+操作: 跨云产品映射重建
+文件: product-mapping.json
+时间: 2026-08-14T15:07:05
+
+变更摘要:
+  生成时间: 2026-08-08 -> 2026-08-14
+--- product-mapping.json
++++ product-mapping.json
+@@ -1,6 +1,6 @@
+ {
+   "taxonomy": "aws",
+-  "generatedAt": "2026-08-08",
++  "generatedAt": "2026-08-14",
+   "pilotCategories": [
+     "AWS Management Console",
+     "Analytics",
+@@ -7713,12 +7713,6 @@
+             "description-cn": "为生产工作负载提供主动监控与事件管理"
+           },
+           {
+-            "name": "AWS IQ",
+-            "link": "https://docs.aws.amazon.com/aws-iq/",
+-            "description": "Find AWS Certified third-party experts for on-demand project work",
+-            "description-cn": "寻找 AWS 认证的第三方专家，承接按需项目工作"
+-          },
+-          {
+             "name": "AWS Managed Services",
+             "link": "https://docs.aws.amazon.com/managedservices/",
+             "description": "Infrastructure operations management for AWS",
+
