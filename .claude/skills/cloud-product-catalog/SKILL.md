@@ -442,6 +442,14 @@ node build-index.js
    （`.home-link`，文案走 `UI_STRINGS` 的 `homeText`/`homeLabel` 双语）。
    顶栏新增控件时保持与语言切换一致的 28px 高度和 mono 字体边框风格；新增
    界面文案一律进 `UI_STRINGS` 双语，并在 `applyStaticText()` 里应用。
+5. **浏览器标签页 `<title>` 也要双语**：`<head>` 里的 `<title>` 只是首屏
+   默认文案（英文），语言切换时靠 `UI_STRINGS` 里的 `docTitle` 字段（
+   `en` / `cn` 各一份），在 `applyStaticText()` 里通过
+   `document.title = t.docTitle` 同步更新。改 `<title>` 文案时必须同步改
+   `UI_STRINGS.en.docTitle` 和 `UI_STRINGS.cn.docTitle`，否则切换语言后
+   标签页标题会停留在旧文案。曾踩过的坑：早期版本只给页面内
+   `<h1 id="page-title">` 做了双语，漏了 `<title>`，导致切换中文后浏览器
+   标签页仍显示英文。
 
 ## 扩展指南：接入第 N 个新厂商到映射和页面
 
@@ -505,8 +513,10 @@ UI 上要把"三列"改成"四列"，每一处都得改：
 6. `colspan="4"` 改成 `colspan="5"`（共两处：空态提示、分类行）。
 7. 小屏媒体查询的 `min-width` 要相应调大（阿里云接入时从 900px 调到
    1100px），否则在 860-1100px 宽度区间内会被挤压。
-8. `<title>`、`page-subtitle`、`UI_STRINGS.en.subtitle`、
-   `UI_STRINGS.cn.subtitle` 四处文案同步加上新厂商名。
+8. 标题类文案同步加上新厂商名，共五处：`<title>`（首屏默认文案）、
+   `UI_STRINGS.en.docTitle`、`UI_STRINGS.cn.docTitle`（语言切换时
+   `applyStaticText()` 用 `document.title = t.docTitle` 更新标签页标题）、
+   `page-subtitle`、`UI_STRINGS.en.subtitle` 和 `UI_STRINGS.cn.subtitle`。
 
 ### 六、跑通完整流程
 

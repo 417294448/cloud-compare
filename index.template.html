@@ -341,6 +341,7 @@
   var UI_STRINGS = {
     en: {
       title: 'Cloud Product Atlas',
+      docTitle: 'Cloud Product Atlas — AWS · Azure · GCP · Alibaba Cloud',
       subtitle: 'Cross-cloud product mapping for AWS, Azure, GCP & Alibaba Cloud',
       categoryAll: 'All categories',
       categoryLabel: 'Category',
@@ -358,6 +359,7 @@
     },
     cn: {
       title: '云产品图谱',
+      docTitle: '云产品图谱 — AWS · Azure · GCP · 阿里云',
       subtitle: 'AWS / Azure / GCP / 阿里云 跨云产品映射查询',
       categoryAll: '全部分类',
       categoryLabel: '分类',
@@ -475,6 +477,7 @@
   function applyStaticText() {
     var t = currentStrings();
     document.documentElement.lang = state.lang === 'cn' ? 'zh-CN' : 'en';
+    document.title = t.docTitle;
     document.getElementById('page-title').textContent = t.title;
     document.getElementById('page-subtitle').textContent = t.subtitle;
     document.getElementById('category-label').textContent = t.categoryLabel;
