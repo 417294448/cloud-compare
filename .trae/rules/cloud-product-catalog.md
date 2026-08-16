@@ -69,6 +69,10 @@ check_completeness 会确认现有页面仍同步），**有变化才重建页�
 - **index.html 是构建产物，不要手改**：改动一律通过 `index.template.html` + 重跑
   `build-index.js`。纯逻辑在 `lib/transform.js`、`lib/query.js`，改后先跑
   `node --test lib/*.test.js`。
+- **页面文案一律走 UI_STRINGS 双语**：新增/修改界面文案时 `en`/`cn` 各一份，并在
+  `applyStaticText()` 里应用；浏览器标签页 `<title>` 也不例外——改 `<title>`
+  必须同步改 `UI_STRINGS.en.docTitle` / `UI_STRINGS.cn.docTitle`（语言切换时由
+  `document.title = t.docTitle` 更新），否则切到中文后标签页标题仍是英文。
 - **映射没变就跳过页面重建**：`index.html` 的数据来自 `product-mapping.json`，
   跑完 `build_mapping.py` 后用 `git diff --quiet product-mapping.json` 判断——
   映射无变化时不要重跑 `build-index.js`，避免产生除 `generatedAt` 日期外无意义
