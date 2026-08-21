@@ -6,164 +6,242 @@
 <title>Cloud Product Atlas — AWS · Azure · GCP · Alibaba Cloud</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f5f7fa;
+    /* 精密实验室仪器美学：白底 + 深青蓝 accent + 浅冷灰面板 */
+    --bg: #ffffff;
     --bg-raised: #ffffff;
+    --bg-soft: #f4f6f8;
+    --bg-hover: #edf1f4;
+    --bg-tint: #eef4f6;
     --bg-header: #ffffff;
-    --grid-line: #e1e6ec;
-    --text-primary: #1a222c;
-    --text-muted: #5b6875;
-    --text-dim: #8a97a6;
+    --grid-line: #e6eaee;
+    --border-strong: #d3dae0;
+    --text-primary: #10151a;
+    --text-muted: #4d5a64;
+    --text-dim: #8b98a1;
+    --accent: #0e7490;
+    --accent-bright: #0a5c73;
+    --accent-deep: #083d4d;
+    --accent-soft: rgba(14, 116, 144, 0.09);
+    --accent-border: rgba(14, 116, 144, 0.34);
+    --accent-glow: rgba(14, 116, 144, 0.14);
     --accent-aws: #b56a00;
     --accent-azure: #1f6fd6;
     --accent-gcp: #1e8e3e;
     --accent-alibaba: #c33d1c;
-    --glow-1: rgba(31, 111, 214, 0.05);
+    --glow-1: var(--accent-glow);
     --glow-2: rgba(181, 106, 0, 0.05);
-    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    --font-sans: 'IBM Plex Sans', -apple-system, "Segoe UI", sans-serif;
+    --shadow-color: 200, 30%, 40%;
+    --font-display: 'Sora', 'Noto Sans SC', 'PingFang SC', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
+    --font-sans: 'Manrope', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
   }
   html[data-theme="dark"] {
-    --bg: #0b0f14;
-    --bg-raised: #121820;
-    --bg-header: #0e131a;
-    --grid-line: #1e2733;
+    --bg: #0b1015;
+    --bg-raised: #11181f;
+    --bg-soft: #131b23;
+    --bg-hover: #18222b;
+    --bg-tint: #101a21;
+    --bg-header: #0d1319;
+    --grid-line: #1e2833;
+    --border-strong: #2a3642;
     --text-primary: #e8edf2;
-    --text-muted: #8a97a6;
-    --text-dim: #5b6875;
+    --text-muted: #93a1ad;
+    --text-dim: #64727e;
+    --accent: #2bb3d4;
+    --accent-bright: #5cc8e2;
+    --accent-deep: #9adfef;
+    --accent-soft: rgba(43, 179, 212, 0.12);
+    --accent-border: rgba(43, 179, 212, 0.4);
+    --accent-glow: rgba(43, 179, 212, 0.16);
     --accent-aws: #ff9900;
     --accent-azure: #3aa0ff;
     --accent-gcp: #34a853;
     --accent-alibaba: #ff6a00;
-    --glow-1: rgba(58, 160, 255, 0.07);
     --glow-2: rgba(255, 153, 0, 0.06);
   }
   * { box-sizing: border-box; }
+  ::selection { background: var(--accent-soft); color: var(--accent-bright); }
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: var(--bg-soft); }
+  ::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 6px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
   html, body { margin: 0; padding: 0; height: 100%; }
   body {
     background: var(--bg);
     color: var(--text-primary);
     font-family: var(--font-sans);
+    font-size: 14px;
     -webkit-font-smoothing: antialiased;
     transition: background-color 0.2s, color 0.2s;
   }
-  body::before {
+  body::after {
     content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none;
     background-image:
       radial-gradient(circle at 15% 0%, var(--glow-1), transparent 40%),
       radial-gradient(circle at 85% 8%, var(--glow-2), transparent 35%);
+  }
+  /* 顶部渐变细线，仪器面板感 */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0.9;
+    z-index: 60;
+    pointer-events: none;
   }
   a { color: inherit; }
 
   .topbar {
     position: sticky; top: 0; z-index: 30;
     display: flex; align-items: center; justify-content: space-between;
-    gap: 16px; padding: 18px 28px;
-    background: var(--bg-header);
+    gap: 16px; padding: 22px 32px 18px;
+    background:
+      radial-gradient(ellipse 55% 90% at 88% -20%, var(--accent-glow), transparent 60%),
+      var(--bg-header);
     border-bottom: 1px solid var(--grid-line);
   }
-  .brand { display: flex; align-items: baseline; gap: 12px; }
-  .brand-mark { font-size: 22px; }
+  /* 细网格纹理，呼应"实验室/工程图纸"气质 */
+  .topbar::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 56px 56px;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.45), transparent 80%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.45), transparent 80%);
+    pointer-events: none;
+  }
+  .topbar > * { position: relative; }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .brand-mark {
+    font-size: 22px; color: var(--accent-deep);
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 40px; height: 40px; flex: none;
+    background: var(--accent-soft); border: 1px solid var(--accent-border);
+    border-radius: 10px;
+  }
+  .brand-eyebrow {
+    font-family: var(--font-mono); font-size: 10.5px; font-weight: 500;
+    letter-spacing: 0.26em; text-transform: uppercase; color: var(--accent);
+    margin-bottom: 4px;
+  }
   .brand h1 {
-    margin: 0; font-family: var(--font-mono); font-size: 18px; font-weight: 600;
-    letter-spacing: 0.06em; text-transform: uppercase;
+    margin: 0; font-family: var(--font-display); font-size: 22px; font-weight: 600;
+    letter-spacing: -0.02em; line-height: 1.15;
   }
-  .subtitle { margin: 2px 0 0; font-size: 13px; color: var(--text-muted); }
+  .subtitle { margin: 3px 0 0; font-size: 13px; color: var(--text-muted); }
 
-  .topbar-controls { display: flex; align-items: center; gap: 14px; }
+  .topbar-controls { display: flex; align-items: center; gap: 10px; }
 
-  .lang-toggle { display: flex; border: 1px solid var(--grid-line); border-radius: 6px; overflow: hidden; }
+  .lang-toggle {
+    display: flex; gap: 2px; padding: 3px;
+    background: var(--bg-raised);
+    border: 1px solid var(--border-strong); border-radius: 8px;
+  }
   .lang-btn {
-    font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.04em;
-    padding: 7px 14px; background: transparent; color: var(--text-muted);
-    border: none; cursor: pointer; transition: background 0.15s, color 0.15s;
+    font-family: var(--font-mono); font-weight: 600; font-size: 12px; letter-spacing: 0.04em;
+    padding: 4px 10px; background: transparent; color: var(--text-dim);
+    border: none; border-radius: 6px; cursor: pointer; transition: all 0.15s;
   }
-  .lang-btn + .lang-btn { border-left: 1px solid var(--grid-line); }
-  .lang-btn.is-active { background: var(--accent-azure); color: #fff; }
-  .lang-btn:not(.is-active):hover { background: var(--bg-raised); color: var(--text-primary); }
+  .lang-btn.is-active { background: var(--accent); color: #f4fbfd; }
+  .lang-btn:not(.is-active):hover { color: var(--text-muted); }
 
   .home-link {
-    display: inline-flex; align-items: center; gap: 6px;
-    font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.04em;
-    height: 28px; padding: 0 14px; border-radius: 6px;
-    border: 1px solid var(--grid-line); color: var(--text-muted);
-    text-decoration: none; transition: background 0.15s, color 0.15s;
+    display: inline-flex; align-items: center; gap: 5px;
+    font-family: var(--font-mono); font-weight: 600; font-size: 12px; letter-spacing: 0.04em;
+    padding: 4px 11px; height: 26px; border-radius: 8px;
+    background: var(--bg-raised);
+    border: 1px solid var(--border-strong); color: var(--text-dim);
+    text-decoration: none; transition: all 0.15s;
   }
-  .home-link:hover { background: var(--bg-raised); color: var(--text-primary); }
+  .home-link:hover { color: var(--accent-bright); border-color: var(--accent-border); }
   .home-link svg { width: 13px; height: 13px; }
 
   .theme-switch {
     position: relative; display: inline-flex; align-items: center;
-    width: 56px; height: 28px; padding: 0 6px; flex: none;
-    border-radius: 999px; border: 1px solid var(--grid-line);
+    width: 56px; height: 26px; padding: 0 6px; flex: none;
+    border-radius: 999px; border: 1px solid var(--border-strong);
     background: var(--bg-raised); cursor: pointer;
   }
   .theme-switch-icon { width: 14px; height: 14px; position: relative; z-index: 1; transition: color 0.2s; }
-  .theme-switch-icon--sun { margin-right: auto; color: #b56a00; }
+  .theme-switch-icon--sun { margin-right: auto; color: #b4791f; }
   .theme-switch-icon--moon { margin-left: auto; color: var(--text-dim); }
   .theme-switch-thumb {
-    position: absolute; top: 3px; left: 3px; width: 20px; height: 20px;
-    border-radius: 50%; background: var(--bg-header);
-    border: 1px solid var(--grid-line);
+    position: absolute; top: 2px; left: 2px; width: 20px; height: 20px;
+    border-radius: 50%; background: var(--bg-soft);
+    border: 1px solid var(--border-strong);
     transition: transform 0.2s ease;
   }
-  html[data-theme="dark"] .theme-switch-thumb { transform: translateX(26px); }
+  html[data-theme="dark"] .theme-switch-thumb { transform: translateX(28px); }
   html[data-theme="dark"] .theme-switch-icon--sun { color: var(--text-dim); }
   html[data-theme="dark"] .theme-switch-icon--moon { color: #f4c95d; }
 
   .filterbar {
-    position: sticky; top: 61px; z-index: 25;
-    display: flex; flex-wrap: wrap; align-items: center; gap: 20px;
-    padding: 14px 28px; background: var(--bg-header);
+    position: sticky; top: 79px; z-index: 25;
+    display: flex; flex-wrap: wrap; align-items: center; gap: 18px;
+    padding: 12px 32px; background: var(--bg-header);
     border-bottom: 1px solid var(--grid-line);
   }
   .filter-group { display: flex; align-items: center; gap: 10px; }
   .filter-group label, .filter-group > span:first-child {
-    font-family: var(--font-mono); font-size: 11px; text-transform: uppercase;
-    letter-spacing: 0.08em; color: var(--text-dim);
+    font-family: var(--font-sans); font-size: 11.5px; font-weight: 600;
+    letter-spacing: 0.04em; color: var(--text-dim); user-select: none;
   }
   #category-select {
-    background: var(--bg-raised); color: var(--text-primary);
-    border: 1px solid var(--grid-line); border-radius: 6px;
+    background: var(--bg-soft); color: var(--text-primary);
+    border: 1px solid var(--border-strong); border-radius: 7px;
     padding: 7px 10px; font-family: var(--font-sans); font-size: 13px;
+    transition: border-color 0.15s;
   }
   .vendor-chips { display: flex; gap: 6px; }
   .vendor-chip {
     font-family: var(--font-mono); font-size: 12px; font-weight: 600;
     padding: 6px 12px; border-radius: 999px; cursor: pointer;
     background: transparent; color: var(--text-muted);
-    border: 1px solid var(--grid-line); transition: all 0.15s;
+    border: 1px solid var(--border-strong); transition: all 0.15s;
   }
-  .vendor-chip--aws.is-active { background: rgba(255,153,0,0.16); border-color: var(--accent-aws); color: var(--accent-aws); }
-  .vendor-chip--azure.is-active { background: rgba(58,160,255,0.16); border-color: var(--accent-azure); color: var(--accent-azure); }
-  .vendor-chip--gcp.is-active { background: rgba(52,168,83,0.16); border-color: var(--accent-gcp); color: var(--accent-gcp); }
-  .vendor-chip--alibaba.is-active { background: rgba(255,106,0,0.16); border-color: var(--accent-alibaba); color: var(--accent-alibaba); }
+  .vendor-chip:not(.is-active):hover { border-color: var(--text-dim); }
+  .vendor-chip--aws.is-active { background: rgba(255,153,0,0.14); border-color: var(--accent-aws); color: var(--accent-aws); }
+  .vendor-chip--azure.is-active { background: rgba(58,160,255,0.14); border-color: var(--accent-azure); color: var(--accent-azure); }
+  .vendor-chip--gcp.is-active { background: rgba(52,168,83,0.14); border-color: var(--accent-gcp); color: var(--accent-gcp); }
+  .vendor-chip--alibaba.is-active { background: rgba(255,106,0,0.14); border-color: var(--accent-alibaba); color: var(--accent-alibaba); }
 
   .filter-group--search { flex: 1 1 240px; min-width: 200px; }
   #search-input {
-    width: 100%; background: var(--bg-raised); color: var(--text-primary);
-    border: 1px solid var(--grid-line); border-radius: 6px;
+    width: 100%; background: var(--bg-soft); color: var(--text-primary);
+    border: 1px solid var(--border-strong); border-radius: 7px;
     padding: 8px 12px; font-family: var(--font-sans); font-size: 13px;
+    transition: border-color 0.15s;
   }
-  #search-input:focus, #category-select:focus { outline: 2px solid var(--accent-azure); outline-offset: 1px; }
+  #search-input::placeholder { color: var(--text-dim); }
+  #search-input:focus, #category-select:focus { outline: none; border-color: var(--accent); }
 
   .result-count {
     margin-left: auto; font-family: var(--font-mono); font-size: 12px; color: var(--text-dim);
     white-space: nowrap;
   }
+  .result-count b { color: var(--text-muted); font-weight: 600; }
 
-  .table-wrap { padding: 0 28px 48px; animation: fade-in 0.4s ease-out; }
+  .table-wrap { padding: 0 32px 48px; animation: fade-in 0.4s ease-out; }
   @keyframes fade-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 
   .data-table { width: 100%; border-collapse: collapse; table-layout: fixed; margin-top: 18px; }
   thead th {
-    position: sticky; top: 121px; z-index: 20;
-    text-align: left; font-family: var(--font-mono); font-size: 11px;
-    text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim);
-    padding: 10px 12px; border-bottom: 1px solid var(--grid-line);
-    background: linear-gradient(to bottom, var(--bg-header) 75%, transparent);
+    position: sticky; top: 133px; z-index: 20;
+    text-align: left; font-family: var(--font-sans); font-size: 12px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-dim);
+    padding: 10px 14px; border-bottom: 1px solid var(--border-strong);
+    background: var(--bg-header);
+  }
+  @supports (backdrop-filter: blur(8px)) {
+    thead th { background: color-mix(in srgb, var(--bg-header) 92%, transparent); backdrop-filter: blur(8px); }
   }
   .th-vendor--aws { color: var(--accent-aws); }
   .th-vendor--azure { color: var(--accent-azure); }
@@ -174,45 +252,49 @@
   .th-vendor--alibaba .vendor-icon { width: 22px; height: auto; }
 
   .category-row td {
-    position: sticky; top: 157px; z-index: 10;
-    background: linear-gradient(to bottom, var(--bg-header) 82%, transparent);
-    padding: 14px 12px 6px; border-bottom: 1px solid var(--grid-line);
+    position: sticky; top: 172px; z-index: 10;
+    background: var(--bg-tint);
+    padding: 12px 14px 7px; border-bottom: 1px solid var(--grid-line);
   }
   .category-tag {
-    font-family: var(--font-mono); font-size: 11px; font-weight: 600;
-    color: var(--text-primary); letter-spacing: 0.08em; text-transform: uppercase;
+    font-family: var(--font-mono); font-size: 10.5px; font-weight: 500;
+    color: var(--accent-bright); letter-spacing: 0.12em; text-transform: uppercase;
   }
-  .category-tag::before { content: '▸'; display: inline-block; margin-right: 8px; color: var(--accent-azure); }
+  .category-tag::before { content: '▸'; display: inline-block; margin-right: 8px; color: var(--accent); }
   .category-count {
-    margin-left: 8px; font-family: var(--font-mono); font-size: 11px; color: var(--text-dim);
-    background: var(--bg-raised); border-radius: 999px; padding: 1px 8px;
+    margin-left: 8px; font-family: var(--font-mono); font-size: 11px; color: var(--accent-bright);
+    background: var(--accent-soft); border: 1px solid var(--accent-border);
+    border-radius: 20px; padding: 1px 9px;
   }
 
-  .data-row td { vertical-align: top; padding: 12px; border-bottom: 1px solid var(--grid-line); font-size: 13px; }
-  .col-concept .concept-name { font-weight: 600; }
+  .data-row td { vertical-align: top; padding: 12px 14px; border-bottom: 1px solid var(--grid-line); font-size: 13px; }
+  .data-row { transition: background 0.15s; }
+  .data-row:hover { background: var(--bg-hover); }
+  .data-row:hover td:first-child { box-shadow: inset 3px 0 0 var(--accent); }
+  .col-concept .concept-name { font-weight: 600; letter-spacing: -0.005em; }
 
-  .product { padding-left: 10px; border-left: 3px solid var(--grid-line); margin-bottom: 10px; }
+  .product { padding-left: 10px; border-left: 2px solid var(--grid-line); margin-bottom: 10px; }
   .product:last-child { margin-bottom: 0; }
   .product--aws { border-left-color: var(--accent-aws); }
   .product--azure { border-left-color: var(--accent-azure); }
   .product--gcp { border-left-color: var(--accent-gcp); }
   .product--alibaba { border-left-color: var(--accent-alibaba); }
-  .product-name { display: inline-block; font-weight: 600; text-decoration: none; }
+  .product-name { display: inline-block; font-weight: 600; font-size: 12.5px; text-decoration: none; }
   .product--aws .product-name { color: var(--accent-aws); }
   .product--azure .product-name { color: var(--accent-azure); }
   .product--gcp .product-name { color: var(--accent-gcp); }
   .product--alibaba .product-name { color: var(--accent-alibaba); }
-  .product-name:hover { text-decoration: underline; }
-  .product-desc { margin-top: 2px; font-size: 12px; color: var(--text-muted); line-height: 1.4; }
+  .product-name:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .product-desc { margin-top: 2px; font-size: 12px; color: var(--text-muted); line-height: 1.5; }
   .cell-empty { color: var(--text-dim); }
 
-  .empty-row td { padding: 40px 12px; text-align: center; color: var(--text-dim); font-size: 13px; }
+  .empty-row td { padding: 60px 14px; text-align: center; color: var(--text-dim); font-size: 13.5px; line-height: 1.8; }
 
   .page-footer {
-    padding: 18px 28px 32px; font-family: var(--font-mono); font-size: 11px; color: var(--text-dim);
+    padding: 18px 32px 32px; font-family: var(--font-mono); font-size: 11px; color: var(--text-dim);
   }
   .page-footer a { color: var(--text-muted); text-decoration: none; }
-  .page-footer a:hover { color: var(--accent-azure); text-decoration: underline; }
+  .page-footer a:hover { color: var(--accent-bright); text-decoration: underline; text-underline-offset: 3px; }
 
   @media (max-width: 1100px) {
     .table-wrap { overflow-x: auto; }
@@ -228,6 +310,7 @@
     <div class="brand">
       <span class="brand-mark">☁</span>
       <div>
+        <div id="brand-eyebrow" class="brand-eyebrow">Cloud Compare</div>
         <h1 id="page-title">Cloud Product Atlas</h1>
         <p id="page-subtitle" class="subtitle">Cross-cloud product mapping for AWS, Azure, GCP &amp; Alibaba Cloud</p>
       </div>
@@ -340,6 +423,7 @@
 
   var UI_STRINGS = {
     en: {
+      eyebrow: 'Cloud Compare',
       title: 'Cloud Product Atlas',
       docTitle: 'Cloud Product Atlas — AWS · Azure · GCP · Alibaba Cloud',
       subtitle: 'Cross-cloud product mapping for AWS, Azure, GCP & Alibaba Cloud',
@@ -347,7 +431,7 @@
       categoryLabel: 'Category',
       vendorLabel: 'Has product on',
       searchPlaceholder: 'Search products, concepts, descriptions…',
-      resultCount: function (n, total) { return 'Showing ' + n + ' of ' + total; },
+      resultCount: function (n, total) { return 'Showing <b>' + n + '</b> of <b>' + total + '</b>'; },
       noResults: 'No matching products. Try clearing a filter.',
       colConcept: 'Concept',
       noEquivalent: '—',
@@ -358,6 +442,7 @@
       footerFetched: 'fetched '
     },
     cn: {
+      eyebrow: 'CLOUD COMPARE',
       title: '云产品图谱',
       docTitle: '云产品图谱 — AWS · Azure · GCP · 阿里云',
       subtitle: 'AWS / Azure / GCP / 阿里云 跨云产品映射查询',
@@ -365,7 +450,7 @@
       categoryLabel: '分类',
       vendorLabel: '需包含厂商',
       searchPlaceholder: '搜索产品、概念、描述…',
-      resultCount: function (n, total) { return '共命中 ' + n + ' / ' + total + ' 条'; },
+      resultCount: function (n, total) { return '共命中 <b>' + n + '</b> / <b>' + total + '</b> 条'; },
       noResults: '没有匹配的产品，试试清空筛选条件。',
       colConcept: '概念',
       noEquivalent: '—',
@@ -419,7 +504,7 @@
   function renderTable(groups, matchCount, totalCount) {
     var t = currentStrings();
     var tbody = document.getElementById('data-body');
-    document.getElementById('result-count').textContent = t.resultCount(matchCount, totalCount);
+    document.getElementById('result-count').innerHTML = t.resultCount(matchCount, totalCount);
 
     if (!groups.length) {
       tbody.innerHTML = '<tr class="empty-row"><td colspan="5">' + escapeHtml(t.noResults) + '</td></tr>';
@@ -478,6 +563,7 @@
     var t = currentStrings();
     document.documentElement.lang = state.lang === 'cn' ? 'zh-CN' : 'en';
     document.title = t.docTitle;
+    document.getElementById('brand-eyebrow').textContent = t.eyebrow;
     document.getElementById('page-title').textContent = t.title;
     document.getElementById('page-subtitle').textContent = t.subtitle;
     document.getElementById('category-label').textContent = t.categoryLabel;
