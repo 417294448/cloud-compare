@@ -1,8 +1,8 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-08-14",
-  "totalProducts": 307,
+  "fetchedAt": "2026-08-22",
+  "totalProducts": 308,
   "products": [
     {
       "name": "Agent Toolkit for AWS",
@@ -1133,6 +1133,15 @@
       "id": "artifact"
     },
     {
+      "name": "AWS Assurance",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Automated compliance readiness assessment for AWS workloads",
+      "link": "https://docs.aws.amazon.com/assurance/",
+      "id": "assurance"
+    },
+    {
       "name": "AWS Audit Manager",
       "categories": [
         "Security, Identity, & Compliance"
@@ -2224,7 +2233,7 @@
         "Developer Tools"
       ],
       "description": "Develop applications with Python-specific APIs and libraries",
-      "link": "https://docs.aws.amazon.com/pythonsdk/",
+      "link": "https://docs.aws.amazon.com/sdk-for-python/",
       "id": "Python3"
     },
     {

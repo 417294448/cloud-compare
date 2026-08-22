@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-08-14",
+  "generatedAt": "2026-08-22",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -1674,7 +1674,7 @@
           },
           {
             "name": "AWS SDK for Python (Boto3)",
-            "link": "https://docs.aws.amazon.com/pythonsdk/",
+            "link": "https://docs.aws.amazon.com/sdk-for-python/",
             "description": "Develop applications with Python-specific APIs and libraries",
             "description-cn": "使用 Python 专属 API 和库开发应用程序"
           },
@@ -13785,6 +13785,29 @@
                   "link": "https://docs.aws.amazon.com/appconfig/",
                   "description": "Quickly deploy application configurations to applications of any size",
                   "description-cn": "快速将应用配置部署到任意规模的应用"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-aws-aws-assurance",
+            "category": "Management & Governance",
+            "category-cn": "管理与治理",
+            "name": "AWS Assurance",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS Assurance",
+                  "link": "https://docs.aws.amazon.com/assurance/",
+                  "description": "Automated compliance readiness assessment for AWS workloads",
+                  "description-cn": "自动评估 AWS 工作负载的合规就绪情况"
                 }
               ],
               "azure": [],

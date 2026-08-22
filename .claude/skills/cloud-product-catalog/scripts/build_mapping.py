@@ -377,6 +377,7 @@ DESCRIPTION_CN = {
         "Amazon Verified Permissions": "面向自定义应用的权限管理与授权",
         "AWS Artifact": "按需访问 AWS 合规报告",
         "AWS Audit Manager": "审计你的 AWS 使用情况，简化风险与合规评估",
+        "AWS Assurance": "自动评估 AWS 工作负载的合规就绪情况",
         "AWS Certificate Manager": "预配、管理和部署 SSL/TLS 证书",
         "AWS Private Certificate Authority": "创建私有证书以标识资源并保护数据",
         "AWS CloudHSM": "基于硬件的密钥存储，满足合规要求",
