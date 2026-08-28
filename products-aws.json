@@ -1,8 +1,8 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-08-22",
-  "totalProducts": 308,
+  "fetchedAt": "2026-08-28",
+  "totalProducts": 307,
   "products": [
     {
       "name": "Agent Toolkit for AWS",
@@ -1131,15 +1131,6 @@
       "description": "On-demand access to AWS compliance reports",
       "link": "https://docs.aws.amazon.com/artifact/",
       "id": "artifact"
-    },
-    {
-      "name": "AWS Assurance",
-      "categories": [
-        "Management & Governance"
-      ],
-      "description": "Automated compliance readiness assessment for AWS workloads",
-      "link": "https://docs.aws.amazon.com/assurance/",
-      "id": "assurance"
     },
     {
       "name": "AWS Audit Manager",
