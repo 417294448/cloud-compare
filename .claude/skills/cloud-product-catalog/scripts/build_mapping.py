@@ -795,8 +795,13 @@ DESCRIPTION_CN = {
         "Cluster Director documentation": "了解 Cluster Director，一项简化部署和管理 AI 或 HPC 优化集群的托管服务",
         "Google Distributed Cloud": "将 Google Cloud 基础设施和服务扩展到边缘的全托管软硬件解决方案",
         "Google Distributed Cloud connected": "在客户本地部署的专用硬件上执行 Kubernetes 工作负载",
-        "Google Distributed Cloud (software only) for bare metal": "在使用 Google Cloud 功能的同时，在自有本地环境中创建、管理和升级 GKE 集群，并大规模部署和运行容器化应用",
-        "Google Distributed Cloud (software only) for VMware": "为本地容器化应用预配并管理底层资源",
+        "Google Distributed Cloud software only for bare metal": "在使用 Google Cloud 功能的同时，在自有本地环境中创建、管理和升级 GKE 集群，并大规模部署和运行容器化应用",
+        "Google Distributed Cloud software only for VMware": "为本地容器化应用预配并管理底层资源",
+        "Cloud FTP": "全托管的云端解决方案，通过 SSH 文件传输协议（SFTP）安全地在 Cloud Storage 中存取数据",
+        "Developer Device Platform": "面向远程设备编排的新一代商用级平台",
+        "Gemini on Google Distributed Cloud connected API documentation": "在专用且由 Google 托管的硬件上部署并托管私有 Gemini 基础模型",
+        "Google Cloud Data Agent Kit documentation": "IDE 扩展与插件，可在您偏好的 IDE 或智能体中连接并使用 Google Cloud 数据资源",
+        "Orchestration Pipelines": "统一的声明式编排与自动化部署框架，用于在 Google Cloud 上管理数据和 AI 流水线",
         "Google Cloud VMware Engine": "一项让您能够在 Google Cloud 中运行 VMware 平台的全托管服务",
         "Container-Optimized OS": "一款针对运行容器进行优化的 Compute Engine 操作系统镜像",
         "Deep Learning VM Images": "一款针对深度学习应用和高性能计算优化的 Compute Engine 虚拟机",
@@ -919,7 +924,6 @@ DESCRIPTION_CN = {
         "Gemini Enterprise Agent Platform": "面向平台与安全管理员的中央控制台，用于构建、扩展、监控和治理 AI Agent 全生命周期。",
         "Gemini for Google Cloud": "嵌入 Cloud Console 的大语言模型接口，提供代码辅助、代码生成与对话能力。",
         "Google Cloud Contact Center as a Service": "AI 驱动的一体化联络中心平台，与 CRM 协同提供统一的客户旅程视图。",
-        "Overview of getting inferences on Agent Platform": "使用 Gemini Enterprise Agent Platform 获取在线与批量推理的概览。",
         "TensorFlow Enterprise": "为关键 AI 工作负载提供企业级支持、优化性能与托管服务。",
         "Translation Hub": "面向大批量、多语种文档翻译的自助式翻译服务。",
         "Video Intelligence API": "分析视频内容，检测实体、标记成人内容并识别场景切换。",
@@ -1000,7 +1004,6 @@ DESCRIPTION_CN = {
         "Sovereign Controls by Partners": "通过合作伙伴运营的主权控制满足 Google Cloud 的数字主权要求。",
         "Unified Maintenance": "统一管理 Google Cloud 各服务的计划内维护。",
         "Web Risk": "让客户端应用对照 Google 持续更新的不安全网址列表检查 URL。",
-        "Parallelstore": "分布式异步对象存储，提供高带宽和高 IOPS。",
     },
     "alibaba": {
         "ACK One": "提供控制面，管理跨裸金属和云的 Kubernetes 集群",
@@ -1292,8 +1295,8 @@ GROUPS = [
             "gcp": [
                 "Google Distributed Cloud",
                 "Google Distributed Cloud connected",
-                "Google Distributed Cloud (software only) for bare metal",
-                "Google Distributed Cloud (software only) for VMware",
+                "Google Distributed Cloud software only for bare metal",
+                "Google Distributed Cloud software only for VMware",
             ],
             "alibaba": ["Apsara Stack", "Alibaba Cloud ZStack", "Hybrid Cloud Storage"],
         },
@@ -3589,17 +3592,19 @@ GROUPS = [
         "products": {
             "aws": ["AWS Data Pipeline"],
             "azure": ["Azure Data Factory"],
-            "gcp": ["Cloud Dataflow"],
+            "gcp": ["Cloud Dataflow", "Orchestration Pipelines"],
         },
         "notes": "Azure Data Factory and Cloud Dataflow are reused from "
         "analytics-etl / analytics-stream-processing since neither "
         "vendor has a product distinct from ETL/stream-processing for "
         "this narrower \"periodic pipeline orchestration\" use case that "
-        "AWS Data Pipeline targets.",
+        "AWS Data Pipeline targets. GCP's newer Orchestration Pipelines "
+        "also targets declarative data/AI pipeline orchestration.",
         "notes-cn": "Azure Data Factory 和 Cloud Dataflow 在 "
         "analytics-etl / analytics-stream-processing 分组里也被引用了，"
         "因为两家都没有针对 AWS Data Pipeline 这种「周期性管道编排」窄"
-        "场景的独立产品，用的还是各自的 ETL/流处理产品。",
+        "场景的独立产品，用的还是各自的 ETL/流处理产品。GCP 较新的 "
+        "Orchestration Pipelines 同样面向声明式的数据/AI 流水线编排。",
     },
     {
         "id": "analytics-bi-visualization",
@@ -4416,14 +4421,15 @@ GROUPS = [
         "products": {
             "aws": ["AWS Transfer Family"],
             "azure": ["Azure Files"],
-            "gcp": [],
+            "gcp": ["Cloud FTP"],
         },
         "notes": "Matches the File Transfer row in "
-        "cloud-compare-en-new.md; GCP's Cloud Storage SFTP doesn't "
-        "appear as a standalone product in products-gcp.json.",
-        "notes-cn": "对应 cloud-compare-en-new.md 的 File Transfer 行；"
-        "GCP 的 Cloud Storage SFTP 在 products-gcp.json 里不是独立"
-        "产品。",
+        "cloud-compare-en-new.md (GCP side listed there as Cloud "
+        "Storage SFTP); GCP's managed SFTP offering now appears in "
+        "products-gcp.json as the standalone Cloud FTP product.",
+        "notes-cn": "对应 cloud-compare-en-new.md 的 File Transfer 行"
+        "（文档里 GCP 一侧写的是 Cloud Storage SFTP）；GCP 的托管 "
+        "SFTP 服务现在以 Cloud FTP 独立产品收录在 products-gcp.json。",
     },
     {
         "id": "mig-data-sync",

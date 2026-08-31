@@ -1,8 +1,8 @@
 {
   "source": "https://docs.cloud.google.com/",
   "module": "Google Cloud product catalog",
-  "fetchedAt": "2026-07-28",
-  "totalProducts": 213,
+  "fetchedAt": "2026-08-31",
+  "totalProducts": 216,
   "products": [
     {
       "name": "Access Approval",
@@ -46,8 +46,8 @@
         "AI and ML"
       ],
       "description": "Use Google ML technology to provide information to human agents while they are interacting with customers.",
-      "link": "https://docs.cloud.google.com/agent-assist/docs",
-      "id": "docs"
+      "link": "https://docs.cloud.google.com/gemini-enterprise-cx/agent-assist",
+      "id": "agent-assist"
     },
     {
       "name": "Agent observability",
@@ -127,8 +127,8 @@
     {
       "name": "Anti Money Laundering AI",
       "categories": [
-        "Industry solutions",
-        "AI and ML"
+        "AI and ML",
+        "Industry solutions"
       ],
       "description": "An ML engine which takes customer data and training labels to create a tailored model covering an extensible typology of risks for AML.",
       "link": "https://docs.cloud.google.com/financial-services/anti-money-laundering/docs",
@@ -146,9 +146,9 @@
     {
       "name": "API Keys API Documentation",
       "categories": [
-        "Cross-product",
         "Security",
-        "Application development"
+        "Application development",
+        "Cross-product"
       ],
       "description": "Manages the API keys associated with developer projects.",
       "link": "https://docs.cloud.google.com/api-keys/docs",
@@ -184,7 +184,8 @@
     {
       "name": "App Lifecycle Manager",
       "categories": [
-        "Application hosting"
+        "Application hosting",
+        "Application development"
       ],
       "description": "Simplify building, scaling, and operating applications on Google Cloud.",
       "link": "https://docs.cloud.google.com/app-lifecycle-manager",
@@ -256,8 +257,8 @@
     {
       "name": "Batch",
       "categories": [
-        "Cross-product",
-        "Compute"
+        "Compute",
+        "Cross-product"
       ],
       "description": "Fully-managed batch service, which allows you to schedule, queue, and execute jobs at scale.",
       "link": "https://docs.cloud.google.com/batch/docs",
@@ -491,6 +492,15 @@
       "id": "ekm"
     },
     {
+      "name": "Cloud FTP",
+      "categories": [
+        "Storage"
+      ],
+      "description": "A managed, cloud-based solution to securely move data in and out of Cloud Storage by using SSH File Transfer Protocol (SFTP).",
+      "link": "https://docs.cloud.google.com/cloud-ftp",
+      "id": "cloud-ftp"
+    },
+    {
       "name": "Cloud Healthcare API",
       "categories": [
         "Industry solutions",
@@ -540,8 +550,8 @@
     {
       "name": "Cloud Intrusion Detection System",
       "categories": [
-        "Security",
-        "Networking"
+        "Networking",
+        "Security"
       ],
       "description": "Monitors your networks, and alerts when it detects malicious activity. Powered by Palo Alto Networks.",
       "link": "https://docs.cloud.google.com/intrusion-detection-system/docs",
@@ -578,9 +588,9 @@
     {
       "name": "Cloud Logging",
       "categories": [
+        "Observability and monitoring",
         "Security",
-        "Networking",
-        "Observability and monitoring"
+        "Networking"
       ],
       "description": "A fully managed service that allows you to store, search, analyze, monitor, and alert on logging data.",
       "link": "https://docs.cloud.google.com/logging/docs",
@@ -906,8 +916,8 @@
     {
       "name": "Config Sync",
       "categories": [
-        "Application hosting",
-        "Distributed, hybrid, and multicloud"
+        "Distributed, hybrid, and multicloud",
+        "Application hosting"
       ],
       "description": "Continuously sync your clusters to a centralized set of configurations stored in Git.",
       "link": "https://docs.cloud.google.com/kubernetes-engine/config-sync/docs",
@@ -916,8 +926,8 @@
     {
       "name": "Container-Optimized OS",
       "categories": [
-        "Cross-product",
-        "Compute"
+        "Compute",
+        "Cross-product"
       ],
       "description": "An OS image for Compute Engine that's optimized for running containers.",
       "link": "https://docs.cloud.google.com/container-optimized-os/docs",
@@ -929,8 +939,8 @@
         "AI and ML"
       ],
       "description": "Help call center managers improve customer interactions by using language processing to identify call drivers and sentiment.",
-      "link": "https://docs.cloud.google.com/contact-center/insights/docs",
-      "id": "docs"
+      "link": "https://docs.cloud.google.com/gemini-enterprise-cx/insights",
+      "id": "insights"
     },
     {
       "name": "Cyber Insurance Hub",
@@ -962,8 +972,8 @@
     {
       "name": "Database Migration Service",
       "categories": [
-        "Migration",
-        "Databases"
+        "Databases",
+        "Migration"
       ],
       "description": "Database Migration Service makes it easier for businesses to lift and shift their MySQL and PostgreSQL workloads into Cloud SQL.",
       "link": "https://docs.cloud.google.com/database-migration/docs",
@@ -990,8 +1000,8 @@
     {
       "name": "Datastream",
       "categories": [
-        "Data analytics",
-        "Databases"
+        "Databases",
+        "Data analytics"
       ],
       "description": "A serverless and easy-to-use change data capture (CDC) and replication service.",
       "link": "https://docs.cloud.google.com/datastream/docs",
@@ -1009,8 +1019,8 @@
     {
       "name": "Deep Learning VM Images",
       "categories": [
-        "AI and ML",
         "Compute",
+        "AI and ML",
         "Cross-product"
       ],
       "description": "A Compute Engine virtual machine optimized for deep learning applications and high performance computing.",
@@ -1025,6 +1035,17 @@
       "description": "Centralized DevOps integration that lets you minimize configuration overhead and enable cross-project collaboration.",
       "link": "https://docs.cloud.google.com/developer-connect/docs",
       "id": "docs"
+    },
+    {
+      "name": "Developer Device Platform",
+      "categories": [
+        "Cross-product",
+        "Application development",
+        "AI and ML"
+      ],
+      "description": "A next-generation, commercial-grade platform for remote device orchestration.",
+      "link": "https://docs.cloud.google.com/developer-device-platform",
+      "id": "developer-device-platform"
     },
     {
       "name": "Device Streaming API documentation",
@@ -1065,8 +1086,8 @@
     {
       "name": "Dual Run",
       "categories": [
-        "Compute",
-        "Migration"
+        "Migration",
+        "Compute"
       ],
       "description": "Simultaneously run workloads on your existing mainframe environment and on Google Cloud, to perform real-time testing and quickly gather data on performance and stability.",
       "link": "https://docs.cloud.google.com/mainframe-dual-run/docs",
@@ -1191,10 +1212,19 @@
       "id": "docs"
     },
     {
+      "name": "Gemini on Google Distributed Cloud connected API documentation",
+      "categories": [
+        "Distributed, hybrid, and multicloud"
+      ],
+      "description": "Deploy and serve private Gemini foundation models on dedicated Google-managed hardware connected to your local network.",
+      "link": "https://docs.cloud.google.com/distributed-cloud/gemini-on-gdcc/latest/docs",
+      "id": "docs"
+    },
+    {
       "name": "Google Cloud Armor",
       "categories": [
-        "Networking",
-        "Security"
+        "Security",
+        "Networking"
       ],
       "description": "Protect your services against denial of service and web attacks using Google’s global infrastructure and security systems.",
       "link": "https://docs.cloud.google.com/armor/docs",
@@ -1219,6 +1249,15 @@
       "id": "docs"
     },
     {
+      "name": "Google Cloud Data Agent Kit documentation",
+      "categories": [
+        "Data analytics"
+      ],
+      "description": "An IDE extension and plugin that let you connect to your Google Cloud data resources and work with them using your preferred IDE or agent.",
+      "link": "https://docs.cloud.google.com/data-agent-kit",
+      "id": "data-agent-kit"
+    },
+    {
       "name": "Google Cloud Data Agent Kit extension documentation",
       "categories": [
         "Data analytics"
@@ -1239,9 +1278,9 @@
     {
       "name": "Google Cloud Hyperdisk overview",
       "categories": [
-        "Compute",
         "Storage",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "Learn about Hyperdisk, their capacity and performance limits, regional availability, and machine type support.",
       "link": "https://docs.cloud.google.com/compute/docs/disks/hyperdisks",
@@ -1250,8 +1289,8 @@
     {
       "name": "Google Cloud Observability",
       "categories": [
-        "Security",
-        "Observability and monitoring"
+        "Observability and monitoring",
+        "Security"
       ],
       "description": "Provides services that help you to understand the behavior, health, and performance of your applications.",
       "link": "https://docs.cloud.google.com/stackdriver/docs",
@@ -1281,26 +1320,8 @@
       "categories": [
         "Distributed, hybrid, and multicloud"
       ],
-      "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to the edge.",
+      "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to sovereign and data center environments.",
       "link": "https://docs.cloud.google.com/distributed-cloud/docs",
-      "id": "docs"
-    },
-    {
-      "name": "Google Distributed Cloud (software only) for bare metal",
-      "categories": [
-        "Distributed, hybrid, and multicloud"
-      ],
-      "description": "Create, manage, and upgrade GKE clusters on your own premises while using Google Cloud features, and deploy and operate containerized applications on your clusters at scale.",
-      "link": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs",
-      "id": "docs"
-    },
-    {
-      "name": "Google Distributed Cloud (software only) for VMware",
-      "categories": [
-        "Distributed, hybrid, and multicloud"
-      ],
-      "description": "Provisions and manages the underlying resources for containerized applications on-premises.",
-      "link": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/vmware/docs",
       "id": "docs"
     },
     {
@@ -1310,6 +1331,24 @@
       ],
       "description": "Execute Kubernetes workloads on dedicated hardware running on customer premises.",
       "link": "https://docs.cloud.google.com/distributed-cloud/connected/latest/docs",
+      "id": "docs"
+    },
+    {
+      "name": "Google Distributed Cloud software only for bare metal",
+      "categories": [
+        "Distributed, hybrid, and multicloud"
+      ],
+      "description": "Create, manage, and upgrade GKE clusters on your own premises while using Google Cloud features, and deploy and operate containerized applications on your clusters at scale.",
+      "link": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs",
+      "id": "docs"
+    },
+    {
+      "name": "Google Distributed Cloud software only for VMware",
+      "categories": [
+        "Distributed, hybrid, and multicloud"
+      ],
+      "description": "Provisions and manages the underlying resources for containerized applications on-premises.",
+      "link": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/vmware/docs",
       "id": "docs"
     },
     {
@@ -1342,8 +1381,8 @@
     {
       "name": "GPU machine types",
       "categories": [
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "Understand instance options available to support GPU-accelerated workloads such as machine learning, data processing, and graphics workloads on Compute Engine.",
       "link": "https://docs.cloud.google.com/compute/docs/gpus",
@@ -1417,8 +1456,8 @@
       "name": "Live Stream API",
       "categories": [
         "Industry solutions",
-        "AI and ML",
-        "Application development"
+        "Application development",
+        "AI and ML"
       ],
       "description": "Transcodes live, linear video streams into modern and next generation formats for broadcasters, production companies, and other media businesses.",
       "link": "https://docs.cloud.google.com/livestream/docs",
@@ -1439,14 +1478,14 @@
         "Data analytics"
       ],
       "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
-      "link": "https://docs.cloud.google.com/looker/docs/2606",
-      "id": "2606"
+      "link": "https://docs.cloud.google.com/looker/docs/2608",
+      "id": "2608"
     },
     {
       "name": "Mainframe Assessment Tool",
       "categories": [
-        "Compute",
-        "Migration"
+        "Migration",
+        "Compute"
       ],
       "description": "Automates analysis of legacy mainframe applications to help you migrate them to Google Cloud.",
       "link": "https://docs.cloud.google.com/mainframe-assessment-tool/docs",
@@ -1455,8 +1494,8 @@
     {
       "name": "Mainframe Connector",
       "categories": [
-        "Migration",
-        "Compute"
+        "Compute",
+        "Migration"
       ],
       "description": "Helps export data from a mainframe, upload data in batches to Google Cloud using Cloud Storage, and import it to BigQuery.",
       "link": "https://docs.cloud.google.com/mainframe-connector/docs",
@@ -1547,8 +1586,8 @@
       "name": "Migrate to Containers",
       "categories": [
         "Application hosting",
-        "Migration",
-        "Compute"
+        "Compute",
+        "Migration"
       ],
       "description": "Converts VM-based workloads into containers in Google Kubernetes Engine (GKE).",
       "link": "https://docs.cloud.google.com/migrate/containers/docs",
@@ -1557,8 +1596,8 @@
     {
       "name": "Migrate to Virtual Machines",
       "categories": [
-        "Migration",
-        "Compute"
+        "Compute",
+        "Migration"
       ],
       "description": "Purpose-built, enterprise-grade migration to Google Cloud.",
       "link": "https://docs.cloud.google.com/migrate/virtual-machines/docs/5.0",
@@ -1567,8 +1606,8 @@
     {
       "name": "Migration Center",
       "categories": [
-        "Migration",
-        "Compute"
+        "Compute",
+        "Migration"
       ],
       "description": "Unifies the journey across different tools when migrating to Google Cloud.",
       "link": "https://docs.cloud.google.com/migration-center/docs",
@@ -1614,30 +1653,21 @@
       "name": "Oracle on Google Cloud Compute",
       "categories": [
         "Databases",
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "Run Oracle workloads on Google Cloud.",
       "link": "https://docs.cloud.google.com/oracle/compute",
       "id": "compute"
     },
     {
-      "name": "Overview of getting inferences on Agent Platform",
+      "name": "Orchestration Pipelines",
       "categories": [
-        "AI and ML"
+        "Data analytics"
       ],
-      "description": "Get online and batch inferences using Gemini Enterprise Agent Platform.",
-      "link": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/predictions",
-      "id": "predictions"
-    },
-    {
-      "name": "Parallelstore",
-      "categories": [
-        "Storage"
-      ],
-      "description": "Distributed, asynchronous object storage, providing high bandwidth and high IOPS.",
-      "link": "https://docs.cloud.google.com/parallelstore/docs/overview",
-      "id": "overview"
+      "description": "A unified, declarative orchestration and automated deployment framework optimized for seamlessly managing data and AI pipelines on Google Cloud.",
+      "link": "https://docs.cloud.google.com/orchestration-pipelines",
+      "id": "orchestration-pipelines"
     },
     {
       "name": "Persistent Disk",
@@ -1735,8 +1765,8 @@
     {
       "name": "Sensitive Data Protection",
       "categories": [
-        "Data analytics",
-        "Security"
+        "Security",
+        "Data analytics"
       ],
       "description": "Discover, classify, and de-identify sensitive data inside and outside Google Cloud.",
       "link": "https://docs.cloud.google.com/sensitive-data-protection/docs",
@@ -1781,8 +1811,8 @@
     {
       "name": "Service Usage",
       "categories": [
-        "Application development",
-        "Cross-product"
+        "Cross-product",
+        "Application development"
       ],
       "description": "List and manage APIs and services in your Google Cloud projects.",
       "link": "https://docs.cloud.google.com/service-usage/docs",
@@ -1791,8 +1821,8 @@
     {
       "name": "Shielded VM",
       "categories": [
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "Provides verifiable integrity of your Compute Engine VM instances to help defend against rootkits and bootkits.",
       "link": "https://docs.cloud.google.com/compute/shielded-vm/docs",
@@ -1828,9 +1858,9 @@
     {
       "name": "Storage Transfer Service",
       "categories": [
+        "Migration",
         "Storage",
-        "Data analytics",
-        "Migration"
+        "Data analytics"
       ],
       "description": "Transfer your data from one cloud to another.",
       "link": "https://docs.cloud.google.com/storage-transfer/docs/overview",
@@ -1857,9 +1887,9 @@
     {
       "name": "Transcoder API",
       "categories": [
-        "Industry solutions",
         "Application development",
-        "AI and ML"
+        "AI and ML",
+        "Industry solutions"
       ],
       "description": "Transcodes videos into modern and next generation formats for broadcasters, production companies, and other media businesses.",
       "link": "https://docs.cloud.google.com/transcoder/docs",
@@ -1868,9 +1898,9 @@
     {
       "name": "Transfer Appliance",
       "categories": [
-        "Data analytics",
         "Storage",
-        "Migration"
+        "Migration",
+        "Data analytics"
       ],
       "description": "Hardware that lets you capture and securely migrate your data to Google Cloud without disrupting business operations.",
       "link": "https://docs.cloud.google.com/transfer-appliance/docs/4.0/overview",
@@ -1906,9 +1936,9 @@
     {
       "name": "Video Stitcher API",
       "categories": [
+        "Industry solutions",
         "Application development",
-        "AI and ML",
-        "Industry solutions"
+        "AI and ML"
       ],
       "description": "Dynamically generates video on demand content for delivery to client devices.",
       "link": "https://docs.cloud.google.com/video-stitcher/docs",
@@ -1926,8 +1956,8 @@
     {
       "name": "Vision API Product Search",
       "categories": [
-        "Industry solutions",
-        "AI and ML"
+        "AI and ML",
+        "Industry solutions"
       ],
       "description": "Enables retailers to create a set of products and of reference images that visually describe the product from a set of viewpoints.",
       "link": "https://docs.cloud.google.com/vision/product-search/docs",
