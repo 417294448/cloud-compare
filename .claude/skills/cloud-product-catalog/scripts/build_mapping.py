@@ -676,6 +676,7 @@ DESCRIPTION_CN = {
         "Azure Virtual Network": "在云中创建你自己的私有网络基础设施",
         "Azure VPN Gateway": "建立安全的跨本地连接",
         "Azure ExpressRoute": "体验快速、可靠的 Azure 专用连接",
+        "Azure Multicloud Interconnect": "连接你的 Azure 环境与其他云服务提供商",
         "Azure Enclave": "为具有严苛合规要求的敏感工作负载提供安全的云环境。",
         "Azure Front Door": "面向全球用户提供优化体验的现代云 CDN",
         "Azure Private Link": "私密访问托管在 Azure 平台上的服务，让数据始终留在微软网络内",

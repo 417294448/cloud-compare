@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-08-31",
+  "generatedAt": "2026-09-01",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -6070,7 +6070,7 @@
           {
             "name": "Azure Data Box",
             "link": "https://azure.microsoft.com/en-us/products/databox/",
-            "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
+            "description": "Appliances and solutions for data transfer to Azure and edge compute.",
             "description-cn": "借助 Azure Data Box 加速离线数据迁移，无需网络带宽即可快速迁移海量数据集"
           }
         ],
@@ -6151,7 +6151,7 @@
           {
             "name": "Azure Data Box",
             "link": "https://azure.microsoft.com/en-us/products/databox/",
-            "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
+            "description": "Appliances and solutions for data transfer to Azure and edge compute.",
             "description-cn": "借助 Azure Data Box 加速离线数据迁移，无需网络带宽即可快速迁移海量数据集"
           }
         ],
@@ -6967,7 +6967,7 @@
           {
             "name": "Azure Data Box",
             "link": "https://azure.microsoft.com/en-us/products/databox/",
-            "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
+            "description": "Appliances and solutions for data transfer to Azure and edge compute.",
             "description-cn": "借助 Azure Data Box 加速离线数据迁移，无需网络带宽即可快速迁移海量数据集"
           }
         ],
@@ -8470,7 +8470,7 @@
               "gcp": [
                 {
                   "name": "Looker documentation",
-                  "link": "https://docs.cloud.google.com/looker/docs/2608",
+                  "link": "https://docs.cloud.google.com/looker/docs/2606",
                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
                 }
@@ -9180,29 +9180,6 @@
                   "link": "https://azure.microsoft.com/en-us/products/compute-fleet",
                   "description": "Easily provision and manage Azure compute capacity at scale.",
                   "description-cn": "轻松大规模预配和管理 Azure 计算容量"
-                }
-              ],
-              "gcp": [],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-azure-azure-linux",
-            "category": "Compute",
-            "category-cn": "计算服务",
-            "name": "Azure Linux",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [
-                {
-                  "name": "Azure Linux",
-                  "link": "https://azure.microsoft.com/en-us/products/azure-linux/",
-                  "description": "Explore a Microsoft-maintained Linux distribution optimized for Azure Virtual Machines and AKS workloads.",
-                  "description-cn": "探索一款由微软维护、针对 Azure 虚拟机和 AKS 工作负载优化的 Linux 发行版"
                 }
               ],
               "gcp": [],
@@ -11631,6 +11608,29 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
+            "id": "unmapped-azure-azure-ai-services",
+            "category": "Front-End Web & Mobile",
+            "category-cn": "前端 Web 与移动",
+            "name": "Azure AI Services",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [
+                {
+                  "name": "Azure AI Services",
+                  "link": "https://azure.microsoft.com/en-us/products/ai-services/",
+                  "description": "Add cognitive capabilities to apps with APIs and AI services.",
+                  "description-cn": "通过 API 和 AI 服务为应用添加认知能力。"
+                }
+              ],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
             "id": "unmapped-azure-azure-fluid-relay",
             "category": "Front-End Web & Mobile",
             "category-cn": "前端 Web 与移动",
@@ -13104,29 +13104,6 @@
                   "link": "https://azure.microsoft.com/en-us/products/ai-agent-service/",
                   "description": "Create AI agents that automate complex business processes—completing specific tasks while keeping humans in control.",
                   "description-cn": "创建可自动化复杂业务流程的 AI 智能体，同时由人来掌控。"
-                }
-              ],
-              "gcp": [],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-azure-foundry-control-plane",
-            "category": "Machine Learning",
-            "category-cn": "机器学习",
-            "name": "Foundry Control Plane",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [
-                {
-                  "name": "Foundry Control Plane",
-                  "link": "https://azure.microsoft.com/en-us/products/ai-foundry/control-plane",
-                  "description": "Observe, control, secure, and govern AI agents across your organization",
-                  "description-cn": "在整个组织内观测、控制、保护和治理 AI 智能体。"
                 }
               ],
               "gcp": [],
@@ -15271,6 +15248,29 @@
                   "link": "https://azure.microsoft.com/en-us/products/enclave",
                   "description": "Secure cloud environments for sensitive workloads with demanding compliance requirements.",
                   "description-cn": "为具有严苛合规要求的敏感工作负载提供安全的云环境。"
+                }
+              ],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-azure-azure-multicloud-interconnect",
+            "category": "Networking & Content Delivery",
+            "category-cn": "网络与内容分发",
+            "name": "Azure Multicloud Interconnect",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [
+                {
+                  "name": "Azure Multicloud Interconnect",
+                  "link": "https://azure.microsoft.com/en-us/products/multicloud-interconnect",
+                  "description": "Connect your Azure environment with other cloud service providers.",
+                  "description-cn": "连接你的 Azure 环境与其他云服务提供商"
                 }
               ],
               "gcp": [],
