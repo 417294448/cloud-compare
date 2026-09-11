@@ -1,8 +1,8 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-08-14",
-  "totalProducts": 307,
+  "fetchedAt": "2026-09-11",
+  "totalProducts": 306,
   "products": [
     {
       "name": "Agent Toolkit for AWS",
@@ -2224,7 +2224,7 @@
         "Developer Tools"
       ],
       "description": "Develop applications with Python-specific APIs and libraries",
-      "link": "https://docs.aws.amazon.com/pythonsdk/",
+      "link": "https://docs.aws.amazon.com/sdk-for-python/",
       "id": "Python3"
     },
     {
@@ -2722,15 +2722,6 @@
       ],
       "description": "Security documentation by category",
       "link": "https://docs.aws.amazon.com/security/",
-      "id": null
-    },
-    {
-      "name": "Serverless",
-      "categories": [
-        "Serverless"
-      ],
-      "description": "Introduction to core serverless concepts and services in the AWS Cloud",
-      "link": "https://docs.aws.amazon.com/serverless/",
       "id": null
     },
     {

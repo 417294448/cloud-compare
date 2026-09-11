@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-08-14",
+  "generatedAt": "2026-09-11",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -378,7 +378,7 @@
           {
             "name": "Google Distributed Cloud",
             "link": "https://docs.cloud.google.com/distributed-cloud/docs",
-            "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to the edge.",
+            "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to sovereign and data center environments.",
             "description-cn": "将 Google Cloud 基础设施和服务扩展到边缘的全托管软硬件解决方案"
           },
           {
@@ -388,13 +388,13 @@
             "description-cn": "在客户本地部署的专用硬件上执行 Kubernetes 工作负载"
           },
           {
-            "name": "Google Distributed Cloud (software only) for bare metal",
+            "name": "Google Distributed Cloud software only for bare metal",
             "link": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs",
             "description": "Create, manage, and upgrade GKE clusters on your own premises while using Google Cloud features, and deploy and operate containerized applications on your clusters at scale.",
             "description-cn": "在使用 Google Cloud 功能的同时，在自有本地环境中创建、管理和升级 GKE 集群，并大规模部署和运行容器化应用"
           },
           {
-            "name": "Google Distributed Cloud (software only) for VMware",
+            "name": "Google Distributed Cloud software only for VMware",
             "link": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/vmware/docs",
             "description": "Provisions and manages the underlying resources for containerized applications on-premises.",
             "description-cn": "为本地容器化应用预配并管理底层资源"
@@ -888,7 +888,7 @@
             "description-cn": "一款云托管的 NoSQL 数据库，足够简单以支持快速原型开发，同时也足够可扩展和灵活以应对任意规模的增长"
           },
           {
-            "name": "Datastore",
+            "name": "Firestore in Datastore mode",
             "link": "https://docs.cloud.google.com/datastore/docs",
             "description": "A highly-scalable NoSQL database for your web and mobile applications that automatically handles sharding and replication.",
             "description-cn": "一款面向 Web 和移动应用的高可扩展 NoSQL 数据库，自动处理分片和复制"
@@ -1674,7 +1674,7 @@
           },
           {
             "name": "AWS SDK for Python (Boto3)",
-            "link": "https://docs.aws.amazon.com/pythonsdk/",
+            "link": "https://docs.aws.amazon.com/sdk-for-python/",
             "description": "Develop applications with Python-specific APIs and libraries",
             "description-cn": "使用 Python 专属 API 和库开发应用程序"
           },
@@ -3101,14 +3101,7 @@
             "description-cn": "为你的应用构建实时推荐能力"
           }
         ],
-        "azure": [
-          {
-            "name": "Azure AI Personalizer",
-            "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-personalizer/",
-            "description": "Deliver personalized, relevant experiences for each of your users.",
-            "description-cn": "为每位用户提供个性化、相关的体验"
-          }
-        ],
+        "azure": [],
         "gcp": [],
         "alibaba": [
           {
@@ -4695,12 +4688,18 @@
             "link": "https://docs.cloud.google.com/dataflow/docs",
             "description": "A fully-managed service for transforming and enriching data in stream and batch modes with equal reliability and expressiveness.",
             "description-cn": "一项全托管服务，以同等的可靠性和表达能力对流式和批处理数据进行转换与增强"
+          },
+          {
+            "name": "Orchestration Pipelines",
+            "link": "https://docs.cloud.google.com/orchestration-pipelines",
+            "description": "A unified, declarative orchestration and automated deployment framework optimized for seamlessly managing data and AI pipelines on Google Cloud.",
+            "description-cn": "统一的声明式编排与自动化部署框架，用于在 Google Cloud 上管理数据和 AI 流水线"
           }
         ],
         "alibaba": []
       },
-      "notes": "Azure Data Factory and Cloud Dataflow are reused from analytics-etl / analytics-stream-processing since neither vendor has a product distinct from ETL/stream-processing for this narrower \"periodic pipeline orchestration\" use case that AWS Data Pipeline targets.",
-      "notes-cn": "Azure Data Factory 和 Cloud Dataflow 在 analytics-etl / analytics-stream-processing 分组里也被引用了，因为两家都没有针对 AWS Data Pipeline 这种「周期性管道编排」窄场景的独立产品，用的还是各自的 ETL/流处理产品。"
+      "notes": "Azure Data Factory and Cloud Dataflow are reused from analytics-etl / analytics-stream-processing since neither vendor has a product distinct from ETL/stream-processing for this narrower \"periodic pipeline orchestration\" use case that AWS Data Pipeline targets. GCP's newer Orchestration Pipelines also targets declarative data/AI pipeline orchestration.",
+      "notes-cn": "Azure Data Factory 和 Cloud Dataflow 在 analytics-etl / analytics-stream-processing 分组里也被引用了，因为两家都没有针对 AWS Data Pipeline 这种「周期性管道编排」窄场景的独立产品，用的还是各自的 ETL/流处理产品。GCP 较新的 Orchestration Pipelines 同样面向声明式的数据/AI 流水线编排。"
     },
     {
       "id": "analytics-bi-visualization",
@@ -6064,7 +6063,7 @@
           {
             "name": "Azure Data Box",
             "link": "https://azure.microsoft.com/en-us/products/databox/",
-            "description": "Appliances and solutions for data transfer to Azure and edge compute.",
+            "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
             "description-cn": "借助 Azure Data Box 加速离线数据迁移，无需网络带宽即可快速迁移海量数据集"
           }
         ],
@@ -6112,11 +6111,18 @@
             "description-cn": "简单、安全的无服务器企业级云文件共享"
           }
         ],
-        "gcp": [],
+        "gcp": [
+          {
+            "name": "Cloud FTP",
+            "link": "https://docs.cloud.google.com/cloud-ftp",
+            "description": "A managed, cloud-based solution to securely move data in and out of Cloud Storage by using SSH File Transfer Protocol (SFTP).",
+            "description-cn": "全托管的云端解决方案，通过 SSH 文件传输协议（SFTP）安全地在 Cloud Storage 中存取数据"
+          }
+        ],
         "alibaba": []
       },
-      "notes": "Matches the File Transfer row in cloud-compare-en-new.md; GCP's Cloud Storage SFTP doesn't appear as a standalone product in products-gcp.json.",
-      "notes-cn": "对应 cloud-compare-en-new.md 的 File Transfer 行；GCP 的 Cloud Storage SFTP 在 products-gcp.json 里不是独立产品。"
+      "notes": "Matches the File Transfer row in cloud-compare-en-new.md (GCP side listed there as Cloud Storage SFTP); GCP's managed SFTP offering now appears in products-gcp.json as the standalone Cloud FTP product.",
+      "notes-cn": "对应 cloud-compare-en-new.md 的 File Transfer 行（文档里 GCP 一侧写的是 Cloud Storage SFTP）；GCP 的托管 SFTP 服务现在以 Cloud FTP 独立产品收录在 products-gcp.json。"
     },
     {
       "id": "mig-data-sync",
@@ -6138,7 +6144,7 @@
           {
             "name": "Azure Data Box",
             "link": "https://azure.microsoft.com/en-us/products/databox/",
-            "description": "Appliances and solutions for data transfer to Azure and edge compute.",
+            "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
             "description-cn": "借助 Azure Data Box 加速离线数据迁移，无需网络带宽即可快速迁移海量数据集"
           }
         ],
@@ -6954,7 +6960,7 @@
           {
             "name": "Azure Data Box",
             "link": "https://azure.microsoft.com/en-us/products/databox/",
-            "description": "Appliances and solutions for data transfer to Azure and edge compute.",
+            "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
             "description-cn": "借助 Azure Data Box 加速离线数据迁移，无需网络带宽即可快速迁移海量数据集"
           }
         ],
@@ -8376,6 +8382,29 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
+            "id": "unmapped-gcp-google-cloud-data-agent-kit-documentation",
+            "category": "Analytics",
+            "category-cn": "分析",
+            "name": "Google Cloud Data Agent Kit documentation",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [],
+              "gcp": [
+                {
+                  "name": "Google Cloud Data Agent Kit documentation",
+                  "link": "https://docs.cloud.google.com/data-agent-kit",
+                  "description": "An IDE extension and plugin that let you connect to your Google Cloud data resources and work with them using your preferred IDE or agent.",
+                  "description-cn": "IDE 扩展与插件，可在您偏好的 IDE 或智能体中连接并使用 Google Cloud 数据资源"
+                }
+              ],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
             "id": "unmapped-gcp-google-cloud-data-agent-kit-extension-documentation",
             "category": "Analytics",
             "category-cn": "分析",
@@ -8434,7 +8463,7 @@
               "gcp": [
                 {
                   "name": "Looker documentation",
-                  "link": "https://docs.cloud.google.com/looker/docs/2606",
+                  "link": "https://docs.cloud.google.com/looker/docs/2608",
                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
                 }
@@ -9144,6 +9173,29 @@
                   "link": "https://azure.microsoft.com/en-us/products/compute-fleet",
                   "description": "Easily provision and manage Azure compute capacity at scale.",
                   "description-cn": "轻松大规模预配和管理 Azure 计算容量"
+                }
+              ],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-azure-azure-linux",
+            "category": "Compute",
+            "category-cn": "计算服务",
+            "name": "Azure Linux",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [
+                {
+                  "name": "Azure Linux",
+                  "link": "https://azure.microsoft.com/en-us/products/azure-linux/",
+                  "description": "Explore a Microsoft-maintained Linux distribution optimized for Azure Virtual Machines and AKS workloads.",
+                  "description-cn": "探索一款由微软维护、针对 Azure 虚拟机和 AKS 工作负载优化的 Linux 发行版"
                 }
               ],
               "gcp": [],
@@ -9948,6 +10000,29 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
+            "id": "unmapped-gcp-developer-device-platform",
+            "category": "Cross-product",
+            "category-cn": "跨产品",
+            "name": "Developer Device Platform",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [],
+              "gcp": [
+                {
+                  "name": "Developer Device Platform",
+                  "link": "https://docs.cloud.google.com/developer-device-platform",
+                  "description": "A next-generation, commercial-grade platform for remote device orchestration.",
+                  "description-cn": "面向远程设备编排的新一代商用级平台"
+                }
+              ],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
             "id": "unmapped-gcp-device-streaming-api-documentation",
             "category": "Cross-product",
             "category-cn": "跨产品",
@@ -10336,7 +10411,7 @@
                 {
                   "name": "What is AlloyDB AI",
                   "link": "https://docs.cloud.google.com/alloydb/docs/ai/what-is-alloydb-ai",
-                  "description": "AlloyDB AI provides a suite of integrated generative AI capabilities in AlloyDB for PostgreSQL and AlloyDB Omni database. This includes high-performance vector search, an AI functions, and natural language-to-SQL generation. Build enterprise-ready AI applications faster and with less complexity by bringing AI to your operational data.",
+                  "description": "AlloyDB AI provides a suite of integrated generative AI capabilities in AlloyDB for PostgreSQL and AlloyDB Omni databases. These capabilities include high-performance vector search, AI functions, and AI tooling for agents. Build production grade AI applications faster and with less complexity by bringing AI to your operational data.",
                   "description-cn": "AlloyDB AI 介绍：在 AlloyDB for PostgreSQL 中集成生成式 AI 能力，含向量搜索与自然语言转 SQL。"
                 }
               ],
@@ -11114,6 +11189,29 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
+            "id": "unmapped-gcp-app-lifecycle-manager",
+            "category": "Developer Tools",
+            "category-cn": "开发者工具",
+            "name": "App Lifecycle Manager",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [],
+              "gcp": [
+                {
+                  "name": "App Lifecycle Manager",
+                  "link": "https://docs.cloud.google.com/app-lifecycle-manager",
+                  "description": "Simplify building, scaling, and operating applications on Google Cloud.",
+                  "description-cn": "简化在 Google Cloud 上构建、扩缩和运维应用。"
+                }
+              ],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
             "id": "unmapped-gcp-application-design-center",
             "category": "Developer Tools",
             "category-cn": "开发者工具",
@@ -11221,6 +11319,29 @@
                   "link": "https://docs.cloud.google.com/developer-connect/docs",
                   "description": "Centralized DevOps integration that lets you minimize configuration overhead and enable cross-project collaboration.",
                   "description-cn": "集中式 DevOps 集成，降低配置开销并支持跨项目协作。"
+                }
+              ],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-gcp-developer-device-platform",
+            "category": "Developer Tools",
+            "category-cn": "开发者工具",
+            "name": "Developer Device Platform",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [],
+              "gcp": [
+                {
+                  "name": "Developer Device Platform",
+                  "link": "https://docs.cloud.google.com/developer-device-platform",
+                  "description": "A next-generation, commercial-grade platform for remote device orchestration.",
+                  "description-cn": "面向远程设备编排的新一代商用级平台"
                 }
               ],
               "alibaba": []
@@ -11494,29 +11615,6 @@
                   "link": "https://azure.microsoft.com/en-us/products/app-configuration/",
                   "description": "Fast, scalable parameter storage for app configuration.",
                   "description-cn": "面向应用配置的快速、可扩展参数存储。"
-                }
-              ],
-              "gcp": [],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-azure-azure-ai-services",
-            "category": "Front-End Web & Mobile",
-            "category-cn": "前端 Web 与移动",
-            "name": "Azure AI Services",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [
-                {
-                  "name": "Azure AI Services",
-                  "link": "https://azure.microsoft.com/en-us/products/ai-services/",
-                  "description": "Add cognitive capabilities to apps with APIs and AI services.",
-                  "description-cn": "通过 API 和 AI 服务为应用添加认知能力。"
                 }
               ],
               "gcp": [],
@@ -11858,6 +11956,29 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
+            "id": "unmapped-gcp-gemini-on-google-distributed-cloud-connected-api-documentation",
+            "category": "Hybrid & Multicloud",
+            "category-cn": "混合与多云",
+            "name": "Gemini on Google Distributed Cloud connected API documentation",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [],
+              "gcp": [
+                {
+                  "name": "Gemini on Google Distributed Cloud connected API documentation",
+                  "link": "https://docs.cloud.google.com/distributed-cloud/gemini-on-gdcc/latest/docs",
+                  "description": "Deploy and serve private Gemini foundation models on dedicated Google-managed hardware connected to your local network.",
+                  "description-cn": "在专用且由 Google 托管的硬件上部署并托管私有 Gemini 基础模型"
+                }
+              ],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
             "id": "unmapped-gcp-service-directory",
             "category": "Hybrid & Multicloud",
             "category-cn": "混合与多云",
@@ -11883,9 +12004,9 @@
         ],
         "mappedUnderOtherCategory": [
           "Google Distributed Cloud",
-          "Google Distributed Cloud (software only) for VMware",
-          "Google Distributed Cloud (software only) for bare metal",
-          "Google Distributed Cloud connected"
+          "Google Distributed Cloud connected",
+          "Google Distributed Cloud software only for VMware",
+          "Google Distributed Cloud software only for bare metal"
         ]
       },
       "alibaba": {
@@ -12801,29 +12922,6 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
-            "id": "unmapped-azure-azure-ai-metrics-advisor",
-            "category": "Machine Learning",
-            "category-cn": "机器学习",
-            "name": "Azure AI Metrics Advisor",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [
-                {
-                  "name": "Azure AI Metrics Advisor",
-                  "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-metrics-advisor/",
-                  "description": "An AI service that monitors metrics and diagnoses issues.",
-                  "description-cn": "监控指标并诊断问题的 AI 服务。"
-                }
-              ],
-              "gcp": [],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
             "id": "unmapped-azure-azure-ai-video-indexer",
             "category": "Machine Learning",
             "category-cn": "机器学习",
@@ -12976,6 +13074,29 @@
                   "link": "https://azure.microsoft.com/en-us/products/ai-agent-service/",
                   "description": "Create AI agents that automate complex business processes—completing specific tasks while keeping humans in control.",
                   "description-cn": "创建可自动化复杂业务流程的 AI 智能体，同时由人来掌控。"
+                }
+              ],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-azure-foundry-control-plane",
+            "category": "Machine Learning",
+            "category-cn": "机器学习",
+            "name": "Foundry Control Plane",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [
+                {
+                  "name": "Foundry Control Plane",
+                  "link": "https://azure.microsoft.com/en-us/products/ai-foundry/control-plane",
+                  "description": "Observe, control, secure, and govern AI agents across your organization",
+                  "description-cn": "在整个组织内观测、控制、保护和治理 AI 智能体。"
                 }
               ],
               "gcp": [],
@@ -13259,7 +13380,7 @@
               "gcp": [
                 {
                   "name": "Agent Assist",
-                  "link": "https://docs.cloud.google.com/agent-assist/docs",
+                  "link": "https://docs.cloud.google.com/gemini-enterprise-cx/agent-assist",
                   "description": "Use Google ML technology to provide information to human agents while they are interacting with customers.",
                   "description-cn": "利用 Google ML 技术，在客服与客户交互时实时提供辅助信息。"
                 }
@@ -13443,7 +13564,7 @@
               "gcp": [
                 {
                   "name": "Customer Experience Insights",
-                  "link": "https://docs.cloud.google.com/contact-center/insights/docs",
+                  "link": "https://docs.cloud.google.com/gemini-enterprise-cx/insights",
                   "description": "Help call center managers improve customer interactions by using language processing to identify call drivers and sentiment.",
                   "description-cn": "通过语言处理识别来电原因与情绪，帮助呼叫中心改善客户交互。"
                 }
@@ -13469,6 +13590,29 @@
                   "link": "https://docs.cloud.google.com/deep-learning-containers/docs",
                   "description": "Prepackaged and optimized deep learning containers for developing, testing, and deploying AI applications on TensorFlow, PyTorch, and scikit learn.",
                   "description-cn": "预装优化的深度学习容器，支持 TensorFlow、PyTorch 和 scikit-learn 应用开发与部署。"
+                }
+              ],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-gcp-developer-device-platform",
+            "category": "Machine Learning",
+            "category-cn": "机器学习",
+            "name": "Developer Device Platform",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [],
+              "gcp": [
+                {
+                  "name": "Developer Device Platform",
+                  "link": "https://docs.cloud.google.com/developer-device-platform",
+                  "description": "A next-generation, commercial-grade platform for remote device orchestration.",
+                  "description-cn": "面向远程设备编排的新一代商用级平台"
                 }
               ],
               "alibaba": []
@@ -13607,29 +13751,6 @@
                   "link": "https://docs.cloud.google.com/contact-center/ccai-platform/docs",
                   "description": "An AI-driven unified contact center platform built to work alongside CRMs that provides organizations with a single source of truth for their customer journeys.",
                   "description-cn": "AI 驱动的一体化联络中心平台，与 CRM 协同提供统一的客户旅程视图。"
-                }
-              ],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-gcp-overview-of-getting-inferences-on-agent-platform",
-            "category": "Machine Learning",
-            "category-cn": "机器学习",
-            "name": "Overview of getting inferences on Agent Platform",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [],
-              "gcp": [
-                {
-                  "name": "Overview of getting inferences on Agent Platform",
-                  "link": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/predictions",
-                  "description": "Get online and batch inferences using Gemini Enterprise Agent Platform.",
-                  "description-cn": "使用 Gemini Enterprise Agent Platform 获取在线与批量推理的概览。"
                 }
               ],
               "alibaba": []
@@ -15120,6 +15241,29 @@
                   "link": "https://azure.microsoft.com/en-us/products/enclave",
                   "description": "Secure cloud environments for sensitive workloads with demanding compliance requirements.",
                   "description-cn": "为具有严苛合规要求的敏感工作负载提供安全的云环境。"
+                }
+              ],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-azure-azure-multicloud-interconnect",
+            "category": "Networking & Content Delivery",
+            "category-cn": "网络与内容分发",
+            "name": "Azure Multicloud Interconnect",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [
+                {
+                  "name": "Azure Multicloud Interconnect",
+                  "link": "https://azure.microsoft.com/en-us/products/multicloud-interconnect",
+                  "description": "Connect your Azure environment with other cloud service providers.",
+                  "description-cn": "连接你的 Azure 环境与其他云服务提供商"
                 }
               ],
               "gcp": [],
@@ -16749,31 +16893,7 @@
     },
     "Serverless": {
       "aws": {
-        "trulyUnmapped": [
-          {
-            "id": "unmapped-aws-serverless",
-            "category": "Serverless",
-            "category-cn": "无服务器",
-            "name": "Serverless",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [
-                {
-                  "name": "Serverless",
-                  "link": "https://docs.aws.amazon.com/serverless/",
-                  "description": "Introduction to core serverless concepts and services in the AWS Cloud",
-                  "description-cn": "AWS 云上无服务器核心概念与服务简介"
-                }
-              ],
-              "azure": [],
-              "gcp": [],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          }
-        ],
+        "trulyUnmapped": [],
         "mappedUnderOtherCategory": []
       },
       "azure": {
@@ -17059,32 +17179,10 @@
             },
             "notes": "No confirmed cross-cloud counterpart found yet.",
             "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-gcp-parallelstore",
-            "category": "Storage",
-            "category-cn": "存储",
-            "name": "Parallelstore",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [],
-              "gcp": [
-                {
-                  "name": "Parallelstore",
-                  "link": "https://docs.cloud.google.com/parallelstore/docs/overview",
-                  "description": "Distributed, asynchronous object storage, providing high bandwidth and high IOPS.",
-                  "description-cn": "分布式异步对象存储，提供高带宽和高 IOPS。"
-                }
-              ],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
           }
         ],
         "mappedUnderOtherCategory": [
+          "Cloud FTP",
           "Storage Transfer Service"
         ]
       },

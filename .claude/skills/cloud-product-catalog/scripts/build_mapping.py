@@ -308,7 +308,6 @@ DESCRIPTION_CN = {
         "Amazon EC2 Auto Scaling": "根据需求自动扩缩多种资源",
         "AWS Serverless Application Model": "在 AWS 上构建无服务器应用",
         "AWS Serverless Application Repository": "发现、部署和发布无服务器应用",
-        "Serverless": "AWS 云上无服务器核心概念与服务简介",
         "AWS SDK for .NET": "使用 .NET 专属 API 和库开发应用程序",
         "AWS SDK for C++": "使用 C++ 专属 API 开发应用程序",
         "AWS SDK for Go": "使用 Go 专属 API 和库开发应用程序",
@@ -377,6 +376,7 @@ DESCRIPTION_CN = {
         "Amazon Verified Permissions": "面向自定义应用的权限管理与授权",
         "AWS Artifact": "按需访问 AWS 合规报告",
         "AWS Audit Manager": "审计你的 AWS 使用情况，简化风险与合规评估",
+        "AWS Assurance": "自动评估 AWS 工作负载的合规就绪情况",
         "AWS Certificate Manager": "预配、管理和部署 SSL/TLS 证书",
         "AWS Private Certificate Authority": "创建私有证书以标识资源并保护数据",
         "AWS CloudHSM": "基于硬件的密钥存储，满足合规要求",
@@ -643,7 +643,6 @@ DESCRIPTION_CN = {
         "Azure AI Bot Service": "创建机器人并跨渠道连接",
         "Azure Vision in Foundry Tools": "通过图像和视频分析探索视觉 AI",
         "Azure AI Custom Vision": "轻松为你的独特场景定制最先进的计算机视觉模型",
-        "Azure AI Personalizer": "为每位用户提供个性化、相关的体验",
         "Azure Document Intelligence in Foundry Tools": "加速从文档中提取信息",
         "Azure Machine Learning": "使用企业级服务支持端到端的机器学习生命周期",
         "Azure Translator in Foundry Tools": "通过即时的 AI 翻译打破语言障碍",
@@ -675,6 +674,7 @@ DESCRIPTION_CN = {
         "Azure Virtual Network": "在云中创建你自己的私有网络基础设施",
         "Azure VPN Gateway": "建立安全的跨本地连接",
         "Azure ExpressRoute": "体验快速、可靠的 Azure 专用连接",
+        "Azure Multicloud Interconnect": "连接你的 Azure 环境与其他云服务提供商",
         "Azure Enclave": "为具有严苛合规要求的敏感工作负载提供安全的云环境。",
         "Azure Front Door": "面向全球用户提供优化体验的现代云 CDN",
         "Azure Private Link": "私密访问托管在 Azure 平台上的服务，让数据始终留在微软网络内",
@@ -702,7 +702,6 @@ DESCRIPTION_CN = {
         "Azure DevTest Labs": "使用可复用的模板与制品快速创建环境",
         "AI Anomaly Detector": "在应用中轻松加入异常检测能力。",
         "Azure AI Immersive Reader": "帮助各年龄段和不同能力的用户阅读并理解文本。",
-        "Azure AI Metrics Advisor": "监控指标并诊断问题的 AI 服务。",
         "Azure AI Video Indexer": "借助媒体 AI 从音频和视频文件中提取有价值的洞察。",
         "Azure Content Understanding in Foundry Tools": "加速多模态 AI 智能体的开发。",
         "Azure SRE Agent": "通过自主事件缓解与资源优化智能体，自动化重复任务并改进事件响应。",
@@ -794,8 +793,13 @@ DESCRIPTION_CN = {
         "Cluster Director documentation": "了解 Cluster Director，一项简化部署和管理 AI 或 HPC 优化集群的托管服务",
         "Google Distributed Cloud": "将 Google Cloud 基础设施和服务扩展到边缘的全托管软硬件解决方案",
         "Google Distributed Cloud connected": "在客户本地部署的专用硬件上执行 Kubernetes 工作负载",
-        "Google Distributed Cloud (software only) for bare metal": "在使用 Google Cloud 功能的同时，在自有本地环境中创建、管理和升级 GKE 集群，并大规模部署和运行容器化应用",
-        "Google Distributed Cloud (software only) for VMware": "为本地容器化应用预配并管理底层资源",
+        "Google Distributed Cloud software only for bare metal": "在使用 Google Cloud 功能的同时，在自有本地环境中创建、管理和升级 GKE 集群，并大规模部署和运行容器化应用",
+        "Google Distributed Cloud software only for VMware": "为本地容器化应用预配并管理底层资源",
+        "Cloud FTP": "全托管的云端解决方案，通过 SSH 文件传输协议（SFTP）安全地在 Cloud Storage 中存取数据",
+        "Developer Device Platform": "面向远程设备编排的新一代商用级平台",
+        "Gemini on Google Distributed Cloud connected API documentation": "在专用且由 Google 托管的硬件上部署并托管私有 Gemini 基础模型",
+        "Google Cloud Data Agent Kit documentation": "IDE 扩展与插件，可在您偏好的 IDE 或智能体中连接并使用 Google Cloud 数据资源",
+        "Orchestration Pipelines": "统一的声明式编排与自动化部署框架，用于在 Google Cloud 上管理数据和 AI 流水线",
         "Google Cloud VMware Engine": "一项让您能够在 Google Cloud 中运行 VMware 平台的全托管服务",
         "Container-Optimized OS": "一款针对运行容器进行优化的 Compute Engine 操作系统镜像",
         "Deep Learning VM Images": "一款针对深度学习应用和高性能计算优化的 Compute Engine 虚拟机",
@@ -809,7 +813,7 @@ DESCRIPTION_CN = {
         "Spanner Omni": "Spanner 的可下载自托管版本（预览版）",
         "Firestore in Native mode": "一款云托管的 NoSQL 数据库，足够简单以支持快速原型开发，同时也足够可扩展和灵活以应对任意规模的增长",
         "Firestore with MongoDB compatibility": "一款云托管的 NoSQL 数据库，足够简单以支持快速原型开发，同时也足够可扩展和灵活以应对任意规模的增长",
-        "Datastore": "一款面向 Web 和移动应用的高可扩展 NoSQL 数据库，自动处理分片和复制",
+        "Firestore in Datastore mode": "一款面向 Web 和移动应用的高可扩展 NoSQL 数据库，自动处理分片和复制",
         "Bigtable": "一项面向大规模分析和运营工作负载的高性能 NoSQL 数据库服务，可在任意规模下提供低延迟和高吞吐量",
         "Memorystore for Redis": "一项 Google Cloud 全托管 Redis 服务，让应用无需承担管理复杂 Redis 部署的负担即可使用高可扩展、高可用、安全的 Redis 服务",
         "Memorystore for Redis Cluster": "一项 Google Cloud 全托管 Redis Cluster 服务，让应用无需承担管理复杂 Redis Cluster 部署的负担即可使用高可扩展、高可用、安全的 Redis 服务",
@@ -918,7 +922,6 @@ DESCRIPTION_CN = {
         "Gemini Enterprise Agent Platform": "面向平台与安全管理员的中央控制台，用于构建、扩展、监控和治理 AI Agent 全生命周期。",
         "Gemini for Google Cloud": "嵌入 Cloud Console 的大语言模型接口，提供代码辅助、代码生成与对话能力。",
         "Google Cloud Contact Center as a Service": "AI 驱动的一体化联络中心平台，与 CRM 协同提供统一的客户旅程视图。",
-        "Overview of getting inferences on Agent Platform": "使用 Gemini Enterprise Agent Platform 获取在线与批量推理的概览。",
         "TensorFlow Enterprise": "为关键 AI 工作负载提供企业级支持、优化性能与托管服务。",
         "Translation Hub": "面向大批量、多语种文档翻译的自助式翻译服务。",
         "Video Intelligence API": "分析视频内容，检测实体、标记成人内容并识别场景切换。",
@@ -999,7 +1002,6 @@ DESCRIPTION_CN = {
         "Sovereign Controls by Partners": "通过合作伙伴运营的主权控制满足 Google Cloud 的数字主权要求。",
         "Unified Maintenance": "统一管理 Google Cloud 各服务的计划内维护。",
         "Web Risk": "让客户端应用对照 Google 持续更新的不安全网址列表检查 URL。",
-        "Parallelstore": "分布式异步对象存储，提供高带宽和高 IOPS。",
     },
     "alibaba": {
         "ACK One": "提供控制面，管理跨裸金属和云的 Kubernetes 集群",
@@ -1291,8 +1293,8 @@ GROUPS = [
             "gcp": [
                 "Google Distributed Cloud",
                 "Google Distributed Cloud connected",
-                "Google Distributed Cloud (software only) for bare metal",
-                "Google Distributed Cloud (software only) for VMware",
+                "Google Distributed Cloud software only for bare metal",
+                "Google Distributed Cloud software only for VMware",
             ],
             "alibaba": ["Apsara Stack", "Alibaba Cloud ZStack", "Hybrid Cloud Storage"],
         },
@@ -1532,7 +1534,7 @@ GROUPS = [
             "gcp": [
                 "Firestore in Native mode",
                 "Firestore with MongoDB compatibility",
-                "Datastore",
+                "Firestore in Datastore mode",
             ],
             "alibaba": ["ApsaraDB for MongoDB"],
         },
@@ -2759,7 +2761,7 @@ GROUPS = [
         "confidence": "medium",
         "products": {
             "aws": ["Amazon Personalize"],
-            "azure": ["Azure AI Personalizer"],
+            "azure": [],
             "gcp": [],
             "alibaba": ["AIRec"],
         },
@@ -3588,17 +3590,19 @@ GROUPS = [
         "products": {
             "aws": ["AWS Data Pipeline"],
             "azure": ["Azure Data Factory"],
-            "gcp": ["Cloud Dataflow"],
+            "gcp": ["Cloud Dataflow", "Orchestration Pipelines"],
         },
         "notes": "Azure Data Factory and Cloud Dataflow are reused from "
         "analytics-etl / analytics-stream-processing since neither "
         "vendor has a product distinct from ETL/stream-processing for "
         "this narrower \"periodic pipeline orchestration\" use case that "
-        "AWS Data Pipeline targets.",
+        "AWS Data Pipeline targets. GCP's newer Orchestration Pipelines "
+        "also targets declarative data/AI pipeline orchestration.",
         "notes-cn": "Azure Data Factory 和 Cloud Dataflow 在 "
         "analytics-etl / analytics-stream-processing 分组里也被引用了，"
         "因为两家都没有针对 AWS Data Pipeline 这种「周期性管道编排」窄"
-        "场景的独立产品，用的还是各自的 ETL/流处理产品。",
+        "场景的独立产品，用的还是各自的 ETL/流处理产品。GCP 较新的 "
+        "Orchestration Pipelines 同样面向声明式的数据/AI 流水线编排。",
     },
     {
         "id": "analytics-bi-visualization",
@@ -4415,14 +4419,15 @@ GROUPS = [
         "products": {
             "aws": ["AWS Transfer Family"],
             "azure": ["Azure Files"],
-            "gcp": [],
+            "gcp": ["Cloud FTP"],
         },
         "notes": "Matches the File Transfer row in "
-        "cloud-compare-en-new.md; GCP's Cloud Storage SFTP doesn't "
-        "appear as a standalone product in products-gcp.json.",
-        "notes-cn": "对应 cloud-compare-en-new.md 的 File Transfer 行；"
-        "GCP 的 Cloud Storage SFTP 在 products-gcp.json 里不是独立"
-        "产品。",
+        "cloud-compare-en-new.md (GCP side listed there as Cloud "
+        "Storage SFTP); GCP's managed SFTP offering now appears in "
+        "products-gcp.json as the standalone Cloud FTP product.",
+        "notes-cn": "对应 cloud-compare-en-new.md 的 File Transfer 行"
+        "（文档里 GCP 一侧写的是 Cloud Storage SFTP）；GCP 的托管 "
+        "SFTP 服务现在以 Cloud FTP 独立产品收录在 products-gcp.json。",
     },
     {
         "id": "mig-data-sync",

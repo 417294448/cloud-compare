@@ -1,7 +1,7 @@
 {
   "source": "https://azure.microsoft.com/en-us/products",
   "module": "Browse all Azure products (by category)",
-  "fetchedAt": "2026-08-14",
+  "fetchedAt": "2026-09-11",
   "totalProducts": 204,
   "products": [
     {
@@ -112,24 +112,6 @@
       "id": "ai-immersive-reader"
     },
     {
-      "name": "Azure AI Metrics Advisor",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "description": "An AI service that monitors metrics and diagnoses issues.",
-      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-metrics-advisor/",
-      "id": "ai-metrics-advisor"
-    },
-    {
-      "name": "Azure AI Personalizer",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "description": "Deliver personalized, relevant experiences for each of your users.",
-      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-personalizer/",
-      "id": "ai-personalizer"
-    },
-    {
       "name": "Azure AI Search",
       "categories": [
         "AI + machine learning",
@@ -139,15 +121,6 @@
       "description": "Connect agents to one unified context layer for data sources, memory and retrieval-augmented generation (RAG) pipelines.",
       "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
       "id": "ai-search"
-    },
-    {
-      "name": "Azure AI Services",
-      "categories": [
-        "Mobile"
-      ],
-      "description": "Add cognitive capabilities to apps with APIs and AI services.",
-      "link": "https://azure.microsoft.com/en-us/products/ai-services/",
-      "id": "ai-services"
     },
     {
       "name": "Azure AI Video Indexer",
@@ -403,7 +376,7 @@
         "Migration",
         "Storage"
       ],
-      "description": "Appliances and solutions for data transfer to Azure and edge compute.",
+      "description": "Accelerate offline data migration to Azure with Azure Data Box. Move massive datasets fast, without network bandwidth.",
       "link": "https://azure.microsoft.com/en-us/products/databox/",
       "id": "databox"
     },
@@ -788,6 +761,15 @@
       "id": "azure-lighthouse"
     },
     {
+      "name": "Azure Linux",
+      "categories": [
+        "Compute"
+      ],
+      "description": "Explore a Microsoft-maintained Linux distribution optimized for Azure Virtual Machines and AKS workloads.",
+      "link": "https://azure.microsoft.com/en-us/products/azure-linux/",
+      "id": "azure-linux"
+    },
+    {
       "name": "Azure Load Balancer",
       "categories": [
         "Networking"
@@ -891,6 +873,15 @@
       "description": "Full observability into your applications, infrastructure, and network.",
       "link": "https://azure.microsoft.com/en-us/products/monitor/",
       "id": "monitor"
+    },
+    {
+      "name": "Azure Multicloud Interconnect",
+      "categories": [
+        "Networking"
+      ],
+      "description": "Connect your Azure environment with other cloud service providers.",
+      "link": "https://azure.microsoft.com/en-us/products/multicloud-interconnect",
+      "id": "multicloud-interconnect"
     },
     {
       "name": "Azure NAT Gateway",
@@ -1457,6 +1448,15 @@
       "id": "ai-agent-service"
     },
     {
+      "name": "Foundry Control Plane",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "description": "Observe, control, secure, and govern AI agents across your organization",
+      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/control-plane",
+      "id": "control-plane"
+    },
+    {
       "name": "Foundry IQ",
       "categories": [
         "AI + machine learning"
@@ -1733,7 +1733,6 @@
       "name": "Notification Hubs",
       "categories": [
         "Internet of Things",
-        "Mobile",
         "Web"
       ],
       "description": "Send push notifications to any platform from any back end.",
