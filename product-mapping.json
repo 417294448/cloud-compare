@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-09-04",
+  "generatedAt": "2026-09-11",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -888,7 +888,7 @@
             "description-cn": "一款云托管的 NoSQL 数据库，足够简单以支持快速原型开发，同时也足够可扩展和灵活以应对任意规模的增长"
           },
           {
-            "name": "Datastore",
+            "name": "Firestore in Datastore mode",
             "link": "https://docs.cloud.google.com/datastore/docs",
             "description": "A highly-scalable NoSQL database for your web and mobile applications that automatically handles sharding and replication.",
             "description-cn": "一款面向 Web 和移动应用的高可扩展 NoSQL 数据库，自动处理分片和复制"
@@ -3101,14 +3101,7 @@
             "description-cn": "为你的应用构建实时推荐能力"
           }
         ],
-        "azure": [
-          {
-            "name": "Azure AI Personalizer",
-            "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-personalizer/",
-            "description": "Deliver personalized, relevant experiences for each of your users.",
-            "description-cn": "为每位用户提供个性化、相关的体验"
-          }
-        ],
+        "azure": [],
         "gcp": [],
         "alibaba": [
           {
@@ -8470,7 +8463,7 @@
               "gcp": [
                 {
                   "name": "Looker documentation",
-                  "link": "https://docs.cloud.google.com/looker/docs/2614",
+                  "link": "https://docs.cloud.google.com/looker/docs/2608",
                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
                 }
@@ -10418,7 +10411,7 @@
                 {
                   "name": "What is AlloyDB AI",
                   "link": "https://docs.cloud.google.com/alloydb/docs/ai/what-is-alloydb-ai",
-                  "description": "AlloyDB AI provides a suite of integrated generative AI capabilities in AlloyDB for PostgreSQL and AlloyDB Omni database. This includes high-performance vector search, an AI functions, and natural language-to-SQL generation. Build enterprise-ready AI applications faster and with less complexity by bringing AI to your operational data.",
+                  "description": "AlloyDB AI provides a suite of integrated generative AI capabilities in AlloyDB for PostgreSQL and AlloyDB Omni databases. These capabilities include high-performance vector search, AI functions, and AI tooling for agents. Build production grade AI applications faster and with less complexity by bringing AI to your operational data.",
                   "description-cn": "AlloyDB AI 介绍：在 AlloyDB for PostgreSQL 中集成生成式 AI 能力，含向量搜索与自然语言转 SQL。"
                 }
               ],
@@ -12920,29 +12913,6 @@
                   "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-immersive-reader/",
                   "description": "Empower users of all ages and abilities to read and comprehend text.",
                   "description-cn": "帮助各年龄段和不同能力的用户阅读并理解文本。"
-                }
-              ],
-              "gcp": [],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-azure-azure-ai-metrics-advisor",
-            "category": "Machine Learning",
-            "category-cn": "机器学习",
-            "name": "Azure AI Metrics Advisor",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [
-                {
-                  "name": "Azure AI Metrics Advisor",
-                  "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-metrics-advisor/",
-                  "description": "An AI service that monitors metrics and diagnoses issues.",
-                  "description-cn": "监控指标并诊断问题的 AI 服务。"
                 }
               ],
               "gcp": [],
@@ -16923,31 +16893,7 @@
     },
     "Serverless": {
       "aws": {
-        "trulyUnmapped": [
-          {
-            "id": "unmapped-aws-serverless",
-            "category": "Serverless",
-            "category-cn": "无服务器",
-            "name": "Serverless",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [
-                {
-                  "name": "Serverless",
-                  "link": "https://docs.aws.amazon.com/serverless/",
-                  "description": "Introduction to core serverless concepts and services in the AWS Cloud",
-                  "description-cn": "AWS 云上无服务器核心概念与服务简介"
-                }
-              ],
-              "azure": [],
-              "gcp": [],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          }
-        ],
+        "trulyUnmapped": [],
         "mappedUnderOtherCategory": []
       },
       "azure": {

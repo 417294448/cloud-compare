@@ -1,8 +1,8 @@
 {
   "source": "https://azure.microsoft.com/en-us/products",
   "module": "Browse all Azure products (by category)",
-  "fetchedAt": "2026-09-04",
-  "totalProducts": 206,
+  "fetchedAt": "2026-09-11",
+  "totalProducts": 204,
   "products": [
     {
       "name": "AI Anomaly Detector",
@@ -110,24 +110,6 @@
       "description": "Empower users of all ages and abilities to read and comprehend text.",
       "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-immersive-reader/",
       "id": "ai-immersive-reader"
-    },
-    {
-      "name": "Azure AI Metrics Advisor",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "description": "An AI service that monitors metrics and diagnoses issues.",
-      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-metrics-advisor/",
-      "id": "ai-metrics-advisor"
-    },
-    {
-      "name": "Azure AI Personalizer",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "description": "Deliver personalized, relevant experiences for each of your users.",
-      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-personalizer/",
-      "id": "ai-personalizer"
     },
     {
       "name": "Azure AI Search",
