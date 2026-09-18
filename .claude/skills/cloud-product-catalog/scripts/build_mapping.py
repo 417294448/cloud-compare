@@ -526,6 +526,7 @@ DESCRIPTION_CN = {
         "Research and Engineering Studio on AWS": "创建并管理面向科研协作的门户",
         "Amazon Connect Decisions": "面向供应链规划与决策的自适应智能解决方案",
         "Amazon Connect Health": "围绕医疗服务提供者构建的医疗智能体 AI",
+        "Amazon Connect Talent": "面向招聘人员的 AI 驱动招聘与候选人评估",
         "AWS Cloud Development Kit (AWS CDK)": "使用熟悉的编程语言定义云基础设施",
         "AWS Fault Injection Service": "通过受控实验提升应用的韧性与性能",
         "AWS Infrastructure Composer": "通过可视化构建器设计并构建现代基础设施",
@@ -721,6 +722,7 @@ DESCRIPTION_CN = {
         "Phi open models": "一系列低成本、低延迟、性能出色的小型语言模型（SLM）。",
         "Azure Analysis Services": "企业级分析引擎即服务。",
         "Azure Chaos Studio": "通过故障注入模拟中断，提升应用韧性。",
+        "Azure Infrastructure Resiliency Manager": "定义、验证并达成基础设施韧性目标。",
         "Data Catalog": "从企业数据资产中获取更多价值。",
         "Event Hubs": "接收来自数百万台设备的遥测数据。",
         "Microsoft Fabric": "在统一的 AI 驱动平台上连接所有数据源与分析服务，重塑数据访问、管理与洞察。",
@@ -2651,6 +2653,28 @@ GROUPS = [
         "notes-cn": "对应 cloud-compare-en-new.md 的 Resource "
         "Visualization 行（文档给的 Azure Resource Graph、GCP Asset "
         "Inventory 在这份数据里都查不到对应名字的独立产品）。",
+    },
+    {
+        "id": "mgmt-infra-resiliency",
+        "category": "Management & Governance",
+        "name": "Infrastructure Resiliency Management",
+        "name-cn": "基础设施韧性管理",
+        "confidence": "medium",
+        "products": {
+            "aws": ["AWS Resilience Hub"],
+            "azure": ["Azure Infrastructure Resiliency Manager"],
+            "gcp": [],
+        },
+        "notes": "No direct counterpart row in cloud-compare-en-new.md; "
+        "self-defined. Both products assess and validate application / "
+        "infrastructure resiliency against declared goals (AWS Resilience "
+        "Hub against RTO/RPO targets, Azure Infrastructure Resiliency "
+        "Manager against resiliency goals). GCP has no equivalent "
+        "standalone product in this data set.",
+        "notes-cn": "cloud-compare-en-new.md 未单独列出此行，按产品定位"
+        "自拟。两者都针对应用/基础设施韧性做评估与验证（AWS Resilience Hub "
+        "面向 RTO/RPO 目标，Azure Infrastructure Resiliency Manager 面向"
+        "声明的韧性目标）。GCP 在这份数据里没有对应的独立产品。",
     },
     # ---------------- Machine Learning ----------------
     {

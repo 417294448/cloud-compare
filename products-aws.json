@@ -1,8 +1,8 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-09-11",
-  "totalProducts": 306,
+  "fetchedAt": "2026-09-18",
+  "totalProducts": 307,
   "products": [
     {
       "name": "Agent Toolkit for AWS",
@@ -232,6 +232,15 @@
       "description": "Agentic AI for healthcare that's built around the people that deliver it",
       "link": "https://docs.aws.amazon.com/connecthealth/",
       "id": "health-agent"
+    },
+    {
+      "name": "Amazon Connect Talent",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "AI-powered hiring and candidate evaluation for recruiters",
+      "link": "https://docs.aws.amazon.com/talent/",
+      "id": "ConnectTalent"
     },
     {
       "name": "Amazon Corretto",
