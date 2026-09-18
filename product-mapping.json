@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-09-11",
+  "generatedAt": "2026-09-18",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -2874,6 +2874,36 @@
       },
       "notes": "Matches the Resource Visualization row in cloud-compare-en-new.md (document lists Azure Resource Graph and GCP Asset Inventory, neither of which appears as a standalone product in this data set under that name).",
       "notes-cn": "对应 cloud-compare-en-new.md 的 Resource Visualization 行（文档给的 Azure Resource Graph、GCP Asset Inventory 在这份数据里都查不到对应名字的独立产品）。"
+    },
+    {
+      "id": "mgmt-infra-resiliency",
+      "category": "Management & Governance",
+      "category-cn": "管理与治理",
+      "name": "Infrastructure Resiliency Management",
+      "name-cn": "基础设施韧性管理",
+      "confidence": "medium",
+      "products": {
+        "aws": [
+          {
+            "name": "AWS Resilience Hub",
+            "link": "https://docs.aws.amazon.com/resilience-hub/",
+            "description": "Prepare and protect your applications from disruptions",
+            "description-cn": "帮助应用做好应对中断的准备和防护"
+          }
+        ],
+        "azure": [
+          {
+            "name": "Azure Infrastructure Resiliency Manager",
+            "link": "https://azure.microsoft.com/en-us/products/infrastructure-resiliency-manager",
+            "description": "Define, validate, and achieve infrastructure resiliency goals.",
+            "description-cn": "定义、验证并达成基础设施韧性目标。"
+          }
+        ],
+        "gcp": [],
+        "alibaba": []
+      },
+      "notes": "No direct counterpart row in cloud-compare-en-new.md; self-defined. Both products assess and validate application / infrastructure resiliency against declared goals (AWS Resilience Hub against RTO/RPO targets, Azure Infrastructure Resiliency Manager against resiliency goals). GCP has no equivalent standalone product in this data set.",
+      "notes-cn": "cloud-compare-en-new.md 未单独列出此行，按产品定位自拟。两者都针对应用/基础设施韧性做评估与验证（AWS Resilience Hub 面向 RTO/RPO 目标，Azure Infrastructure Resiliency Manager 面向声明的韧性目标）。GCP 在这份数据里没有对应的独立产品。"
     },
     {
       "id": "ml-foundation-model-service",
@@ -8463,7 +8493,7 @@
               "gcp": [
                 {
                   "name": "Looker documentation",
-                  "link": "https://docs.cloud.google.com/looker/docs/2608",
+                  "link": "https://docs.cloud.google.com/looker/docs/2614",
                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
                 }
@@ -8838,6 +8868,29 @@
                   "link": "https://docs.aws.amazon.com/connecthealth/",
                   "description": "Agentic AI for healthcare that's built around the people that deliver it",
                   "description-cn": "围绕医疗服务提供者构建的医疗智能体 AI"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-aws-amazon-connect-talent",
+            "category": "Business Applications",
+            "category-cn": "业务应用",
+            "name": "Amazon Connect Talent",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "Amazon Connect Talent",
+                  "link": "https://docs.aws.amazon.com/talent/",
+                  "description": "AI-powered hiring and candidate evaluation for recruiters",
+                  "description-cn": "面向招聘人员的 AI 驱动招聘与候选人评估"
                 }
               ],
               "azure": [],
@@ -14021,29 +14074,6 @@
                   "link": "https://docs.aws.amazon.com/proton/",
                   "description": "Automate management for container and serverless deployments",
                   "description-cn": "自动化管理容器和无服务器部署"
-                }
-              ],
-              "azure": [],
-              "gcp": [],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-aws-aws-resilience-hub",
-            "category": "Management & Governance",
-            "category-cn": "管理与治理",
-            "name": "AWS Resilience Hub",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [
-                {
-                  "name": "AWS Resilience Hub",
-                  "link": "https://docs.aws.amazon.com/resilience-hub/",
-                  "description": "Prepare and protect your applications from disruptions",
-                  "description-cn": "帮助应用做好应对中断的准备和防护"
                 }
               ],
               "azure": [],

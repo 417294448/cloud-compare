@@ -1,8 +1,8 @@
 {
   "source": "https://azure.microsoft.com/en-us/products",
   "module": "Browse all Azure products (by category)",
-  "fetchedAt": "2026-09-11",
-  "totalProducts": 204,
+  "fetchedAt": "2026-09-18",
+  "totalProducts": 205,
   "products": [
     {
       "name": "AI Anomaly Detector",
@@ -667,6 +667,15 @@
       "description": "Better protect your sensitive information—anytime, anywhere.",
       "link": "https://www.microsoft.com/en-us/security/business/information-protection/microsoft-purview-information-protection",
       "id": "microsoft-purview-information-protection"
+    },
+    {
+      "name": "Azure Infrastructure Resiliency Manager",
+      "categories": [
+        "Management and governance"
+      ],
+      "description": "Define, validate, and achieve infrastructure resiliency goals.",
+      "link": "https://azure.microsoft.com/en-us/products/infrastructure-resiliency-manager",
+      "id": "infrastructure-resiliency-manager"
     },
     {
       "name": "Azure IoT Central",
