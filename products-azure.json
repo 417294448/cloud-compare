@@ -1,7 +1,7 @@
 {
   "source": "https://azure.microsoft.com/en-us/products",
   "module": "Browse all Azure products (by category)",
-  "fetchedAt": "2026-09-18",
+  "fetchedAt": "2026-09-25",
   "totalProducts": 205,
   "products": [
     {
@@ -1461,7 +1461,7 @@
       "categories": [
         "AI + machine learning"
       ],
-      "description": "Observe, control, secure, and govern AI agents across your organization",
+      "description": "Observe, control, secure, and govern AI agents across your organization.",
       "link": "https://azure.microsoft.com/en-us/products/ai-foundry/control-plane",
       "id": "control-plane"
     },
