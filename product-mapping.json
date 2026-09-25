@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-09-18",
+  "generatedAt": "2026-09-25",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -375,12 +375,6 @@
           }
         ],
         "gcp": [
-          {
-            "name": "Google Distributed Cloud",
-            "link": "https://docs.cloud.google.com/distributed-cloud/docs",
-            "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to sovereign and data center environments.",
-            "description-cn": "将 Google Cloud 基础设施和服务扩展到边缘的全托管软硬件解决方案"
-          },
           {
             "name": "Google Distributed Cloud connected",
             "link": "https://docs.cloud.google.com/distributed-cloud/connected/latest/docs",
@@ -4838,7 +4832,7 @@
         "gcp": [
           {
             "name": "Knowledge Catalog",
-            "link": "https://docs.cloud.google.com/dataplex/docs",
+            "link": "https://docs.cloud.google.com/knowledge-catalog/docs",
             "description": "A unified, intelligent governance solution for data and AI assets that powers AI, analytics, and business intelligence at scale.",
             "description-cn": "一个统一的智能治理解决方案，面向数据和 AI 资产，支撑大规模的 AI、分析与商业智能"
           }
@@ -8493,7 +8487,7 @@
               "gcp": [
                 {
                   "name": "Looker documentation",
-                  "link": "https://docs.cloud.google.com/looker/docs/2614",
+                  "link": "https://docs.cloud.google.com/looker/docs/2608",
                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
                 }
@@ -9930,6 +9924,29 @@
                   "link": "https://docs.cloud.google.com/api-keys/docs",
                   "description": "Manages the API keys associated with developer projects.",
                   "description-cn": "管理开发者项目关联 API 密钥的文档。"
+                }
+              ],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-gcp-app-topology",
+            "category": "Cross-product",
+            "category-cn": "跨产品",
+            "name": "App Topology",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [],
+              "gcp": [
+                {
+                  "name": "App Topology",
+                  "link": "https://docs.cloud.google.com/app-topology",
+                  "description": "Correlate data to answer questions about the health, performance, and security posture of your resources.",
+                  "description-cn": "关联数据，以便解答有关资源健康状况、性能和安全状况的问题"
                 }
               ],
               "alibaba": []
@@ -11646,7 +11663,31 @@
     },
     "Front-End Web & Mobile": {
       "aws": {
-        "trulyUnmapped": [],
+        "trulyUnmapped": [
+          {
+            "id": "unmapped-aws-aws-events-api",
+            "category": "Front-End Web & Mobile",
+            "category-cn": "前端 Web 与移动",
+            "name": "AWS Events API",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS Events API",
+                  "link": "https://docs.aws.amazon.com/events/",
+                  "description": "Browse and reserve AWS event sessions and manage your schedule",
+                  "description-cn": "浏览并预订 AWS 活动场次，管理你的日程"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          }
+        ],
         "mappedUnderOtherCategory": [
           "AWS AppSync"
         ]
@@ -12056,7 +12097,6 @@
           }
         ],
         "mappedUnderOtherCategory": [
-          "Google Distributed Cloud",
           "Google Distributed Cloud connected",
           "Google Distributed Cloud software only for VMware",
           "Google Distributed Cloud software only for bare metal"
@@ -13148,7 +13188,7 @@
                 {
                   "name": "Foundry Control Plane",
                   "link": "https://azure.microsoft.com/en-us/products/ai-foundry/control-plane",
-                  "description": "Observe, control, secure, and govern AI agents across your organization",
+                  "description": "Observe, control, secure, and govern AI agents across your organization.",
                   "description-cn": "在整个组织内观测、控制、保护和治理 AI 智能体。"
                 }
               ],
@@ -15204,6 +15244,29 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
+            "id": "unmapped-aws-aws-network-security-manager",
+            "category": "Networking & Content Delivery",
+            "category-cn": "网络与内容分发",
+            "name": "AWS Network Security Manager",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS Network Security Manager",
+                  "link": "https://docs.aws.amazon.com/network-security-manager/",
+                  "description": "Define and deploy network security protections",
+                  "description-cn": "定义并部署网络安全防护"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
             "id": "unmapped-aws-aws-rtb-fabric",
             "category": "Networking & Content Delivery",
             "category-cn": "网络与内容分发",
@@ -15835,6 +15898,29 @@
                   "link": "https://docs.aws.amazon.com/govcloud-us/",
                   "description": "Move sensitive workloads into the cloud",
                   "description-cn": "将敏感工作负载迁移到云端"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-aws-aws-network-security-manager",
+            "category": "Security, Identity, & Compliance",
+            "category-cn": "安全、身份与合规",
+            "name": "AWS Network Security Manager",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS Network Security Manager",
+                  "link": "https://docs.aws.amazon.com/network-security-manager/",
+                  "description": "Define and deploy network security protections",
+                  "description-cn": "定义并部署网络安全防护"
                 }
               ],
               "azure": [],

@@ -1,8 +1,8 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-09-18",
-  "totalProducts": 307,
+  "fetchedAt": "2026-09-25",
+  "totalProducts": 309,
   "products": [
     {
       "name": "Agent Toolkit for AWS",
@@ -1621,6 +1621,15 @@
       "id": "entityresolution"
     },
     {
+      "name": "AWS Events API",
+      "categories": [
+        "Front-End Web & Mobile"
+      ],
+      "description": "Browse and reserve AWS event sessions and manage your schedule",
+      "link": "https://docs.aws.amazon.com/events/",
+      "id": "EventsAPI"
+    },
+    {
       "name": "AWS Fargate",
       "categories": [
         "Serverless"
@@ -2000,6 +2009,16 @@
       "description": "Deploy network security across your Amazon VPCs with just a few clicks",
       "link": "https://docs.aws.amazon.com/network-firewall/",
       "id": "NWFW"
+    },
+    {
+      "name": "AWS Network Security Manager",
+      "categories": [
+        "Networking & Content Delivery",
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Define and deploy network security protections",
+      "link": "https://docs.aws.amazon.com/network-security-manager/",
+      "id": "NetworkSecurityManager"
     },
     {
       "name": "AWS Organizations",
