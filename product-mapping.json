@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-09-25",
+  "generatedAt": "2026-10-02",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -804,7 +804,7 @@
           {
             "name": "Spanner Omni",
             "link": "https://docs.cloud.google.com/spanner-omni",
-            "description": "A downloadable, self-managed version of Spanner. {% setvar launch_stage %}preview{% endsetvar %} {% include \"cloud/_shared/_info_launch_stage_disclaimer.html\" %}",
+            "description": "A downloadable, self-managed version of Spanner.",
             "description-cn": "Spanner 的可下载自托管版本（预览版）"
           }
         ],
