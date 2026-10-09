@@ -1,7 +1,7 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-10-02",
+  "fetchedAt": "2026-10-09",
   "totalProducts": 309,
   "products": [
     {
@@ -1527,7 +1527,7 @@
         "Media Services"
       ],
       "description": "Apply machine learning models to video",
-      "link": "https://docs.aws.amazon.com/medialive/",
+      "link": "https://docs.aws.amazon.com/elemental-inference/",
       "id": "ElementalInference"
     },
     {
@@ -2037,15 +2037,6 @@
       "description": "Run AWS infrastructure on-premises",
       "link": "https://docs.aws.amazon.com/outposts/",
       "id": "aws-outposts"
-    },
-    {
-      "name": "AWS Panorama",
-      "categories": [
-        "Machine Learning"
-      ],
-      "description": "Improve your operations with computer vision at the edge",
-      "link": "https://docs.aws.amazon.com/panorama/",
-      "id": "PAN"
     },
     {
       "name": "AWS Parallel Computing Service",
@@ -2589,6 +2580,15 @@
       "description": "Deliver ultra-low latency applications for 5G devices",
       "link": "https://docs.aws.amazon.com/wavelength/",
       "id": "WAVE"
+    },
+    {
+      "name": "AWS Well-Architected Agent",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "AI-powered cloud optimization service",
+      "link": "https://docs.aws.amazon.com/wellarchitected/",
+      "id": "gaudi-coin"
     },
     {
       "name": "AWS Well-Architected Tool",
