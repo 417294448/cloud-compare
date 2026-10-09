@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-10-02",
+  "generatedAt": "2026-10-09",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -6424,7 +6424,7 @@
           },
           {
             "name": "AWS Elemental Inference",
-            "link": "https://docs.aws.amazon.com/medialive/",
+            "link": "https://docs.aws.amazon.com/elemental-inference/",
             "description": "Apply machine learning models to video",
             "description-cn": "将机器学习模型应用于视频"
           },
@@ -8487,7 +8487,7 @@
               "gcp": [
                 {
                   "name": "Looker documentation",
-                  "link": "https://docs.cloud.google.com/looker/docs/2608",
+                  "link": "https://docs.cloud.google.com/looker/docs/2616",
                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
                 }
@@ -12594,29 +12594,6 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
-            "id": "unmapped-aws-aws-panorama",
-            "category": "Machine Learning",
-            "category-cn": "机器学习",
-            "name": "AWS Panorama",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [
-                {
-                  "name": "AWS Panorama",
-                  "link": "https://docs.aws.amazon.com/panorama/",
-                  "description": "Improve your operations with computer vision at the edge",
-                  "description-cn": "利用边缘计算机视觉改进业务运营"
-                }
-              ],
-              "azure": [],
-              "gcp": [],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
             "id": "unmapped-aws-agent-toolkit-for-aws",
             "category": "Machine Learning",
             "category-cn": "机器学习",
@@ -14262,6 +14239,29 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
+            "id": "unmapped-aws-aws-well-architected-agent",
+            "category": "Management & Governance",
+            "category-cn": "管理与治理",
+            "name": "AWS Well-Architected Agent",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS Well-Architected Agent",
+                  "link": "https://docs.aws.amazon.com/wellarchitected/",
+                  "description": "AI-powered cloud optimization service",
+                  "description-cn": "由 AI 驱动的云优化服务"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
             "id": "unmapped-aws-aws-well-architected-tool",
             "category": "Management & Governance",
             "category-cn": "管理与治理",
@@ -15039,6 +15039,52 @@
                   "link": "https://docs.cloud.google.com/mainframe-dual-run/docs",
                   "description": "Simultaneously run workloads on your existing mainframe environment and on Google Cloud, to perform real-time testing and quickly gather data on performance and stability.",
                   "description-cn": "在现有大型机环境和 Google Cloud 上同时运行工作负载，进行实时测试并快速收集性能与稳定性数据"
+                }
+              ],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-gcp-google-cloud-modernization-hub-documentation",
+            "category": "Migration & Transfer",
+            "category-cn": "迁移与传输",
+            "name": "Google Cloud Modernization Hub documentation",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [],
+              "gcp": [
+                {
+                  "name": "Google Cloud Modernization Hub documentation",
+                  "link": "https://docs.cloud.google.com/modernize/hub",
+                  "description": "Evaluate, plan, and execute enterprise application and mainframe modernization initiatives from a centralized console experience.",
+                  "description-cn": "在统一控制台中评估、规划并执行企业应用与大型机现代化改造。"
+                }
+              ],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-gcp-google-cloud-modernize-documentation",
+            "category": "Migration & Transfer",
+            "category-cn": "迁移与传输",
+            "name": "Google Cloud Modernize documentation",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [],
+              "gcp": [
+                {
+                  "name": "Google Cloud Modernize documentation",
+                  "link": "https://docs.cloud.google.com/modernize",
+                  "description": "Migrate complex workloads, refactor legacy architectures, and automate cloud operations.",
+                  "description-cn": "迁移复杂工作负载、重构遗留架构并自动化云运维。"
                 }
               ],
               "alibaba": []
