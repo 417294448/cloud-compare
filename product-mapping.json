@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-10-09",
+  "generatedAt": "2026-10-16",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -8487,7 +8487,7 @@
               "gcp": [
                 {
                   "name": "Looker documentation",
-                  "link": "https://docs.cloud.google.com/looker/docs/2616",
+                  "link": "https://docs.cloud.google.com/looker/docs/2618",
                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
                 }
@@ -10481,7 +10481,7 @@
                 {
                   "name": "What is AlloyDB AI",
                   "link": "https://docs.cloud.google.com/alloydb/docs/ai/what-is-alloydb-ai",
-                  "description": "AlloyDB AI provides a suite of integrated generative AI capabilities in AlloyDB for PostgreSQL and AlloyDB Omni databases. These capabilities include high-performance vector search, AI functions, and AI tooling for agents. Build production grade AI applications faster and with less complexity by bringing AI to your operational data.",
+                  "description": "AlloyDB AI provides a suite of integrated generative AI capabilities in AlloyDB for PostgreSQL and AlloyDB Omni databases. These capabilities include high-performance vector search, AI functions, and AI tooling for agents. Build production-grade AI applications faster and with less complexity by bringing AI to your operational data.",
                   "description-cn": "AlloyDB AI 介绍：在 AlloyDB for PostgreSQL 中集成生成式 AI 能力，含向量搜索与自然语言转 SQL。"
                 }
               ],

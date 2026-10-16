@@ -1,7 +1,7 @@
 {
   "source": "https://docs.cloud.google.com/",
   "module": "Google Cloud product catalog",
-  "fetchedAt": "2026-10-09",
+  "fetchedAt": "2026-10-16",
   "totalProducts": 218,
   "products": [
     {
@@ -99,8 +99,8 @@
     {
       "name": "AI Hypercomputer",
       "categories": [
-        "AI and ML",
-        "Compute"
+        "Compute",
+        "AI and ML"
       ],
       "description": "An integrated system of performance-optimized hardware, open software, leading ML frameworks, and flexible consumption models.",
       "link": "https://docs.cloud.google.com/ai-hypercomputer/docs",
@@ -146,9 +146,9 @@
     {
       "name": "API Keys API Documentation",
       "categories": [
+        "Application development",
         "Cross-product",
-        "Security",
-        "Application development"
+        "Security"
       ],
       "description": "Manages the API keys associated with developer projects.",
       "link": "https://docs.cloud.google.com/api-keys/docs",
@@ -184,8 +184,8 @@
     {
       "name": "App Lifecycle Manager",
       "categories": [
-        "Application hosting",
-        "Application development"
+        "Application development",
+        "Application hosting"
       ],
       "description": "Simplify building, scaling, and operating applications on Google Cloud.",
       "link": "https://docs.cloud.google.com/app-lifecycle-manager",
@@ -266,8 +266,8 @@
     {
       "name": "Batch",
       "categories": [
-        "Cross-product",
-        "Compute"
+        "Compute",
+        "Cross-product"
       ],
       "description": "Fully-managed batch service, which allows you to schedule, queue, and execute jobs at scale.",
       "link": "https://docs.cloud.google.com/batch/docs",
@@ -339,8 +339,8 @@
     {
       "name": "Capacity Planner",
       "categories": [
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "Provides visibility into your project's use of virtual machine (VM) instance resources, including vCPUs, RAM, and local SSD.",
       "link": "https://docs.cloud.google.com/capacity-planner/docs",
@@ -367,8 +367,8 @@
     {
       "name": "Certificate Manager",
       "categories": [
-        "Security",
-        "Networking"
+        "Networking",
+        "Security"
       ],
       "description": "Enables centralized management of SSL certificates for Cloud Load Balancing.",
       "link": "https://docs.cloud.google.com/certificate-manager/docs",
@@ -512,8 +512,8 @@
     {
       "name": "Cloud Healthcare API",
       "categories": [
-        "Application development",
-        "Industry solutions"
+        "Industry solutions",
+        "Application development"
       ],
       "description": "Allows users to manage healthcare data within Google Cloud.",
       "link": "https://docs.cloud.google.com/healthcare-api/docs",
@@ -549,8 +549,8 @@
     {
       "name": "Cloud Interconnect",
       "categories": [
-        "Networking",
-        "Security"
+        "Security",
+        "Networking"
       ],
       "description": "Enterprise-grade connections to your Google Virtual Private Cloud network.",
       "link": "https://docs.cloud.google.com/network-connectivity/docs/interconnect",
@@ -598,8 +598,8 @@
       "name": "Cloud Logging",
       "categories": [
         "Observability and monitoring",
-        "Networking",
-        "Security"
+        "Security",
+        "Networking"
       ],
       "description": "A fully managed service that allows you to store, search, analyze, monitor, and alert on logging data.",
       "link": "https://docs.cloud.google.com/logging/docs",
@@ -608,8 +608,8 @@
     {
       "name": "Cloud Monitoring",
       "categories": [
-        "Security",
         "Networking",
+        "Security",
         "Observability and monitoring"
       ],
       "description": "Collects metric data and provides tools that let you monitor and visualize how your applications and services are performing.",
@@ -646,8 +646,8 @@
     {
       "name": "Cloud Profiler",
       "categories": [
-        "Security",
-        "Observability and monitoring"
+        "Observability and monitoring",
+        "Security"
       ],
       "description": "A statistical, low-overhead profiler that continuously gathers CPU usage and memory-allocation information from your production applications.",
       "link": "https://docs.cloud.google.com/profiler/docs",
@@ -828,8 +828,8 @@
     {
       "name": "Cloud Vision API",
       "categories": [
-        "Industry solutions",
-        "AI and ML"
+        "AI and ML",
+        "Industry solutions"
       ],
       "description": "Easily integrate vision detection features within applications.",
       "link": "https://docs.cloud.google.com/vision/docs",
@@ -857,8 +857,8 @@
     {
       "name": "Cluster Director documentation",
       "categories": [
-        "AI and ML",
-        "Compute"
+        "Compute",
+        "AI and ML"
       ],
       "description": "Learn about Cluster Director, a managed service that simplifies deploying and managing AI- or HPC-optimized clusters.",
       "link": "https://docs.cloud.google.com/cluster-director/docs",
@@ -935,8 +935,8 @@
     {
       "name": "Container-Optimized OS",
       "categories": [
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "An OS image for Compute Engine that's optimized for running containers.",
       "link": "https://docs.cloud.google.com/container-optimized-os/docs",
@@ -981,8 +981,8 @@
     {
       "name": "Database Migration Service",
       "categories": [
-        "Migration",
-        "Databases"
+        "Databases",
+        "Migration"
       ],
       "description": "Database Migration Service makes it easier for businesses to lift and shift their MySQL and PostgreSQL workloads into Cloud SQL.",
       "link": "https://docs.cloud.google.com/database-migration/docs",
@@ -1086,8 +1086,8 @@
     {
       "name": "Dual Run",
       "categories": [
-        "Compute",
-        "Migration"
+        "Migration",
+        "Compute"
       ],
       "description": "Simultaneously run workloads on your existing mainframe environment and on Google Cloud, to perform real-time testing and quickly gather data on performance and stability.",
       "link": "https://docs.cloud.google.com/mainframe-dual-run/docs",
@@ -1114,8 +1114,8 @@
     {
       "name": "Error Reporting",
       "categories": [
-        "Observability and monitoring",
-        "Security"
+        "Security",
+        "Observability and monitoring"
       ],
       "description": "Aggregate and display errors produced by applications running on Google Cloud.",
       "link": "https://docs.cloud.google.com/error-reporting/docs",
@@ -1232,8 +1232,8 @@
     {
       "name": "Google Cloud Armor",
       "categories": [
-        "Security",
-        "Networking"
+        "Networking",
+        "Security"
       ],
       "description": "Protect your services against denial of service and web attacks using Google’s global infrastructure and security systems.",
       "link": "https://docs.cloud.google.com/armor/docs",
@@ -1287,9 +1287,9 @@
     {
       "name": "Google Cloud Hyperdisk overview",
       "categories": [
-        "Cross-product",
         "Compute",
-        "Storage"
+        "Storage",
+        "Cross-product"
       ],
       "description": "Learn about Hyperdisk, their capacity and performance limits, regional availability, and machine type support.",
       "link": "https://docs.cloud.google.com/compute/docs/disks/hyperdisks",
@@ -1316,8 +1316,8 @@
     {
       "name": "Google Cloud Observability",
       "categories": [
-        "Observability and monitoring",
-        "Security"
+        "Security",
+        "Observability and monitoring"
       ],
       "description": "Provides services that help you to understand the behavior, health, and performance of your applications.",
       "link": "https://docs.cloud.google.com/stackdriver/docs",
@@ -1473,9 +1473,9 @@
     {
       "name": "Live Stream API",
       "categories": [
+        "Industry solutions",
         "AI and ML",
-        "Application development",
-        "Industry solutions"
+        "Application development"
       ],
       "description": "Transcodes live, linear video streams into modern and next generation formats for broadcasters, production companies, and other media businesses.",
       "link": "https://docs.cloud.google.com/livestream/docs",
@@ -1496,8 +1496,8 @@
         "Data analytics"
       ],
       "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
-      "link": "https://docs.cloud.google.com/looker/docs/2616",
-      "id": "2616"
+      "link": "https://docs.cloud.google.com/looker/docs/2618",
+      "id": "2618"
     },
     {
       "name": "Mainframe Assessment Tool",
@@ -1624,8 +1624,8 @@
     {
       "name": "Migration Center",
       "categories": [
-        "Migration",
-        "Compute"
+        "Compute",
+        "Migration"
       ],
       "description": "Unifies the journey across different tools when migrating to Google Cloud.",
       "link": "https://docs.cloud.google.com/migration-center/docs",
@@ -1839,8 +1839,8 @@
     {
       "name": "Shielded VM",
       "categories": [
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "Provides verifiable integrity of your Compute Engine VM instances to help defend against rootkits and bootkits.",
       "link": "https://docs.cloud.google.com/compute/shielded-vm/docs",
@@ -1876,9 +1876,9 @@
     {
       "name": "Storage Transfer Service",
       "categories": [
-        "Data analytics",
         "Migration",
-        "Storage"
+        "Storage",
+        "Data analytics"
       ],
       "description": "Transfer your data from one cloud to another.",
       "link": "https://docs.cloud.google.com/storage-transfer/docs/overview",
@@ -1906,8 +1906,8 @@
       "name": "Transcoder API",
       "categories": [
         "AI and ML",
-        "Industry solutions",
-        "Application development"
+        "Application development",
+        "Industry solutions"
       ],
       "description": "Transcodes videos into modern and next generation formats for broadcasters, production companies, and other media businesses.",
       "link": "https://docs.cloud.google.com/transcoder/docs",
@@ -1916,9 +1916,9 @@
     {
       "name": "Transfer Appliance",
       "categories": [
+        "Storage",
         "Migration",
-        "Data analytics",
-        "Storage"
+        "Data analytics"
       ],
       "description": "Hardware that lets you capture and securely migrate your data to Google Cloud without disrupting business operations.",
       "link": "https://docs.cloud.google.com/transfer-appliance/docs/4.0/overview",
@@ -1954,9 +1954,9 @@
     {
       "name": "Video Stitcher API",
       "categories": [
-        "Application development",
+        "Industry solutions",
         "AI and ML",
-        "Industry solutions"
+        "Application development"
       ],
       "description": "Dynamically generates video on demand content for delivery to client devices.",
       "link": "https://docs.cloud.google.com/video-stitcher/docs",
@@ -1974,8 +1974,8 @@
     {
       "name": "Vision API Product Search",
       "categories": [
-        "AI and ML",
-        "Industry solutions"
+        "Industry solutions",
+        "AI and ML"
       ],
       "description": "Enables retailers to create a set of products and of reference images that visually describe the product from a set of viewpoints.",
       "link": "https://docs.cloud.google.com/vision/product-search/docs",
@@ -2015,7 +2015,7 @@
       "categories": [
         "Databases"
       ],
-      "description": "AlloyDB AI provides a suite of integrated generative AI capabilities in AlloyDB for PostgreSQL and AlloyDB Omni databases. These capabilities include high-performance vector search, AI functions, and AI tooling for agents. Build production grade AI applications faster and with less complexity by bringing AI to your operational data.",
+      "description": "AlloyDB AI provides a suite of integrated generative AI capabilities in AlloyDB for PostgreSQL and AlloyDB Omni databases. These capabilities include high-performance vector search, AI functions, and AI tooling for agents. Build production-grade AI applications faster and with less complexity by bringing AI to your operational data.",
       "link": "https://docs.cloud.google.com/alloydb/docs/ai/what-is-alloydb-ai",
       "id": "what-is-alloydb-ai"
     },
