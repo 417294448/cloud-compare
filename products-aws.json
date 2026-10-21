@@ -1,8 +1,8 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-08-14",
-  "totalProducts": 307,
+  "fetchedAt": "2026-10-16",
+  "totalProducts": 309,
   "products": [
     {
       "name": "Agent Toolkit for AWS",
@@ -232,6 +232,15 @@
       "description": "Agentic AI for healthcare that's built around the people that deliver it",
       "link": "https://docs.aws.amazon.com/connecthealth/",
       "id": "health-agent"
+    },
+    {
+      "name": "Amazon Connect Talent",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "AI-powered hiring and candidate evaluation for recruiters",
+      "link": "https://docs.aws.amazon.com/talent/",
+      "id": "ConnectTalent"
     },
     {
       "name": "Amazon Corretto",
@@ -1518,7 +1527,7 @@
         "Media Services"
       ],
       "description": "Apply machine learning models to video",
-      "link": "https://docs.aws.amazon.com/medialive/",
+      "link": "https://docs.aws.amazon.com/elemental-inference/",
       "id": "ElementalInference"
     },
     {
@@ -1610,6 +1619,15 @@
       "description": "Link records stored across multiple applications, channels, and data stores",
       "link": "https://docs.aws.amazon.com/entityresolution/",
       "id": "entityresolution"
+    },
+    {
+      "name": "AWS Events API",
+      "categories": [
+        "Front-End Web & Mobile"
+      ],
+      "description": "Browse and reserve AWS event sessions and manage your schedule",
+      "link": "https://docs.aws.amazon.com/events/",
+      "id": "EventsAPI"
     },
     {
       "name": "AWS Fargate",
@@ -1993,6 +2011,16 @@
       "id": "NWFW"
     },
     {
+      "name": "AWS Network Security Manager",
+      "categories": [
+        "Networking & Content Delivery",
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Define and deploy network security protections",
+      "link": "https://docs.aws.amazon.com/network-security-manager/",
+      "id": "NetworkSecurityManager"
+    },
+    {
       "name": "AWS Organizations",
       "categories": [
         "Management & Governance"
@@ -2009,15 +2037,6 @@
       "description": "Run AWS infrastructure on-premises",
       "link": "https://docs.aws.amazon.com/outposts/",
       "id": "aws-outposts"
-    },
-    {
-      "name": "AWS Panorama",
-      "categories": [
-        "Machine Learning"
-      ],
-      "description": "Improve your operations with computer vision at the edge",
-      "link": "https://docs.aws.amazon.com/panorama/",
-      "id": "PAN"
     },
     {
       "name": "AWS Parallel Computing Service",
@@ -2224,7 +2243,7 @@
         "Developer Tools"
       ],
       "description": "Develop applications with Python-specific APIs and libraries",
-      "link": "https://docs.aws.amazon.com/pythonsdk/",
+      "link": "https://docs.aws.amazon.com/sdk-for-python/",
       "id": "Python3"
     },
     {
@@ -2563,6 +2582,15 @@
       "id": "WAVE"
     },
     {
+      "name": "AWS Well-Architected Agent",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "AI-powered cloud optimization service",
+      "link": "https://docs.aws.amazon.com/wellarchitected/",
+      "id": "gaudi-coin"
+    },
+    {
       "name": "AWS Well-Architected Tool",
       "categories": [
         "Management & Governance"
@@ -2722,15 +2750,6 @@
       ],
       "description": "Security documentation by category",
       "link": "https://docs.aws.amazon.com/security/",
-      "id": null
-    },
-    {
-      "name": "Serverless",
-      "categories": [
-        "Serverless"
-      ],
-      "description": "Introduction to core serverless concepts and services in the AWS Cloud",
-      "link": "https://docs.aws.amazon.com/serverless/",
       "id": null
     },
     {

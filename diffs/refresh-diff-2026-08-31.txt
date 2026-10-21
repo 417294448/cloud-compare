@@ -1,0 +1,1024 @@
+============================================================
+操作: AWS 产品目录抓取
+文件: products-aws.json
+时间: 2026-08-31T07:03:26
+
+变更摘要:
+  抓取日期: 2026-08-28 -> 2026-08-31
+--- products-aws.json
++++ products-aws.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://docs.aws.amazon.com/",
+   "module": "Product guides & references",
+-  "fetchedAt": "2026-08-28",
++  "fetchedAt": "2026-08-31",
+   "totalProducts": 307,
+   "products": [
+     {
+
+============================================================
+操作: Azure 产品目录抓取
+文件: products-azure.json
+时间: 2026-08-31T07:03:40
+
+变更摘要:
+  抓取日期: 2026-08-28 -> 2026-08-31
+--- products-azure.json
++++ products-azure.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://azure.microsoft.com/en-us/products",
+   "module": "Browse all Azure products (by category)",
+-  "fetchedAt": "2026-08-28",
++  "fetchedAt": "2026-08-31",
+   "totalProducts": 205,
+   "products": [
+     {
+
+============================================================
+操作: GCP 产品目录抓取
+文件: products-gcp.json
+时间: 2026-08-31T07:03:45
+
+变更摘要:
+  新增产品（7 个）: Cloud FTP, Developer Device Platform, Gemini on Google Distributed Cloud connected API documentation, Google Cloud Data Agent Kit documentation, Google Distributed Cloud software only for VMware, Google Distributed Cloud software only for bare metal, Orchestration Pipelines
+  下线/移除产品（4 个）: Google Distributed Cloud (software only) for VMware, Google Distributed Cloud (software only) for bare metal, Overview of getting inferences on Agent Platform, Parallelstore
+  产品总数: 213 -> 216
+  抓取日期: 2026-07-28 -> 2026-08-31
+--- products-gcp.json
++++ products-gcp.json
+@@ -1,8 +1,8 @@
+ {
+   "source": "https://docs.cloud.google.com/",
+   "module": "Google Cloud product catalog",
+-  "fetchedAt": "2026-07-28",
+-  "totalProducts": 213,
++  "fetchedAt": "2026-08-31",
++  "totalProducts": 216,
+   "products": [
+     {
+       "name": "Access Approval",
+@@ -46,8 +46,8 @@
+         "AI and ML"
+       ],
+       "description": "Use Google ML technology to provide information to human agents while they are interacting with customers.",
+-      "link": "https://docs.cloud.google.com/agent-assist/docs",
+-      "id": "docs"
++      "link": "https://docs.cloud.google.com/gemini-enterprise-cx/agent-assist",
++      "id": "agent-assist"
+     },
+     {
+       "name": "Agent observability",
+@@ -127,8 +127,8 @@
+     {
+       "name": "Anti Money Laundering AI",
+       "categories": [
+-        "Industry solutions",
+-        "AI and ML"
++        "AI and ML",
++        "Industry solutions"
+       ],
+       "description": "An ML engine which takes customer data and training labels to create a tailored model covering an extensible typology of risks for AML.",
+       "link": "https://docs.cloud.google.com/financial-services/anti-money-laundering/docs",
+@@ -146,9 +146,9 @@
+     {
+       "name": "API Keys API Documentation",
+       "categories": [
+-        "Cross-product",
+         "Security",
+-        "Application development"
++        "Application development",
++        "Cross-product"
+       ],
+       "description": "Manages the API keys associated with developer projects.",
+       "link": "https://docs.cloud.google.com/api-keys/docs",
+@@ -184,7 +184,8 @@
+     {
+       "name": "App Lifecycle Manager",
+       "categories": [
+-        "Application hosting"
++        "Application hosting",
++        "Application development"
+       ],
+       "description": "Simplify building, scaling, and operating applications on Google Cloud.",
+       "link": "https://docs.cloud.google.com/app-lifecycle-manager",
+@@ -256,8 +257,8 @@
+     {
+       "name": "Batch",
+       "categories": [
+-        "Cross-product",
+-        "Compute"
++        "Compute",
++        "Cross-product"
+       ],
+       "description": "Fully-managed batch service, which allows you to schedule, queue, and execute jobs at scale.",
+       "link": "https://docs.cloud.google.com/batch/docs",
+@@ -491,6 +492,15 @@
+       "id": "ekm"
+     },
+     {
++      "name": "Cloud FTP",
++      "categories": [
++        "Storage"
++      ],
++      "description": "A managed, cloud-based solution to securely move data in and out of Cloud Storage by using SSH File Transfer Protocol (SFTP).",
++      "link": "https://docs.cloud.google.com/cloud-ftp",
++      "id": "cloud-ftp"
++    },
++    {
+       "name": "Cloud Healthcare API",
+       "categories": [
+         "Industry solutions",
+@@ -540,8 +550,8 @@
+     {
+       "name": "Cloud Intrusion Detection System",
+       "categories": [
+-        "Security",
+-        "Networking"
++        "Networking",
++        "Security"
+       ],
+       "description": "Monitors your networks, and alerts when it detects malicious activity. Powered by Palo Alto Networks.",
+       "link": "https://docs.cloud.google.com/intrusion-detection-system/docs",
+@@ -577,22 +587,22 @@
+     },
+     {
+       "name": "Cloud Logging",
+-      "categories": [
+-        "Security",
+-        "Networking",
+-        "Observability and monitoring"
+-      ],
+-      "description": "A fully managed service that allows you to store, search, analyze, monitor, and alert on logging data.",
+-      "link": "https://docs.cloud.google.com/logging/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Cloud Monitoring",
+       "categories": [
+         "Observability and monitoring",
+         "Security",
+         "Networking"
+       ],
++      "description": "A fully managed service that allows you to store, search, analyze, monitor, and alert on logging data.",
++      "link": "https://docs.cloud.google.com/logging/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Cloud Monitoring",
++      "categories": [
++        "Observability and monitoring",
++        "Security",
++        "Networking"
++      ],
+       "description": "Collects metric data and provides tools that let you monitor and visualize how your applications and services are performing.",
+       "link": "https://docs.cloud.google.com/monitoring/docs",
+       "id": "docs"
+@@ -906,8 +916,8 @@
+     {
+       "name": "Config Sync",
+       "categories": [
+-        "Application hosting",
+-        "Distributed, hybrid, and multicloud"
++        "Distributed, hybrid, and multicloud",
++        "Application hosting"
+       ],
+       "description": "Continuously sync your clusters to a centralized set of configurations stored in Git.",
+       "link": "https://docs.cloud.google.com/kubernetes-engine/config-sync/docs",
+@@ -916,8 +926,8 @@
+     {
+       "name": "Container-Optimized OS",
+       "categories": [
+-        "Cross-product",
+-        "Compute"
++        "Compute",
++        "Cross-product"
+       ],
+       "description": "An OS image for Compute Engine that's optimized for running containers.",
+       "link": "https://docs.cloud.google.com/container-optimized-os/docs",
+@@ -929,8 +939,8 @@
+         "AI and ML"
+       ],
+       "description": "Help call center managers improve customer interactions by using language processing to identify call drivers and sentiment.",
+-      "link": "https://docs.cloud.google.com/contact-center/insights/docs",
+-      "id": "docs"
++      "link": "https://docs.cloud.google.com/gemini-enterprise-cx/insights",
++      "id": "insights"
+     },
+     {
+       "name": "Cyber Insurance Hub",
+@@ -962,8 +972,8 @@
+     {
+       "name": "Database Migration Service",
+       "categories": [
+-        "Migration",
+-        "Databases"
++        "Databases",
++        "Migration"
+       ],
+       "description": "Database Migration Service makes it easier for businesses to lift and shift their MySQL and PostgreSQL workloads into Cloud SQL.",
+       "link": "https://docs.cloud.google.com/database-migration/docs",
+@@ -990,8 +1000,8 @@
+     {
+       "name": "Datastream",
+       "categories": [
+-        "Data analytics",
+-        "Databases"
++        "Databases",
++        "Data analytics"
+       ],
+       "description": "A serverless and easy-to-use change data capture (CDC) and replication service.",
+       "link": "https://docs.cloud.google.com/datastream/docs",
+@@ -1009,8 +1019,8 @@
+     {
+       "name": "Deep Learning VM Images",
+       "categories": [
++        "Compute",
+         "AI and ML",
+-        "Compute",
+         "Cross-product"
+       ],
+       "description": "A Compute Engine virtual machine optimized for deep learning applications and high performance computing.",
+@@ -1027,6 +1037,17 @@
+       "id": "docs"
+     },
+     {
++      "name": "Developer Device Platform",
++      "categories": [
++        "Cross-product",
++        "Application development",
++        "AI and ML"
++      ],
++      "description": "A next-generation, commercial-grade platform for remote device orchestration.",
++      "link": "https://docs.cloud.google.com/developer-device-platform",
++      "id": "developer-device-platform"
++    },
++    {
+       "name": "Device Streaming API documentation",
+       "categories": [
+         "Cross-product"
+@@ -1065,8 +1086,8 @@
+     {
+       "name": "Dual Run",
+       "categories": [
+-        "Compute",
+-        "Migration"
++        "Migration",
++        "Compute"
+       ],
+       "description": "Simultaneously run workloads on your existing mainframe environment and on Google Cloud, to perform real-time testing and quickly gather data on performance and stability.",
+       "link": "https://docs.cloud.google.com/mainframe-dual-run/docs",
+@@ -1191,10 +1212,19 @@
+       "id": "docs"
+     },
+     {
++      "name": "Gemini on Google Distributed Cloud connected API documentation",
++      "categories": [
++        "Distributed, hybrid, and multicloud"
++      ],
++      "description": "Deploy and serve private Gemini foundation models on dedicated Google-managed hardware connected to your local network.",
++      "link": "https://docs.cloud.google.com/distributed-cloud/gemini-on-gdcc/latest/docs",
++      "id": "docs"
++    },
++    {
+       "name": "Google Cloud Armor",
+       "categories": [
+-        "Networking",
+-        "Security"
++        "Security",
++        "Networking"
+       ],
+       "description": "Protect your services against denial of service and web attacks using Google’s global infrastructure and security systems.",
+       "link": "https://docs.cloud.google.com/armor/docs",
+@@ -1217,6 +1247,15 @@
+       "description": "Reference architectures, pre-built tools, and ML templates for data integration, processing, and visualization.",
+       "link": "https://docs.cloud.google.com/cortex/docs",
+       "id": "docs"
++    },
++    {
++      "name": "Google Cloud Data Agent Kit documentation",
++      "categories": [
++        "Data analytics"
++      ],
++      "description": "An IDE extension and plugin that let you connect to your Google Cloud data resources and work with them using your preferred IDE or agent.",
++      "link": "https://docs.cloud.google.com/data-agent-kit",
++      "id": "data-agent-kit"
+     },
+     {
+       "name": "Google Cloud Data Agent Kit extension documentation",
+@@ -1239,9 +1278,9 @@
+     {
+       "name": "Google Cloud Hyperdisk overview",
+       "categories": [
+-        "Compute",
+         "Storage",
+-        "Cross-product"
++        "Cross-product",
++        "Compute"
+       ],
+       "description": "Learn about Hyperdisk, their capacity and performance limits, regional availability, and machine type support.",
+       "link": "https://docs.cloud.google.com/compute/docs/disks/hyperdisks",
+@@ -1250,8 +1289,8 @@
+     {
+       "name": "Google Cloud Observability",
+       "categories": [
+-        "Security",
+-        "Observability and monitoring"
++        "Observability and monitoring",
++        "Security"
+       ],
+       "description": "Provides services that help you to understand the behavior, health, and performance of your applications.",
+       "link": "https://docs.cloud.google.com/stackdriver/docs",
+@@ -1281,12 +1320,21 @@
+       "categories": [
+         "Distributed, hybrid, and multicloud"
+       ],
+-      "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to the edge.",
++      "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to sovereign and data center environments.",
+       "link": "https://docs.cloud.google.com/distributed-cloud/docs",
+       "id": "docs"
+     },
+     {
+-      "name": "Google Distributed Cloud (software only) for bare metal",
++      "name": "Google Distributed Cloud connected",
++      "categories": [
++        "Distributed, hybrid, and multicloud"
++      ],
++      "description": "Execute Kubernetes workloads on dedicated hardware running on customer premises.",
++      "link": "https://docs.cloud.google.com/distributed-cloud/connected/latest/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Google Distributed Cloud software only for bare metal",
+       "categories": [
+         "Distributed, hybrid, and multicloud"
+       ],
+@@ -1295,21 +1343,12 @@
+       "id": "docs"
+     },
+     {
+-      "name": "Google Distributed Cloud (software only) for VMware",
++      "name": "Google Distributed Cloud software only for VMware",
+       "categories": [
+         "Distributed, hybrid, and multicloud"
+       ],
+       "description": "Provisions and manages the underlying resources for containerized applications on-premises.",
+       "link": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/vmware/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Google Distributed Cloud connected",
+-      "categories": [
+-        "Distributed, hybrid, and multicloud"
+-      ],
+-      "description": "Execute Kubernetes workloads on dedicated hardware running on customer premises.",
+-      "link": "https://docs.cloud.google.com/distributed-cloud/connected/latest/docs",
+       "id": "docs"
+     },
+     {
+@@ -1342,8 +1381,8 @@
+     {
+       "name": "GPU machine types",
+       "categories": [
+-        "Compute",
+-        "Cross-product"
++        "Cross-product",
++        "Compute"
+       ],
+       "description": "Understand instance options available to support GPU-accelerated workloads such as machine learning, data processing, and graphics workloads on Compute Engine.",
+       "link": "https://docs.cloud.google.com/compute/docs/gpus",
+@@ -1417,8 +1456,8 @@
+       "name": "Live Stream API",
+       "categories": [
+         "Industry solutions",
+-        "AI and ML",
+-        "Application development"
++        "Application development",
++        "AI and ML"
+       ],
+       "description": "Transcodes live, linear video streams into modern and next generation formats for broadcasters, production companies, and other media businesses.",
+       "link": "https://docs.cloud.google.com/livestream/docs",
+@@ -1439,24 +1478,24 @@
+         "Data analytics"
+       ],
+       "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
+-      "link": "https://docs.cloud.google.com/looker/docs/2606",
+-      "id": "2606"
++      "link": "https://docs.cloud.google.com/looker/docs/2608",
++      "id": "2608"
+     },
+     {
+       "name": "Mainframe Assessment Tool",
++      "categories": [
++        "Migration",
++        "Compute"
++      ],
++      "description": "Automates analysis of legacy mainframe applications to help you migrate them to Google Cloud.",
++      "link": "https://docs.cloud.google.com/mainframe-assessment-tool/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Mainframe Connector",
+       "categories": [
+         "Compute",
+         "Migration"
+-      ],
+-      "description": "Automates analysis of legacy mainframe applications to help you migrate them to Google Cloud.",
+-      "link": "https://docs.cloud.google.com/mainframe-assessment-tool/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Mainframe Connector",
+-      "categories": [
+-        "Migration",
+-        "Compute"
+       ],
+       "description": "Helps export data from a mainframe, upload data in batches to Google Cloud using Cloud Storage, and import it to BigQuery.",
+       "link": "https://docs.cloud.google.com/mainframe-connector/docs",
+@@ -1547,8 +1586,8 @@
+       "name": "Migrate to Containers",
+       "categories": [
+         "Application hosting",
+-        "Migration",
+-        "Compute"
++        "Compute",
++        "Migration"
+       ],
+       "description": "Converts VM-based workloads into containers in Google Kubernetes Engine (GKE).",
+       "link": "https://docs.cloud.google.com/migrate/containers/docs",
+@@ -1557,8 +1596,8 @@
+     {
+       "name": "Migrate to Virtual Machines",
+       "categories": [
+-        "Migration",
+-        "Compute"
++        "Compute",
++        "Migration"
+       ],
+       "description": "Purpose-built, enterprise-grade migration to Google Cloud.",
+       "link": "https://docs.cloud.google.com/migrate/virtual-machines/docs/5.0",
+@@ -1567,8 +1606,8 @@
+     {
+       "name": "Migration Center",
+       "categories": [
+-        "Migration",
+-        "Compute"
++        "Compute",
++        "Migration"
+       ],
+       "description": "Unifies the journey across different tools when migrating to Google Cloud.",
+       "link": "https://docs.cloud.google.com/migration-center/docs",
+@@ -1614,30 +1653,21 @@
+       "name": "Oracle on Google Cloud Compute",
+       "categories": [
+         "Databases",
+-        "Compute",
+-        "Cross-product"
++        "Cross-product",
++        "Compute"
+       ],
+       "description": "Run Oracle workloads on Google Cloud.",
+       "link": "https://docs.cloud.google.com/oracle/compute",
+       "id": "compute"
+     },
+     {
+-      "name": "Overview of getting inferences on Agent Platform",
+-      "categories": [
+-        "AI and ML"
+-      ],
+-      "description": "Get online and batch inferences using Gemini Enterprise Agent Platform.",
+-      "link": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/predictions",
+-      "id": "predictions"
+-    },
+-    {
+-      "name": "Parallelstore",
+-      "categories": [
+-        "Storage"
+-      ],
+-      "description": "Distributed, asynchronous object storage, providing high bandwidth and high IOPS.",
+-      "link": "https://docs.cloud.google.com/parallelstore/docs/overview",
+-      "id": "overview"
++      "name": "Orchestration Pipelines",
++      "categories": [
++        "Data analytics"
++      ],
++      "description": "A unified, declarative orchestration and automated deployment framework optimized for seamlessly managing data and AI pipelines on Google Cloud.",
++      "link": "https://docs.cloud.google.com/orchestration-pipelines",
++      "id": "orchestration-pipelines"
+     },
+     {
+       "name": "Persistent Disk",
+@@ -1735,8 +1765,8 @@
+     {
+       "name": "Sensitive Data Protection",
+       "categories": [
+-        "Data analytics",
+-        "Security"
++        "Security",
++        "Data analytics"
+       ],
+       "description": "Discover, classify, and de-identify sensitive data inside and outside Google Cloud.",
+       "link": "https://docs.cloud.google.com/sensitive-data-protection/docs",
+@@ -1781,8 +1811,8 @@
+     {
+       "name": "Service Usage",
+       "categories": [
+-        "Application development",
+-        "Cross-product"
++        "Cross-product",
++        "Application development"
+       ],
+       "description": "List and manage APIs and services in your Google Cloud projects.",
+       "link": "https://docs.cloud.google.com/service-usage/docs",
+@@ -1791,8 +1821,8 @@
+     {
+       "name": "Shielded VM",
+       "categories": [
+-        "Compute",
+-        "Cross-product"
++        "Cross-product",
++        "Compute"
+       ],
+       "description": "Provides verifiable integrity of your Compute Engine VM instances to help defend against rootkits and bootkits.",
+       "link": "https://docs.cloud.google.com/compute/shielded-vm/docs",
+@@ -1828,9 +1858,9 @@
+     {
+       "name": "Storage Transfer Service",
+       "categories": [
++        "Migration",
+         "Storage",
+-        "Data analytics",
+-        "Migration"
++        "Data analytics"
+       ],
+       "description": "Transfer your data from one cloud to another.",
+       "link": "https://docs.cloud.google.com/storage-transfer/docs/overview",
+@@ -1857,9 +1887,9 @@
+     {
+       "name": "Transcoder API",
+       "categories": [
+-        "Industry solutions",
+         "Application development",
+-        "AI and ML"
++        "AI and ML",
++        "Industry solutions"
+       ],
+       "description": "Transcodes videos into modern and next generation formats for broadcasters, production companies, and other media businesses.",
+       "link": "https://docs.cloud.google.com/transcoder/docs",
+@@ -1868,9 +1898,9 @@
+     {
+       "name": "Transfer Appliance",
+       "categories": [
+-        "Data analytics",
+         "Storage",
+-        "Migration"
++        "Migration",
++        "Data analytics"
+       ],
+       "description": "Hardware that lets you capture and securely migrate your data to Google Cloud without disrupting business operations.",
+       "link": "https://docs.cloud.google.com/transfer-appliance/docs/4.0/overview",
+@@ -1906,28 +1936,28 @@
+     {
+       "name": "Video Stitcher API",
+       "categories": [
++        "Industry solutions",
+         "Application development",
++        "AI and ML"
++      ],
++      "description": "Dynamically generates video on demand content for delivery to client devices.",
++      "link": "https://docs.cloud.google.com/video-stitcher/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Virtual Private Cloud",
++      "categories": [
++        "Networking"
++      ],
++      "description": "Managed networking functionality for your Google Cloud resources.",
++      "link": "https://docs.cloud.google.com/vpc/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Vision API Product Search",
++      "categories": [
+         "AI and ML",
+         "Industry solutions"
+-      ],
+-      "description": "Dynamically generates video on demand content for delivery to client devices.",
+-      "link": "https://docs.cloud.google.com/video-stitcher/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Virtual Private Cloud",
+-      "categories": [
+-        "Networking"
+-      ],
+-      "description": "Managed networking functionality for your Google Cloud resources.",
+-      "link": "https://docs.cloud.google.com/vpc/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Vision API Product Search",
+-      "categories": [
+-        "Industry solutions",
+-        "AI and ML"
+       ],
+       "description": "Enables retailers to create a set of products and of reference images that visually describe the product from a set of viewpoints.",
+       "link": "https://docs.cloud.google.com/vision/product-search/docs",
+@@ -1990,4 +2020,4 @@
+       "id": "docs"
+     }
+   ]
+-}+}
+
+============================================================
+操作: 阿里云产品目录抓取
+文件: products-alibabacloud.json
+时间: 2026-08-31T07:03:49
+
+变更摘要:
+  抓取日期: 2026-08-28 -> 2026-08-31
+--- products-alibabacloud.json
++++ products-alibabacloud.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://www.alibabacloud.com/en/product",
+   "module": "Alibaba Cloud product catalog",
+-  "fetchedAt": "2026-08-28",
++  "fetchedAt": "2026-08-31",
+   "totalProducts": 165,
+   "products": [
+     {
+
+============================================================
+操作: 跨云产品映射重建
+文件: product-mapping.json
+时间: 2026-08-31T07:05:29
+
+变更摘要:
+  真正未映射产品数: 355 -> 359
+  生成时间: 2026-08-28 -> 2026-08-31
+--- product-mapping.json
++++ product-mapping.json
+@@ -1,6 +1,6 @@
+ {
+   "taxonomy": "aws",
+-  "generatedAt": "2026-08-28",
++  "generatedAt": "2026-08-31",
+   "pilotCategories": [
+     "AWS Management Console",
+     "Analytics",
+@@ -378,7 +378,7 @@
+           {
+             "name": "Google Distributed Cloud",
+             "link": "https://docs.cloud.google.com/distributed-cloud/docs",
+-            "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to the edge.",
++            "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to sovereign and data center environments.",
+             "description-cn": "将 Google Cloud 基础设施和服务扩展到边缘的全托管软硬件解决方案"
+           },
+           {
+@@ -388,13 +388,13 @@
+             "description-cn": "在客户本地部署的专用硬件上执行 Kubernetes 工作负载"
+           },
+           {
+-            "name": "Google Distributed Cloud (software only) for bare metal",
++            "name": "Google Distributed Cloud software only for bare metal",
+             "link": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs",
+             "description": "Create, manage, and upgrade GKE clusters on your own premises while using Google Cloud features, and deploy and operate containerized applications on your clusters at scale.",
+             "description-cn": "在使用 Google Cloud 功能的同时，在自有本地环境中创建、管理和升级 GKE 集群，并大规模部署和运行容器化应用"
+           },
+           {
+-            "name": "Google Distributed Cloud (software only) for VMware",
++            "name": "Google Distributed Cloud software only for VMware",
+             "link": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/vmware/docs",
+             "description": "Provisions and manages the underlying resources for containerized applications on-premises.",
+             "description-cn": "为本地容器化应用预配并管理底层资源"
+@@ -4695,12 +4695,18 @@
+             "link": "https://docs.cloud.google.com/dataflow/docs",
+             "description": "A fully-managed service for transforming and enriching data in stream and batch modes with equal reliability and expressiveness.",
+             "description-cn": "一项全托管服务，以同等的可靠性和表达能力对流式和批处理数据进行转换与增强"
++          },
++          {
++            "name": "Orchestration Pipelines",
++            "link": "https://docs.cloud.google.com/orchestration-pipelines",
++            "description": "A unified, declarative orchestration and automated deployment framework optimized for seamlessly managing data and AI pipelines on Google Cloud.",
++            "description-cn": "统一的声明式编排与自动化部署框架，用于在 Google Cloud 上管理数据和 AI 流水线"
+           }
+         ],
+         "alibaba": []
+       },
+-      "notes": "Azure Data Factory and Cloud Dataflow are reused from analytics-etl / analytics-stream-processing since neither vendor has a product distinct from ETL/stream-processing for this narrower \"periodic pipeline orchestration\" use case that AWS Data Pipeline targets.",
+-      "notes-cn": "Azure Data Factory 和 Cloud Dataflow 在 analytics-etl / analytics-stream-processing 分组里也被引用了，因为两家都没有针对 AWS Data Pipeline 这种「周期性管道编排」窄场景的独立产品，用的还是各自的 ETL/流处理产品。"
++      "notes": "Azure Data Factory and Cloud Dataflow are reused from analytics-etl / analytics-stream-processing since neither vendor has a product distinct from ETL/stream-processing for this narrower \"periodic pipeline orchestration\" use case that AWS Data Pipeline targets. GCP's newer Orchestration Pipelines also targets declarative data/AI pipeline orchestration.",
++      "notes-cn": "Azure Data Factory 和 Cloud Dataflow 在 analytics-etl / analytics-stream-processing 分组里也被引用了，因为两家都没有针对 AWS Data Pipeline 这种「周期性管道编排」窄场景的独立产品，用的还是各自的 ETL/流处理产品。GCP 较新的 Orchestration Pipelines 同样面向声明式的数据/AI 流水线编排。"
+     },
+     {
+       "id": "analytics-bi-visualization",
+@@ -6112,11 +6118,18 @@
+             "description-cn": "简单、安全的无服务器企业级云文件共享"
+           }
+         ],
+-        "gcp": [],
++        "gcp": [
++          {
++            "name": "Cloud FTP",
++            "link": "https://docs.cloud.google.com/cloud-ftp",
++            "description": "A managed, cloud-based solution to securely move data in and out of Cloud Storage by using SSH File Transfer Protocol (SFTP).",
++            "description-cn": "全托管的云端解决方案，通过 SSH 文件传输协议（SFTP）安全地在 Cloud Storage 中存取数据"
++          }
++        ],
+         "alibaba": []
+       },
+-      "notes": "Matches the File Transfer row in cloud-compare-en-new.md; GCP's Cloud Storage SFTP doesn't appear as a standalone product in products-gcp.json.",
+-      "notes-cn": "对应 cloud-compare-en-new.md 的 File Transfer 行；GCP 的 Cloud Storage SFTP 在 products-gcp.json 里不是独立产品。"
++      "notes": "Matches the File Transfer row in cloud-compare-en-new.md (GCP side listed there as Cloud Storage SFTP); GCP's managed SFTP offering now appears in products-gcp.json as the standalone Cloud FTP product.",
++      "notes-cn": "对应 cloud-compare-en-new.md 的 File Transfer 行（文档里 GCP 一侧写的是 Cloud Storage SFTP）；GCP 的托管 SFTP 服务现在以 Cloud FTP 独立产品收录在 products-gcp.json。"
+     },
+     {
+       "id": "mig-data-sync",
+@@ -8376,6 +8389,29 @@
+             "notes-cn": "尚未找到确认的跨云对应产品。"
+           },
+           {
++            "id": "unmapped-gcp-google-cloud-data-agent-kit-documentation",
++            "category": "Analytics",
++            "category-cn": "分析",
++            "name": "Google Cloud Data Agent Kit documentation",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [],
++              "azure": [],
++              "gcp": [
++                {
++                  "name": "Google Cloud Data Agent Kit documentation",
++                  "link": "https://docs.cloud.google.com/data-agent-kit",
++                  "description": "An IDE extension and plugin that let you connect to your Google Cloud data resources and work with them using your preferred IDE or agent.",
++                  "description-cn": "IDE 扩展与插件，可在您偏好的 IDE 或智能体中连接并使用 Google Cloud 数据资源"
++                }
++              ],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
+             "id": "unmapped-gcp-google-cloud-data-agent-kit-extension-documentation",
+             "category": "Analytics",
+             "category-cn": "分析",
+@@ -8434,7 +8470,7 @@
+               "gcp": [
+                 {
+                   "name": "Looker documentation",
+-                  "link": "https://docs.cloud.google.com/looker/docs/2606",
++                  "link": "https://docs.cloud.google.com/looker/docs/2608",
+                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
+                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
+                 }
+@@ -9971,6 +10007,29 @@
+             "notes-cn": "尚未找到确认的跨云对应产品。"
+           },
+           {
++            "id": "unmapped-gcp-developer-device-platform",
++            "category": "Cross-product",
++            "category-cn": "跨产品",
++            "name": "Developer Device Platform",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [],
++              "azure": [],
++              "gcp": [
++                {
++                  "name": "Developer Device Platform",
++                  "link": "https://docs.cloud.google.com/developer-device-platform",
++                  "description": "A next-generation, commercial-grade platform for remote device orchestration.",
++                  "description-cn": "面向远程设备编排的新一代商用级平台"
++                }
++              ],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
+             "id": "unmapped-gcp-device-streaming-api-documentation",
+             "category": "Cross-product",
+             "category-cn": "跨产品",
+@@ -11137,6 +11196,29 @@
+             "notes-cn": "尚未找到确认的跨云对应产品。"
+           },
+           {
++            "id": "unmapped-gcp-app-lifecycle-manager",
++            "category": "Developer Tools",
++            "category-cn": "开发者工具",
++            "name": "App Lifecycle Manager",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [],
++              "azure": [],
++              "gcp": [
++                {
++                  "name": "App Lifecycle Manager",
++                  "link": "https://docs.cloud.google.com/app-lifecycle-manager",
++                  "description": "Simplify building, scaling, and operating applications on Google Cloud.",
++                  "description-cn": "简化在 Google Cloud 上构建、扩缩和运维应用。"
++                }
++              ],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
+             "id": "unmapped-gcp-application-design-center",
+             "category": "Developer Tools",
+             "category-cn": "开发者工具",
+@@ -11244,6 +11326,29 @@
+                   "link": "https://docs.cloud.google.com/developer-connect/docs",
+                   "description": "Centralized DevOps integration that lets you minimize configuration overhead and enable cross-project collaboration.",
+                   "description-cn": "集中式 DevOps 集成，降低配置开销并支持跨项目协作。"
++                }
++              ],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
++            "id": "unmapped-gcp-developer-device-platform",
++            "category": "Developer Tools",
++            "category-cn": "开发者工具",
++            "name": "Developer Device Platform",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [],
++              "azure": [],
++              "gcp": [
++                {
++                  "name": "Developer Device Platform",
++                  "link": "https://docs.cloud.google.com/developer-device-platform",
++                  "description": "A next-generation, commercial-grade platform for remote device orchestration.",
++                  "description-cn": "面向远程设备编排的新一代商用级平台"
+                 }
+               ],
+               "alibaba": []
+@@ -11858,6 +11963,29 @@
+             "notes-cn": "尚未找到确认的跨云对应产品。"
+           },
+           {
++            "id": "unmapped-gcp-gemini-on-google-distributed-cloud-connected-api-documentation",
++            "category": "Hybrid & Multicloud",
++            "category-cn": "混合与多云",
++            "name": "Gemini on Google Distributed Cloud connected API documentation",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [],
++              "azure": [],
++              "gcp": [
++                {
++                  "name": "Gemini on Google Distributed Cloud connected API documentation",
++                  "link": "https://docs.cloud.google.com/distributed-cloud/gemini-on-gdcc/latest/docs",
++                  "description": "Deploy and serve private Gemini foundation models on dedicated Google-managed hardware connected to your local network.",
++                  "description-cn": "在专用且由 Google 托管的硬件上部署并托管私有 Gemini 基础模型"
++                }
++              ],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
+             "id": "unmapped-gcp-service-directory",
+             "category": "Hybrid & Multicloud",
+             "category-cn": "混合与多云",
+@@ -11883,9 +12011,9 @@
+         ],
+         "mappedUnderOtherCategory": [
+           "Google Distributed Cloud",
+-          "Google Distributed Cloud (software only) for VMware",
+-          "Google Distributed Cloud (software only) for bare metal",
+-          "Google Distributed Cloud connected"
++          "Google Distributed Cloud connected",
++          "Google Distributed Cloud software only for VMware",
++          "Google Distributed Cloud software only for bare metal"
+         ]
+       },
+       "alibaba": {
+@@ -13282,7 +13410,7 @@
+               "gcp": [
+                 {
+                   "name": "Agent Assist",
+-                  "link": "https://docs.cloud.google.com/agent-assist/docs",
++                  "link": "https://docs.cloud.google.com/gemini-enterprise-cx/agent-assist",
+                   "description": "Use Google ML technology to provide information to human agents while they are interacting with customers.",
+                   "description-cn": "利用 Google ML 技术，在客服与客户交互时实时提供辅助信息。"
+                 }
+@@ -13466,7 +13594,7 @@
+               "gcp": [
+                 {
+                   "name": "Customer Experience Insights",
+-                  "link": "https://docs.cloud.google.com/contact-center/insights/docs",
++                  "link": "https://docs.cloud.google.com/gemini-enterprise-cx/insights",
+                   "description": "Help call center managers improve customer interactions by using language processing to identify call drivers and sentiment.",
+                   "description-cn": "通过语言处理识别来电原因与情绪，帮助呼叫中心改善客户交互。"
+                 }
+@@ -13500,6 +13628,29 @@
+             "notes-cn": "尚未找到确认的跨云对应产品。"
+           },
+           {
++            "id": "unmapped-gcp-developer-device-platform",
++            "category": "Machine Learning",
++            "category-cn": "机器学习",
++            "name": "Developer Device Platform",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [],
++              "azure": [],
++              "gcp": [
++                {
++                  "name": "Developer Device Platform",
++                  "link": "https://docs.cloud.google.com/developer-device-platform",
++                  "description": "A next-generation, commercial-grade platform for remote device orchestration.",
++                  "description-cn": "面向远程设备编排的新一代商用级平台"
++                }
++              ],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
+             "id": "unmapped-gcp-enterprise-knowledge-graph",
+             "category": "Machine Learning",
+             "category-cn": "机器学习",
+@@ -13630,29 +13781,6 @@
+                   "link": "https://docs.cloud.google.com/contact-center/ccai-platform/docs",
+                   "description": "An AI-driven unified contact center platform built to work alongside CRMs that provides organizations with a single source of truth for their customer journeys.",
+                   "description-cn": "AI 驱动的一体化联络中心平台，与 CRM 协同提供统一的客户旅程视图。"
+-                }
+-              ],
+-              "alibaba": []
+-            },
+-            "notes": "No confirmed cross-cloud counterpart found yet.",
+-            "notes-cn": "尚未找到确认的跨云对应产品。"
+-          },
+-          {
+-            "id": "unmapped-gcp-overview-of-getting-inferences-on-agent-platform",
+-            "category": "Machine Learning",
+-            "category-cn": "机器学习",
+-            "name": "Overview of getting inferences on Agent Platform",
+-            "name-cn": "",
+-            "confidence": "none",
+-            "products": {
+-              "aws": [],
+-              "azure": [],
+-              "gcp": [
+-                {
+-                  "name": "Overview of getting inferences on Agent Platform",
+-                  "link": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/predictions",
+-                  "description": "Get online and batch inferences using Gemini Enterprise Agent Platform.",
+-                  "description-cn": "使用 Gemini Enterprise Agent Platform 获取在线与批量推理的概览。"
+                 }
+               ],
+               "alibaba": []
+@@ -17082,32 +17210,10 @@
+             },
+             "notes": "No confirmed cross-cloud counterpart found yet.",
+             "notes-cn": "尚未找到确认的跨云对应产品。"
+-          },
+-          {
+-            "id": "unmapped-gcp-parallelstore",
+-            "category": "Storage",
+-            "category-cn": "存储",
+-            "name": "Parallelstore",
+-            "name-cn": "",
+-            "confidence": "none",
+-            "products": {
+-              "aws": [],
+-              "azure": [],
+-              "gcp": [
+-                {
+-                  "name": "Parallelstore",
+-                  "link": "https://docs.cloud.google.com/parallelstore/docs/overview",
+-                  "description": "Distributed, asynchronous object storage, providing high bandwidth and high IOPS.",
+-                  "description-cn": "分布式异步对象存储，提供高带宽和高 IOPS。"
+-                }
+-              ],
+-              "alibaba": []
+-            },
+-            "notes": "No confirmed cross-cloud counterpart found yet.",
+-            "notes-cn": "尚未找到确认的跨云对应产品。"
+           }
+         ],
+         "mappedUnderOtherCategory": [
++          "Cloud FTP",
+           "Storage Transfer Service"
+         ]
+       },
+

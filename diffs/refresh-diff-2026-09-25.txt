@@ -1,0 +1,815 @@
+============================================================
+操作: AWS 产品目录抓取
+文件: products-aws.json
+时间: 2026-09-25T15:00:35
+
+变更摘要:
+  新增产品（2 个）: AWS Events API, AWS Network Security Manager
+  产品总数: 307 -> 309
+  抓取日期: 2026-09-18 -> 2026-09-25
+--- products-aws.json
++++ products-aws.json
+@@ -1,8 +1,8 @@
+ {
+   "source": "https://docs.aws.amazon.com/",
+   "module": "Product guides & references",
+-  "fetchedAt": "2026-09-18",
+-  "totalProducts": 307,
++  "fetchedAt": "2026-09-25",
++  "totalProducts": 309,
+   "products": [
+     {
+       "name": "Agent Toolkit for AWS",
+@@ -1621,6 +1621,15 @@
+       "id": "entityresolution"
+     },
+     {
++      "name": "AWS Events API",
++      "categories": [
++        "Front-End Web & Mobile"
++      ],
++      "description": "Browse and reserve AWS event sessions and manage your schedule",
++      "link": "https://docs.aws.amazon.com/events/",
++      "id": "EventsAPI"
++    },
++    {
+       "name": "AWS Fargate",
+       "categories": [
+         "Serverless"
+@@ -2000,6 +2009,16 @@
+       "description": "Deploy network security across your Amazon VPCs with just a few clicks",
+       "link": "https://docs.aws.amazon.com/network-firewall/",
+       "id": "NWFW"
++    },
++    {
++      "name": "AWS Network Security Manager",
++      "categories": [
++        "Networking & Content Delivery",
++        "Security, Identity, & Compliance"
++      ],
++      "description": "Define and deploy network security protections",
++      "link": "https://docs.aws.amazon.com/network-security-manager/",
++      "id": "NetworkSecurityManager"
+     },
+     {
+       "name": "AWS Organizations",
+
+============================================================
+操作: Azure 产品目录抓取
+文件: products-azure.json
+时间: 2026-09-25T15:00:50
+
+变更摘要:
+  抓取日期: 2026-09-18 -> 2026-09-25
+--- products-azure.json
++++ products-azure.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://azure.microsoft.com/en-us/products",
+   "module": "Browse all Azure products (by category)",
+-  "fetchedAt": "2026-09-18",
++  "fetchedAt": "2026-09-25",
+   "totalProducts": 205,
+   "products": [
+     {
+@@ -1461,7 +1461,7 @@
+       "categories": [
+         "AI + machine learning"
+       ],
+-      "description": "Observe, control, secure, and govern AI agents across your organization",
++      "description": "Observe, control, secure, and govern AI agents across your organization.",
+       "link": "https://azure.microsoft.com/en-us/products/ai-foundry/control-plane",
+       "id": "control-plane"
+     },
+
+============================================================
+操作: GCP 产品目录抓取
+文件: products-gcp.json
+时间: 2026-09-25T15:00:57
+
+变更摘要:
+  新增产品（1 个）: App Topology
+  下线/移除产品（1 个）: Google Distributed Cloud
+  抓取日期: 2026-09-18 -> 2026-09-25
+--- products-gcp.json
++++ products-gcp.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://docs.cloud.google.com/",
+   "module": "Google Cloud product catalog",
+-  "fetchedAt": "2026-09-18",
++  "fetchedAt": "2026-09-25",
+   "totalProducts": 216,
+   "products": [
+     {
+@@ -99,8 +99,8 @@
+     {
+       "name": "AI Hypercomputer",
+       "categories": [
+-        "AI and ML",
+-        "Compute"
++        "Compute",
++        "AI and ML"
+       ],
+       "description": "An integrated system of performance-optimized hardware, open software, leading ML frameworks, and flexible consumption models.",
+       "link": "https://docs.cloud.google.com/ai-hypercomputer/docs",
+@@ -147,8 +147,8 @@
+       "name": "API Keys API Documentation",
+       "categories": [
+         "Application development",
+-        "Cross-product",
+-        "Security"
++        "Security",
++        "Cross-product"
+       ],
+       "description": "Manages the API keys associated with developer projects.",
+       "link": "https://docs.cloud.google.com/api-keys/docs",
+@@ -192,6 +192,15 @@
+       "id": "app-lifecycle-manager"
+     },
+     {
++      "name": "App Topology",
++      "categories": [
++        "Cross-product"
++      ],
++      "description": "Correlate data to answer questions about the health, performance, and security posture of your resources.",
++      "link": "https://docs.cloud.google.com/app-topology",
++      "id": "app-topology"
++    },
++    {
+       "name": "Application Design Center",
+       "categories": [
+         "Application development"
+@@ -257,8 +266,8 @@
+     {
+       "name": "Batch",
+       "categories": [
+-        "Compute",
+-        "Cross-product"
++        "Cross-product",
++        "Compute"
+       ],
+       "description": "Fully-managed batch service, which allows you to schedule, queue, and execute jobs at scale.",
+       "link": "https://docs.cloud.google.com/batch/docs",
+@@ -503,8 +512,8 @@
+     {
+       "name": "Cloud Healthcare API",
+       "categories": [
+-        "Application development",
+-        "Industry solutions"
++        "Industry solutions",
++        "Application development"
+       ],
+       "description": "Allows users to manage healthcare data within Google Cloud.",
+       "link": "https://docs.cloud.google.com/healthcare-api/docs",
+@@ -540,8 +549,8 @@
+     {
+       "name": "Cloud Interconnect",
+       "categories": [
+-        "Networking",
+-        "Security"
++        "Security",
++        "Networking"
+       ],
+       "description": "Enterprise-grade connections to your Google Virtual Private Cloud network.",
+       "link": "https://docs.cloud.google.com/network-connectivity/docs/interconnect",
+@@ -588,21 +597,21 @@
+     {
+       "name": "Cloud Logging",
+       "categories": [
++        "Networking",
++        "Security",
++        "Observability and monitoring"
++      ],
++      "description": "A fully managed service that allows you to store, search, analyze, monitor, and alert on logging data.",
++      "link": "https://docs.cloud.google.com/logging/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Cloud Monitoring",
++      "categories": [
+         "Observability and monitoring",
+         "Security",
+         "Networking"
+       ],
+-      "description": "A fully managed service that allows you to store, search, analyze, monitor, and alert on logging data.",
+-      "link": "https://docs.cloud.google.com/logging/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Cloud Monitoring",
+-      "categories": [
+-        "Networking",
+-        "Observability and monitoring",
+-        "Security"
+-      ],
+       "description": "Collects metric data and provides tools that let you monitor and visualize how your applications and services are performing.",
+       "link": "https://docs.cloud.google.com/monitoring/docs",
+       "id": "docs"
+@@ -637,8 +646,8 @@
+     {
+       "name": "Cloud Profiler",
+       "categories": [
+-        "Security",
+-        "Observability and monitoring"
++        "Observability and monitoring",
++        "Security"
+       ],
+       "description": "A statistical, low-overhead profiler that continuously gathers CPU usage and memory-allocation information from your production applications.",
+       "link": "https://docs.cloud.google.com/profiler/docs",
+@@ -819,8 +828,8 @@
+     {
+       "name": "Cloud Vision API",
+       "categories": [
+-        "AI and ML",
+-        "Industry solutions"
++        "Industry solutions",
++        "AI and ML"
+       ],
+       "description": "Easily integrate vision detection features within applications.",
+       "link": "https://docs.cloud.google.com/vision/docs",
+@@ -876,58 +885,58 @@
+     {
+       "name": "Compute Engine",
+       "categories": [
++        "Compute",
++        "Cross-product"
++      ],
++      "description": "A computing and hosting service that lets you create and run virtual machines on Google infrastructure.",
++      "link": "https://docs.cloud.google.com/compute/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Confidential VM",
++      "categories": [
++        "Cross-product",
++        "Compute",
++        "Security"
++      ],
++      "description": "Enables encryption of data in use, utilizing advanced security technologies offered by modern CPUs and confidential computing cloud services.",
++      "link": "https://docs.cloud.google.com/confidential-computing/confidential-vm/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Config Connector",
++      "categories": [
++        "Cross-product"
++      ],
++      "description": "Manage Google Cloud resources, such as Cloud Spanner or Cloud Storage, through the Kubernetes API.",
++      "link": "https://docs.cloud.google.com/config-connector/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Config Controller",
++      "categories": [
++        "Application hosting",
++        "Distributed, hybrid, and multicloud"
++      ],
++      "description": "Create and manage Google Cloud resources with a declarative, Kubernetes model.",
++      "link": "https://docs.cloud.google.com/kubernetes-engine/config-controller/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Config Sync",
++      "categories": [
++        "Application hosting",
++        "Distributed, hybrid, and multicloud"
++      ],
++      "description": "Continuously sync your clusters to a centralized set of configurations stored in Git.",
++      "link": "https://docs.cloud.google.com/kubernetes-engine/config-sync/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Container-Optimized OS",
++      "categories": [
+         "Cross-product",
+         "Compute"
+-      ],
+-      "description": "A computing and hosting service that lets you create and run virtual machines on Google infrastructure.",
+-      "link": "https://docs.cloud.google.com/compute/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Confidential VM",
+-      "categories": [
+-        "Compute",
+-        "Cross-product",
+-        "Security"
+-      ],
+-      "description": "Enables encryption of data in use, utilizing advanced security technologies offered by modern CPUs and confidential computing cloud services.",
+-      "link": "https://docs.cloud.google.com/confidential-computing/confidential-vm/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Config Connector",
+-      "categories": [
+-        "Cross-product"
+-      ],
+-      "description": "Manage Google Cloud resources, such as Cloud Spanner or Cloud Storage, through the Kubernetes API.",
+-      "link": "https://docs.cloud.google.com/config-connector/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Config Controller",
+-      "categories": [
+-        "Distributed, hybrid, and multicloud",
+-        "Application hosting"
+-      ],
+-      "description": "Create and manage Google Cloud resources with a declarative, Kubernetes model.",
+-      "link": "https://docs.cloud.google.com/kubernetes-engine/config-controller/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Config Sync",
+-      "categories": [
+-        "Application hosting",
+-        "Distributed, hybrid, and multicloud"
+-      ],
+-      "description": "Continuously sync your clusters to a centralized set of configurations stored in Git.",
+-      "link": "https://docs.cloud.google.com/kubernetes-engine/config-sync/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Container-Optimized OS",
+-      "categories": [
+-        "Compute",
+-        "Cross-product"
+       ],
+       "description": "An OS image for Compute Engine that's optimized for running containers.",
+       "link": "https://docs.cloud.google.com/container-optimized-os/docs",
+@@ -972,8 +981,8 @@
+     {
+       "name": "Database Migration Service",
+       "categories": [
+-        "Migration",
+-        "Databases"
++        "Databases",
++        "Migration"
+       ],
+       "description": "Database Migration Service makes it easier for businesses to lift and shift their MySQL and PostgreSQL workloads into Cloud SQL.",
+       "link": "https://docs.cloud.google.com/database-migration/docs",
+@@ -1030,9 +1039,9 @@
+     {
+       "name": "Developer Device Platform",
+       "categories": [
++        "Cross-product",
+         "AI and ML",
+-        "Application development",
+-        "Cross-product"
++        "Application development"
+       ],
+       "description": "A next-generation, commercial-grade platform for remote device orchestration.",
+       "link": "https://docs.cloud.google.com/developer-device-platform",
+@@ -1077,8 +1086,8 @@
+     {
+       "name": "Dual Run",
+       "categories": [
+-        "Compute",
+-        "Migration"
++        "Migration",
++        "Compute"
+       ],
+       "description": "Simultaneously run workloads on your existing mainframe environment and on Google Cloud, to perform real-time testing and quickly gather data on performance and stability.",
+       "link": "https://docs.cloud.google.com/mainframe-dual-run/docs",
+@@ -1105,8 +1114,8 @@
+     {
+       "name": "Error Reporting",
+       "categories": [
+-        "Observability and monitoring",
+-        "Security"
++        "Security",
++        "Observability and monitoring"
+       ],
+       "description": "Aggregate and display errors produced by applications running on Google Cloud.",
+       "link": "https://docs.cloud.google.com/error-reporting/docs",
+@@ -1223,8 +1232,8 @@
+     {
+       "name": "Google Cloud Armor",
+       "categories": [
+-        "Security",
+-        "Networking"
++        "Networking",
++        "Security"
+       ],
+       "description": "Protect your services against denial of service and web attacks using Google’s global infrastructure and security systems.",
+       "link": "https://docs.cloud.google.com/armor/docs",
+@@ -1278,9 +1287,9 @@
+     {
+       "name": "Google Cloud Hyperdisk overview",
+       "categories": [
++        "Storage",
+         "Compute",
+-        "Cross-product",
+-        "Storage"
++        "Cross-product"
+       ],
+       "description": "Learn about Hyperdisk, their capacity and performance limits, regional availability, and machine type support.",
+       "link": "https://docs.cloud.google.com/compute/docs/disks/hyperdisks",
+@@ -1289,8 +1298,8 @@
+     {
+       "name": "Google Cloud Observability",
+       "categories": [
+-        "Security",
+-        "Observability and monitoring"
++        "Observability and monitoring",
++        "Security"
+       ],
+       "description": "Provides services that help you to understand the behavior, health, and performance of your applications.",
+       "link": "https://docs.cloud.google.com/stackdriver/docs",
+@@ -1316,15 +1325,6 @@
+       "id": "docs"
+     },
+     {
+-      "name": "Google Distributed Cloud",
+-      "categories": [
+-        "Distributed, hybrid, and multicloud"
+-      ],
+-      "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to sovereign and data center environments.",
+-      "link": "https://docs.cloud.google.com/distributed-cloud/docs",
+-      "id": "docs"
+-    },
+-    {
+       "name": "Google Distributed Cloud connected",
+       "categories": [
+         "Distributed, hybrid, and multicloud"
+@@ -1436,8 +1436,8 @@
+     {
+       "name": "Introduction to BigQuery migration",
+       "categories": [
+-        "Migration",
+-        "Data analytics"
++        "Data analytics",
++        "Migration"
+       ],
+       "description": "A comprehensive solution for migrating your data warehouse to BigQuery",
+       "link": "https://docs.cloud.google.com/bigquery/docs/migration-intro",
+@@ -1449,15 +1449,15 @@
+         "Data analytics"
+       ],
+       "description": "A unified, intelligent governance solution for data and AI assets that powers AI, analytics, and business intelligence at scale.",
+-      "link": "https://docs.cloud.google.com/dataplex/docs",
++      "link": "https://docs.cloud.google.com/knowledge-catalog/docs",
+       "id": "docs"
+     },
+     {
+       "name": "Live Stream API",
+       "categories": [
+-        "AI and ML",
++        "Industry solutions",
+         "Application development",
+-        "Industry solutions"
++        "AI and ML"
+       ],
+       "description": "Transcodes live, linear video streams into modern and next generation formats for broadcasters, production companies, and other media businesses.",
+       "link": "https://docs.cloud.google.com/livestream/docs",
+@@ -1478,14 +1478,14 @@
+         "Data analytics"
+       ],
+       "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
+-      "link": "https://docs.cloud.google.com/looker/docs/2614",
+-      "id": "2614"
++      "link": "https://docs.cloud.google.com/looker/docs/2608",
++      "id": "2608"
+     },
+     {
+       "name": "Mainframe Assessment Tool",
+       "categories": [
+-        "Migration",
+-        "Compute"
++        "Compute",
++        "Migration"
+       ],
+       "description": "Automates analysis of legacy mainframe applications to help you migrate them to Google Cloud.",
+       "link": "https://docs.cloud.google.com/mainframe-assessment-tool/docs",
+@@ -1585,9 +1585,9 @@
+     {
+       "name": "Migrate to Containers",
+       "categories": [
+-        "Compute",
++        "Application hosting",
+         "Migration",
+-        "Application hosting"
++        "Compute"
+       ],
+       "description": "Converts VM-based workloads into containers in Google Kubernetes Engine (GKE).",
+       "link": "https://docs.cloud.google.com/migrate/containers/docs",
+@@ -1606,8 +1606,8 @@
+     {
+       "name": "Migration Center",
+       "categories": [
+-        "Migration",
+-        "Compute"
++        "Compute",
++        "Migration"
+       ],
+       "description": "Unifies the journey across different tools when migrating to Google Cloud.",
+       "link": "https://docs.cloud.google.com/migration-center/docs",
+@@ -1652,9 +1652,9 @@
+     {
+       "name": "Oracle on Google Cloud Compute",
+       "categories": [
+-        "Databases",
+         "Cross-product",
+-        "Compute"
++        "Compute",
++        "Databases"
+       ],
+       "description": "Run Oracle workloads on Google Cloud.",
+       "link": "https://docs.cloud.google.com/oracle/compute",
+@@ -1672,8 +1672,8 @@
+     {
+       "name": "Persistent Disk",
+       "categories": [
++        "Cross-product",
+         "Compute",
+-        "Cross-product",
+         "Storage"
+       ],
+       "description": "Learn about Persistent Disk volumes, their capacity and storage interface types, and how they are implemented in Compute Engine.",
+@@ -1765,8 +1765,8 @@
+     {
+       "name": "Sensitive Data Protection",
+       "categories": [
+-        "Data analytics",
+-        "Security"
++        "Security",
++        "Data analytics"
+       ],
+       "description": "Discover, classify, and de-identify sensitive data inside and outside Google Cloud.",
+       "link": "https://docs.cloud.google.com/sensitive-data-protection/docs",
+@@ -1811,8 +1811,8 @@
+     {
+       "name": "Service Usage",
+       "categories": [
+-        "Cross-product",
+-        "Application development"
++        "Application development",
++        "Cross-product"
+       ],
+       "description": "List and manage APIs and services in your Google Cloud projects.",
+       "link": "https://docs.cloud.google.com/service-usage/docs",
+@@ -1821,8 +1821,8 @@
+     {
+       "name": "Shielded VM",
+       "categories": [
+-        "Cross-product",
+-        "Compute"
++        "Compute",
++        "Cross-product"
+       ],
+       "description": "Provides verifiable integrity of your Compute Engine VM instances to help defend against rootkits and bootkits.",
+       "link": "https://docs.cloud.google.com/compute/shielded-vm/docs",
+@@ -1858,8 +1858,8 @@
+     {
+       "name": "Storage Transfer Service",
+       "categories": [
++        "Data analytics",
+         "Migration",
+-        "Data analytics",
+         "Storage"
+       ],
+       "description": "Transfer your data from one cloud to another.",
+@@ -1936,9 +1936,9 @@
+     {
+       "name": "Video Stitcher API",
+       "categories": [
+-        "AI and ML",
++        "Application development",
+         "Industry solutions",
+-        "Application development"
++        "AI and ML"
+       ],
+       "description": "Dynamically generates video on demand content for delivery to client devices.",
+       "link": "https://docs.cloud.google.com/video-stitcher/docs",
+@@ -1966,8 +1966,8 @@
+     {
+       "name": "VM Manager",
+       "categories": [
+-        "Cross-product",
+-        "Compute"
++        "Compute",
++        "Cross-product"
+       ],
+       "description": "A suite of tools that can be used to manage operating systems for large virtual machine (VM) fleets running Windows and Linux on Compute Engine.",
+       "link": "https://docs.cloud.google.com/compute/vm-manager/docs",
+@@ -1976,8 +1976,8 @@
+     {
+       "name": "VPC Service Controls",
+       "categories": [
+-        "Networking",
+-        "Security"
++        "Security",
++        "Networking"
+       ],
+       "description": "Define a security perimeter around resources of Google-managed services to control communication between those services.",
+       "link": "https://docs.cloud.google.com/vpc-service-controls/docs",
+
+============================================================
+操作: 阿里云产品目录抓取
+文件: products-alibabacloud.json
+时间: 2026-09-25T15:01:02
+
+变更摘要:
+  抓取日期: 2026-09-18 -> 2026-09-25
+--- products-alibabacloud.json
++++ products-alibabacloud.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://www.alibabacloud.com/en/product",
+   "module": "Alibaba Cloud product catalog",
+-  "fetchedAt": "2026-09-18",
++  "fetchedAt": "2026-09-25",
+   "totalProducts": 165,
+   "products": [
+     {
+
+============================================================
+操作: 跨云产品映射重建
+文件: product-mapping.json
+时间: 2026-09-25T15:02:22
+
+变更摘要:
+  真正未映射产品数: 358 -> 362
+  生成时间: 2026-09-18 -> 2026-09-25
+--- product-mapping.json
++++ product-mapping.json
+@@ -1,6 +1,6 @@
+ {
+   "taxonomy": "aws",
+-  "generatedAt": "2026-09-18",
++  "generatedAt": "2026-09-25",
+   "pilotCategories": [
+     "AWS Management Console",
+     "Analytics",
+@@ -376,12 +376,6 @@
+         ],
+         "gcp": [
+           {
+-            "name": "Google Distributed Cloud",
+-            "link": "https://docs.cloud.google.com/distributed-cloud/docs",
+-            "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to sovereign and data center environments.",
+-            "description-cn": "将 Google Cloud 基础设施和服务扩展到边缘的全托管软硬件解决方案"
+-          },
+-          {
+             "name": "Google Distributed Cloud connected",
+             "link": "https://docs.cloud.google.com/distributed-cloud/connected/latest/docs",
+             "description": "Execute Kubernetes workloads on dedicated hardware running on customer premises.",
+@@ -4838,7 +4832,7 @@
+         "gcp": [
+           {
+             "name": "Knowledge Catalog",
+-            "link": "https://docs.cloud.google.com/dataplex/docs",
++            "link": "https://docs.cloud.google.com/knowledge-catalog/docs",
+             "description": "A unified, intelligent governance solution for data and AI assets that powers AI, analytics, and business intelligence at scale.",
+             "description-cn": "一个统一的智能治理解决方案，面向数据和 AI 资产，支撑大规模的 AI、分析与商业智能"
+           }
+@@ -8493,7 +8487,7 @@
+               "gcp": [
+                 {
+                   "name": "Looker documentation",
+-                  "link": "https://docs.cloud.google.com/looker/docs/2614",
++                  "link": "https://docs.cloud.google.com/looker/docs/2608",
+                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
+                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
+                 }
+@@ -9930,6 +9924,29 @@
+                   "link": "https://docs.cloud.google.com/api-keys/docs",
+                   "description": "Manages the API keys associated with developer projects.",
+                   "description-cn": "管理开发者项目关联 API 密钥的文档。"
++                }
++              ],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
++            "id": "unmapped-gcp-app-topology",
++            "category": "Cross-product",
++            "category-cn": "跨产品",
++            "name": "App Topology",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [],
++              "azure": [],
++              "gcp": [
++                {
++                  "name": "App Topology",
++                  "link": "https://docs.cloud.google.com/app-topology",
++                  "description": "Correlate data to answer questions about the health, performance, and security posture of your resources.",
++                  "description-cn": "关联数据，以便解答有关资源健康状况、性能和安全状况的问题"
+                 }
+               ],
+               "alibaba": []
+@@ -11646,7 +11663,31 @@
+     },
+     "Front-End Web & Mobile": {
+       "aws": {
+-        "trulyUnmapped": [],
++        "trulyUnmapped": [
++          {
++            "id": "unmapped-aws-aws-events-api",
++            "category": "Front-End Web & Mobile",
++            "category-cn": "前端 Web 与移动",
++            "name": "AWS Events API",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [
++                {
++                  "name": "AWS Events API",
++                  "link": "https://docs.aws.amazon.com/events/",
++                  "description": "Browse and reserve AWS event sessions and manage your schedule",
++                  "description-cn": "浏览并预订 AWS 活动场次，管理你的日程"
++                }
++              ],
++              "azure": [],
++              "gcp": [],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          }
++        ],
+         "mappedUnderOtherCategory": [
+           "AWS AppSync"
+         ]
+@@ -12056,7 +12097,6 @@
+           }
+         ],
+         "mappedUnderOtherCategory": [
+-          "Google Distributed Cloud",
+           "Google Distributed Cloud connected",
+           "Google Distributed Cloud software only for VMware",
+           "Google Distributed Cloud software only for bare metal"
+@@ -13148,7 +13188,7 @@
+                 {
+                   "name": "Foundry Control Plane",
+                   "link": "https://azure.microsoft.com/en-us/products/ai-foundry/control-plane",
+-                  "description": "Observe, control, secure, and govern AI agents across your organization",
++                  "description": "Observe, control, secure, and govern AI agents across your organization.",
+                   "description-cn": "在整个组织内观测、控制、保护和治理 AI 智能体。"
+                 }
+               ],
+@@ -15204,6 +15244,29 @@
+             "notes-cn": "尚未找到确认的跨云对应产品。"
+           },
+           {
++            "id": "unmapped-aws-aws-network-security-manager",
++            "category": "Networking & Content Delivery",
++            "category-cn": "网络与内容分发",
++            "name": "AWS Network Security Manager",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [
++                {
++                  "name": "AWS Network Security Manager",
++                  "link": "https://docs.aws.amazon.com/network-security-manager/",
++                  "description": "Define and deploy network security protections",
++                  "description-cn": "定义并部署网络安全防护"
++                }
++              ],
++              "azure": [],
++              "gcp": [],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
+             "id": "unmapped-aws-aws-rtb-fabric",
+             "category": "Networking & Content Delivery",
+             "category-cn": "网络与内容分发",
+@@ -15835,6 +15898,29 @@
+                   "link": "https://docs.aws.amazon.com/govcloud-us/",
+                   "description": "Move sensitive workloads into the cloud",
+                   "description-cn": "将敏感工作负载迁移到云端"
++                }
++              ],
++              "azure": [],
++              "gcp": [],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
++            "id": "unmapped-aws-aws-network-security-manager",
++            "category": "Security, Identity, & Compliance",
++            "category-cn": "安全、身份与合规",
++            "name": "AWS Network Security Manager",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [
++                {
++                  "name": "AWS Network Security Manager",
++                  "link": "https://docs.aws.amazon.com/network-security-manager/",
++                  "description": "Define and deploy network security protections",
++                  "description-cn": "定义并部署网络安全防护"
+                 }
+               ],
+               "azure": [],
+
