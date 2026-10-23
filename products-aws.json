@@ -1,8 +1,8 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-10-16",
-  "totalProducts": 309,
+  "fetchedAt": "2026-10-23",
+  "totalProducts": 310,
   "products": [
     {
       "name": "Agent Toolkit for AWS",
@@ -1367,6 +1367,15 @@
       "description": "View and manage resources to support incident response while on the go",
       "link": "https://docs.aws.amazon.com/consolemobileapp/",
       "id": "CMA"
+    },
+    {
+      "name": "AWS Continuum",
+      "categories": [
+        "Security, Identity, & Compliance"
+      ],
+      "description": "Discovers, prioritizes, validates, and remediates security risks across the software lifecycle",
+      "link": "https://docs.aws.amazon.com/continuum/",
+      "id": "aws-continuum-code"
     },
     {
       "name": "AWS Control Tower",

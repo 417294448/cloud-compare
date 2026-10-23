@@ -389,6 +389,7 @@ DESCRIPTION_CN = {
         "AWS WAF": "过滤恶意 Web 流量",
         "AWS Resource Access Manager": "简单、安全地共享 AWS 资源",
         "AWS Payment Cryptography": "全托管的支付加密服务",
+        "AWS Continuum": "在整个软件生命周期中发现、排序、验证并修复安全风险",
         "AWS Security Incident Response": "帮助你应对安全事件并获得 CIRT 协助",
         "AWS GovCloud (US)": "将敏感工作负载迁移到云端",
         "Amazon Cloud Directory": "存储数亿个应用专属对象",
@@ -2989,7 +2990,7 @@ GROUPS = [
         "name-cn": "漏洞评估",
         "confidence": "medium",
         "products": {
-            "aws": ["Amazon Inspector"],
+            "aws": ["Amazon Inspector", "AWS Continuum"],
             "azure": ["Microsoft Defender for Cloud"],
             "gcp": ["Security Command Center"],
         },
@@ -2997,11 +2998,19 @@ GROUPS = [
         "Center are broad unified security products that also cover "
         "threat detection (sec-threat-detection) — reused here since "
         "neither Azure nor GCP has a separately branded vulnerability-"
-        "scanning-only product in this data set.",
+        "scanning-only product in this data set. AWS Continuum (new in "
+        "the 2026-10-23 refresh) is grouped here because it discovers, "
+        "prioritizes, validates, and remediates security risks across "
+        "the software lifecycle, which is the same vulnerability-"
+        "management positioning as Amazon Inspector, just extended "
+        "beyond running workloads to the whole development lifecycle.",
         "notes-cn": "Microsoft Defender for Cloud 和 Security Command "
         "Center 是覆盖面很广的统一安全产品，威胁检测那组（"
         "sec-threat-detection）也在用——这里复用是因为 Azure/GCP 在这份"
-        "数据里都没有单独品牌化的、只做漏洞扫描的产品。",
+        "数据里都没有单独品牌化的、只做漏洞扫描的产品。AWS Continuum"
+        "（2026-10-23 刷新时新增）归到这一组，是因为它在整个软件生命周期"
+        "中发现、排序、验证并修复安全风险，与 Amazon Inspector 同属漏洞"
+        "管理定位，只是把范围从运行中的工作负载扩展到了完整研发周期。",
     },
     {
         "id": "sec-investigation-siem",
