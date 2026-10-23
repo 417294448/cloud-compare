@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-10-16",
+  "generatedAt": "2026-10-23",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -3514,6 +3514,12 @@
             "link": "https://docs.aws.amazon.com/inspector/",
             "description": "Automated and continual vulnerability management at scale",
             "description-cn": "大规模自动化、持续的漏洞管理"
+          },
+          {
+            "name": "AWS Continuum",
+            "link": "https://docs.aws.amazon.com/continuum/",
+            "description": "Discovers, prioritizes, validates, and remediates security risks across the software lifecycle",
+            "description-cn": "在整个软件生命周期中发现、排序、验证并修复安全风险"
           }
         ],
         "azure": [
@@ -3534,8 +3540,8 @@
         ],
         "alibaba": []
       },
-      "notes": "Microsoft Defender for Cloud and Security Command Center are broad unified security products that also cover threat detection (sec-threat-detection) — reused here since neither Azure nor GCP has a separately branded vulnerability-scanning-only product in this data set.",
-      "notes-cn": "Microsoft Defender for Cloud 和 Security Command Center 是覆盖面很广的统一安全产品，威胁检测那组（sec-threat-detection）也在用——这里复用是因为 Azure/GCP 在这份数据里都没有单独品牌化的、只做漏洞扫描的产品。"
+      "notes": "Microsoft Defender for Cloud and Security Command Center are broad unified security products that also cover threat detection (sec-threat-detection) — reused here since neither Azure nor GCP has a separately branded vulnerability-scanning-only product in this data set. AWS Continuum (new in the 2026-10-23 refresh) is grouped here because it discovers, prioritizes, validates, and remediates security risks across the software lifecycle, which is the same vulnerability-management positioning as Amazon Inspector, just extended beyond running workloads to the whole development lifecycle.",
+      "notes-cn": "Microsoft Defender for Cloud 和 Security Command Center 是覆盖面很广的统一安全产品，威胁检测那组（sec-threat-detection）也在用——这里复用是因为 Azure/GCP 在这份数据里都没有单独品牌化的、只做漏洞扫描的产品。AWS Continuum（2026-10-23 刷新时新增）归到这一组，是因为它在整个软件生命周期中发现、排序、验证并修复安全风险，与 Amazon Inspector 同属漏洞管理定位，只是把范围从运行中的工作负载扩展到了完整研发周期。"
     },
     {
       "id": "sec-investigation-siem",
@@ -8487,7 +8493,7 @@
               "gcp": [
                 {
                   "name": "Looker documentation",
-                  "link": "https://docs.cloud.google.com/looker/docs/2618",
+                  "link": "https://docs.cloud.google.com/looker/docs/2608",
                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
                 }
