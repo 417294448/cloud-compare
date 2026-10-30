@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-10-23",
+  "generatedAt": "2026-10-30",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -10629,6 +10629,29 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
+            "id": "unmapped-aws-aws-coding-plugin-for-sap-abap",
+            "category": "Developer Tools",
+            "category-cn": "开发者工具",
+            "name": "AWS Coding Plugin for SAP ABAP",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS Coding Plugin for SAP ABAP",
+                  "link": "https://docs.aws.amazon.com/coding-plugin-for-sap-abap/latest/devguide/",
+                  "description": "Agentic development for the SAP ABAP language, powered by Kiro",
+                  "description-cn": "由 Kiro 驱动的 SAP ABAP 语言智能体开发"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
             "id": "unmapped-aws-aws-fault-injection-service",
             "category": "Developer Tools",
             "category-cn": "开发者工具",
@@ -11211,29 +11234,6 @@
                   "link": "https://docs.cloud.google.com/api-keys/docs",
                   "description": "Manages the API keys associated with developer projects.",
                   "description-cn": "管理开发者项目关联 API 密钥的文档。"
-                }
-              ],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-gcp-apigee",
-            "category": "Developer Tools",
-            "category-cn": "开发者工具",
-            "name": "Apigee",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [],
-              "gcp": [
-                {
-                  "name": "Apigee",
-                  "link": "https://docs.cloud.google.com/apigee/docs",
-                  "description": "Apigee, part of Google Cloud, helps leading companies design, secure and scale application programming interfaces.",
-                  "description-cn": "Google Cloud 旗下平台，帮助企业设计、保护并扩展 API。"
                 }
               ],
               "alibaba": []
