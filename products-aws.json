@@ -1,8 +1,8 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-10-23",
-  "totalProducts": 310,
+  "fetchedAt": "2026-10-30",
+  "totalProducts": 311,
   "products": [
     {
       "name": "Agent Toolkit for AWS",
@@ -1330,6 +1330,15 @@
       "description": "Release software using continuous delivery",
       "link": "https://docs.aws.amazon.com/codepipeline/",
       "id": "codepipeline"
+    },
+    {
+      "name": "AWS Coding Plugin for SAP ABAP",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Agentic development for the SAP ABAP language, powered by Kiro",
+      "link": "https://docs.aws.amazon.com/coding-plugin-for-sap-abap/latest/devguide/",
+      "id": "CodingPluginforSAPABAP"
     },
     {
       "name": "AWS Command Line Interface",

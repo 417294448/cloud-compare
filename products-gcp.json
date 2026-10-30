@@ -1,8 +1,8 @@
 {
   "source": "https://docs.cloud.google.com/",
   "module": "Google Cloud product catalog",
-  "fetchedAt": "2026-10-23",
-  "totalProducts": 218,
+  "fetchedAt": "2026-10-30",
+  "totalProducts": 217,
   "products": [
     {
       "name": "Access Approval",
@@ -99,8 +99,8 @@
     {
       "name": "AI Hypercomputer",
       "categories": [
-        "Compute",
-        "AI and ML"
+        "AI and ML",
+        "Compute"
       ],
       "description": "An integrated system of performance-optimized hardware, open software, leading ML frameworks, and flexible consumption models.",
       "link": "https://docs.cloud.google.com/ai-hypercomputer/docs",
@@ -127,8 +127,8 @@
     {
       "name": "Anti Money Laundering AI",
       "categories": [
-        "Industry solutions",
-        "AI and ML"
+        "AI and ML",
+        "Industry solutions"
       ],
       "description": "An ML engine which takes customer data and training labels to create a tailored model covering an extensible typology of risks for AML.",
       "link": "https://docs.cloud.google.com/financial-services/anti-money-laundering/docs",
@@ -146,21 +146,12 @@
     {
       "name": "API Keys API Documentation",
       "categories": [
+        "Application development",
         "Cross-product",
-        "Security",
-        "Application development"
+        "Security"
       ],
       "description": "Manages the API keys associated with developer projects.",
       "link": "https://docs.cloud.google.com/api-keys/docs",
-      "id": "docs"
-    },
-    {
-      "name": "Apigee",
-      "categories": [
-        "Application development"
-      ],
-      "description": "Apigee, part of Google Cloud, helps leading companies design, secure and scale application programming interfaces.",
-      "link": "https://docs.cloud.google.com/apigee/docs",
       "id": "docs"
     },
     {
@@ -367,8 +358,8 @@
     {
       "name": "Certificate Manager",
       "categories": [
-        "Networking",
-        "Security"
+        "Security",
+        "Networking"
       ],
       "description": "Enables centralized management of SSL certificates for Cloud Load Balancing.",
       "link": "https://docs.cloud.google.com/certificate-manager/docs",
@@ -512,8 +503,8 @@
     {
       "name": "Cloud Healthcare API",
       "categories": [
-        "Application development",
-        "Industry solutions"
+        "Industry solutions",
+        "Application development"
       ],
       "description": "Allows users to manage healthcare data within Google Cloud.",
       "link": "https://docs.cloud.google.com/healthcare-api/docs",
@@ -597,9 +588,9 @@
     {
       "name": "Cloud Logging",
       "categories": [
+        "Observability and monitoring",
         "Networking",
-        "Security",
-        "Observability and monitoring"
+        "Security"
       ],
       "description": "A fully managed service that allows you to store, search, analyze, monitor, and alert on logging data.",
       "link": "https://docs.cloud.google.com/logging/docs",
@@ -608,9 +599,9 @@
     {
       "name": "Cloud Monitoring",
       "categories": [
-        "Networking",
+        "Security",
         "Observability and monitoring",
-        "Security"
+        "Networking"
       ],
       "description": "Collects metric data and provides tools that let you monitor and visualize how your applications and services are performing.",
       "link": "https://docs.cloud.google.com/monitoring/docs",
@@ -646,8 +637,8 @@
     {
       "name": "Cloud Profiler",
       "categories": [
-        "Security",
-        "Observability and monitoring"
+        "Observability and monitoring",
+        "Security"
       ],
       "description": "A statistical, low-overhead profiler that continuously gathers CPU usage and memory-allocation information from your production applications.",
       "link": "https://docs.cloud.google.com/profiler/docs",
@@ -828,8 +819,8 @@
     {
       "name": "Cloud Vision API",
       "categories": [
-        "AI and ML",
-        "Industry solutions"
+        "Industry solutions",
+        "AI and ML"
       ],
       "description": "Easily integrate vision detection features within applications.",
       "link": "https://docs.cloud.google.com/vision/docs",
@@ -838,8 +829,8 @@
     {
       "name": "Cloud VPN",
       "categories": [
-        "Security",
-        "Networking"
+        "Networking",
+        "Security"
       ],
       "description": "Use IPsec VPN tunnels to connect your peer network to your Virtual Private Cloud (VPC) network.",
       "link": "https://docs.cloud.google.com/network-connectivity/docs/vpn",
@@ -885,8 +876,8 @@
     {
       "name": "Compute Engine",
       "categories": [
-        "Cross-product",
-        "Compute"
+        "Compute",
+        "Cross-product"
       ],
       "description": "A computing and hosting service that lets you create and run virtual machines on Google infrastructure.",
       "link": "https://docs.cloud.google.com/compute/docs",
@@ -895,9 +886,9 @@
     {
       "name": "Confidential VM",
       "categories": [
-        "Security",
+        "Compute",
         "Cross-product",
-        "Compute"
+        "Security"
       ],
       "description": "Enables encryption of data in use, utilizing advanced security technologies offered by modern CPUs and confidential computing cloud services.",
       "link": "https://docs.cloud.google.com/confidential-computing/confidential-vm/docs",
@@ -915,8 +906,8 @@
     {
       "name": "Config Controller",
       "categories": [
-        "Distributed, hybrid, and multicloud",
-        "Application hosting"
+        "Application hosting",
+        "Distributed, hybrid, and multicloud"
       ],
       "description": "Create and manage Google Cloud resources with a declarative, Kubernetes model.",
       "link": "https://docs.cloud.google.com/kubernetes-engine/config-controller/docs",
@@ -925,8 +916,8 @@
     {
       "name": "Config Sync",
       "categories": [
-        "Distributed, hybrid, and multicloud",
-        "Application hosting"
+        "Application hosting",
+        "Distributed, hybrid, and multicloud"
       ],
       "description": "Continuously sync your clusters to a centralized set of configurations stored in Git.",
       "link": "https://docs.cloud.google.com/kubernetes-engine/config-sync/docs",
@@ -935,8 +926,8 @@
     {
       "name": "Container-Optimized OS",
       "categories": [
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "An OS image for Compute Engine that's optimized for running containers.",
       "link": "https://docs.cloud.google.com/container-optimized-os/docs",
@@ -981,8 +972,8 @@
     {
       "name": "Database Migration Service",
       "categories": [
-        "Databases",
-        "Migration"
+        "Migration",
+        "Databases"
       ],
       "description": "Database Migration Service makes it easier for businesses to lift and shift their MySQL and PostgreSQL workloads into Cloud SQL.",
       "link": "https://docs.cloud.google.com/database-migration/docs",
@@ -1020,8 +1011,8 @@
       "name": "Deep Learning VM Images",
       "categories": [
         "AI and ML",
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "A Compute Engine virtual machine optimized for deep learning applications and high performance computing.",
       "link": "https://docs.cloud.google.com/deep-learning-vm/docs",
@@ -1039,9 +1030,9 @@
     {
       "name": "Developer Device Platform",
       "categories": [
+        "Application development",
         "AI and ML",
-        "Cross-product",
-        "Application development"
+        "Cross-product"
       ],
       "description": "A next-generation, commercial-grade platform for remote device orchestration.",
       "link": "https://docs.cloud.google.com/developer-device-platform",
@@ -1086,8 +1077,8 @@
     {
       "name": "Dual Run",
       "categories": [
-        "Compute",
-        "Migration"
+        "Migration",
+        "Compute"
       ],
       "description": "Simultaneously run workloads on your existing mainframe environment and on Google Cloud, to perform real-time testing and quickly gather data on performance and stability.",
       "link": "https://docs.cloud.google.com/mainframe-dual-run/docs",
@@ -1287,8 +1278,8 @@
     {
       "name": "Google Cloud Hyperdisk overview",
       "categories": [
-        "Compute",
         "Cross-product",
+        "Compute",
         "Storage"
       ],
       "description": "Learn about Hyperdisk, their capacity and performance limits, regional availability, and machine type support.",
@@ -1316,8 +1307,8 @@
     {
       "name": "Google Cloud Observability",
       "categories": [
-        "Security",
-        "Observability and monitoring"
+        "Observability and monitoring",
+        "Security"
       ],
       "description": "Provides services that help you to understand the behavior, health, and performance of your applications.",
       "link": "https://docs.cloud.google.com/stackdriver/docs",
@@ -1326,8 +1317,8 @@
     {
       "name": "Google Cloud Observability documentation",
       "categories": [
-        "Security",
-        "Observability and monitoring"
+        "Observability and monitoring",
+        "Security"
       ],
       "description": "A set of services that help you understand the behavior, health, and performance of your applications and the systems that they run on.",
       "link": "https://docs.cloud.google.com/stackdriver/docs/observability",
@@ -1399,8 +1390,8 @@
     {
       "name": "GPU machine types",
       "categories": [
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "Understand instance options available to support GPU-accelerated workloads such as machine learning, data processing, and graphics workloads on Compute Engine.",
       "link": "https://docs.cloud.google.com/compute/docs/gpus",
@@ -1502,8 +1493,8 @@
     {
       "name": "Mainframe Assessment Tool",
       "categories": [
-        "Migration",
-        "Compute"
+        "Compute",
+        "Migration"
       ],
       "description": "Automates analysis of legacy mainframe applications to help you migrate them to Google Cloud.",
       "link": "https://docs.cloud.google.com/mainframe-assessment-tool/docs",
@@ -1512,8 +1503,8 @@
     {
       "name": "Mainframe Connector",
       "categories": [
-        "Compute",
-        "Migration"
+        "Migration",
+        "Compute"
       ],
       "description": "Helps export data from a mainframe, upload data in batches to Google Cloud using Cloud Storage, and import it to BigQuery.",
       "link": "https://docs.cloud.google.com/mainframe-connector/docs",
@@ -1603,9 +1594,9 @@
     {
       "name": "Migrate to Containers",
       "categories": [
-        "Compute",
+        "Migration",
         "Application hosting",
-        "Migration"
+        "Compute"
       ],
       "description": "Converts VM-based workloads into containers in Google Kubernetes Engine (GKE).",
       "link": "https://docs.cloud.google.com/migrate/containers/docs",
@@ -1670,8 +1661,8 @@
     {
       "name": "Oracle on Google Cloud Compute",
       "categories": [
-        "Compute",
         "Databases",
+        "Compute",
         "Cross-product"
       ],
       "description": "Run Oracle workloads on Google Cloud.",
@@ -1690,9 +1681,9 @@
     {
       "name": "Persistent Disk",
       "categories": [
+        "Compute",
         "Cross-product",
-        "Storage",
-        "Compute"
+        "Storage"
       ],
       "description": "Learn about Persistent Disk volumes, their capacity and storage interface types, and how they are implemented in Compute Engine.",
       "link": "https://docs.cloud.google.com/compute/docs/disks/persistent-disks",
@@ -1783,8 +1774,8 @@
     {
       "name": "Sensitive Data Protection",
       "categories": [
-        "Data analytics",
-        "Security"
+        "Security",
+        "Data analytics"
       ],
       "description": "Discover, classify, and de-identify sensitive data inside and outside Google Cloud.",
       "link": "https://docs.cloud.google.com/sensitive-data-protection/docs",
@@ -1829,8 +1820,8 @@
     {
       "name": "Service Usage",
       "categories": [
-        "Cross-product",
-        "Application development"
+        "Application development",
+        "Cross-product"
       ],
       "description": "List and manage APIs and services in your Google Cloud projects.",
       "link": "https://docs.cloud.google.com/service-usage/docs",
@@ -1839,8 +1830,8 @@
     {
       "name": "Shielded VM",
       "categories": [
-        "Cross-product",
-        "Compute"
+        "Compute",
+        "Cross-product"
       ],
       "description": "Provides verifiable integrity of your Compute Engine VM instances to help defend against rootkits and bootkits.",
       "link": "https://docs.cloud.google.com/compute/shielded-vm/docs",
@@ -1877,8 +1868,8 @@
       "name": "Storage Transfer Service",
       "categories": [
         "Storage",
-        "Migration",
-        "Data analytics"
+        "Data analytics",
+        "Migration"
       ],
       "description": "Transfer your data from one cloud to another.",
       "link": "https://docs.cloud.google.com/storage-transfer/docs/overview",
@@ -1916,9 +1907,9 @@
     {
       "name": "Transfer Appliance",
       "categories": [
+        "Data analytics",
         "Migration",
-        "Storage",
-        "Data analytics"
+        "Storage"
       ],
       "description": "Hardware that lets you capture and securely migrate your data to Google Cloud without disrupting business operations.",
       "link": "https://docs.cloud.google.com/transfer-appliance/docs/4.0/overview",
@@ -1954,8 +1945,8 @@
     {
       "name": "Video Stitcher API",
       "categories": [
-        "Industry solutions",
         "AI and ML",
+        "Industry solutions",
         "Application development"
       ],
       "description": "Dynamically generates video on demand content for delivery to client devices.",
@@ -1984,8 +1975,8 @@
     {
       "name": "VM Manager",
       "categories": [
-        "Cross-product",
-        "Compute"
+        "Compute",
+        "Cross-product"
       ],
       "description": "A suite of tools that can be used to manage operating systems for large virtual machine (VM) fleets running Windows and Linux on Compute Engine.",
       "link": "https://docs.cloud.google.com/compute/vm-manager/docs",

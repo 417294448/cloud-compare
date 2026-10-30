@@ -530,6 +530,7 @@ DESCRIPTION_CN = {
         "Amazon Connect Health": "围绕医疗服务提供者构建的医疗智能体 AI",
         "Amazon Connect Talent": "面向招聘人员的 AI 驱动招聘与候选人评估",
         "AWS Cloud Development Kit (AWS CDK)": "使用熟悉的编程语言定义云基础设施",
+        "AWS Coding Plugin for SAP ABAP": "由 Kiro 驱动的 SAP ABAP 语言智能体开发",
         "AWS Fault Injection Service": "通过受控实验提升应用的韧性与性能",
         "AWS Infrastructure Composer": "通过可视化构建器设计并构建现代基础设施",
         "AWS Microservice Extractor for .NET": "减少将大型应用改造为微服务的时间与工作量",
