@@ -1,7 +1,7 @@
 {
   "source": "https://www.alibabacloud.com/en/product",
   "module": "Alibaba Cloud product catalog",
-  "fetchedAt": "2026-10-30",
+  "fetchedAt": "2026-11-06",
   "totalProducts": 165,
   "products": [
     {
@@ -1265,7 +1265,7 @@
       "categories": [
         "Artificial Intelligence"
       ],
-      "description": "Supercharge Your AI Journey Effortlessly With Industry-Leading GenAI Models",
+      "description": "Model Studio, Alibaba Cloud's model service platform, offers Qwen models with API access, fine-tuning, and dedicated deployment, accelerating enterprise AI adoption.",
       "link": "https://www.alibabacloud.com/product/modelstudio",
       "id": "modelstudio"
     },

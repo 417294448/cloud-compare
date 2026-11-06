@@ -512,6 +512,7 @@ DESCRIPTION_CN = {
         "AWS re:Post Private": "为组织内部云社区构建专属知识库",
         "AWS Training and Certification": "探索 AWS 学习资源",
         "Amazon Q": "由生成式 AI 驱动的智能助手",
+        "AWS assistant": "在工作过程中解答有关 AWS 资源、成本和错误的问题",
         "AWS Console Mobile Application": "随时随地查看和管理资源以支持事件响应",
         "AWS Sign-In": "登录与登出账户的相关帮助",
         "AWS Flat-Rate Plans": "为集成的 AWS 服务包提供简化计费",
@@ -663,7 +664,6 @@ DESCRIPTION_CN = {
         "Azure DDoS Protection": "保护你的 Azure 资源免受分布式拒绝服务（DDoS）攻击",
         "Azure Web Application Firewall": "一项云原生 Web 应用防火墙（WAF）服务，为 Web 应用提供强大防护",
         "Azure Synapse Analytics": "洞察时效无与伦比的无限分析",
-        "Azure AI Search": "为数据源、记忆和检索增强生成（RAG）流水线连接智能体到统一上下文层",
         "Microsoft Purview": "治理、保护和管理你的数据资产",
         "HDInsight": "预配云上的 Hadoop、Spark、R Server、HBase 和 Storm 集群",
         "Azure Data Factory": "轻松实现企业级混合数据集成",
@@ -1739,7 +1739,7 @@ GROUPS = [
         "products": {
             "aws": ["Amazon API Gateway"],
             "azure": ["API Management"],
-            "gcp": ["API Gateway", "Cloud Endpoints"],
+            "gcp": ["API Gateway", "Cloud Endpoints", "Apigee"],
             "alibaba": ["API Gateway"],
         },
         "notes": "Azure API Management and GCP API Gateway/Cloud "
@@ -3086,7 +3086,7 @@ GROUPS = [
         "name-cn": "合规报告与审计",
         "confidence": "medium",
         "products": {
-            "aws": ["AWS Artifact", "AWS Audit Manager"],
+            "aws": ["AWS Artifact", "AWS Audit Manager", "AWS Assurance"],
             "azure": [],
             "gcp": [],
         },
@@ -3340,18 +3340,20 @@ GROUPS = [
         "confidence": "medium",
         "products": {
             "aws": ["Amazon CloudSearch"],
-            "azure": ["Azure AI Search"],
+            "azure": [],
             "gcp": [],
             "alibaba": ["Elasticsearch"],
         },
         "notes": "Matches the Search Service row in "
-        "cloud-compare-en-new.md (document lists Azure Cognitive "
-        "Search, since renamed/restructured into Azure AI Search under "
-        "Microsoft's AI Foundry branding). GCP's Cloud Search doesn't "
+        "cloud-compare-en-new.md. Azure AI Search is no longer listed "
+        "on the Azure \"Browse all products\" page (its knowledge/RAG "
+        "capabilities appear folded into the Foundry IQ branding), so "
+        "the Azure column is left blank. GCP's Cloud Search doesn't "
         "appear as a standalone product in products-gcp.json.",
-        "notes-cn": "对应 cloud-compare-en-new.md 的 Search Service 行"
-        "（文档给的 Azure Cognitive Search 已经改名重组为 Azure AI "
-        "Search）。GCP 的 Cloud Search 在 products-gcp.json 里不是独立"
+        "notes-cn": "对应 cloud-compare-en-new.md 的 Search Service 行。"
+        "Azure AI Search 已从 Azure「Browse all products」页面下线（其"
+        "知识检索 / RAG 能力看起来已并入 Foundry IQ 品牌），因此 Azure "
+        "列留空。GCP 的 Cloud Search 在 products-gcp.json 里不是独立"
         "产品。",
     },
     {
@@ -5521,7 +5523,7 @@ GROUPS = [
         "name-cn": "生成式 AI 控制台助手",
         "confidence": "medium",
         "products": {
-            "aws": ["Amazon Q"],
+            "aws": ["Amazon Q", "AWS assistant"],
             "azure": [],
             "gcp": [],
         },
