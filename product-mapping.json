@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-10-30",
+  "generatedAt": "2026-11-06",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -1306,6 +1306,12 @@
             "link": "https://docs.cloud.google.com/endpoints/docs",
             "description": "An API management system that helps you secure, monitor, analyze, and set quotas on your APIs.",
             "description-cn": "一套 API 管理系统，帮助您保护、监控、分析 API 并为其设置配额"
+          },
+          {
+            "name": "Apigee",
+            "link": "https://docs.cloud.google.com/apigee/docs",
+            "description": "Apigee, part of Google Cloud, helps leading companies design, secure and scale application programming interfaces.",
+            "description-cn": "Google Cloud 旗下平台，帮助企业设计、保护并扩展 API。"
           }
         ],
         "alibaba": [
@@ -2935,7 +2941,7 @@
           {
             "name": "Model Studio",
             "link": "https://www.alibabacloud.com/product/modelstudio",
-            "description": "Supercharge Your AI Journey Effortlessly With Industry-Leading GenAI Models",
+            "description": "Model Studio, Alibaba Cloud's model service platform, offers Qwen models with API access, fine-tuning, and dedicated deployment, accelerating enterprise AI adoption.",
             "description-cn": "一站式大模型开发与应用构建平台"
           }
         ]
@@ -3674,6 +3680,12 @@
             "link": "https://docs.aws.amazon.com/audit-manager/",
             "description": "Audit your AWS usage to simplify how you assess risk and compliance",
             "description-cn": "审计你的 AWS 使用情况，简化风险与合规评估"
+          },
+          {
+            "name": "AWS Assurance",
+            "link": "https://docs.aws.amazon.com/assurance/",
+            "description": "Automated compliance readiness assessment for AWS workloads",
+            "description-cn": "自动评估 AWS 工作负载的合规就绪情况"
           }
         ],
         "azure": [],
@@ -4163,14 +4175,7 @@
             "description-cn": "托管式搜索服务"
           }
         ],
-        "azure": [
-          {
-            "name": "Azure AI Search",
-            "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
-            "description": "Connect agents to one unified context layer for data sources, memory and retrieval-augmented generation (RAG) pipelines.",
-            "description-cn": "为数据源、记忆和检索增强生成（RAG）流水线连接智能体到统一上下文层"
-          }
-        ],
+        "azure": [],
         "gcp": [],
         "alibaba": [
           {
@@ -4181,8 +4186,8 @@
           }
         ]
       },
-      "notes": "Matches the Search Service row in cloud-compare-en-new.md (document lists Azure Cognitive Search, since renamed/restructured into Azure AI Search under Microsoft's AI Foundry branding). GCP's Cloud Search doesn't appear as a standalone product in products-gcp.json.",
-      "notes-cn": "对应 cloud-compare-en-new.md 的 Search Service 行（文档给的 Azure Cognitive Search 已经改名重组为 Azure AI Search）。GCP 的 Cloud Search 在 products-gcp.json 里不是独立产品。"
+      "notes": "Matches the Search Service row in cloud-compare-en-new.md. Azure AI Search is no longer listed on the Azure \"Browse all products\" page (its knowledge/RAG capabilities appear folded into the Foundry IQ branding), so the Azure column is left blank. GCP's Cloud Search doesn't appear as a standalone product in products-gcp.json.",
+      "notes-cn": "对应 cloud-compare-en-new.md 的 Search Service 行。Azure AI Search 已从 Azure「Browse all products」页面下线（其知识检索 / RAG 能力看起来已并入 Foundry IQ 品牌），因此 Azure 列留空。GCP 的 Cloud Search 在 products-gcp.json 里不是独立产品。"
     },
     {
       "id": "analytics-data-governance",
@@ -7794,6 +7799,12 @@
             "link": "https://docs.aws.amazon.com/amazonq/",
             "description": "Generative AI-powered assistants",
             "description-cn": "由生成式 AI 驱动的智能助手"
+          },
+          {
+            "name": "AWS assistant",
+            "link": "https://docs.aws.amazon.com/assistant/",
+            "description": "Get answers about your AWS resources, costs, and errors as you work",
+            "description-cn": "在工作过程中解答有关 AWS 资源、成本和错误的问题"
           }
         ],
         "azure": [],
@@ -8493,7 +8504,7 @@
               "gcp": [
                 {
                   "name": "Looker documentation",
-                  "link": "https://docs.cloud.google.com/looker/docs/2608",
+                  "link": "https://docs.cloud.google.com/looker/docs/2620",
                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
                 }
@@ -11543,6 +11554,7 @@
         ],
         "mappedUnderOtherCategory": [
           "API Gateway",
+          "Apigee",
           "Cloud Endpoints",
           "Cloud Scheduler",
           "Cloud Tasks",
@@ -11796,7 +11808,6 @@
         "mappedUnderOtherCategory": [
           "API Management",
           "App Service",
-          "Azure AI Search",
           "Azure Communication Services",
           "Azure Container Apps",
           "Azure Content Delivery Network",
@@ -12946,7 +12957,8 @@
           }
         ],
         "mappedUnderOtherCategory": [
-          "AWS App Studio"
+          "AWS App Studio",
+          "AWS assistant"
         ]
       },
       "azure": {
@@ -13390,7 +13402,6 @@
           }
         ],
         "mappedUnderOtherCategory": [
-          "Azure AI Search",
           "Azure Databricks",
           "Azure Open Datasets"
         ]
@@ -14384,6 +14395,7 @@
           }
         ],
         "mappedUnderOtherCategory": [
+          "AWS Assurance",
           "AWS Console Mobile Application",
           "AWS Tools for PowerShell",
           "Amazon EC2 Auto Scaling"

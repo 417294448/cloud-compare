@@ -1,0 +1,652 @@
+============================================================
+操作: AWS 产品目录抓取
+文件: products-aws.json
+时间: 2026-11-06T15:04:43
+
+变更摘要:
+  新增产品（2 个）: AWS Assurance, AWS assistant
+  产品总数: 311 -> 313
+  抓取日期: 2026-10-30 -> 2026-11-06
+--- products-aws.json
++++ products-aws.json
+@@ -1,8 +1,8 @@
+ {
+   "source": "https://docs.aws.amazon.com/",
+   "module": "Product guides & references",
+-  "fetchedAt": "2026-10-30",
+-  "totalProducts": 311,
++  "fetchedAt": "2026-11-06",
++  "totalProducts": 313,
+   "products": [
+     {
+       "name": "Agent Toolkit for AWS",
+@@ -1140,6 +1140,24 @@
+       "description": "On-demand access to AWS compliance reports",
+       "link": "https://docs.aws.amazon.com/artifact/",
+       "id": "artifact"
++    },
++    {
++      "name": "AWS assistant",
++      "categories": [
++        "Machine Learning"
++      ],
++      "description": "Get answers about your AWS resources, costs, and errors as you work",
++      "link": "https://docs.aws.amazon.com/assistant/",
++      "id": "Assistant"
++    },
++    {
++      "name": "AWS Assurance",
++      "categories": [
++        "Management & Governance"
++      ],
++      "description": "Automated compliance readiness assessment for AWS workloads",
++      "link": "https://docs.aws.amazon.com/assurance/",
++      "id": "assurance"
+     },
+     {
+       "name": "AWS Audit Manager",
+
+============================================================
+操作: Azure 产品目录抓取
+文件: products-azure.json
+时间: 2026-11-06T15:04:55
+
+变更摘要:
+  下线/移除产品（1 个）: Azure AI Search
+  产品总数: 205 -> 204
+  抓取日期: 2026-10-30 -> 2026-11-06
+--- products-azure.json
++++ products-azure.json
+@@ -1,8 +1,8 @@
+ {
+   "source": "https://azure.microsoft.com/en-us/products",
+   "module": "Browse all Azure products (by category)",
+-  "fetchedAt": "2026-10-30",
+-  "totalProducts": 205,
++  "fetchedAt": "2026-11-06",
++  "totalProducts": 204,
+   "products": [
+     {
+       "name": "AI Anomaly Detector",
+@@ -112,17 +112,6 @@
+       "id": "ai-immersive-reader"
+     },
+     {
+-      "name": "Azure AI Search",
+-      "categories": [
+-        "AI + machine learning",
+-        "Mobile",
+-        "Web"
+-      ],
+-      "description": "Connect agents to one unified context layer for data sources, memory and retrieval-augmented generation (RAG) pipelines.",
+-      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
+-      "id": "ai-search"
+-    },
+-    {
+       "name": "Azure AI Video Indexer",
+       "categories": [
+         "AI + machine learning"
+@@ -1742,6 +1731,7 @@
+       "name": "Notification Hubs",
+       "categories": [
+         "Internet of Things",
++        "Mobile",
+         "Web"
+       ],
+       "description": "Send push notifications to any platform from any back end.",
+
+============================================================
+操作: GCP 产品目录抓取
+文件: products-gcp.json
+时间: 2026-11-06T15:05:01
+
+变更摘要:
+  新增产品（1 个）: Apigee
+  产品总数: 217 -> 218
+  抓取日期: 2026-10-30 -> 2026-11-06
+--- products-gcp.json
++++ products-gcp.json
+@@ -1,8 +1,8 @@
+ {
+   "source": "https://docs.cloud.google.com/",
+   "module": "Google Cloud product catalog",
+-  "fetchedAt": "2026-10-30",
+-  "totalProducts": 217,
++  "fetchedAt": "2026-11-06",
++  "totalProducts": 218,
+   "products": [
+     {
+       "name": "Access Approval",
+@@ -52,8 +52,8 @@
+     {
+       "name": "Agent observability",
+       "categories": [
+-        "Security",
+-        "Observability and monitoring"
++        "Observability and monitoring",
++        "Security"
+       ],
+       "description": "Learn how Google Cloud supports agent observability.",
+       "link": "https://docs.cloud.google.com/stackdriver/docs/observability/agent-observability",
+@@ -99,8 +99,8 @@
+     {
+       "name": "AI Hypercomputer",
+       "categories": [
+-        "AI and ML",
+-        "Compute"
++        "Compute",
++        "AI and ML"
+       ],
+       "description": "An integrated system of performance-optimized hardware, open software, leading ML frameworks, and flexible consumption models.",
+       "link": "https://docs.cloud.google.com/ai-hypercomputer/docs",
+@@ -127,8 +127,8 @@
+     {
+       "name": "Anti Money Laundering AI",
+       "categories": [
+-        "AI and ML",
+-        "Industry solutions"
++        "Industry solutions",
++        "AI and ML"
+       ],
+       "description": "An ML engine which takes customer data and training labels to create a tailored model covering an extensible typology of risks for AML.",
+       "link": "https://docs.cloud.google.com/financial-services/anti-money-laundering/docs",
+@@ -147,11 +147,20 @@
+       "name": "API Keys API Documentation",
+       "categories": [
+         "Application development",
+-        "Cross-product",
+-        "Security"
++        "Security",
++        "Cross-product"
+       ],
+       "description": "Manages the API keys associated with developer projects.",
+       "link": "https://docs.cloud.google.com/api-keys/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Apigee",
++      "categories": [
++        "Application development"
++      ],
++      "description": "Apigee, part of Google Cloud, helps leading companies design, secure and scale application programming interfaces.",
++      "link": "https://docs.cloud.google.com/apigee/docs",
+       "id": "docs"
+     },
+     {
+@@ -358,8 +367,8 @@
+     {
+       "name": "Certificate Manager",
+       "categories": [
+-        "Security",
+-        "Networking"
++        "Networking",
++        "Security"
+       ],
+       "description": "Enables centralized management of SSL certificates for Cloud Load Balancing.",
+       "link": "https://docs.cloud.google.com/certificate-manager/docs",
+@@ -588,20 +597,20 @@
+     {
+       "name": "Cloud Logging",
+       "categories": [
++        "Security",
++        "Networking",
++        "Observability and monitoring"
++      ],
++      "description": "A fully managed service that allows you to store, search, analyze, monitor, and alert on logging data.",
++      "link": "https://docs.cloud.google.com/logging/docs",
++      "id": "docs"
++    },
++    {
++      "name": "Cloud Monitoring",
++      "categories": [
+         "Observability and monitoring",
+         "Networking",
+         "Security"
+-      ],
+-      "description": "A fully managed service that allows you to store, search, analyze, monitor, and alert on logging data.",
+-      "link": "https://docs.cloud.google.com/logging/docs",
+-      "id": "docs"
+-    },
+-    {
+-      "name": "Cloud Monitoring",
+-      "categories": [
+-        "Security",
+-        "Observability and monitoring",
+-        "Networking"
+       ],
+       "description": "Collects metric data and provides tools that let you monitor and visualize how your applications and services are performing.",
+       "link": "https://docs.cloud.google.com/monitoring/docs",
+@@ -819,8 +828,8 @@
+     {
+       "name": "Cloud Vision API",
+       "categories": [
+-        "Industry solutions",
+-        "AI and ML"
++        "AI and ML",
++        "Industry solutions"
+       ],
+       "description": "Easily integrate vision detection features within applications.",
+       "link": "https://docs.cloud.google.com/vision/docs",
+@@ -829,8 +838,8 @@
+     {
+       "name": "Cloud VPN",
+       "categories": [
+-        "Networking",
+-        "Security"
++        "Security",
++        "Networking"
+       ],
+       "description": "Use IPsec VPN tunnels to connect your peer network to your Virtual Private Cloud (VPC) network.",
+       "link": "https://docs.cloud.google.com/network-connectivity/docs/vpn",
+@@ -886,8 +895,8 @@
+     {
+       "name": "Confidential VM",
+       "categories": [
++        "Cross-product",
+         "Compute",
+-        "Cross-product",
+         "Security"
+       ],
+       "description": "Enables encryption of data in use, utilizing advanced security technologies offered by modern CPUs and confidential computing cloud services.",
+@@ -906,8 +915,8 @@
+     {
+       "name": "Config Controller",
+       "categories": [
+-        "Application hosting",
+-        "Distributed, hybrid, and multicloud"
++        "Distributed, hybrid, and multicloud",
++        "Application hosting"
+       ],
+       "description": "Create and manage Google Cloud resources with a declarative, Kubernetes model.",
+       "link": "https://docs.cloud.google.com/kubernetes-engine/config-controller/docs",
+@@ -916,8 +925,8 @@
+     {
+       "name": "Config Sync",
+       "categories": [
+-        "Application hosting",
+-        "Distributed, hybrid, and multicloud"
++        "Distributed, hybrid, and multicloud",
++        "Application hosting"
+       ],
+       "description": "Continuously sync your clusters to a centralized set of configurations stored in Git.",
+       "link": "https://docs.cloud.google.com/kubernetes-engine/config-sync/docs",
+@@ -991,8 +1000,8 @@
+     {
+       "name": "Datastream",
+       "categories": [
+-        "Databases",
+-        "Data analytics"
++        "Data analytics",
++        "Databases"
+       ],
+       "description": "A serverless and easy-to-use change data capture (CDC) and replication service.",
+       "link": "https://docs.cloud.google.com/datastream/docs",
+@@ -1010,9 +1019,9 @@
+     {
+       "name": "Deep Learning VM Images",
+       "categories": [
+-        "AI and ML",
+         "Cross-product",
+-        "Compute"
++        "Compute",
++        "AI and ML"
+       ],
+       "description": "A Compute Engine virtual machine optimized for deep learning applications and high performance computing.",
+       "link": "https://docs.cloud.google.com/deep-learning-vm/docs",
+@@ -1030,8 +1039,8 @@
+     {
+       "name": "Developer Device Platform",
+       "categories": [
++        "AI and ML",
+         "Application development",
+-        "AI and ML",
+         "Cross-product"
+       ],
+       "description": "A next-generation, commercial-grade platform for remote device orchestration.",
+@@ -1105,8 +1114,8 @@
+     {
+       "name": "Error Reporting",
+       "categories": [
+-        "Observability and monitoring",
+-        "Security"
++        "Security",
++        "Observability and monitoring"
+       ],
+       "description": "Aggregate and display errors produced by applications running on Google Cloud.",
+       "link": "https://docs.cloud.google.com/error-reporting/docs",
+@@ -1223,8 +1232,8 @@
+     {
+       "name": "Google Cloud Armor",
+       "categories": [
+-        "Networking",
+-        "Security"
++        "Security",
++        "Networking"
+       ],
+       "description": "Protect your services against denial of service and web attacks using Google’s global infrastructure and security systems.",
+       "link": "https://docs.cloud.google.com/armor/docs",
+@@ -1390,8 +1399,8 @@
+     {
+       "name": "GPU machine types",
+       "categories": [
+-        "Cross-product",
+-        "Compute"
++        "Compute",
++        "Cross-product"
+       ],
+       "description": "Understand instance options available to support GPU-accelerated workloads such as machine learning, data processing, and graphics workloads on Compute Engine.",
+       "link": "https://docs.cloud.google.com/compute/docs/gpus",
+@@ -1487,14 +1496,14 @@
+         "Data analytics"
+       ],
+       "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
+-      "link": "https://docs.cloud.google.com/looker/docs/2608",
+-      "id": "2608"
++      "link": "https://docs.cloud.google.com/looker/docs/2620",
++      "id": "2620"
+     },
+     {
+       "name": "Mainframe Assessment Tool",
+       "categories": [
+-        "Compute",
+-        "Migration"
++        "Migration",
++        "Compute"
+       ],
+       "description": "Automates analysis of legacy mainframe applications to help you migrate them to Google Cloud.",
+       "link": "https://docs.cloud.google.com/mainframe-assessment-tool/docs",
+@@ -1594,9 +1603,9 @@
+     {
+       "name": "Migrate to Containers",
+       "categories": [
++        "Compute",
+         "Migration",
+-        "Application hosting",
+-        "Compute"
++        "Application hosting"
+       ],
+       "description": "Converts VM-based workloads into containers in Google Kubernetes Engine (GKE).",
+       "link": "https://docs.cloud.google.com/migrate/containers/docs",
+@@ -1605,8 +1614,8 @@
+     {
+       "name": "Migrate to Virtual Machines",
+       "categories": [
+-        "Compute",
+-        "Migration"
++        "Migration",
++        "Compute"
+       ],
+       "description": "Purpose-built, enterprise-grade migration to Google Cloud.",
+       "link": "https://docs.cloud.google.com/migrate/virtual-machines/docs/5.0",
+@@ -1661,9 +1670,9 @@
+     {
+       "name": "Oracle on Google Cloud Compute",
+       "categories": [
++        "Cross-product",
+         "Databases",
+-        "Compute",
+-        "Cross-product"
++        "Compute"
+       ],
+       "description": "Run Oracle workloads on Google Cloud.",
+       "link": "https://docs.cloud.google.com/oracle/compute",
+@@ -1755,8 +1764,8 @@
+     {
+       "name": "Secure Web Proxy",
+       "categories": [
+-        "Security",
+-        "Networking"
++        "Networking",
++        "Security"
+       ],
+       "description": "Secure egress HTTP/S traffic with an explicit proxy.",
+       "link": "https://docs.cloud.google.com/secure-web-proxy/docs",
+@@ -1774,8 +1783,8 @@
+     {
+       "name": "Sensitive Data Protection",
+       "categories": [
+-        "Security",
+-        "Data analytics"
++        "Data analytics",
++        "Security"
+       ],
+       "description": "Discover, classify, and de-identify sensitive data inside and outside Google Cloud.",
+       "link": "https://docs.cloud.google.com/sensitive-data-protection/docs",
+@@ -1830,8 +1839,8 @@
+     {
+       "name": "Shielded VM",
+       "categories": [
+-        "Compute",
+-        "Cross-product"
++        "Cross-product",
++        "Compute"
+       ],
+       "description": "Provides verifiable integrity of your Compute Engine VM instances to help defend against rootkits and bootkits.",
+       "link": "https://docs.cloud.google.com/compute/shielded-vm/docs",
+@@ -1896,8 +1905,8 @@
+     {
+       "name": "Transcoder API",
+       "categories": [
++        "Industry solutions",
+         "AI and ML",
+-        "Industry solutions",
+         "Application development"
+       ],
+       "description": "Transcodes videos into modern and next generation formats for broadcasters, production companies, and other media businesses.",
+@@ -1908,8 +1917,8 @@
+       "name": "Transfer Appliance",
+       "categories": [
+         "Data analytics",
+-        "Migration",
+-        "Storage"
++        "Storage",
++        "Migration"
+       ],
+       "description": "Hardware that lets you capture and securely migrate your data to Google Cloud without disrupting business operations.",
+       "link": "https://docs.cloud.google.com/transfer-appliance/docs/4.0/overview",
+@@ -1965,8 +1974,8 @@
+     {
+       "name": "Vision API Product Search",
+       "categories": [
+-        "AI and ML",
+-        "Industry solutions"
++        "Industry solutions",
++        "AI and ML"
+       ],
+       "description": "Enables retailers to create a set of products and of reference images that visually describe the product from a set of viewpoints.",
+       "link": "https://docs.cloud.google.com/vision/product-search/docs",
+@@ -1975,8 +1984,8 @@
+     {
+       "name": "VM Manager",
+       "categories": [
+-        "Compute",
+-        "Cross-product"
++        "Cross-product",
++        "Compute"
+       ],
+       "description": "A suite of tools that can be used to manage operating systems for large virtual machine (VM) fleets running Windows and Linux on Compute Engine.",
+       "link": "https://docs.cloud.google.com/compute/vm-manager/docs",
+@@ -1985,8 +1994,8 @@
+     {
+       "name": "VPC Service Controls",
+       "categories": [
+-        "Networking",
+-        "Security"
++        "Security",
++        "Networking"
+       ],
+       "description": "Define a security perimeter around resources of Google-managed services to control communication between those services.",
+       "link": "https://docs.cloud.google.com/vpc-service-controls/docs",
+
+============================================================
+操作: 阿里云产品目录抓取
+文件: products-alibabacloud.json
+时间: 2026-11-06T15:05:17
+
+变更摘要:
+  抓取日期: 2026-10-30 -> 2026-11-06
+--- products-alibabacloud.json
++++ products-alibabacloud.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://www.alibabacloud.com/en/product",
+   "module": "Alibaba Cloud product catalog",
+-  "fetchedAt": "2026-10-30",
++  "fetchedAt": "2026-11-06",
+   "totalProducts": 165,
+   "products": [
+     {
+@@ -1265,7 +1265,7 @@
+       "categories": [
+         "Artificial Intelligence"
+       ],
+-      "description": "Supercharge Your AI Journey Effortlessly With Industry-Leading GenAI Models",
++      "description": "Model Studio, Alibaba Cloud's model service platform, offers Qwen models with API access, fine-tuning, and dedicated deployment, accelerating enterprise AI adoption.",
+       "link": "https://www.alibabacloud.com/product/modelstudio",
+       "id": "modelstudio"
+     },
+
+============================================================
+操作: 跨云产品映射重建
+文件: product-mapping.json
+时间: 2026-11-06T15:06:46
+
+变更摘要:
+  生成时间: 2026-10-30 -> 2026-11-06
+--- product-mapping.json
++++ product-mapping.json
+@@ -1,6 +1,6 @@
+ {
+   "taxonomy": "aws",
+-  "generatedAt": "2026-10-30",
++  "generatedAt": "2026-11-06",
+   "pilotCategories": [
+     "AWS Management Console",
+     "Analytics",
+@@ -1306,6 +1306,12 @@
+             "link": "https://docs.cloud.google.com/endpoints/docs",
+             "description": "An API management system that helps you secure, monitor, analyze, and set quotas on your APIs.",
+             "description-cn": "一套 API 管理系统，帮助您保护、监控、分析 API 并为其设置配额"
++          },
++          {
++            "name": "Apigee",
++            "link": "https://docs.cloud.google.com/apigee/docs",
++            "description": "Apigee, part of Google Cloud, helps leading companies design, secure and scale application programming interfaces.",
++            "description-cn": "Google Cloud 旗下平台，帮助企业设计、保护并扩展 API。"
+           }
+         ],
+         "alibaba": [
+@@ -2935,7 +2941,7 @@
+           {
+             "name": "Model Studio",
+             "link": "https://www.alibabacloud.com/product/modelstudio",
+-            "description": "Supercharge Your AI Journey Effortlessly With Industry-Leading GenAI Models",
++            "description": "Model Studio, Alibaba Cloud's model service platform, offers Qwen models with API access, fine-tuning, and dedicated deployment, accelerating enterprise AI adoption.",
+             "description-cn": "一站式大模型开发与应用构建平台"
+           }
+         ]
+@@ -3674,6 +3680,12 @@
+             "link": "https://docs.aws.amazon.com/audit-manager/",
+             "description": "Audit your AWS usage to simplify how you assess risk and compliance",
+             "description-cn": "审计你的 AWS 使用情况，简化风险与合规评估"
++          },
++          {
++            "name": "AWS Assurance",
++            "link": "https://docs.aws.amazon.com/assurance/",
++            "description": "Automated compliance readiness assessment for AWS workloads",
++            "description-cn": "自动评估 AWS 工作负载的合规就绪情况"
+           }
+         ],
+         "azure": [],
+@@ -4163,14 +4175,7 @@
+             "description-cn": "托管式搜索服务"
+           }
+         ],
+-        "azure": [
+-          {
+-            "name": "Azure AI Search",
+-            "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
+-            "description": "Connect agents to one unified context layer for data sources, memory and retrieval-augmented generation (RAG) pipelines.",
+-            "description-cn": "为数据源、记忆和检索增强生成（RAG）流水线连接智能体到统一上下文层"
+-          }
+-        ],
++        "azure": [],
+         "gcp": [],
+         "alibaba": [
+           {
+@@ -4181,8 +4186,8 @@
+           }
+         ]
+       },
+-      "notes": "Matches the Search Service row in cloud-compare-en-new.md (document lists Azure Cognitive Search, since renamed/restructured into Azure AI Search under Microsoft's AI Foundry branding). GCP's Cloud Search doesn't appear as a standalone product in products-gcp.json.",
+-      "notes-cn": "对应 cloud-compare-en-new.md 的 Search Service 行（文档给的 Azure Cognitive Search 已经改名重组为 Azure AI Search）。GCP 的 Cloud Search 在 products-gcp.json 里不是独立产品。"
++      "notes": "Matches the Search Service row in cloud-compare-en-new.md. Azure AI Search is no longer listed on the Azure \"Browse all products\" page (its knowledge/RAG capabilities appear folded into the Foundry IQ branding), so the Azure column is left blank. GCP's Cloud Search doesn't appear as a standalone product in products-gcp.json.",
++      "notes-cn": "对应 cloud-compare-en-new.md 的 Search Service 行。Azure AI Search 已从 Azure「Browse all products」页面下线（其知识检索 / RAG 能力看起来已并入 Foundry IQ 品牌），因此 Azure 列留空。GCP 的 Cloud Search 在 products-gcp.json 里不是独立产品。"
+     },
+     {
+       "id": "analytics-data-governance",
+@@ -7794,6 +7799,12 @@
+             "link": "https://docs.aws.amazon.com/amazonq/",
+             "description": "Generative AI-powered assistants",
+             "description-cn": "由生成式 AI 驱动的智能助手"
++          },
++          {
++            "name": "AWS assistant",
++            "link": "https://docs.aws.amazon.com/assistant/",
++            "description": "Get answers about your AWS resources, costs, and errors as you work",
++            "description-cn": "在工作过程中解答有关 AWS 资源、成本和错误的问题"
+           }
+         ],
+         "azure": [],
+@@ -8493,7 +8504,7 @@
+               "gcp": [
+                 {
+                   "name": "Looker documentation",
+-                  "link": "https://docs.cloud.google.com/looker/docs/2608",
++                  "link": "https://docs.cloud.google.com/looker/docs/2620",
+                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
+                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
+                 }
+@@ -11543,6 +11554,7 @@
+         ],
+         "mappedUnderOtherCategory": [
+           "API Gateway",
++          "Apigee",
+           "Cloud Endpoints",
+           "Cloud Scheduler",
+           "Cloud Tasks",
+@@ -11796,7 +11808,6 @@
+         "mappedUnderOtherCategory": [
+           "API Management",
+           "App Service",
+-          "Azure AI Search",
+           "Azure Communication Services",
+           "Azure Container Apps",
+           "Azure Content Delivery Network",
+@@ -12946,7 +12957,8 @@
+           }
+         ],
+         "mappedUnderOtherCategory": [
+-          "AWS App Studio"
++          "AWS App Studio",
++          "AWS assistant"
+         ]
+       },
+       "azure": {
+@@ -13390,7 +13402,6 @@
+           }
+         ],
+         "mappedUnderOtherCategory": [
+-          "Azure AI Search",
+           "Azure Databricks",
+           "Azure Open Datasets"
+         ]
+@@ -14384,6 +14395,7 @@
+           }
+         ],
+         "mappedUnderOtherCategory": [
++          "AWS Assurance",
+           "AWS Console Mobile Application",
+           "AWS Tools for PowerShell",
+           "Amazon EC2 Auto Scaling"
+

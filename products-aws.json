@@ -1,8 +1,8 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-10-30",
-  "totalProducts": 311,
+  "fetchedAt": "2026-11-06",
+  "totalProducts": 313,
   "products": [
     {
       "name": "Agent Toolkit for AWS",
@@ -1140,6 +1140,24 @@
       "description": "On-demand access to AWS compliance reports",
       "link": "https://docs.aws.amazon.com/artifact/",
       "id": "artifact"
+    },
+    {
+      "name": "AWS assistant",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Get answers about your AWS resources, costs, and errors as you work",
+      "link": "https://docs.aws.amazon.com/assistant/",
+      "id": "Assistant"
+    },
+    {
+      "name": "AWS Assurance",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Automated compliance readiness assessment for AWS workloads",
+      "link": "https://docs.aws.amazon.com/assurance/",
+      "id": "assurance"
     },
     {
       "name": "AWS Audit Manager",

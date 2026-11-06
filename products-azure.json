@@ -1,8 +1,8 @@
 {
   "source": "https://azure.microsoft.com/en-us/products",
   "module": "Browse all Azure products (by category)",
-  "fetchedAt": "2026-10-30",
-  "totalProducts": 205,
+  "fetchedAt": "2026-11-06",
+  "totalProducts": 204,
   "products": [
     {
       "name": "AI Anomaly Detector",
@@ -110,17 +110,6 @@
       "description": "Empower users of all ages and abilities to read and comprehend text.",
       "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-immersive-reader/",
       "id": "ai-immersive-reader"
-    },
-    {
-      "name": "Azure AI Search",
-      "categories": [
-        "AI + machine learning",
-        "Mobile",
-        "Web"
-      ],
-      "description": "Connect agents to one unified context layer for data sources, memory and retrieval-augmented generation (RAG) pipelines.",
-      "link": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
-      "id": "ai-search"
     },
     {
       "name": "Azure AI Video Indexer",
@@ -1742,6 +1731,7 @@
       "name": "Notification Hubs",
       "categories": [
         "Internet of Things",
+        "Mobile",
         "Web"
       ],
       "description": "Send push notifications to any platform from any back end.",

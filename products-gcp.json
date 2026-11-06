@@ -1,8 +1,8 @@
 {
   "source": "https://docs.cloud.google.com/",
   "module": "Google Cloud product catalog",
-  "fetchedAt": "2026-10-30",
-  "totalProducts": 217,
+  "fetchedAt": "2026-11-06",
+  "totalProducts": 218,
   "products": [
     {
       "name": "Access Approval",
@@ -52,8 +52,8 @@
     {
       "name": "Agent observability",
       "categories": [
-        "Security",
-        "Observability and monitoring"
+        "Observability and monitoring",
+        "Security"
       ],
       "description": "Learn how Google Cloud supports agent observability.",
       "link": "https://docs.cloud.google.com/stackdriver/docs/observability/agent-observability",
@@ -99,8 +99,8 @@
     {
       "name": "AI Hypercomputer",
       "categories": [
-        "AI and ML",
-        "Compute"
+        "Compute",
+        "AI and ML"
       ],
       "description": "An integrated system of performance-optimized hardware, open software, leading ML frameworks, and flexible consumption models.",
       "link": "https://docs.cloud.google.com/ai-hypercomputer/docs",
@@ -127,8 +127,8 @@
     {
       "name": "Anti Money Laundering AI",
       "categories": [
-        "AI and ML",
-        "Industry solutions"
+        "Industry solutions",
+        "AI and ML"
       ],
       "description": "An ML engine which takes customer data and training labels to create a tailored model covering an extensible typology of risks for AML.",
       "link": "https://docs.cloud.google.com/financial-services/anti-money-laundering/docs",
@@ -147,11 +147,20 @@
       "name": "API Keys API Documentation",
       "categories": [
         "Application development",
-        "Cross-product",
-        "Security"
+        "Security",
+        "Cross-product"
       ],
       "description": "Manages the API keys associated with developer projects.",
       "link": "https://docs.cloud.google.com/api-keys/docs",
+      "id": "docs"
+    },
+    {
+      "name": "Apigee",
+      "categories": [
+        "Application development"
+      ],
+      "description": "Apigee, part of Google Cloud, helps leading companies design, secure and scale application programming interfaces.",
+      "link": "https://docs.cloud.google.com/apigee/docs",
       "id": "docs"
     },
     {
@@ -358,8 +367,8 @@
     {
       "name": "Certificate Manager",
       "categories": [
-        "Security",
-        "Networking"
+        "Networking",
+        "Security"
       ],
       "description": "Enables centralized management of SSL certificates for Cloud Load Balancing.",
       "link": "https://docs.cloud.google.com/certificate-manager/docs",
@@ -588,9 +597,9 @@
     {
       "name": "Cloud Logging",
       "categories": [
-        "Observability and monitoring",
+        "Security",
         "Networking",
-        "Security"
+        "Observability and monitoring"
       ],
       "description": "A fully managed service that allows you to store, search, analyze, monitor, and alert on logging data.",
       "link": "https://docs.cloud.google.com/logging/docs",
@@ -599,9 +608,9 @@
     {
       "name": "Cloud Monitoring",
       "categories": [
-        "Security",
         "Observability and monitoring",
-        "Networking"
+        "Networking",
+        "Security"
       ],
       "description": "Collects metric data and provides tools that let you monitor and visualize how your applications and services are performing.",
       "link": "https://docs.cloud.google.com/monitoring/docs",
@@ -819,8 +828,8 @@
     {
       "name": "Cloud Vision API",
       "categories": [
-        "Industry solutions",
-        "AI and ML"
+        "AI and ML",
+        "Industry solutions"
       ],
       "description": "Easily integrate vision detection features within applications.",
       "link": "https://docs.cloud.google.com/vision/docs",
@@ -829,8 +838,8 @@
     {
       "name": "Cloud VPN",
       "categories": [
-        "Networking",
-        "Security"
+        "Security",
+        "Networking"
       ],
       "description": "Use IPsec VPN tunnels to connect your peer network to your Virtual Private Cloud (VPC) network.",
       "link": "https://docs.cloud.google.com/network-connectivity/docs/vpn",
@@ -886,8 +895,8 @@
     {
       "name": "Confidential VM",
       "categories": [
-        "Compute",
         "Cross-product",
+        "Compute",
         "Security"
       ],
       "description": "Enables encryption of data in use, utilizing advanced security technologies offered by modern CPUs and confidential computing cloud services.",
@@ -906,8 +915,8 @@
     {
       "name": "Config Controller",
       "categories": [
-        "Application hosting",
-        "Distributed, hybrid, and multicloud"
+        "Distributed, hybrid, and multicloud",
+        "Application hosting"
       ],
       "description": "Create and manage Google Cloud resources with a declarative, Kubernetes model.",
       "link": "https://docs.cloud.google.com/kubernetes-engine/config-controller/docs",
@@ -916,8 +925,8 @@
     {
       "name": "Config Sync",
       "categories": [
-        "Application hosting",
-        "Distributed, hybrid, and multicloud"
+        "Distributed, hybrid, and multicloud",
+        "Application hosting"
       ],
       "description": "Continuously sync your clusters to a centralized set of configurations stored in Git.",
       "link": "https://docs.cloud.google.com/kubernetes-engine/config-sync/docs",
@@ -991,8 +1000,8 @@
     {
       "name": "Datastream",
       "categories": [
-        "Databases",
-        "Data analytics"
+        "Data analytics",
+        "Databases"
       ],
       "description": "A serverless and easy-to-use change data capture (CDC) and replication service.",
       "link": "https://docs.cloud.google.com/datastream/docs",
@@ -1010,9 +1019,9 @@
     {
       "name": "Deep Learning VM Images",
       "categories": [
-        "AI and ML",
         "Cross-product",
-        "Compute"
+        "Compute",
+        "AI and ML"
       ],
       "description": "A Compute Engine virtual machine optimized for deep learning applications and high performance computing.",
       "link": "https://docs.cloud.google.com/deep-learning-vm/docs",
@@ -1030,8 +1039,8 @@
     {
       "name": "Developer Device Platform",
       "categories": [
-        "Application development",
         "AI and ML",
+        "Application development",
         "Cross-product"
       ],
       "description": "A next-generation, commercial-grade platform for remote device orchestration.",
@@ -1105,8 +1114,8 @@
     {
       "name": "Error Reporting",
       "categories": [
-        "Observability and monitoring",
-        "Security"
+        "Security",
+        "Observability and monitoring"
       ],
       "description": "Aggregate and display errors produced by applications running on Google Cloud.",
       "link": "https://docs.cloud.google.com/error-reporting/docs",
@@ -1223,8 +1232,8 @@
     {
       "name": "Google Cloud Armor",
       "categories": [
-        "Networking",
-        "Security"
+        "Security",
+        "Networking"
       ],
       "description": "Protect your services against denial of service and web attacks using Google’s global infrastructure and security systems.",
       "link": "https://docs.cloud.google.com/armor/docs",
@@ -1390,8 +1399,8 @@
     {
       "name": "GPU machine types",
       "categories": [
-        "Cross-product",
-        "Compute"
+        "Compute",
+        "Cross-product"
       ],
       "description": "Understand instance options available to support GPU-accelerated workloads such as machine learning, data processing, and graphics workloads on Compute Engine.",
       "link": "https://docs.cloud.google.com/compute/docs/gpus",
@@ -1487,14 +1496,14 @@
         "Data analytics"
       ],
       "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
-      "link": "https://docs.cloud.google.com/looker/docs/2608",
-      "id": "2608"
+      "link": "https://docs.cloud.google.com/looker/docs/2620",
+      "id": "2620"
     },
     {
       "name": "Mainframe Assessment Tool",
       "categories": [
-        "Compute",
-        "Migration"
+        "Migration",
+        "Compute"
       ],
       "description": "Automates analysis of legacy mainframe applications to help you migrate them to Google Cloud.",
       "link": "https://docs.cloud.google.com/mainframe-assessment-tool/docs",
@@ -1594,9 +1603,9 @@
     {
       "name": "Migrate to Containers",
       "categories": [
+        "Compute",
         "Migration",
-        "Application hosting",
-        "Compute"
+        "Application hosting"
       ],
       "description": "Converts VM-based workloads into containers in Google Kubernetes Engine (GKE).",
       "link": "https://docs.cloud.google.com/migrate/containers/docs",
@@ -1605,8 +1614,8 @@
     {
       "name": "Migrate to Virtual Machines",
       "categories": [
-        "Compute",
-        "Migration"
+        "Migration",
+        "Compute"
       ],
       "description": "Purpose-built, enterprise-grade migration to Google Cloud.",
       "link": "https://docs.cloud.google.com/migrate/virtual-machines/docs/5.0",
@@ -1661,9 +1670,9 @@
     {
       "name": "Oracle on Google Cloud Compute",
       "categories": [
+        "Cross-product",
         "Databases",
-        "Compute",
-        "Cross-product"
+        "Compute"
       ],
       "description": "Run Oracle workloads on Google Cloud.",
       "link": "https://docs.cloud.google.com/oracle/compute",
@@ -1755,8 +1764,8 @@
     {
       "name": "Secure Web Proxy",
       "categories": [
-        "Security",
-        "Networking"
+        "Networking",
+        "Security"
       ],
       "description": "Secure egress HTTP/S traffic with an explicit proxy.",
       "link": "https://docs.cloud.google.com/secure-web-proxy/docs",
@@ -1774,8 +1783,8 @@
     {
       "name": "Sensitive Data Protection",
       "categories": [
-        "Security",
-        "Data analytics"
+        "Data analytics",
+        "Security"
       ],
       "description": "Discover, classify, and de-identify sensitive data inside and outside Google Cloud.",
       "link": "https://docs.cloud.google.com/sensitive-data-protection/docs",
@@ -1830,8 +1839,8 @@
     {
       "name": "Shielded VM",
       "categories": [
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "Provides verifiable integrity of your Compute Engine VM instances to help defend against rootkits and bootkits.",
       "link": "https://docs.cloud.google.com/compute/shielded-vm/docs",
@@ -1896,8 +1905,8 @@
     {
       "name": "Transcoder API",
       "categories": [
-        "AI and ML",
         "Industry solutions",
+        "AI and ML",
         "Application development"
       ],
       "description": "Transcodes videos into modern and next generation formats for broadcasters, production companies, and other media businesses.",
@@ -1908,8 +1917,8 @@
       "name": "Transfer Appliance",
       "categories": [
         "Data analytics",
-        "Migration",
-        "Storage"
+        "Storage",
+        "Migration"
       ],
       "description": "Hardware that lets you capture and securely migrate your data to Google Cloud without disrupting business operations.",
       "link": "https://docs.cloud.google.com/transfer-appliance/docs/4.0/overview",
@@ -1965,8 +1974,8 @@
     {
       "name": "Vision API Product Search",
       "categories": [
-        "AI and ML",
-        "Industry solutions"
+        "Industry solutions",
+        "AI and ML"
       ],
       "description": "Enables retailers to create a set of products and of reference images that visually describe the product from a set of viewpoints.",
       "link": "https://docs.cloud.google.com/vision/product-search/docs",
@@ -1975,8 +1984,8 @@
     {
       "name": "VM Manager",
       "categories": [
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "A suite of tools that can be used to manage operating systems for large virtual machine (VM) fleets running Windows and Linux on Compute Engine.",
       "link": "https://docs.cloud.google.com/compute/vm-manager/docs",
@@ -1985,8 +1994,8 @@
     {
       "name": "VPC Service Controls",
       "categories": [
-        "Networking",
-        "Security"
+        "Security",
+        "Networking"
       ],
       "description": "Define a security perimeter around resources of Google-managed services to control communication between those services.",
       "link": "https://docs.cloud.google.com/vpc-service-controls/docs",
