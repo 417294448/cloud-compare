@@ -1,8 +1,8 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-11-06",
-  "totalProducts": 313,
+  "fetchedAt": "2026-11-17",
+  "totalProducts": 316,
   "products": [
     {
       "name": "Agent Toolkit for AWS",
@@ -767,15 +767,6 @@
       "id": "chatbot"
     },
     {
-      "name": "Amazon Quick",
-      "categories": [
-        "Analytics"
-      ],
-      "description": "Fast business analytics service",
-      "link": "https://docs.aws.amazon.com/quick/",
-      "id": "quicksight"
-    },
-    {
       "name": "Amazon Redshift",
       "categories": [
         "Analytics"
@@ -1020,6 +1011,15 @@
       "description": "Scalable, open-source deep learning framework",
       "link": "https://docs.aws.amazon.com/mxnet/",
       "id": null
+    },
+    {
+      "name": "AWS Abuse Signal API",
+      "categories": [
+        "General Reference"
+      ],
+      "description": "Programmatically submit and track abuse reports against AWS resources",
+      "link": "https://docs.aws.amazon.com/abuse-signal/",
+      "id": "abuse"
     },
     {
       "name": "AWS Account Management",
@@ -1621,6 +1621,15 @@
       "id": null
     },
     {
+      "name": "AWS Emulator",
+      "categories": [
+        "Developer Tools"
+      ],
+      "description": "Test your code against the AWS APIs locally with no AWS account",
+      "link": "https://docs.aws.amazon.com/emulator/",
+      "id": "Emulator"
+    },
+    {
       "name": "AWS End User Messaging Push",
       "categories": [
         "Business Applications"
@@ -2011,6 +2020,16 @@
       "id": null
     },
     {
+      "name": "AWS MCP Server",
+      "categories": [
+        "Developer Tools",
+        "Machine Learning"
+      ],
+      "description": "Managed, authenticated access to AWS APIs for AI agents",
+      "link": "https://docs.aws.amazon.com/agent-toolkit/latest/userguide/mcp-server.html",
+      "id": "MCPServer"
+    },
+    {
       "name": "AWS Microservice Extractor for .NET",
       "categories": [
         "Developer Tools"
@@ -2146,6 +2165,15 @@
       "description": "Automate management for container and serverless deployments",
       "link": "https://docs.aws.amazon.com/proton/",
       "id": "ARW"
+    },
+    {
+      "name": "AWS Quick",
+      "categories": [
+        "Analytics"
+      ],
+      "description": "Fast business analytics service",
+      "link": "https://docs.aws.amazon.com/quick/",
+      "id": "quicksight"
     },
     {
       "name": "AWS re:Post Private",

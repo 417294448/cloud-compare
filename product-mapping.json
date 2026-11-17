@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-11-06",
+  "generatedAt": "2026-11-17",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -4746,7 +4746,7 @@
       "products": {
         "aws": [
           {
-            "name": "Amazon Quick",
+            "name": "AWS Quick",
             "link": "https://docs.aws.amazon.com/quick/",
             "description": "Fast business analytics service",
             "description-cn": "快速的商业分析服务"
@@ -4783,8 +4783,8 @@
           }
         ]
       },
-      "notes": "AWS's product was renamed from \"Amazon QuickSight\" to \"Amazon Quick\"; GCP's is Looker rather than the cloud-compare-en-new.md-listed \"Looker Studio\", which doesn't appear under that name in products-gcp.json.",
-      "notes-cn": "AWS 这个产品是从「Amazon QuickSight」改名成「Amazon Quick」的；GCP 一侧用的是 Looker，不是 cloud-compare-en-new.md 里写的「Looker Studio」（后者在 products-gcp.json 里查不到这个名字）。"
+      "notes": "AWS's product was renamed from \"Amazon QuickSight\" to \"Amazon Quick\" and now to \"AWS Quick\"; GCP's is Looker rather than the cloud-compare-en-new.md-listed \"Looker Studio\", which doesn't appear under that name in products-gcp.json.",
+      "notes-cn": "AWS 这个产品先后从「Amazon QuickSight」改名成「Amazon Quick」，现又改名为「AWS Quick」；GCP 一侧用的是 Looker，不是 cloud-compare-en-new.md 里写的「Looker Studio」（后者在 products-gcp.json 里查不到这个名字）。"
     },
     {
       "id": "analytics-data-sharing",
@@ -10663,6 +10663,29 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
+            "id": "unmapped-aws-aws-emulator",
+            "category": "Developer Tools",
+            "category-cn": "开发者工具",
+            "name": "AWS Emulator",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS Emulator",
+                  "link": "https://docs.aws.amazon.com/emulator/",
+                  "description": "Test your code against the AWS APIs locally with no AWS account",
+                  "description-cn": "无需 AWS 账户即可在本地测试针对 AWS API 的代码"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
             "id": "unmapped-aws-aws-fault-injection-service",
             "category": "Developer Tools",
             "category-cn": "开发者工具",
@@ -10699,6 +10722,29 @@
                   "link": "https://docs.aws.amazon.com/infrastructure-composer/",
                   "description": "Design and build your modern infrastructure through a visual builder",
                   "description-cn": "通过可视化构建器设计并构建现代基础设施"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-aws-aws-mcp-server",
+            "category": "Developer Tools",
+            "category-cn": "开发者工具",
+            "name": "AWS MCP Server",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS MCP Server",
+                  "link": "https://docs.aws.amazon.com/agent-toolkit/latest/userguide/mcp-server.html",
+                  "description": "Managed, authenticated access to AWS APIs for AI agents",
+                  "description-cn": "为 AI 代理提供托管的、经过身份认证的 AWS API 访问"
                 }
               ],
               "azure": [],
@@ -11844,7 +11890,31 @@
     },
     "General Reference": {
       "aws": {
-        "trulyUnmapped": [],
+        "trulyUnmapped": [
+          {
+            "id": "unmapped-aws-aws-abuse-signal-api",
+            "category": "General Reference",
+            "category-cn": "通用参考",
+            "name": "AWS Abuse Signal API",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS Abuse Signal API",
+                  "link": "https://docs.aws.amazon.com/abuse-signal/",
+                  "description": "Programmatically submit and track abuse reports against AWS resources",
+                  "description-cn": "以编程方式提交并跟踪针对 AWS 资源的滥用报告"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          }
+        ],
         "mappedUnderOtherCategory": []
       },
       "azure": {
@@ -12601,6 +12671,29 @@
                   "link": "https://docs.aws.amazon.com/omics/",
                   "description": "Transform omics data into insights",
                   "description-cn": "将组学数据转化为洞察"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
+            "id": "unmapped-aws-aws-mcp-server",
+            "category": "Machine Learning",
+            "category-cn": "机器学习",
+            "name": "AWS MCP Server",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS MCP Server",
+                  "link": "https://docs.aws.amazon.com/agent-toolkit/latest/userguide/mcp-server.html",
+                  "description": "Managed, authenticated access to AWS APIs for AI agents",
+                  "description-cn": "为 AI 代理提供托管的、经过身份认证的 AWS API 访问"
                 }
               ],
               "azure": [],
