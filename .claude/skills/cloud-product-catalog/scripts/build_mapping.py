@@ -404,7 +404,7 @@ DESCRIPTION_CN = {
         "Amazon Managed Service for Apache Flink": "使用 Apache Flink 处理和分析流数据",
         "Amazon Managed Streaming for Apache Kafka": "全托管的 Apache Kafka 服务",
         "Amazon OpenSearch Service": "在 AWS 云中部署、运行和扩展 OpenSearch 集群",
-        "Amazon Quick": "快速的商业分析服务",
+        "AWS Quick": "快速的商业分析服务",
         "Amazon Redshift": "快速、简单、经济高效的数据仓库服务",
         "Amazon SageMaker": "涵盖全部数据、分析与 AI 能力的统一中心",
         "AWS Clean Rooms": "无需共享原始数据即可协作分析集体数据集",
@@ -537,6 +537,9 @@ DESCRIPTION_CN = {
         "AWS Microservice Extractor for .NET": "减少将大型应用改造为微服务的时间与工作量",
         "AWS Toolkit for Microsoft Azure DevOps": "面向托管及本地 Microsoft Azure DevOps 的扩展",
         "Agent Toolkit for AWS": "为 AI 编码代理在 AWS 上构建、部署、管理应用提供工具与护栏",
+        "AWS Abuse Signal API": "以编程方式提交并跟踪针对 AWS 资源的滥用报告",
+        "AWS Emulator": "无需 AWS 账户即可在本地测试针对 AWS API 的代码",
+        "AWS MCP Server": "为 AI 代理提供托管的、经过身份认证的 AWS API 访问",
         "Kiro": "基于规格驱动开发的 AI 编码工具",
         "Porting Assistant for .NET": "将 Microsoft .NET Framework 应用移植到 .NET Core",
         "SDKs and Tools Reference Guide": "查找适用于多个 SDK 和工具的信息参考指南",
@@ -3651,19 +3654,19 @@ GROUPS = [
         "name-cn": "商业智能与数据可视化",
         "confidence": "high",
         "products": {
-            "aws": ["Amazon Quick"],
+            "aws": ["AWS Quick"],
             "azure": ["Power BI"],
             "gcp": ["Looker"],
             "alibaba": ["Quick BI", "DataV"],
         },
         "notes": "AWS's product was renamed from \"Amazon QuickSight\" to "
-        "\"Amazon Quick\"; GCP's is Looker rather than the "
-        "cloud-compare-en-new.md-listed \"Looker Studio\", which doesn't "
-        "appear under that name in products-gcp.json.",
-        "notes-cn": "AWS 这个产品是从「Amazon QuickSight」改名成"
-        "「Amazon Quick」的；GCP 一侧用的是 Looker，不是 "
-        "cloud-compare-en-new.md 里写的「Looker Studio」（后者在 "
-        "products-gcp.json 里查不到这个名字）。",
+        "\"Amazon Quick\" and now to \"AWS Quick\"; GCP's is Looker rather "
+        "than the cloud-compare-en-new.md-listed \"Looker Studio\", which "
+        "doesn't appear under that name in products-gcp.json.",
+        "notes-cn": "AWS 这个产品先后从「Amazon QuickSight」改名成"
+        "「Amazon Quick」，现又改名为「AWS Quick」；GCP 一侧用的是 "
+        "Looker，不是 cloud-compare-en-new.md 里写的「Looker Studio」"
+        "（后者在 products-gcp.json 里查不到这个名字）。",
     },
     {
         "id": "analytics-data-sharing",
