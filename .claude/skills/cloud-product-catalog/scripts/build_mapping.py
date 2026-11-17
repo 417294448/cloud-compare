@@ -308,7 +308,6 @@ DESCRIPTION_CN = {
         "Amazon EC2 Auto Scaling": "根据需求自动扩缩多种资源",
         "AWS Serverless Application Model": "在 AWS 上构建无服务器应用",
         "AWS Serverless Application Repository": "发现、部署和发布无服务器应用",
-        "Serverless": "AWS 云上无服务器核心概念与服务简介",
         "AWS SDK for .NET": "使用 .NET 专属 API 和库开发应用程序",
         "AWS SDK for C++": "使用 C++ 专属 API 开发应用程序",
         "AWS SDK for Go": "使用 Go 专属 API 和库开发应用程序",
@@ -377,6 +376,7 @@ DESCRIPTION_CN = {
         "Amazon Verified Permissions": "面向自定义应用的权限管理与授权",
         "AWS Artifact": "按需访问 AWS 合规报告",
         "AWS Audit Manager": "审计你的 AWS 使用情况，简化风险与合规评估",
+        "AWS Assurance": "自动评估 AWS 工作负载的合规就绪情况",
         "AWS Certificate Manager": "预配、管理和部署 SSL/TLS 证书",
         "AWS Private Certificate Authority": "创建私有证书以标识资源并保护数据",
         "AWS CloudHSM": "基于硬件的密钥存储，满足合规要求",
@@ -384,10 +384,12 @@ DESCRIPTION_CN = {
         "AWS Secrets Manager": "轮换、管理和检索密钥",
         "AWS Firewall Manager": "只需几步即可跨 VPC 部署网络安全",
         "AWS Network Firewall": "只需几步即可跨 Amazon VPC 部署网络安全",
+        "AWS Network Security Manager": "定义并部署网络安全防护",
         "AWS Shield": "DDoS 防护",
         "AWS WAF": "过滤恶意 Web 流量",
         "AWS Resource Access Manager": "简单、安全地共享 AWS 资源",
         "AWS Payment Cryptography": "全托管的支付加密服务",
+        "AWS Continuum": "在整个软件生命周期中发现、排序、验证并修复安全风险",
         "AWS Security Incident Response": "帮助你应对安全事件并获得 CIRT 协助",
         "AWS GovCloud (US)": "将敏感工作负载迁移到云端",
         "Amazon Cloud Directory": "存储数亿个应用专属对象",
@@ -402,7 +404,7 @@ DESCRIPTION_CN = {
         "Amazon Managed Service for Apache Flink": "使用 Apache Flink 处理和分析流数据",
         "Amazon Managed Streaming for Apache Kafka": "全托管的 Apache Kafka 服务",
         "Amazon OpenSearch Service": "在 AWS 云中部署、运行和扩展 OpenSearch 集群",
-        "Amazon Quick": "快速的商业分析服务",
+        "AWS Quick": "快速的商业分析服务",
         "Amazon Redshift": "快速、简单、经济高效的数据仓库服务",
         "Amazon SageMaker": "涵盖全部数据、分析与 AI 能力的统一中心",
         "AWS Clean Rooms": "无需共享原始数据即可协作分析集体数据集",
@@ -510,6 +512,7 @@ DESCRIPTION_CN = {
         "AWS re:Post Private": "为组织内部云社区构建专属知识库",
         "AWS Training and Certification": "探索 AWS 学习资源",
         "Amazon Q": "由生成式 AI 驱动的智能助手",
+        "AWS assistant": "在工作过程中解答有关 AWS 资源、成本和错误的问题",
         "AWS Console Mobile Application": "随时随地查看和管理资源以支持事件响应",
         "AWS Sign-In": "登录与登出账户的相关帮助",
         "AWS Flat-Rate Plans": "为集成的 AWS 服务包提供简化计费",
@@ -526,12 +529,17 @@ DESCRIPTION_CN = {
         "Research and Engineering Studio on AWS": "创建并管理面向科研协作的门户",
         "Amazon Connect Decisions": "面向供应链规划与决策的自适应智能解决方案",
         "Amazon Connect Health": "围绕医疗服务提供者构建的医疗智能体 AI",
+        "Amazon Connect Talent": "面向招聘人员的 AI 驱动招聘与候选人评估",
         "AWS Cloud Development Kit (AWS CDK)": "使用熟悉的编程语言定义云基础设施",
+        "AWS Coding Plugin for SAP ABAP": "由 Kiro 驱动的 SAP ABAP 语言智能体开发",
         "AWS Fault Injection Service": "通过受控实验提升应用的韧性与性能",
         "AWS Infrastructure Composer": "通过可视化构建器设计并构建现代基础设施",
         "AWS Microservice Extractor for .NET": "减少将大型应用改造为微服务的时间与工作量",
         "AWS Toolkit for Microsoft Azure DevOps": "面向托管及本地 Microsoft Azure DevOps 的扩展",
         "Agent Toolkit for AWS": "为 AI 编码代理在 AWS 上构建、部署、管理应用提供工具与护栏",
+        "AWS Abuse Signal API": "以编程方式提交并跟踪针对 AWS 资源的滥用报告",
+        "AWS Emulator": "无需 AWS 账户即可在本地测试针对 AWS API 的代码",
+        "AWS MCP Server": "为 AI 代理提供托管的、经过身份认证的 AWS API 访问",
         "Kiro": "基于规格驱动开发的 AI 编码工具",
         "Porting Assistant for .NET": "将 Microsoft .NET Framework 应用移植到 .NET Core",
         "SDKs and Tools Reference Guide": "查找适用于多个 SDK 和工具的信息参考指南",
@@ -558,6 +566,7 @@ DESCRIPTION_CN = {
         "AWS AppConfig": "快速将应用配置部署到任意规模的应用",
         "AWS Command Line Interface": "管理 AWS 服务的命令行工具",
         "AWS Compute Optimizer": "识别最优的 AWS 计算资源",
+        "AWS Events API": "浏览并预订 AWS 活动场次，管理你的日程",
         "AWS DevOps Agent": "解决并主动预防 AWS 故障的 AI 智能体",
         "AWS Launch Wizard": "在 AWS 上轻松调整、配置和部署第三方应用",
         "AWS Proton": "自动化管理容器和无服务器部署",
@@ -568,6 +577,7 @@ DESCRIPTION_CN = {
         "AWS Systems Manager Incident Manager": "缓解并恢复影响 AWS 上托管应用的事件",
         "AWS Telco Network Builder": "自动化部署和管理 AWS 上的电信网络",
         "AWS User Notifications": "统一各 AWS 服务的通知体验",
+        "AWS Well-Architected Agent": "由 AI 驱动的云优化服务",
         "AWS Well-Architected Tool": "审查和改进工作负载",
         "Amazon Data Lifecycle Manager": "自动化管理 Amazon EBS 快照和基于 EBS 的 AMI",
         "Amazon Q Developer in chat applications": "AWS 的 ChatOps",
@@ -643,7 +653,6 @@ DESCRIPTION_CN = {
         "Azure AI Bot Service": "创建机器人并跨渠道连接",
         "Azure Vision in Foundry Tools": "通过图像和视频分析探索视觉 AI",
         "Azure AI Custom Vision": "轻松为你的独特场景定制最先进的计算机视觉模型",
-        "Azure AI Personalizer": "为每位用户提供个性化、相关的体验",
         "Azure Document Intelligence in Foundry Tools": "加速从文档中提取信息",
         "Azure Machine Learning": "使用企业级服务支持端到端的机器学习生命周期",
         "Azure Translator in Foundry Tools": "通过即时的 AI 翻译打破语言障碍",
@@ -658,7 +667,6 @@ DESCRIPTION_CN = {
         "Azure DDoS Protection": "保护你的 Azure 资源免受分布式拒绝服务（DDoS）攻击",
         "Azure Web Application Firewall": "一项云原生 Web 应用防火墙（WAF）服务，为 Web 应用提供强大防护",
         "Azure Synapse Analytics": "洞察时效无与伦比的无限分析",
-        "Azure AI Search": "为数据源、记忆和检索增强生成（RAG）流水线连接智能体到统一上下文层",
         "Microsoft Purview": "治理、保护和管理你的数据资产",
         "HDInsight": "预配云上的 Hadoop、Spark、R Server、HBase 和 Storm 集群",
         "Azure Data Factory": "轻松实现企业级混合数据集成",
@@ -675,6 +683,7 @@ DESCRIPTION_CN = {
         "Azure Virtual Network": "在云中创建你自己的私有网络基础设施",
         "Azure VPN Gateway": "建立安全的跨本地连接",
         "Azure ExpressRoute": "体验快速、可靠的 Azure 专用连接",
+        "Azure Multicloud Interconnect": "连接你的 Azure 环境与其他云服务提供商",
         "Azure Enclave": "为具有严苛合规要求的敏感工作负载提供安全的云环境。",
         "Azure Front Door": "面向全球用户提供优化体验的现代云 CDN",
         "Azure Private Link": "私密访问托管在 Azure 平台上的服务，让数据始终留在微软网络内",
@@ -702,7 +711,6 @@ DESCRIPTION_CN = {
         "Azure DevTest Labs": "使用可复用的模板与制品快速创建环境",
         "AI Anomaly Detector": "在应用中轻松加入异常检测能力。",
         "Azure AI Immersive Reader": "帮助各年龄段和不同能力的用户阅读并理解文本。",
-        "Azure AI Metrics Advisor": "监控指标并诊断问题的 AI 服务。",
         "Azure AI Video Indexer": "借助媒体 AI 从音频和视频文件中提取有价值的洞察。",
         "Azure Content Understanding in Foundry Tools": "加速多模态 AI 智能体的开发。",
         "Azure SRE Agent": "通过自主事件缓解与资源优化智能体，自动化重复任务并改进事件响应。",
@@ -722,6 +730,7 @@ DESCRIPTION_CN = {
         "Phi open models": "一系列低成本、低延迟、性能出色的小型语言模型（SLM）。",
         "Azure Analysis Services": "企业级分析引擎即服务。",
         "Azure Chaos Studio": "通过故障注入模拟中断，提升应用韧性。",
+        "Azure Infrastructure Resiliency Manager": "定义、验证并达成基础设施韧性目标。",
         "Data Catalog": "从企业数据资产中获取更多价值。",
         "Event Hubs": "接收来自数百万台设备的遥测数据。",
         "Microsoft Fabric": "在统一的 AI 驱动平台上连接所有数据源与分析服务，重塑数据访问、管理与洞察。",
@@ -789,13 +798,18 @@ DESCRIPTION_CN = {
     "gcp": {
         "Compute Engine": "一项让您能够在 Google 基础设施上创建和运行虚拟机的计算与托管服务",
         "App Engine": "让用户能够在 Google 基础设施上构建和托管 Web 应用",
+        "App Topology": "关联数据，以便解答有关资源健康状况、性能和安全状况的问题",
         "Batch": "全托管的批处理服务，可大规模调度、排队和执行作业",
         "Cluster Toolkit": "Google 提供的开源软件，可轻松在 Google Cloud 上部署高性能计算（HPC）环境",
         "Cluster Director documentation": "了解 Cluster Director，一项简化部署和管理 AI 或 HPC 优化集群的托管服务",
-        "Google Distributed Cloud": "将 Google Cloud 基础设施和服务扩展到边缘的全托管软硬件解决方案",
         "Google Distributed Cloud connected": "在客户本地部署的专用硬件上执行 Kubernetes 工作负载",
-        "Google Distributed Cloud (software only) for bare metal": "在使用 Google Cloud 功能的同时，在自有本地环境中创建、管理和升级 GKE 集群，并大规模部署和运行容器化应用",
-        "Google Distributed Cloud (software only) for VMware": "为本地容器化应用预配并管理底层资源",
+        "Google Distributed Cloud software only for bare metal": "在使用 Google Cloud 功能的同时，在自有本地环境中创建、管理和升级 GKE 集群，并大规模部署和运行容器化应用",
+        "Google Distributed Cloud software only for VMware": "为本地容器化应用预配并管理底层资源",
+        "Cloud FTP": "全托管的云端解决方案，通过 SSH 文件传输协议（SFTP）安全地在 Cloud Storage 中存取数据",
+        "Developer Device Platform": "面向远程设备编排的新一代商用级平台",
+        "Gemini on Google Distributed Cloud connected API documentation": "在专用且由 Google 托管的硬件上部署并托管私有 Gemini 基础模型",
+        "Google Cloud Data Agent Kit documentation": "IDE 扩展与插件，可在您偏好的 IDE 或智能体中连接并使用 Google Cloud 数据资源",
+        "Orchestration Pipelines": "统一的声明式编排与自动化部署框架，用于在 Google Cloud 上管理数据和 AI 流水线",
         "Google Cloud VMware Engine": "一项让您能够在 Google Cloud 中运行 VMware 平台的全托管服务",
         "Container-Optimized OS": "一款针对运行容器进行优化的 Compute Engine 操作系统镜像",
         "Deep Learning VM Images": "一款针对深度学习应用和高性能计算优化的 Compute Engine 虚拟机",
@@ -809,7 +823,7 @@ DESCRIPTION_CN = {
         "Spanner Omni": "Spanner 的可下载自托管版本（预览版）",
         "Firestore in Native mode": "一款云托管的 NoSQL 数据库，足够简单以支持快速原型开发，同时也足够可扩展和灵活以应对任意规模的增长",
         "Firestore with MongoDB compatibility": "一款云托管的 NoSQL 数据库，足够简单以支持快速原型开发，同时也足够可扩展和灵活以应对任意规模的增长",
-        "Datastore": "一款面向 Web 和移动应用的高可扩展 NoSQL 数据库，自动处理分片和复制",
+        "Firestore in Datastore mode": "一款面向 Web 和移动应用的高可扩展 NoSQL 数据库，自动处理分片和复制",
         "Bigtable": "一项面向大规模分析和运营工作负载的高性能 NoSQL 数据库服务，可在任意规模下提供低延迟和高吞吐量",
         "Memorystore for Redis": "一项 Google Cloud 全托管 Redis 服务，让应用无需承担管理复杂 Redis 部署的负担即可使用高可扩展、高可用、安全的 Redis 服务",
         "Memorystore for Redis Cluster": "一项 Google Cloud 全托管 Redis Cluster 服务，让应用无需承担管理复杂 Redis Cluster 部署的负担即可使用高可扩展、高可用、安全的 Redis 服务",
@@ -918,7 +932,6 @@ DESCRIPTION_CN = {
         "Gemini Enterprise Agent Platform": "面向平台与安全管理员的中央控制台，用于构建、扩展、监控和治理 AI Agent 全生命周期。",
         "Gemini for Google Cloud": "嵌入 Cloud Console 的大语言模型接口，提供代码辅助、代码生成与对话能力。",
         "Google Cloud Contact Center as a Service": "AI 驱动的一体化联络中心平台，与 CRM 协同提供统一的客户旅程视图。",
-        "Overview of getting inferences on Agent Platform": "使用 Gemini Enterprise Agent Platform 获取在线与批量推理的概览。",
         "TensorFlow Enterprise": "为关键 AI 工作负载提供企业级支持、优化性能与托管服务。",
         "Translation Hub": "面向大批量、多语种文档翻译的自助式翻译服务。",
         "Video Intelligence API": "分析视频内容，检测实体、标记成人内容并识别场景切换。",
@@ -954,6 +967,8 @@ DESCRIPTION_CN = {
         "Google Cloud Cortex Framework": "提供数据集成、处理与可视化的参考架构、预置工具和 ML 模板。",
         "Google Cloud Data Agent Kit extension documentation": "Google Cloud Data Agent Kit IDE 扩展的文档，可在 IDE 中连接并使用云端数据资源。",
         "Introduction to BigQuery migration": "将数据仓库迁移到 BigQuery 的完整解决方案介绍。",
+        "Google Cloud Modernization Hub documentation": "在统一控制台中评估、规划并执行企业应用与大型机现代化改造。",
+        "Google Cloud Modernize documentation": "迁移复杂工作负载、重构遗留架构并自动化云运维。",
         "Looker documentation": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。",
         "Managed Service for Apache Spark": "全托管云服务，以简单、经济的方式运行 Spark 集群。",
         "Manufacturing Data Engine": "端到端解决方案，提供可扩展的工厂到云端数据接入，配置极简。",
@@ -999,7 +1014,6 @@ DESCRIPTION_CN = {
         "Sovereign Controls by Partners": "通过合作伙伴运营的主权控制满足 Google Cloud 的数字主权要求。",
         "Unified Maintenance": "统一管理 Google Cloud 各服务的计划内维护。",
         "Web Risk": "让客户端应用对照 Google 持续更新的不安全网址列表检查 URL。",
-        "Parallelstore": "分布式异步对象存储，提供高带宽和高 IOPS。",
     },
     "alibaba": {
         "ACK One": "提供控制面，管理跨裸金属和云的 Kubernetes 集群",
@@ -1289,10 +1303,9 @@ GROUPS = [
             "aws": ["AWS Outposts"],
             "azure": ["Azure Stack Hub", "Azure Stack Edge"],
             "gcp": [
-                "Google Distributed Cloud",
                 "Google Distributed Cloud connected",
-                "Google Distributed Cloud (software only) for bare metal",
-                "Google Distributed Cloud (software only) for VMware",
+                "Google Distributed Cloud software only for bare metal",
+                "Google Distributed Cloud software only for VMware",
             ],
             "alibaba": ["Apsara Stack", "Alibaba Cloud ZStack", "Hybrid Cloud Storage"],
         },
@@ -1532,7 +1545,7 @@ GROUPS = [
             "gcp": [
                 "Firestore in Native mode",
                 "Firestore with MongoDB compatibility",
-                "Datastore",
+                "Firestore in Datastore mode",
             ],
             "alibaba": ["ApsaraDB for MongoDB"],
         },
@@ -1729,7 +1742,7 @@ GROUPS = [
         "products": {
             "aws": ["Amazon API Gateway"],
             "azure": ["API Management"],
-            "gcp": ["API Gateway", "Cloud Endpoints"],
+            "gcp": ["API Gateway", "Cloud Endpoints", "Apigee"],
             "alibaba": ["API Gateway"],
         },
         "notes": "Azure API Management and GCP API Gateway/Cloud "
@@ -2650,6 +2663,28 @@ GROUPS = [
         "Visualization 行（文档给的 Azure Resource Graph、GCP Asset "
         "Inventory 在这份数据里都查不到对应名字的独立产品）。",
     },
+    {
+        "id": "mgmt-infra-resiliency",
+        "category": "Management & Governance",
+        "name": "Infrastructure Resiliency Management",
+        "name-cn": "基础设施韧性管理",
+        "confidence": "medium",
+        "products": {
+            "aws": ["AWS Resilience Hub"],
+            "azure": ["Azure Infrastructure Resiliency Manager"],
+            "gcp": [],
+        },
+        "notes": "No direct counterpart row in cloud-compare-en-new.md; "
+        "self-defined. Both products assess and validate application / "
+        "infrastructure resiliency against declared goals (AWS Resilience "
+        "Hub against RTO/RPO targets, Azure Infrastructure Resiliency "
+        "Manager against resiliency goals). GCP has no equivalent "
+        "standalone product in this data set.",
+        "notes-cn": "cloud-compare-en-new.md 未单独列出此行，按产品定位"
+        "自拟。两者都针对应用/基础设施韧性做评估与验证（AWS Resilience Hub "
+        "面向 RTO/RPO 目标，Azure Infrastructure Resiliency Manager 面向"
+        "声明的韧性目标）。GCP 在这份数据里没有对应的独立产品。",
+    },
     # ---------------- Machine Learning ----------------
     {
         "id": "ml-foundation-model-service",
@@ -2759,7 +2794,7 @@ GROUPS = [
         "confidence": "medium",
         "products": {
             "aws": ["Amazon Personalize"],
-            "azure": ["Azure AI Personalizer"],
+            "azure": [],
             "gcp": [],
             "alibaba": ["AIRec"],
         },
@@ -2959,7 +2994,7 @@ GROUPS = [
         "name-cn": "漏洞评估",
         "confidence": "medium",
         "products": {
-            "aws": ["Amazon Inspector"],
+            "aws": ["Amazon Inspector", "AWS Continuum"],
             "azure": ["Microsoft Defender for Cloud"],
             "gcp": ["Security Command Center"],
         },
@@ -2967,11 +3002,19 @@ GROUPS = [
         "Center are broad unified security products that also cover "
         "threat detection (sec-threat-detection) — reused here since "
         "neither Azure nor GCP has a separately branded vulnerability-"
-        "scanning-only product in this data set.",
+        "scanning-only product in this data set. AWS Continuum (new in "
+        "the 2026-10-23 refresh) is grouped here because it discovers, "
+        "prioritizes, validates, and remediates security risks across "
+        "the software lifecycle, which is the same vulnerability-"
+        "management positioning as Amazon Inspector, just extended "
+        "beyond running workloads to the whole development lifecycle.",
         "notes-cn": "Microsoft Defender for Cloud 和 Security Command "
         "Center 是覆盖面很广的统一安全产品，威胁检测那组（"
         "sec-threat-detection）也在用——这里复用是因为 Azure/GCP 在这份"
-        "数据里都没有单独品牌化的、只做漏洞扫描的产品。",
+        "数据里都没有单独品牌化的、只做漏洞扫描的产品。AWS Continuum"
+        "（2026-10-23 刷新时新增）归到这一组，是因为它在整个软件生命周期"
+        "中发现、排序、验证并修复安全风险，与 Amazon Inspector 同属漏洞"
+        "管理定位，只是把范围从运行中的工作负载扩展到了完整研发周期。",
     },
     {
         "id": "sec-investigation-siem",
@@ -3046,7 +3089,7 @@ GROUPS = [
         "name-cn": "合规报告与审计",
         "confidence": "medium",
         "products": {
-            "aws": ["AWS Artifact", "AWS Audit Manager"],
+            "aws": ["AWS Artifact", "AWS Audit Manager", "AWS Assurance"],
             "azure": [],
             "gcp": [],
         },
@@ -3300,18 +3343,20 @@ GROUPS = [
         "confidence": "medium",
         "products": {
             "aws": ["Amazon CloudSearch"],
-            "azure": ["Azure AI Search"],
+            "azure": [],
             "gcp": [],
             "alibaba": ["Elasticsearch"],
         },
         "notes": "Matches the Search Service row in "
-        "cloud-compare-en-new.md (document lists Azure Cognitive "
-        "Search, since renamed/restructured into Azure AI Search under "
-        "Microsoft's AI Foundry branding). GCP's Cloud Search doesn't "
+        "cloud-compare-en-new.md. Azure AI Search is no longer listed "
+        "on the Azure \"Browse all products\" page (its knowledge/RAG "
+        "capabilities appear folded into the Foundry IQ branding), so "
+        "the Azure column is left blank. GCP's Cloud Search doesn't "
         "appear as a standalone product in products-gcp.json.",
-        "notes-cn": "对应 cloud-compare-en-new.md 的 Search Service 行"
-        "（文档给的 Azure Cognitive Search 已经改名重组为 Azure AI "
-        "Search）。GCP 的 Cloud Search 在 products-gcp.json 里不是独立"
+        "notes-cn": "对应 cloud-compare-en-new.md 的 Search Service 行。"
+        "Azure AI Search 已从 Azure「Browse all products」页面下线（其"
+        "知识检索 / RAG 能力看起来已并入 Foundry IQ 品牌），因此 Azure "
+        "列留空。GCP 的 Cloud Search 在 products-gcp.json 里不是独立"
         "产品。",
     },
     {
@@ -3588,17 +3633,19 @@ GROUPS = [
         "products": {
             "aws": ["AWS Data Pipeline"],
             "azure": ["Azure Data Factory"],
-            "gcp": ["Cloud Dataflow"],
+            "gcp": ["Cloud Dataflow", "Orchestration Pipelines"],
         },
         "notes": "Azure Data Factory and Cloud Dataflow are reused from "
         "analytics-etl / analytics-stream-processing since neither "
         "vendor has a product distinct from ETL/stream-processing for "
         "this narrower \"periodic pipeline orchestration\" use case that "
-        "AWS Data Pipeline targets.",
+        "AWS Data Pipeline targets. GCP's newer Orchestration Pipelines "
+        "also targets declarative data/AI pipeline orchestration.",
         "notes-cn": "Azure Data Factory 和 Cloud Dataflow 在 "
         "analytics-etl / analytics-stream-processing 分组里也被引用了，"
         "因为两家都没有针对 AWS Data Pipeline 这种「周期性管道编排」窄"
-        "场景的独立产品，用的还是各自的 ETL/流处理产品。",
+        "场景的独立产品，用的还是各自的 ETL/流处理产品。GCP 较新的 "
+        "Orchestration Pipelines 同样面向声明式的数据/AI 流水线编排。",
     },
     {
         "id": "analytics-bi-visualization",
@@ -3607,19 +3654,19 @@ GROUPS = [
         "name-cn": "商业智能与数据可视化",
         "confidence": "high",
         "products": {
-            "aws": ["Amazon Quick"],
+            "aws": ["AWS Quick"],
             "azure": ["Power BI"],
             "gcp": ["Looker"],
             "alibaba": ["Quick BI", "DataV"],
         },
         "notes": "AWS's product was renamed from \"Amazon QuickSight\" to "
-        "\"Amazon Quick\"; GCP's is Looker rather than the "
-        "cloud-compare-en-new.md-listed \"Looker Studio\", which doesn't "
-        "appear under that name in products-gcp.json.",
-        "notes-cn": "AWS 这个产品是从「Amazon QuickSight」改名成"
-        "「Amazon Quick」的；GCP 一侧用的是 Looker，不是 "
-        "cloud-compare-en-new.md 里写的「Looker Studio」（后者在 "
-        "products-gcp.json 里查不到这个名字）。",
+        "\"Amazon Quick\" and now to \"AWS Quick\"; GCP's is Looker rather "
+        "than the cloud-compare-en-new.md-listed \"Looker Studio\", which "
+        "doesn't appear under that name in products-gcp.json.",
+        "notes-cn": "AWS 这个产品先后从「Amazon QuickSight」改名成"
+        "「Amazon Quick」，现又改名为「AWS Quick」；GCP 一侧用的是 "
+        "Looker，不是 cloud-compare-en-new.md 里写的「Looker Studio」"
+        "（后者在 products-gcp.json 里查不到这个名字）。",
     },
     {
         "id": "analytics-data-sharing",
@@ -4415,14 +4462,15 @@ GROUPS = [
         "products": {
             "aws": ["AWS Transfer Family"],
             "azure": ["Azure Files"],
-            "gcp": [],
+            "gcp": ["Cloud FTP"],
         },
         "notes": "Matches the File Transfer row in "
-        "cloud-compare-en-new.md; GCP's Cloud Storage SFTP doesn't "
-        "appear as a standalone product in products-gcp.json.",
-        "notes-cn": "对应 cloud-compare-en-new.md 的 File Transfer 行；"
-        "GCP 的 Cloud Storage SFTP 在 products-gcp.json 里不是独立"
-        "产品。",
+        "cloud-compare-en-new.md (GCP side listed there as Cloud "
+        "Storage SFTP); GCP's managed SFTP offering now appears in "
+        "products-gcp.json as the standalone Cloud FTP product.",
+        "notes-cn": "对应 cloud-compare-en-new.md 的 File Transfer 行"
+        "（文档里 GCP 一侧写的是 Cloud Storage SFTP）；GCP 的托管 "
+        "SFTP 服务现在以 Cloud FTP 独立产品收录在 products-gcp.json。",
     },
     {
         "id": "mig-data-sync",
@@ -5478,7 +5526,7 @@ GROUPS = [
         "name-cn": "生成式 AI 控制台助手",
         "confidence": "medium",
         "products": {
-            "aws": ["Amazon Q"],
+            "aws": ["Amazon Q", "AWS assistant"],
             "azure": [],
             "gcp": [],
         },

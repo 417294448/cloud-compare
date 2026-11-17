@@ -2,3 +2,16 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Claude Code 本地个人配置（权限记录，不应共享，此前仅靠机器级全局 ignore 挡着）
+.claude/settings.local.json
+
+# Trae IDE「分享 HTML」导出的压缩包（内容为已跟踪源文件的压缩副本，无新增信息）
+.trae-html-share-packages/
+
+# 操作系统 / 编辑器临时文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp

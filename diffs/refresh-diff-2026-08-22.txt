@@ -1,0 +1,160 @@
+============================================================
+操作: AWS 产品目录抓取
+文件: products-aws.json
+时间: 2026-08-22T02:09:24
+
+变更摘要:
+  新增产品（1 个）: AWS Assurance
+  产品总数: 307 -> 308
+  抓取日期: 2026-08-14 -> 2026-08-22
+--- products-aws.json
++++ products-aws.json
+@@ -1,8 +1,8 @@
+ {
+   "source": "https://docs.aws.amazon.com/",
+   "module": "Product guides & references",
+-  "fetchedAt": "2026-08-14",
+-  "totalProducts": 307,
++  "fetchedAt": "2026-08-22",
++  "totalProducts": 308,
+   "products": [
+     {
+       "name": "Agent Toolkit for AWS",
+@@ -1133,6 +1133,15 @@
+       "id": "artifact"
+     },
+     {
++      "name": "AWS Assurance",
++      "categories": [
++        "Management & Governance"
++      ],
++      "description": "Automated compliance readiness assessment for AWS workloads",
++      "link": "https://docs.aws.amazon.com/assurance/",
++      "id": "assurance"
++    },
++    {
+       "name": "AWS Audit Manager",
+       "categories": [
+         "Security, Identity, & Compliance"
+@@ -2224,7 +2233,7 @@
+         "Developer Tools"
+       ],
+       "description": "Develop applications with Python-specific APIs and libraries",
+-      "link": "https://docs.aws.amazon.com/pythonsdk/",
++      "link": "https://docs.aws.amazon.com/sdk-for-python/",
+       "id": "Python3"
+     },
+     {
+
+============================================================
+操作: Azure 产品目录抓取
+文件: products-azure.json
+时间: 2026-08-22T02:09:40
+
+变更摘要:
+  抓取日期: 2026-08-14 -> 2026-08-22
+--- products-azure.json
++++ products-azure.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://azure.microsoft.com/en-us/products",
+   "module": "Browse all Azure products (by category)",
+-  "fetchedAt": "2026-08-14",
++  "fetchedAt": "2026-08-22",
+   "totalProducts": 204,
+   "products": [
+     {
+
+============================================================
+操作: 阿里云产品目录抓取
+文件: products-alibabacloud.json
+时间: 2026-08-22T02:13:44
+
+变更摘要:
+  抓取日期: 2026-08-14 -> 2026-08-22
+--- products-alibabacloud.json
++++ products-alibabacloud.json
+@@ -1,7 +1,7 @@
+ {
+   "source": "https://www.alibabacloud.com/en/product",
+   "module": "Alibaba Cloud product catalog",
+-  "fetchedAt": "2026-08-14",
++  "fetchedAt": "2026-08-22",
+   "totalProducts": 165,
+   "products": [
+     {
+
+============================================================
+操作: 跨云产品映射重建
+文件: product-mapping.json
+时间: 2026-08-22T02:14:27
+
+变更摘要:
+  真正未映射产品数: 354 -> 355
+  生成时间: 2026-08-14 -> 2026-08-22
+--- product-mapping.json
++++ product-mapping.json
+@@ -1,6 +1,6 @@
+ {
+   "taxonomy": "aws",
+-  "generatedAt": "2026-08-14",
++  "generatedAt": "2026-08-22",
+   "pilotCategories": [
+     "AWS Management Console",
+     "Analytics",
+@@ -1674,7 +1674,7 @@
+           },
+           {
+             "name": "AWS SDK for Python (Boto3)",
+-            "link": "https://docs.aws.amazon.com/pythonsdk/",
++            "link": "https://docs.aws.amazon.com/sdk-for-python/",
+             "description": "Develop applications with Python-specific APIs and libraries",
+             "description-cn": "使用 Python 专属 API 和库开发应用程序"
+           },
+@@ -13795,6 +13795,29 @@
+             "notes-cn": "尚未找到确认的跨云对应产品。"
+           },
+           {
++            "id": "unmapped-aws-aws-assurance",
++            "category": "Management & Governance",
++            "category-cn": "管理与治理",
++            "name": "AWS Assurance",
++            "name-cn": "",
++            "confidence": "none",
++            "products": {
++              "aws": [
++                {
++                  "name": "AWS Assurance",
++                  "link": "https://docs.aws.amazon.com/assurance/",
++                  "description": "Automated compliance readiness assessment for AWS workloads",
++                  "description-cn": null
++                }
++              ],
++              "azure": [],
++              "gcp": [],
++              "alibaba": []
++            },
++            "notes": "No confirmed cross-cloud counterpart found yet.",
++            "notes-cn": "尚未找到确认的跨云对应产品。"
++          },
++          {
+             "id": "unmapped-aws-aws-command-line-interface",
+             "category": "Management & Governance",
+             "category-cn": "管理与治理",
+
+============================================================
+操作: 跨云产品映射重建
+文件: product-mapping.json
+时间: 2026-08-22T02:15:11
+--- product-mapping.json
++++ product-mapping.json
+@@ -13807,7 +13807,7 @@
+                   "name": "AWS Assurance",
+                   "link": "https://docs.aws.amazon.com/assurance/",
+                   "description": "Automated compliance readiness assessment for AWS workloads",
+-                  "description-cn": null
++                  "description-cn": "自动评估 AWS 工作负载的合规就绪情况"
+                 }
+               ],
+               "azure": [],
+

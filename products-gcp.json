@@ -1,8 +1,8 @@
 {
   "source": "https://docs.cloud.google.com/",
   "module": "Google Cloud product catalog",
-  "fetchedAt": "2026-07-28",
-  "totalProducts": 213,
+  "fetchedAt": "2026-11-06",
+  "totalProducts": 218,
   "products": [
     {
       "name": "Access Approval",
@@ -46,8 +46,8 @@
         "AI and ML"
       ],
       "description": "Use Google ML technology to provide information to human agents while they are interacting with customers.",
-      "link": "https://docs.cloud.google.com/agent-assist/docs",
-      "id": "docs"
+      "link": "https://docs.cloud.google.com/gemini-enterprise-cx/agent-assist",
+      "id": "agent-assist"
     },
     {
       "name": "Agent observability",
@@ -146,9 +146,9 @@
     {
       "name": "API Keys API Documentation",
       "categories": [
-        "Cross-product",
+        "Application development",
         "Security",
-        "Application development"
+        "Cross-product"
       ],
       "description": "Manages the API keys associated with developer projects.",
       "link": "https://docs.cloud.google.com/api-keys/docs",
@@ -184,11 +184,21 @@
     {
       "name": "App Lifecycle Manager",
       "categories": [
-        "Application hosting"
+        "Application hosting",
+        "Application development"
       ],
       "description": "Simplify building, scaling, and operating applications on Google Cloud.",
       "link": "https://docs.cloud.google.com/app-lifecycle-manager",
       "id": "app-lifecycle-manager"
+    },
+    {
+      "name": "App Topology",
+      "categories": [
+        "Cross-product"
+      ],
+      "description": "Correlate data to answer questions about the health, performance, and security posture of your resources.",
+      "link": "https://docs.cloud.google.com/app-topology",
+      "id": "app-topology"
     },
     {
       "name": "Application Design Center",
@@ -357,8 +367,8 @@
     {
       "name": "Certificate Manager",
       "categories": [
-        "Security",
-        "Networking"
+        "Networking",
+        "Security"
       ],
       "description": "Enables centralized management of SSL certificates for Cloud Load Balancing.",
       "link": "https://docs.cloud.google.com/certificate-manager/docs",
@@ -491,6 +501,15 @@
       "id": "ekm"
     },
     {
+      "name": "Cloud FTP",
+      "categories": [
+        "Storage"
+      ],
+      "description": "A managed, cloud-based solution to securely move data in and out of Cloud Storage by using SSH File Transfer Protocol (SFTP).",
+      "link": "https://docs.cloud.google.com/cloud-ftp",
+      "id": "cloud-ftp"
+    },
+    {
       "name": "Cloud Healthcare API",
       "categories": [
         "Industry solutions",
@@ -530,8 +549,8 @@
     {
       "name": "Cloud Interconnect",
       "categories": [
-        "Security",
-        "Networking"
+        "Networking",
+        "Security"
       ],
       "description": "Enterprise-grade connections to your Google Virtual Private Cloud network.",
       "link": "https://docs.cloud.google.com/network-connectivity/docs/interconnect",
@@ -540,8 +559,8 @@
     {
       "name": "Cloud Intrusion Detection System",
       "categories": [
-        "Security",
-        "Networking"
+        "Networking",
+        "Security"
       ],
       "description": "Monitors your networks, and alerts when it detects malicious activity. Powered by Palo Alto Networks.",
       "link": "https://docs.cloud.google.com/intrusion-detection-system/docs",
@@ -590,8 +609,8 @@
       "name": "Cloud Monitoring",
       "categories": [
         "Observability and monitoring",
-        "Security",
-        "Networking"
+        "Networking",
+        "Security"
       ],
       "description": "Collects metric data and provides tools that let you monitor and visualize how your applications and services are performing.",
       "link": "https://docs.cloud.google.com/monitoring/docs",
@@ -809,8 +828,8 @@
     {
       "name": "Cloud Vision API",
       "categories": [
-        "Industry solutions",
-        "AI and ML"
+        "AI and ML",
+        "Industry solutions"
       ],
       "description": "Easily integrate vision detection features within applications.",
       "link": "https://docs.cloud.google.com/vision/docs",
@@ -877,8 +896,8 @@
       "name": "Confidential VM",
       "categories": [
         "Cross-product",
-        "Security",
-        "Compute"
+        "Compute",
+        "Security"
       ],
       "description": "Enables encryption of data in use, utilizing advanced security technologies offered by modern CPUs and confidential computing cloud services.",
       "link": "https://docs.cloud.google.com/confidential-computing/confidential-vm/docs",
@@ -896,8 +915,8 @@
     {
       "name": "Config Controller",
       "categories": [
-        "Application hosting",
-        "Distributed, hybrid, and multicloud"
+        "Distributed, hybrid, and multicloud",
+        "Application hosting"
       ],
       "description": "Create and manage Google Cloud resources with a declarative, Kubernetes model.",
       "link": "https://docs.cloud.google.com/kubernetes-engine/config-controller/docs",
@@ -906,8 +925,8 @@
     {
       "name": "Config Sync",
       "categories": [
-        "Application hosting",
-        "Distributed, hybrid, and multicloud"
+        "Distributed, hybrid, and multicloud",
+        "Application hosting"
       ],
       "description": "Continuously sync your clusters to a centralized set of configurations stored in Git.",
       "link": "https://docs.cloud.google.com/kubernetes-engine/config-sync/docs",
@@ -929,8 +948,8 @@
         "AI and ML"
       ],
       "description": "Help call center managers improve customer interactions by using language processing to identify call drivers and sentiment.",
-      "link": "https://docs.cloud.google.com/contact-center/insights/docs",
-      "id": "docs"
+      "link": "https://docs.cloud.google.com/gemini-enterprise-cx/insights",
+      "id": "insights"
     },
     {
       "name": "Cyber Insurance Hub",
@@ -979,15 +998,6 @@
       "id": "docs"
     },
     {
-      "name": "Datastore",
-      "categories": [
-        "Databases"
-      ],
-      "description": "A highly-scalable NoSQL database for your web and mobile applications that automatically handles sharding and replication.",
-      "link": "https://docs.cloud.google.com/datastore/docs",
-      "id": "docs"
-    },
-    {
       "name": "Datastream",
       "categories": [
         "Data analytics",
@@ -1009,9 +1019,9 @@
     {
       "name": "Deep Learning VM Images",
       "categories": [
-        "AI and ML",
+        "Cross-product",
         "Compute",
-        "Cross-product"
+        "AI and ML"
       ],
       "description": "A Compute Engine virtual machine optimized for deep learning applications and high performance computing.",
       "link": "https://docs.cloud.google.com/deep-learning-vm/docs",
@@ -1025,6 +1035,17 @@
       "description": "Centralized DevOps integration that lets you minimize configuration overhead and enable cross-project collaboration.",
       "link": "https://docs.cloud.google.com/developer-connect/docs",
       "id": "docs"
+    },
+    {
+      "name": "Developer Device Platform",
+      "categories": [
+        "AI and ML",
+        "Application development",
+        "Cross-product"
+      ],
+      "description": "A next-generation, commercial-grade platform for remote device orchestration.",
+      "link": "https://docs.cloud.google.com/developer-device-platform",
+      "id": "developer-device-platform"
     },
     {
       "name": "Device Streaming API documentation",
@@ -1065,8 +1086,8 @@
     {
       "name": "Dual Run",
       "categories": [
-        "Compute",
-        "Migration"
+        "Migration",
+        "Compute"
       ],
       "description": "Simultaneously run workloads on your existing mainframe environment and on Google Cloud, to perform real-time testing and quickly gather data on performance and stability.",
       "link": "https://docs.cloud.google.com/mainframe-dual-run/docs",
@@ -1093,8 +1114,8 @@
     {
       "name": "Error Reporting",
       "categories": [
-        "Observability and monitoring",
-        "Security"
+        "Security",
+        "Observability and monitoring"
       ],
       "description": "Aggregate and display errors produced by applications running on Google Cloud.",
       "link": "https://docs.cloud.google.com/error-reporting/docs",
@@ -1125,6 +1146,15 @@
       ],
       "description": "Create fully-managed NFS file servers on Google Cloud.",
       "link": "https://docs.cloud.google.com/filestore/docs",
+      "id": "docs"
+    },
+    {
+      "name": "Firestore in Datastore mode",
+      "categories": [
+        "Databases"
+      ],
+      "description": "A highly-scalable NoSQL database for your web and mobile applications that automatically handles sharding and replication.",
+      "link": "https://docs.cloud.google.com/datastore/docs",
       "id": "docs"
     },
     {
@@ -1191,10 +1221,19 @@
       "id": "docs"
     },
     {
+      "name": "Gemini on Google Distributed Cloud connected API documentation",
+      "categories": [
+        "Distributed, hybrid, and multicloud"
+      ],
+      "description": "Deploy and serve private Gemini foundation models on dedicated Google-managed hardware connected to your local network.",
+      "link": "https://docs.cloud.google.com/distributed-cloud/gemini-on-gdcc/latest/docs",
+      "id": "docs"
+    },
+    {
       "name": "Google Cloud Armor",
       "categories": [
-        "Networking",
-        "Security"
+        "Security",
+        "Networking"
       ],
       "description": "Protect your services against denial of service and web attacks using Google’s global infrastructure and security systems.",
       "link": "https://docs.cloud.google.com/armor/docs",
@@ -1219,6 +1258,15 @@
       "id": "docs"
     },
     {
+      "name": "Google Cloud Data Agent Kit documentation",
+      "categories": [
+        "Data analytics"
+      ],
+      "description": "An IDE extension and plugin that let you connect to your Google Cloud data resources and work with them using your preferred IDE or agent.",
+      "link": "https://docs.cloud.google.com/data-agent-kit",
+      "id": "data-agent-kit"
+    },
+    {
       "name": "Google Cloud Data Agent Kit extension documentation",
       "categories": [
         "Data analytics"
@@ -1239,19 +1287,37 @@
     {
       "name": "Google Cloud Hyperdisk overview",
       "categories": [
+        "Cross-product",
         "Compute",
-        "Storage",
-        "Cross-product"
+        "Storage"
       ],
       "description": "Learn about Hyperdisk, their capacity and performance limits, regional availability, and machine type support.",
       "link": "https://docs.cloud.google.com/compute/docs/disks/hyperdisks",
       "id": "hyperdisks"
     },
     {
+      "name": "Google Cloud Modernization Hub documentation",
+      "categories": [
+        "Migration"
+      ],
+      "description": "Evaluate, plan, and execute enterprise application and mainframe modernization initiatives from a centralized console experience.",
+      "link": "https://docs.cloud.google.com/modernize/hub",
+      "id": "hub"
+    },
+    {
+      "name": "Google Cloud Modernize documentation",
+      "categories": [
+        "Migration"
+      ],
+      "description": "Migrate complex workloads, refactor legacy architectures, and automate cloud operations.",
+      "link": "https://docs.cloud.google.com/modernize",
+      "id": "modernize"
+    },
+    {
       "name": "Google Cloud Observability",
       "categories": [
-        "Security",
-        "Observability and monitoring"
+        "Observability and monitoring",
+        "Security"
       ],
       "description": "Provides services that help you to understand the behavior, health, and performance of your applications.",
       "link": "https://docs.cloud.google.com/stackdriver/docs",
@@ -1260,8 +1326,8 @@
     {
       "name": "Google Cloud Observability documentation",
       "categories": [
-        "Security",
-        "Observability and monitoring"
+        "Observability and monitoring",
+        "Security"
       ],
       "description": "A set of services that help you understand the behavior, health, and performance of your applications and the systems that they run on.",
       "link": "https://docs.cloud.google.com/stackdriver/docs/observability",
@@ -1277,16 +1343,16 @@
       "id": "docs"
     },
     {
-      "name": "Google Distributed Cloud",
+      "name": "Google Distributed Cloud connected",
       "categories": [
         "Distributed, hybrid, and multicloud"
       ],
-      "description": "Fully managed hardware and software solutions that extend Google Cloud infrastructure and services to the edge.",
-      "link": "https://docs.cloud.google.com/distributed-cloud/docs",
+      "description": "Execute Kubernetes workloads on dedicated hardware running on customer premises.",
+      "link": "https://docs.cloud.google.com/distributed-cloud/connected/latest/docs",
       "id": "docs"
     },
     {
-      "name": "Google Distributed Cloud (software only) for bare metal",
+      "name": "Google Distributed Cloud software only for bare metal",
       "categories": [
         "Distributed, hybrid, and multicloud"
       ],
@@ -1295,21 +1361,12 @@
       "id": "docs"
     },
     {
-      "name": "Google Distributed Cloud (software only) for VMware",
+      "name": "Google Distributed Cloud software only for VMware",
       "categories": [
         "Distributed, hybrid, and multicloud"
       ],
       "description": "Provisions and manages the underlying resources for containerized applications on-premises.",
       "link": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/vmware/docs",
-      "id": "docs"
-    },
-    {
-      "name": "Google Distributed Cloud connected",
-      "categories": [
-        "Distributed, hybrid, and multicloud"
-      ],
-      "description": "Execute Kubernetes workloads on dedicated hardware running on customer premises.",
-      "link": "https://docs.cloud.google.com/distributed-cloud/connected/latest/docs",
       "id": "docs"
     },
     {
@@ -1410,7 +1467,7 @@
         "Data analytics"
       ],
       "description": "A unified, intelligent governance solution for data and AI assets that powers AI, analytics, and business intelligence at scale.",
-      "link": "https://docs.cloud.google.com/dataplex/docs",
+      "link": "https://docs.cloud.google.com/knowledge-catalog/docs",
       "id": "docs"
     },
     {
@@ -1439,14 +1496,14 @@
         "Data analytics"
       ],
       "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
-      "link": "https://docs.cloud.google.com/looker/docs/2606",
-      "id": "2606"
+      "link": "https://docs.cloud.google.com/looker/docs/2620",
+      "id": "2620"
     },
     {
       "name": "Mainframe Assessment Tool",
       "categories": [
-        "Compute",
-        "Migration"
+        "Migration",
+        "Compute"
       ],
       "description": "Automates analysis of legacy mainframe applications to help you migrate them to Google Cloud.",
       "link": "https://docs.cloud.google.com/mainframe-assessment-tool/docs",
@@ -1546,9 +1603,9 @@
     {
       "name": "Migrate to Containers",
       "categories": [
-        "Application hosting",
+        "Compute",
         "Migration",
-        "Compute"
+        "Application hosting"
       ],
       "description": "Converts VM-based workloads into containers in Google Kubernetes Engine (GKE).",
       "link": "https://docs.cloud.google.com/migrate/containers/docs",
@@ -1613,38 +1670,29 @@
     {
       "name": "Oracle on Google Cloud Compute",
       "categories": [
+        "Cross-product",
         "Databases",
-        "Compute",
-        "Cross-product"
+        "Compute"
       ],
       "description": "Run Oracle workloads on Google Cloud.",
       "link": "https://docs.cloud.google.com/oracle/compute",
       "id": "compute"
     },
     {
-      "name": "Overview of getting inferences on Agent Platform",
+      "name": "Orchestration Pipelines",
       "categories": [
-        "AI and ML"
+        "Data analytics"
       ],
-      "description": "Get online and batch inferences using Gemini Enterprise Agent Platform.",
-      "link": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/predictions",
-      "id": "predictions"
-    },
-    {
-      "name": "Parallelstore",
-      "categories": [
-        "Storage"
-      ],
-      "description": "Distributed, asynchronous object storage, providing high bandwidth and high IOPS.",
-      "link": "https://docs.cloud.google.com/parallelstore/docs/overview",
-      "id": "overview"
+      "description": "A unified, declarative orchestration and automated deployment framework optimized for seamlessly managing data and AI pipelines on Google Cloud.",
+      "link": "https://docs.cloud.google.com/orchestration-pipelines",
+      "id": "orchestration-pipelines"
     },
     {
       "name": "Persistent Disk",
       "categories": [
+        "Compute",
         "Cross-product",
-        "Storage",
-        "Compute"
+        "Storage"
       ],
       "description": "Learn about Persistent Disk volumes, their capacity and storage interface types, and how they are implemented in Compute Engine.",
       "link": "https://docs.cloud.google.com/compute/docs/disks/persistent-disks",
@@ -1791,8 +1839,8 @@
     {
       "name": "Shielded VM",
       "categories": [
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "Provides verifiable integrity of your Compute Engine VM instances to help defend against rootkits and bootkits.",
       "link": "https://docs.cloud.google.com/compute/shielded-vm/docs",
@@ -1821,7 +1869,7 @@
       "categories": [
         "Databases"
       ],
-      "description": "A downloadable, self-managed version of Spanner. {% setvar launch_stage %}preview{% endsetvar %} {% include \"cloud/_shared/_info_launch_stage_disclaimer.html\" %}",
+      "description": "A downloadable, self-managed version of Spanner.",
       "link": "https://docs.cloud.google.com/spanner-omni",
       "id": "spanner-omni"
     },
@@ -1858,8 +1906,8 @@
       "name": "Transcoder API",
       "categories": [
         "Industry solutions",
-        "Application development",
-        "AI and ML"
+        "AI and ML",
+        "Application development"
       ],
       "description": "Transcodes videos into modern and next generation formats for broadcasters, production companies, and other media businesses.",
       "link": "https://docs.cloud.google.com/transcoder/docs",
@@ -1906,9 +1954,9 @@
     {
       "name": "Video Stitcher API",
       "categories": [
-        "Application development",
         "AI and ML",
-        "Industry solutions"
+        "Industry solutions",
+        "Application development"
       ],
       "description": "Dynamically generates video on demand content for delivery to client devices.",
       "link": "https://docs.cloud.google.com/video-stitcher/docs",
@@ -1936,8 +1984,8 @@
     {
       "name": "VM Manager",
       "categories": [
-        "Compute",
-        "Cross-product"
+        "Cross-product",
+        "Compute"
       ],
       "description": "A suite of tools that can be used to manage operating systems for large virtual machine (VM) fleets running Windows and Linux on Compute Engine.",
       "link": "https://docs.cloud.google.com/compute/vm-manager/docs",
@@ -1946,8 +1994,8 @@
     {
       "name": "VPC Service Controls",
       "categories": [
-        "Networking",
-        "Security"
+        "Security",
+        "Networking"
       ],
       "description": "Define a security perimeter around resources of Google-managed services to control communication between those services.",
       "link": "https://docs.cloud.google.com/vpc-service-controls/docs",
@@ -1967,7 +2015,7 @@
       "categories": [
         "Databases"
       ],
-      "description": "AlloyDB AI provides a suite of integrated generative AI capabilities in AlloyDB for PostgreSQL and AlloyDB Omni database. This includes high-performance vector search, an AI functions, and natural language-to-SQL generation. Build enterprise-ready AI applications faster and with less complexity by bringing AI to your operational data.",
+      "description": "AlloyDB AI provides a suite of integrated generative AI capabilities in AlloyDB for PostgreSQL and AlloyDB Omni databases. These capabilities include high-performance vector search, AI functions, and AI tooling for agents. Build production-grade AI applications faster and with less complexity by bringing AI to your operational data.",
       "link": "https://docs.cloud.google.com/alloydb/docs/ai/what-is-alloydb-ai",
       "id": "what-is-alloydb-ai"
     },
