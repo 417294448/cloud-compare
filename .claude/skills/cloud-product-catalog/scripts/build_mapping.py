@@ -342,6 +342,7 @@ DESCRIPTION_CN = {
         "AWS Organizations": "跨 AWS 账户的集中治理与管理",
         "AWS Service Catalog": "创建和使用标准化产品",
         "AWS Marketplace": "购买或销售运行在 AWS 上的软件",
+        "AWS App Monetization": "为应用设置定价、计量用量、向客户开票并收取付款",
         "AWS Control Tower": "设置并治理安全合规的多账户环境",
         "AWS CloudTrail": "跟踪和监控用户、角色或 AWS 服务的活动",
         "Amazon CloudWatch": "监控资源和应用程序",
@@ -350,6 +351,7 @@ DESCRIPTION_CN = {
         "AWS Security Hub": "统一的安全与合规中心",
         "AWS IAM Identity Center": "管理对 AWS 账户和应用的单点登录访问",
         "AWS Billing and Cost Management": "提供帮助你支付账单和优化成本的功能",
+        "AWS Payments Manager": "更高效地支付 AWS，减少手动操作并降低风险",
         "Amazon Managed Grafana": "大规模可视化和分析你的运营数据",
         "Amazon Managed Service for Prometheus": "为你的容器提供高可用、安全的托管监控",
         "AWS Sustainability": "提供一套功能，帮助你了解使用 AWS 服务对环境的影响",
@@ -552,6 +554,7 @@ DESCRIPTION_CN = {
         "AWS Panorama": "利用边缘计算机视觉改进业务运营",
         "Amazon A2I": "轻松实现对机器学习预测结果的人工审核",
         "Amazon Bedrock AgentCore": "使用任意框架和模型大规模部署与运行智能体",
+        "AWS Greenlight": "借助自动化推理控制和验证 AI 智能体的行为",
         "Amazon CodeGuru": "找出代码中开销最大的代码行",
         "Amazon Comprehend Medical": "检测并返回非结构化临床文本中的有用信息",
         "Amazon DevOps Guru": "借助 ML 驱动的云运维提升应用可用性",
@@ -666,6 +669,7 @@ DESCRIPTION_CN = {
         "Azure Firewall": "使用云原生网络安全保护你的 Azure 虚拟网络资源",
         "Azure DDoS Protection": "保护你的 Azure 资源免受分布式拒绝服务（DDoS）攻击",
         "Azure Web Application Firewall": "一项云原生 Web 应用防火墙（WAF）服务，为 Web 应用提供强大防护",
+        "Azure Adaptive Virtual Patching": "在软件补丁部署前帮助保护你的 Azure 资源。",
         "Azure Synapse Analytics": "洞察时效无与伦比的无限分析",
         "Microsoft Purview": "治理、保护和管理你的数据资产",
         "HDInsight": "预配云上的 Hadoop、Spark、R Server、HBase 和 Storm 集群",
@@ -694,7 +698,7 @@ DESCRIPTION_CN = {
         "Azure App Configuration": "快速、可扩展的应用配置参数存储",
         "Azure Virtual WAN": "通过 Azure 优化并自动化分支机构间的连接",
         "Azure Communication Services": "构建多渠道通信体验",
-        "Azure Migrate": "通过统一平台简化迁移与现代化改造",
+        "Azure Catalyst": "通过统一平台简化现代化改造并释放 AI 转型价值",
         "Azure Data Box": "借助 Azure Data Box 加速离线数据迁移，无需网络带宽即可快速迁移海量数据集",
         "Azure Files": "简单、安全的无服务器企业级云文件共享",
         "Azure IoT Hub": "连接、监控和管理数十亿个 IoT 资产",
@@ -712,7 +716,6 @@ DESCRIPTION_CN = {
         "AI Anomaly Detector": "在应用中轻松加入异常检测能力。",
         "Azure AI Immersive Reader": "帮助各年龄段和不同能力的用户阅读并理解文本。",
         "Azure AI Video Indexer": "借助媒体 AI 从音频和视频文件中提取有价值的洞察。",
-        "Azure Content Understanding in Foundry Tools": "加速多模态 AI 智能体的开发。",
         "Azure SRE Agent": "通过自主事件缓解与资源优化智能体，自动化重复任务并改进事件响应。",
         "Azure Speech in Foundry Tools": "为应用和智能体提供预构建、可定制的多语言语音 AI 模型。",
         "Content Safety in Foundry Control Plane": "自动审核图像、文本和视频内容。",
@@ -4385,7 +4388,7 @@ GROUPS = [
         "confidence": "medium",
         "products": {
             "aws": ["AWS Application Discovery Service"],
-            "azure": ["Azure Migrate"],
+            "azure": ["Azure Catalyst"],
             "gcp": [],
         },
         "notes": "Matches the Application Discovery Service row in "
@@ -4423,16 +4426,19 @@ GROUPS = [
         "confidence": "medium",
         "products": {
             "aws": ["AWS Migration Hub"],
-            "azure": ["Azure Migrate"],
+            "azure": ["Azure Catalyst"],
             "gcp": [],
             "alibaba": ["Cloud Migration Hub"],
         },
-        "notes": "Azure Migrate is reused from mig-app-discovery since "
-        "Azure bundles discovery and migration tracking into one "
-        "unified platform rather than splitting them like AWS does.",
-        "notes-cn": "Azure Migrate 在 mig-app-discovery 里也被引用了，"
-        "因为 Azure 把发现和迁移跟踪打包进了同一个统一平台，不像 AWS "
-        "拆成了不同产品。",
+        "notes": "Azure Catalyst (renamed from \"Azure Migrate\" — the "
+        "old azure-migrate URL now redirects there) is reused from "
+        "mig-app-discovery since Azure bundles discovery and migration "
+        "tracking into one unified platform rather than splitting them "
+        "like AWS does.",
+        "notes-cn": "Azure Catalyst（由「Azure Migrate」改名而来——旧的 "
+        "azure-migrate 链接现在会跳转到它）在 mig-app-discovery 里也被"
+        "引用了，因为 Azure 把发现和迁移跟踪打包进了同一个统一平台，不像 "
+        "AWS 拆成了不同产品。",
     },
     {
         "id": "mig-data-transfer-device",
@@ -4541,24 +4547,24 @@ GROUPS = [
         "confidence": "medium",
         "products": {
             "aws": ["AWS Transform MGN"],
-            "azure": ["Azure Migrate"],
+            "azure": ["Azure Catalyst"],
             "gcp": [],
         },
         "notes": "Matches the Application Migration Service row in "
         "cloud-compare-en-new.md; AWS's product was renamed from "
         "\"AWS Application Migration Service (MGN)\" to \"AWS Transform "
-        "MGN\". Azure Migrate is reused a third time from "
-        "mig-app-discovery / mig-migration-center. GCP's \"Migrate for "
-        "Compute Engine\" doesn't appear as a standalone product in "
-        "products-gcp.json — another instance of this data source's "
-        "known gaps for well-known GCP products.",
+        "MGN\". Azure Catalyst (renamed from \"Azure Migrate\") is reused "
+        "a third time from mig-app-discovery / mig-migration-center. "
+        "GCP's \"Migrate for Compute Engine\" doesn't appear as a "
+        "standalone product in products-gcp.json — another instance of "
+        "this data source's known gaps for well-known GCP products.",
         "notes-cn": "对应 cloud-compare-en-new.md 的 Application "
         "Migration Service 行；AWS 这个产品是从「AWS Application "
         "Migration Service (MGN)」改名成「AWS Transform MGN」的。Azure "
-        "Migrate 在 mig-app-discovery / mig-migration-center 里也被"
-        "第三次引用了。GCP 的「Migrate for Compute Engine」在 "
-        "products-gcp.json 里不是独立产品——又一个这份数据源对知名 GCP "
-        "产品覆盖不全的例子。",
+        "Catalyst（由「Azure Migrate」改名而来）在 mig-app-discovery / "
+        "mig-migration-center 里也被第三次引用了。GCP 的「Migrate for "
+        "Compute Engine」在 products-gcp.json 里不是独立产品——又一个这份"
+        "数据源对知名 GCP 产品覆盖不全的例子。",
     },
     # ---------------- Media Services ----------------
     # Azure Media Services 已经被微软在 2024 年正式退役，所以这个分类下

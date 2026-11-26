@@ -1,6 +1,6 @@
 {
   "taxonomy": "aws",
-  "generatedAt": "2026-11-17",
+  "generatedAt": "2026-11-26",
   "pilotCategories": [
     "AWS Management Console",
     "Analytics",
@@ -6006,10 +6006,10 @@
         ],
         "azure": [
           {
-            "name": "Azure Migrate",
-            "link": "https://azure.microsoft.com/en-us/products/azure-migrate/",
-            "description": "Simplify migration and modernization with a unified platform.",
-            "description-cn": "通过统一平台简化迁移与现代化改造"
+            "name": "Azure Catalyst",
+            "link": "https://azure.microsoft.com/en-us/products/catalyst",
+            "description": "Simplify modernization and unlock AI transformation with a unified platform.",
+            "description-cn": "通过统一平台简化现代化改造并释放 AI 转型价值"
           }
         ],
         "gcp": [],
@@ -6059,10 +6059,10 @@
         ],
         "azure": [
           {
-            "name": "Azure Migrate",
-            "link": "https://azure.microsoft.com/en-us/products/azure-migrate/",
-            "description": "Simplify migration and modernization with a unified platform.",
-            "description-cn": "通过统一平台简化迁移与现代化改造"
+            "name": "Azure Catalyst",
+            "link": "https://azure.microsoft.com/en-us/products/catalyst",
+            "description": "Simplify modernization and unlock AI transformation with a unified platform.",
+            "description-cn": "通过统一平台简化现代化改造并释放 AI 转型价值"
           }
         ],
         "gcp": [],
@@ -6075,8 +6075,8 @@
           }
         ]
       },
-      "notes": "Azure Migrate is reused from mig-app-discovery since Azure bundles discovery and migration tracking into one unified platform rather than splitting them like AWS does.",
-      "notes-cn": "Azure Migrate 在 mig-app-discovery 里也被引用了，因为 Azure 把发现和迁移跟踪打包进了同一个统一平台，不像 AWS 拆成了不同产品。"
+      "notes": "Azure Catalyst (renamed from \"Azure Migrate\" — the old azure-migrate URL now redirects there) is reused from mig-app-discovery since Azure bundles discovery and migration tracking into one unified platform rather than splitting them like AWS does.",
+      "notes-cn": "Azure Catalyst（由「Azure Migrate」改名而来——旧的 azure-migrate 链接现在会跳转到它）在 mig-app-discovery 里也被引用了，因为 Azure 把发现和迁移跟踪打包进了同一个统一平台，不像 AWS 拆成了不同产品。"
     },
     {
       "id": "mig-data-transfer-device",
@@ -6260,17 +6260,17 @@
         ],
         "azure": [
           {
-            "name": "Azure Migrate",
-            "link": "https://azure.microsoft.com/en-us/products/azure-migrate/",
-            "description": "Simplify migration and modernization with a unified platform.",
-            "description-cn": "通过统一平台简化迁移与现代化改造"
+            "name": "Azure Catalyst",
+            "link": "https://azure.microsoft.com/en-us/products/catalyst",
+            "description": "Simplify modernization and unlock AI transformation with a unified platform.",
+            "description-cn": "通过统一平台简化现代化改造并释放 AI 转型价值"
           }
         ],
         "gcp": [],
         "alibaba": []
       },
-      "notes": "Matches the Application Migration Service row in cloud-compare-en-new.md; AWS's product was renamed from \"AWS Application Migration Service (MGN)\" to \"AWS Transform MGN\". Azure Migrate is reused a third time from mig-app-discovery / mig-migration-center. GCP's \"Migrate for Compute Engine\" doesn't appear as a standalone product in products-gcp.json — another instance of this data source's known gaps for well-known GCP products.",
-      "notes-cn": "对应 cloud-compare-en-new.md 的 Application Migration Service 行；AWS 这个产品是从「AWS Application Migration Service (MGN)」改名成「AWS Transform MGN」的。Azure Migrate 在 mig-app-discovery / mig-migration-center 里也被第三次引用了。GCP 的「Migrate for Compute Engine」在 products-gcp.json 里不是独立产品——又一个这份数据源对知名 GCP 产品覆盖不全的例子。"
+      "notes": "Matches the Application Migration Service row in cloud-compare-en-new.md; AWS's product was renamed from \"AWS Application Migration Service (MGN)\" to \"AWS Transform MGN\". Azure Catalyst (renamed from \"Azure Migrate\") is reused a third time from mig-app-discovery / mig-migration-center. GCP's \"Migrate for Compute Engine\" doesn't appear as a standalone product in products-gcp.json — another instance of this data source's known gaps for well-known GCP products.",
+      "notes-cn": "对应 cloud-compare-en-new.md 的 Application Migration Service 行；AWS 这个产品是从「AWS Application Migration Service (MGN)」改名成「AWS Transform MGN」的。Azure Catalyst（由「Azure Migrate」改名而来）在 mig-app-discovery / mig-migration-center 里也被第三次引用了。GCP 的「Migrate for Compute Engine」在 products-gcp.json 里不是独立产品——又一个这份数据源对知名 GCP 产品覆盖不全的例子。"
     },
     {
       "id": "media-video-transcoding",
@@ -8504,7 +8504,7 @@
               "gcp": [
                 {
                   "name": "Looker documentation",
-                  "link": "https://docs.cloud.google.com/looker/docs/2620",
+                  "link": "https://docs.cloud.google.com/looker/docs/2622",
                   "description": "A platform for business intelligence, data applications, and embedded analytics that helps you explore, share, and visualize your company data.",
                   "description-cn": "Looker 文档：商业智能、数据应用与嵌入式分析平台，助您探索、共享和可视化数据。"
                 }
@@ -8842,6 +8842,29 @@
     "Business Applications": {
       "aws": {
         "trulyUnmapped": [
+          {
+            "id": "unmapped-aws-aws-app-monetization",
+            "category": "Business Applications",
+            "category-cn": "业务应用",
+            "name": "AWS App Monetization",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS App Monetization",
+                  "link": "https://docs.aws.amazon.com/appmonetization/",
+                  "description": "Set up pricing, meter usage, bill customers, and collect payments for applications",
+                  "description-cn": "为应用设置定价、计量用量、向客户开票并收取付款"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
           {
             "id": "unmapped-aws-amazon-connect-decisions",
             "category": "Business Applications",
@@ -9374,29 +9397,6 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
-            "id": "unmapped-gcp-dual-run",
-            "category": "Compute",
-            "category-cn": "计算服务",
-            "name": "Dual Run",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [],
-              "gcp": [
-                {
-                  "name": "Dual Run",
-                  "link": "https://docs.cloud.google.com/mainframe-dual-run/docs",
-                  "description": "Simultaneously run workloads on your existing mainframe environment and on Google Cloud, to perform real-time testing and quickly gather data on performance and stability.",
-                  "description-cn": "在现有大型机环境和 Google Cloud 上同时运行工作负载，进行实时测试并快速收集性能与稳定性数据"
-                }
-              ],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
             "id": "unmapped-gcp-gpu-machine-types",
             "category": "Compute",
             "category-cn": "计算服务",
@@ -9435,121 +9435,6 @@
                   "link": "https://docs.cloud.google.com/compute/docs/disks/hyperdisks",
                   "description": "Learn about Hyperdisk, their capacity and performance limits, regional availability, and machine type support.",
                   "description-cn": "了解 Hyperdisk 的容量和性能限制、区域可用性以及支持的机器类型"
-                }
-              ],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-gcp-mainframe-assessment-tool",
-            "category": "Compute",
-            "category-cn": "计算服务",
-            "name": "Mainframe Assessment Tool",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [],
-              "gcp": [
-                {
-                  "name": "Mainframe Assessment Tool",
-                  "link": "https://docs.cloud.google.com/mainframe-assessment-tool/docs",
-                  "description": "Automates analysis of legacy mainframe applications to help you migrate them to Google Cloud.",
-                  "description-cn": "自动分析遗留大型机应用，帮助您将其迁移到 Google Cloud"
-                }
-              ],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-gcp-mainframe-connector",
-            "category": "Compute",
-            "category-cn": "计算服务",
-            "name": "Mainframe Connector",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [],
-              "gcp": [
-                {
-                  "name": "Mainframe Connector",
-                  "link": "https://docs.cloud.google.com/mainframe-connector/docs",
-                  "description": "Helps export data from a mainframe, upload data in batches to Google Cloud using Cloud Storage, and import it to BigQuery.",
-                  "description-cn": "帮助从大型机导出数据、批量上传到 Google Cloud（通过 Cloud Storage）并导入 BigQuery"
-                }
-              ],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-gcp-migrate-to-containers",
-            "category": "Compute",
-            "category-cn": "计算服务",
-            "name": "Migrate to Containers",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [],
-              "gcp": [
-                {
-                  "name": "Migrate to Containers",
-                  "link": "https://docs.cloud.google.com/migrate/containers/docs",
-                  "description": "Converts VM-based workloads into containers in Google Kubernetes Engine (GKE).",
-                  "description-cn": "将基于虚拟机的工作负载转换为 Google Kubernetes Engine（GKE）中的容器"
-                }
-              ],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-gcp-migrate-to-virtual-machines",
-            "category": "Compute",
-            "category-cn": "计算服务",
-            "name": "Migrate to Virtual Machines",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [],
-              "gcp": [
-                {
-                  "name": "Migrate to Virtual Machines",
-                  "link": "https://docs.cloud.google.com/migrate/virtual-machines/docs/5.0",
-                  "description": "Purpose-built, enterprise-grade migration to Google Cloud.",
-                  "description-cn": "专为迁移到 Google Cloud 打造的企业级迁移方案"
-                }
-              ],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-gcp-migration-center",
-            "category": "Compute",
-            "category-cn": "计算服务",
-            "name": "Migration Center",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [],
-              "gcp": [
-                {
-                  "name": "Migration Center",
-                  "link": "https://docs.cloud.google.com/migration-center/docs",
-                  "description": "Unifies the journey across different tools when migrating to Google Cloud.",
-                  "description-cn": "统一管理迁移到 Google Cloud 过程中使用的各类工具"
                 }
               ],
               "alibaba": []
@@ -11857,7 +11742,6 @@
           "Azure Communication Services",
           "Azure Container Apps",
           "Azure Content Delivery Network",
-          "Microsoft Playwright Testing",
           "Notification Hubs"
         ]
       },
@@ -12612,6 +12496,29 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
+            "id": "unmapped-aws-aws-greenlight",
+            "category": "Machine Learning",
+            "category-cn": "机器学习",
+            "name": "AWS Greenlight",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS Greenlight",
+                  "link": "https://docs.aws.amazon.com/greenlight/",
+                  "description": "Control and prove what AI agents can do with automated reasoning",
+                  "description-cn": "借助自动化推理控制和验证 AI 智能体的行为"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
             "id": "unmapped-aws-aws-healthimaging",
             "category": "Machine Learning",
             "category-cn": "机器学习",
@@ -13117,29 +13024,6 @@
                   "link": "https://azure.microsoft.com/en-us/products/ai-video-indexer/",
                   "description": "Easily extract meaningful insights from audio and video files using media AI.",
                   "description-cn": "借助媒体 AI 从音频和视频文件中提取有价值的洞察。"
-                }
-              ],
-              "gcp": [],
-              "alibaba": []
-            },
-            "notes": "No confirmed cross-cloud counterpart found yet.",
-            "notes-cn": "尚未找到确认的跨云对应产品。"
-          },
-          {
-            "id": "unmapped-azure-azure-content-understanding-in-foundry-tools",
-            "category": "Machine Learning",
-            "category-cn": "机器学习",
-            "name": "Azure Content Understanding in Foundry Tools",
-            "name-cn": "",
-            "confidence": "none",
-            "products": {
-              "aws": [],
-              "azure": [
-                {
-                  "name": "Azure Content Understanding in Foundry Tools",
-                  "link": "https://azure.microsoft.com/en-us/products/ai-foundry/tools/content-understanding",
-                  "description": "Accelerate multimodal AI agent development.",
-                  "description-cn": "加速多模态 AI 智能体的开发。"
                 }
               ],
               "gcp": [],
@@ -14188,6 +14072,29 @@
             "notes-cn": "尚未找到确认的跨云对应产品。"
           },
           {
+            "id": "unmapped-aws-aws-payments-manager",
+            "category": "Management & Governance",
+            "category-cn": "管理与治理",
+            "name": "AWS Payments Manager",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [
+                {
+                  "name": "AWS Payments Manager",
+                  "link": "https://docs.aws.amazon.com/payments-manager/",
+                  "description": "Pay AWS more efficiently with less manual work and lower risk",
+                  "description-cn": "更高效地支付 AWS，减少手动操作并降低风险"
+                }
+              ],
+              "azure": [],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
+          {
             "id": "unmapped-aws-aws-proton",
             "category": "Management & Governance",
             "category-cn": "管理与治理",
@@ -14798,7 +14705,7 @@
         ],
         "mappedUnderOtherCategory": [
           "Azure Backup",
-          "Azure Migrate",
+          "Azure Catalyst",
           "Azure Network Watcher",
           "Azure Site Recovery",
           "Azure Traffic Manager",
@@ -15453,6 +15360,29 @@
       },
       "azure": {
         "trulyUnmapped": [
+          {
+            "id": "unmapped-azure-azure-adaptive-virtual-patching",
+            "category": "Networking & Content Delivery",
+            "category-cn": "网络与内容分发",
+            "name": "Azure Adaptive Virtual Patching",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [
+                {
+                  "name": "Azure Adaptive Virtual Patching",
+                  "link": "https://azure.microsoft.com/en-us/products/adaptive-virtual-patching",
+                  "description": "Help protect your Azure resources before a software patch is deployed.",
+                  "description-cn": "在软件补丁部署前帮助保护你的 Azure 资源。"
+                }
+              ],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
           {
             "id": "unmapped-azure-azure-application-gateway",
             "category": "Networking & Content Delivery",
@@ -16164,6 +16094,29 @@
       },
       "azure": {
         "trulyUnmapped": [
+          {
+            "id": "unmapped-azure-azure-adaptive-virtual-patching",
+            "category": "Security, Identity, & Compliance",
+            "category-cn": "安全、身份与合规",
+            "name": "Azure Adaptive Virtual Patching",
+            "name-cn": "",
+            "confidence": "none",
+            "products": {
+              "aws": [],
+              "azure": [
+                {
+                  "name": "Azure Adaptive Virtual Patching",
+                  "link": "https://azure.microsoft.com/en-us/products/adaptive-virtual-patching",
+                  "description": "Help protect your Azure resources before a software patch is deployed.",
+                  "description-cn": "在软件补丁部署前帮助保护你的 Azure 资源。"
+                }
+              ],
+              "gcp": [],
+              "alibaba": []
+            },
+            "notes": "No confirmed cross-cloud counterpart found yet.",
+            "notes-cn": "尚未找到确认的跨云对应产品。"
+          },
           {
             "id": "unmapped-azure-azure-application-gateway",
             "category": "Security, Identity, & Compliance",

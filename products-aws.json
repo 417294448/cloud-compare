@@ -1,8 +1,8 @@
 {
   "source": "https://docs.aws.amazon.com/",
   "module": "Product guides & references",
-  "fetchedAt": "2026-11-17",
-  "totalProducts": 316,
+  "fetchedAt": "2026-11-26",
+  "totalProducts": 319,
   "products": [
     {
       "name": "Agent Toolkit for AWS",
@@ -1067,6 +1067,15 @@
       "id": "lattice"
     },
     {
+      "name": "AWS App Monetization",
+      "categories": [
+        "Business Applications"
+      ],
+      "description": "Set up pricing, meter usage, bill customers, and collect payments for applications",
+      "link": "https://docs.aws.amazon.com/appmonetization/",
+      "id": "AppMonetization"
+    },
+    {
       "name": "AWS App Runner",
       "categories": [
         "Compute"
@@ -1747,6 +1756,15 @@
       "id": null
     },
     {
+      "name": "AWS Greenlight",
+      "categories": [
+        "Machine Learning"
+      ],
+      "description": "Control and prove what AI agents can do with automated reasoning",
+      "link": "https://docs.aws.amazon.com/greenlight/",
+      "id": "moog"
+    },
+    {
       "name": "AWS Ground Station",
       "categories": [
         "Satellite"
@@ -2128,6 +2146,15 @@
       "description": "Fully managed payment cryptography service",
       "link": "https://docs.aws.amazon.com/payment-cryptography/",
       "id": "payment-cryptography"
+    },
+    {
+      "name": "AWS Payments Manager",
+      "categories": [
+        "Management & Governance"
+      ],
+      "description": "Pay AWS more efficiently with less manual work and lower risk",
+      "link": "https://docs.aws.amazon.com/payments-manager/",
+      "id": "PaymentsManager"
     },
     {
       "name": "AWS Pricing Calculator",

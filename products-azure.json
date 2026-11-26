@@ -1,7 +1,7 @@
 {
   "source": "https://azure.microsoft.com/en-us/products",
   "module": "Browse all Azure products (by category)",
-  "fetchedAt": "2026-11-17",
+  "fetchedAt": "2026-11-26",
   "totalProducts": 204,
   "products": [
     {
@@ -74,6 +74,16 @@
       "description": "Simplify cloud management with process automation.",
       "link": "https://azure.microsoft.com/en-us/products/automation/",
       "id": "automation"
+    },
+    {
+      "name": "Azure Adaptive Virtual Patching",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "description": "Help protect your Azure resources before a software patch is deployed.",
+      "link": "https://azure.microsoft.com/en-us/products/adaptive-virtual-patching",
+      "id": "adaptive-virtual-patching"
     },
     {
       "name": "Azure Advisor",
@@ -233,6 +243,16 @@
       "id": "boards"
     },
     {
+      "name": "Azure Catalyst",
+      "categories": [
+        "Management and governance",
+        "Migration"
+      ],
+      "description": "Simplify modernization and unlock AI transformation with a unified platform.",
+      "link": "https://azure.microsoft.com/en-us/products/catalyst",
+      "id": "catalyst"
+    },
+    {
       "name": "Azure Chaos Studio",
       "categories": [
         "Analytics",
@@ -330,15 +350,6 @@
       "description": "Fast, reliable content delivery network with global reach.",
       "link": "https://azure.microsoft.com/en-us/products/cdn/",
       "id": "cdn"
-    },
-    {
-      "name": "Azure Content Understanding in Foundry Tools",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "description": "Accelerate multimodal AI agent development.",
-      "link": "https://azure.microsoft.com/en-us/products/ai-foundry/tools/content-understanding",
-      "id": "content-understanding"
     },
     {
       "name": "Azure Copilot",
@@ -851,16 +862,6 @@
       "description": "Add location data and mapping visuals to business applications and solutions.",
       "link": "https://azure.microsoft.com/en-us/products/azure-maps/",
       "id": "azure-maps"
-    },
-    {
-      "name": "Azure Migrate",
-      "categories": [
-        "Management and governance",
-        "Migration"
-      ],
-      "description": "Simplify migration and modernization with a unified platform.",
-      "link": "https://azure.microsoft.com/en-us/products/azure-migrate/",
-      "id": "azure-migrate"
     },
     {
       "name": "Azure Monitor",
@@ -1690,8 +1691,7 @@
       "name": "Microsoft Playwright Testing",
       "categories": [
         "Developer tools",
-        "DevOps",
-        "Web"
+        "DevOps"
       ],
       "description": "Scalable end-to-end modern web app testing service.",
       "link": "https://azure.microsoft.com/en-us/products/playwright-testing/",
